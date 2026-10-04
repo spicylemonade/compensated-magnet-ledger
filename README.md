@@ -51,7 +51,7 @@ NP=16 NK=8 PSEUDO=$PWD/pseudo bash reproduce/run_qe.sh \
   materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_LCM_nscf.in
 ```
 
-We did exactly this in a fresh cloud container for four sets of runs; see [reproduce/RESULTS.md](reproduce/RESULTS.md). There is also a one-command cloud version, `reproduce/modal_repro.py`.
+We did exactly this in a fresh cloud container for four sets of runs, and all 16 checked values match the originals; see [reproduce/RESULTS.md](reproduce/RESULTS.md). There is also a one-command cloud version, `reproduce/modal_repro.py`.
 
 ## What is in here
 

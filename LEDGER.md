@@ -168,7 +168,7 @@ On 2026-10-04 a fresh cloud container re-ran four sets of calculations from the 
 - a clean conda-forge QE 7.5 image with no campaign code;
 - pseudopotentials downloaded from pseudo-dojo.org, all md5-identical to the originals.
 
-The procedure is `reproduce/modal_repro.py`, and the results are in `reproduce/results/` and `reproduce/RESULTS.md`. Check them with:
+The procedure is `reproduce/modal_repro.py`, and the results are in `reproduce/results/` and `reproduce/RESULTS.md`. **All 16 re-derived values match the originals.** The HSE06 band gap and windows and the YBaMnFeO₅ energies are identical to the printed digits, and the KV[Cr(CN)₆] PBE+U energy agrees to 6 µeV. Check them with:
 
 ```bash
 python tools/verify.py --repro

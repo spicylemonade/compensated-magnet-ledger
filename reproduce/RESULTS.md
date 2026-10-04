@@ -21,7 +21,10 @@ These were re-run on 2026-10-04 in a fresh cloud container (Modal) using `reprod
 |  | hole / electron window (eV) | 2.0230 / 1.1462 | 2.0251 / 1.1457 |
 |  | both edges same spin | True | True |
 |  | E(FM) - E(compensated) (meV/ion) | 152.24 | 152.24 |
-| KV[Cr(CN)6] HSE06 | (re-run still in progress when this file was written) |  |  |
+| KV[Cr(CN)6] HSE06 | net spin moment | -0.00 | 0.00 |
+|  | total energy (eV) | -7840.410303 | -7840.410303 |
+|  | band gap (eV) | 2.0909 | 2.0909 |
+|  | hole / electron window (eV) | 2.6365 / 1.5674 | 2.6365 / 1.5674 |
 | YBaMnFeO5 PBE+U (U 4/4 eV) | G-type total energy (eV) | -42025.921471 | -42025.921471 |
 |  | net spin moment (G) | 0.00 | 0.00 |
 |  | E(Y-layer flip) - E(G) (meV/mag. ion) | 8.881 | 8.881 |
