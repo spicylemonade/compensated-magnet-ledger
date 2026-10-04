@@ -1,0 +1,6 @@
+12:18:52 relax start nk_irr 2 npool 4
+12:42:47 relax done True -31689.441642993886 0.0 nscf 6 maxdisp 0.033623520599880434
+12:49:09 scf -31689.441636054984 M -0.0 |M| 28.24 conv True iter 17 382
+13:19:57 nscf rc 0 1848 nk 21 npool 16
+13:20:42 projwfc rc 0 45
+13:20:56 KVCr_FLIP E -31689.4416 M -0.000 |M| 28.240 gap 1.938 vbm_s 1 win_VB 1.994 cbm_s 1 win_CB 0.979

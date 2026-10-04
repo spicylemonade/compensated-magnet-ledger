@@ -1,0 +1,110 @@
+{
+ "KVCrCN6": {
+  "source_volume_path": "jobs/lcm/pba/s1a/KVCr/results/KVCr.json",
+  "field": "relaxed",
+  "natoms": 15,
+  "spacegroup_symprec1e-3": [
+   "F-43m",
+   216
+  ],
+  "a_conv_A": 10.67991831,
+  "volume_A3_cell": 304.53961973536065,
+  "relax_parse": {
+   "energy_eV": -7922.403413548426,
+   "total_mag": -0.0,
+   "pressure_kbar": -0.1,
+   "bfgs_converged": true,
+   "sec": 1152.2339777946472
+  },
+  "hubbard_U_eV": {
+   "V": [
+    "3d",
+    3.0
+   ],
+   "Cr": [
+    "3d",
+    3.0
+   ]
+  },
+  "LCM_site_moments_sphere": [
+   -0.0013,
+   -2.0164,
+   2.3177
+  ],
+  "LCM_total_mag": -0.0,
+  "LCM_energy_eV": -7922.403400214847,
+  "relax_restarts": null
+ },
+ "KVMoCN6": {
+  "source_volume_path": "jobs/lcm/pba/s1a/KVMo/results/KVMo.json",
+  "field": "relaxed",
+  "natoms": 15,
+  "spacegroup_symprec1e-3": [
+   "F-43m",
+   216
+  ],
+  "a_conv_A": 10.857898046,
+  "volume_A3_cell": 320.02012227352003,
+  "relax_parse": {
+   "energy_eV": -7412.400982335804,
+   "total_mag": -0.0,
+   "pressure_kbar": 0.49,
+   "bfgs_converged": true,
+   "sec": 652.3880751132965
+  },
+  "hubbard_U_eV": {
+   "V": [
+    "3d",
+    3.0
+   ],
+   "Mo": [
+    "4d",
+    2.0
+   ]
+  },
+  "LCM_site_moments_sphere": [
+   -0.0015,
+   -1.9422,
+   1.4127
+  ],
+  "LCM_total_mag": -0.0,
+  "LCM_energy_eV": -7412.400980839178,
+  "relax_restarts": null
+ },
+ "KVCrCN6_2H2O": {
+  "source_volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/results/KVCr_2H2O.json",
+  "field": "relaxed",
+  "natoms": 21,
+  "spacegroup_symprec1e-3": [
+   "C2",
+   5
+  ],
+  "a_conv_A": null,
+  "volume_A3_cell": 312.3109875335007,
+  "relax_parse": {
+   "energy_eV": -8886.51887221317,
+   "total_mag": -0.0,
+   "pressure_kbar": -0.04,
+   "bfgs_converged": true,
+   "sec": 4389.184817075729
+  },
+  "hubbard_U_eV": {
+   "V": [
+    "3d",
+    3.0
+   ],
+   "Cr": [
+    "3d",
+    3.0
+   ]
+  },
+  "LCM_site_moments_sphere": [
+   -0.001,
+   -2.0654,
+   2.3576
+  ],
+  "LCM_total_mag": 0.0,
+  "LCM_energy_eV": -8886.51886949203,
+  "relax_restarts": 2
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "job": "lcm/pba/def/KVCr_VAC_r",
+ "state": "done",
+ "cmd": "ECUT=110 NB_EXTRA=40 SKIP_RELAX=1 SCF_MAXSEC=7200 NPOOL_MAX=16 python pba_defect.py KVCr_VAC_r.json",
+ "ncores": 64,
+ "start": 1791045734.764495,
+ "rc": 0,
+ "end": 1791047221.6936665,
+ "hours": 0.41303588098949856
+}

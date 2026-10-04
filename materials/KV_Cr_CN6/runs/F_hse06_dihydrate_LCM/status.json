@@ -1,0 +1,7 @@
+{
+ "job": "lcm/pba/hse/KVCr2H2O_hse_LCM",
+ "state": "running",
+ "cmd": "python lcm_deep.py KVCr2H2O_hse_LCM.json hse",
+ "ncores": 64,
+ "start": 1791056437.3269913
+}

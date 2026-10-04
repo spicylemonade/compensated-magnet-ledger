@@ -1,0 +1,10 @@
+{
+ "job": "lcm/jy/U46_G",
+ "state": "done",
+ "cmd": "ECUT=90 U_MN=4 U_FE=6 TAG=U46 python lcm_single.py ybmfo110_stack.json G",
+ "ncores": 32,
+ "start": 1790926902.0691664,
+ "rc": 0,
+ "end": 1790927458.0943854,
+ "hours": 0.15445144971211752
+}

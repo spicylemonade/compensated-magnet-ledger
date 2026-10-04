@@ -1,0 +1,274 @@
+{
+ "offsets": {
+  "A": [
+   -0.40216161202503525,
+   2.25688508062167,
+   6
+  ],
+  "B": [
+   -0.1808026536309626,
+   2.0128432479395997,
+   2
+  ],
+  "C": [
+   -56.17813649996606,
+   3.0403708517169914,
+   4
+  ]
+ },
+ "arr": {
+  "YBMFO_AS1_D": {
+   "cell": "D",
+   "E_relax": -10505.496206193478,
+   "E_prot": -10506.289991565507,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.007344,
+   "ct_r0": null,
+   "rel_relax": 32.36180983913073,
+   "rel_prot": 31.796000082977116,
+   "rel_relax_corr": null
+  },
+  "YBMFO_CHKmix_A": {
+   "cell": "A",
+   "E_relax": -10505.46564657905,
+   "E_prot": -10506.26117795267,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.005886,
+   "ct_r0": null,
+   "rel_relax": 62.92142426718783,
+   "rel_prot": 60.60961291950662,
+   "rel_relax_corr": 63.323585879212864
+  },
+  "YBMFO_COL_A": {
+   "cell": "A",
+   "E_relax": -10505.406466114548,
+   "E_prot": -10506.197154167543,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.005713,
+   "ct_r0": null,
+   "rel_relax": 122.10188876997563,
+   "rel_prot": 124.63339804708085,
+   "rel_relax_corr": 122.50405038200067
+  },
+  "YBMFO_HALF_C": {
+   "cell": "C",
+   "E_relax": -10505.513190841815,
+   "E_prot": -10506.250459746274,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.00783,
+   "ct_r0": null,
+   "rel_relax": 15.377161502328818,
+   "rel_prot": 71.32781931613863,
+   "rel_relax_corr": 71.55529800229488
+  },
+  "YBMFO_LAYY_A": {
+   "cell": "A",
+   "E_relax": -10505.43385302585,
+   "E_prot": -10505.834878245569,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.006916,
+   "ct_r0": null,
+   "rel_relax": 94.71497746744717,
+   "rel_prot": 486.90932002136833,
+   "rel_relax_corr": 95.11713907947221
+  },
+  "YBMFO_LAY_A": {
+   "cell": "A",
+   "E_relax": -10505.270769606353,
+   "E_prot": -10505.948617584907,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.003746,
+   "ct_r0": null,
+   "rel_relax": 257.7983969640627,
+   "rel_prot": 373.1699806830875,
+   "rel_relax_corr": 258.20055857608776
+  },
+  "YBMFO_LAYap_A": {
+   "cell": "A",
+   "E_relax": -10505.327255346077,
+   "E_prot": -10506.112291594149,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.007766,
+   "ct_r0": null,
+   "rel_relax": 201.31265724012337,
+   "rel_prot": 209.49597144135623,
+   "rel_relax_corr": 201.7148188521484
+  },
+  "YBMFO_MIX_A": {
+   "cell": "A",
+   "E_relax": -10505.445972457854,
+   "E_prot": -10506.235285893661,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.0057,
+   "ct_r0": null,
+   "rel_relax": 82.59554546384607,
+   "rel_prot": 86.50167192899971,
+   "rel_relax_corr": 82.9977070758711
+  },
+  "YBMFO_MIX_B": {
+   "cell": "B",
+   "E_relax": -10505.315956333263,
+   "E_prot": -10506.106982249634,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.015638,
+   "ct_r0": null,
+   "rel_relax": 212.6116700546845,
+   "rel_prot": 214.80531595625507,
+   "rel_relax_corr": 212.79247270831547
+  },
+  "YBMFO_MIX_C": {
+   "cell": "C",
+   "E_relax": -10505.410619887207,
+   "E_prot": -10506.152489148622,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.004966,
+   "ct_r0": null,
+   "rel_relax": 117.94811611071054,
+   "rel_prot": 169.29841696764925,
+   "rel_relax_corr": 174.1262526106766
+  },
+  "YBMFO_MIXap_A": {
+   "cell": "A",
+   "E_relax": -10505.370017944124,
+   "E_prot": -10506.159175186573,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.011033,
+   "ct_r0": null,
+   "rel_relax": 158.55005919365794,
+   "rel_prot": 162.61237901744607,
+   "rel_relax_corr": 158.95222080568297
+  },
+  "YBMFO_RSYap_A": {
+   "cell": "A",
+   "E_relax": -10505.422652680592,
+   "E_prot": -10506.215932277988,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.006235,
+   "ct_r0": null,
+   "rel_relax": 105.91532272519544,
+   "rel_prot": 105.85528760202578,
+   "rel_relax_corr": 106.31748433722048
+  },
+  "YBMFO_RS_A": {
+   "cell": "A",
+   "E_relax": -10505.528568003318,
+   "E_prot": -10506.32178756559,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.005239,
+   "ct_r0": null,
+   "rel_relax": 0.0,
+   "rel_prot": 0.0,
+   "rel_relax_corr": 0.40216161202503525
+  },
+  "YBMFO_RS_C": {
+   "cell": "C",
+   "E_relax": -10505.594752225777,
+   "E_prot": -10506.328618856598,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.007305,
+   "ct_r0": null,
+   "rel_relax": -66.18422245992406,
+   "rel_prot": -6.831291007983964,
+   "rel_relax_corr": -10.006085959958
+  },
+  "YBMFO_RSapY_A": {
+   "cell": "A",
+   "E_relax": -10505.511338402399,
+   "E_prot": -10506.30636697763,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.004517,
+   "ct_r0": null,
+   "rel_relax": 17.229600918653887,
+   "rel_prot": 15.420587960761623,
+   "rel_relax_corr": 17.631762530678923
+  },
+  "YBMFO_SQS_D": {
+   "cell": "D",
+   "E_relax": -10505.41230135873,
+   "E_prot": null,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.009068,
+   "ct_r0": null,
+   "rel_relax": 116.26664458708547,
+   "rel_prot": null,
+   "rel_relax_corr": null
+  },
+  "YBMFO_STRd_B": {
+   "cell": "B",
+   "E_relax": -10505.450675410899,
+   "E_prot": -10506.245727013766,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.008367,
+   "ct_r0": null,
+   "rel_relax": 77.8925924187206,
+   "rel_prot": 76.06055182441196,
+   "rel_relax_corr": 78.07339507235156
+  },
+  "YBMFO_STRdc_B": {
+   "cell": "B",
+   "E_relax": -10505.441004396449,
+   "E_prot": -10506.254288648528,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.006363,
+   "ct_r0": null,
+   "rel_relax": 87.56360686857079,
+   "rel_prot": 67.49891706203925,
+   "rel_relax_corr": 87.74440952220175
+  },
+  "YBMFO_STRp_C": {
+   "cell": "C",
+   "E_relax": -10505.558640876852,
+   "E_prot": -10506.293801783248,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.005471,
+   "ct_r0": null,
+   "rel_relax": -30.072873534663813,
+   "rel_prot": 27.98578234251181,
+   "rel_relax_corr": 26.105262965302245
+  },
+  "YBMFO_STRpc_C": {
+   "cell": "C",
+   "E_relax": -10505.465340326726,
+   "E_prot": -10506.21004896024,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.007841,
+   "ct_r0": null,
+   "rel_relax": 63.22767659185047,
+   "rel_prot": 111.7386053501832,
+   "rel_relax_corr": 119.40581309181653
+  },
+  "YBMFO_SQS_F": {
+   "cell": "F",
+   "E_relax": -10505.486680978122,
+   "E_prot": null,
+   "relaxed": false,
+   "bfgs": false,
+   "F": 0.058767,
+   "nsteps_current_run": 8,
+   "E_first_last_meV_fu": 68.04285363481186,
+   "rel_relax": 41.887025196047034,
+   "rel_prot": null,
+   "rel_relax_corr": null
+  }
+ }
+}

@@ -1,0 +1,3103 @@
+{
+ "protocol": "PBE+U (ortho-atomic U V 3 / Cr 3 / Mo 2), PseudoDojo SR NC, 110 Ry, LCM (V down / M up), phonopy finite displacements 0.02 A, plus-minus pairs, forces minus undisplaced reference, FC symmetrized",
+ "cells": {
+  "prim": "15-atom F-43m primitive, k 5x5x5 Gamma -> Gamma",
+  "conv": "60-atom conventional cube, k 2x2x2 shifted -> Gamma + X",
+  "L30": "30-atom index-2 cell (reduced basis 7.6/7.6/13.1 A), k 3x3x2 Gamma -> Gamma + L"
+ },
+ "imag_threshold_THz": -0.1,
+ "materials": {
+  "KVCr": {
+   "exact": {
+    "G[prim]": {
+     "q_prim_frac": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "n_star_points": 1,
+     "star_spread_THz": 0.0,
+     "acoustic_THz": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "freq_THz": [
+      -1.291,
+      -1.291,
+      -1.291,
+      0.0,
+      0.0,
+      0.0,
+      1.389,
+      1.389,
+      1.389,
+      5.586,
+      5.586,
+      5.586,
+      6.704,
+      6.704,
+      6.704,
+      7.11,
+      7.11,
+      7.11,
+      7.892,
+      7.892,
+      7.892,
+      9.087,
+      9.087,
+      9.087,
+      11.679,
+      11.679,
+      11.679,
+      12.287,
+      12.287,
+      12.287,
+      12.862,
+      12.862,
+      12.862,
+      13.058,
+      13.058,
+      13.267,
+      15.076,
+      15.076,
+      15.076,
+      64.183,
+      64.183,
+      64.183,
+      64.267,
+      64.267,
+      64.428
+     ],
+     "lowest_optic": [
+      {
+       "THz": -1.291,
+       "cm1": -43.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.036,
+        "Cr": 0.023,
+        "K": 0.867,
+        "N": 0.051,
+        "V": 0.024
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.061,
+       "CN_lib": 0.001,
+       "K_polar": 1.0,
+       "coherence": 0.985
+      },
+      {
+       "THz": -1.291,
+       "cm1": -43.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.036,
+        "Cr": 0.023,
+        "K": 0.867,
+        "N": 0.051,
+        "V": 0.024
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.061,
+       "CN_lib": 0.001,
+       "K_polar": 1.0,
+       "coherence": 0.985
+      },
+      {
+       "THz": -1.291,
+       "cm1": -43.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.036,
+        "Cr": 0.023,
+        "K": 0.867,
+        "N": 0.051,
+        "V": 0.024
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.061,
+       "CN_lib": 0.001,
+       "K_polar": 1.0,
+       "coherence": 0.985
+      },
+      {
+       "THz": 1.389,
+       "cm1": 46.3,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.377,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.623,
+        "V": 0.0
+       },
+       "rot_V": 0.62,
+       "rot_M": 0.376,
+       "CN_bend_tr": 0.993,
+       "CN_lib": 0.007,
+       "K_polar": 0.0,
+       "coherence": 0.492
+      },
+      {
+       "THz": 1.389,
+       "cm1": 46.3,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.377,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.623,
+        "V": 0.0
+       },
+       "rot_V": 0.62,
+       "rot_M": 0.376,
+       "CN_bend_tr": 0.993,
+       "CN_lib": 0.007,
+       "K_polar": 0.0,
+       "coherence": 0.492
+      },
+      {
+       "THz": 1.389,
+       "cm1": 46.3,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.377,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.623,
+        "V": 0.0
+       },
+       "rot_V": 0.62,
+       "rot_M": 0.376,
+       "CN_bend_tr": 0.993,
+       "CN_lib": 0.007,
+       "K_polar": 0.0,
+       "coherence": 0.492
+      },
+      {
+       "THz": 5.586,
+       "cm1": 186.3,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.364,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.636,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.004,
+       "CN_bend_tr": 0.989,
+       "CN_lib": 0.011,
+       "K_polar": 0.0,
+       "coherence": 0.489
+      },
+      {
+       "THz": 5.586,
+       "cm1": 186.3,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.364,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.636,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.004,
+       "CN_bend_tr": 0.989,
+       "CN_lib": 0.011,
+       "K_polar": 0.0,
+       "coherence": 0.489
+      }
+     ],
+     "n_imag": 3,
+     "n_imag_framework": 0,
+     "lowest_framework_THz": 1.389,
+     "lowest_framework_label": "octahedral tilt (cooperative rotation, CN transverse)"
+    },
+    "G[conv]": {
+     "q_prim_frac": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "n_star_points": 1,
+     "star_spread_THz": 0.0,
+     "acoustic_THz": [
+      -0.0,
+      0.0,
+      0.0
+     ],
+     "freq_THz": [
+      -1.292,
+      -1.292,
+      -1.292,
+      -0.0,
+      0.0,
+      0.0,
+      1.388,
+      1.388,
+      1.388,
+      5.588,
+      5.588,
+      5.588,
+      6.705,
+      6.705,
+      6.705,
+      7.114,
+      7.114,
+      7.114,
+      7.897,
+      7.897,
+      7.897,
+      9.086,
+      9.086,
+      9.086,
+      11.682,
+      11.682,
+      11.682,
+      12.287,
+      12.287,
+      12.287,
+      12.866,
+      12.866,
+      12.866,
+      13.057,
+      13.057,
+      13.281,
+      15.08,
+      15.08,
+      15.08,
+      64.186,
+      64.186,
+      64.186,
+      64.256,
+      64.256,
+      64.424
+     ],
+     "lowest_optic": [
+      {
+       "THz": -1.292,
+       "cm1": -43.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.036,
+        "Cr": 0.023,
+        "K": 0.867,
+        "N": 0.051,
+        "V": 0.024
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.061,
+       "CN_lib": 0.001,
+       "K_polar": 1.0,
+       "coherence": 0.985
+      },
+      {
+       "THz": -1.292,
+       "cm1": -43.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.036,
+        "Cr": 0.023,
+        "K": 0.867,
+        "N": 0.051,
+        "V": 0.024
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.061,
+       "CN_lib": 0.001,
+       "K_polar": 1.0,
+       "coherence": 0.985
+      },
+      {
+       "THz": -1.292,
+       "cm1": -43.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.036,
+        "Cr": 0.023,
+        "K": 0.867,
+        "N": 0.051,
+        "V": 0.024
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.061,
+       "CN_lib": 0.001,
+       "K_polar": 1.0,
+       "coherence": 0.985
+      },
+      {
+       "THz": 1.388,
+       "cm1": 46.3,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.377,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.623,
+        "V": 0.0
+       },
+       "rot_V": 0.62,
+       "rot_M": 0.376,
+       "CN_bend_tr": 0.993,
+       "CN_lib": 0.007,
+       "K_polar": 0.0,
+       "coherence": 0.492
+      },
+      {
+       "THz": 1.388,
+       "cm1": 46.3,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.377,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.623,
+        "V": 0.0
+       },
+       "rot_V": 0.62,
+       "rot_M": 0.376,
+       "CN_bend_tr": 0.993,
+       "CN_lib": 0.007,
+       "K_polar": 0.0,
+       "coherence": 0.492
+      },
+      {
+       "THz": 1.388,
+       "cm1": 46.3,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.377,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.623,
+        "V": 0.0
+       },
+       "rot_V": 0.62,
+       "rot_M": 0.376,
+       "CN_bend_tr": 0.993,
+       "CN_lib": 0.007,
+       "K_polar": 0.0,
+       "coherence": 0.492
+      },
+      {
+       "THz": 5.588,
+       "cm1": 186.4,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.364,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.636,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.004,
+       "CN_bend_tr": 0.989,
+       "CN_lib": 0.011,
+       "K_polar": 0.0,
+       "coherence": 0.489
+      },
+      {
+       "THz": 5.588,
+       "cm1": 186.4,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.364,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.636,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.004,
+       "CN_bend_tr": 0.989,
+       "CN_lib": 0.011,
+       "K_polar": 0.0,
+       "coherence": 0.489
+      }
+     ],
+     "n_imag": 3,
+     "n_imag_framework": 0,
+     "lowest_framework_THz": 1.388,
+     "lowest_framework_label": "octahedral tilt (cooperative rotation, CN transverse)"
+    },
+    "X[conv]": {
+     "q_prim_frac": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "n_star_points": 3,
+     "star_spread_THz": 0.0,
+     "acoustic_THz": null,
+     "freq_THz": [
+      -1.04,
+      -1.04,
+      0.833,
+      1.293,
+      1.293,
+      1.409,
+      2.203,
+      3.577,
+      3.577,
+      4.6,
+      4.6,
+      4.72,
+      5.003,
+      5.003,
+      5.584,
+      6.656,
+      6.656,
+      6.738,
+      8.654,
+      8.654,
+      9.085,
+      9.985,
+      10.385,
+      10.385,
+      11.702,
+      11.753,
+      11.753,
+      12.046,
+      12.046,
+      12.232,
+      12.349,
+      12.455,
+      12.455,
+      13.06,
+      13.087,
+      13.293,
+      15.118,
+      15.118,
+      15.181,
+      64.11,
+      64.197,
+      64.197,
+      64.216,
+      64.243,
+      64.473
+     ],
+     "lowest_optic": [
+      {
+       "THz": -1.04,
+       "cm1": -34.7,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.007,
+        "Cr": 0.006,
+        "K": 0.97,
+        "N": 0.013,
+        "V": 0.004
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.012,
+       "CN_lib": 0.002,
+       "K_polar": 0.0,
+       "coherence": 0.794
+      },
+      {
+       "THz": -1.04,
+       "cm1": -34.7,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.007,
+        "Cr": 0.006,
+        "K": 0.97,
+        "N": 0.013,
+        "V": 0.004
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.012,
+       "CN_lib": 0.002,
+       "K_polar": 0.0,
+       "coherence": 0.794
+      },
+      {
+       "THz": 0.833,
+       "cm1": 27.8,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.0,
+        "Cr": 0.0,
+        "K": 1.0,
+        "N": 0.0,
+        "V": 0.0
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.0,
+       "CN_lib": 0.0,
+       "K_polar": 0.0,
+       "coherence": 0.485
+      },
+      {
+       "THz": 1.293,
+       "cm1": 43.1,
+       "irrep": null,
+       "label": "acoustic-like (rigid framework translation)",
+       "w": {
+        "C": 0.237,
+        "Cr": 0.212,
+        "K": 0.025,
+        "N": 0.303,
+        "V": 0.223
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.277,
+       "CN_lib": 0.041,
+       "K_polar": 0.0,
+       "coherence": 0.908
+      },
+      {
+       "THz": 1.293,
+       "cm1": 43.1,
+       "irrep": null,
+       "label": "acoustic-like (rigid framework translation)",
+       "w": {
+        "C": 0.237,
+        "Cr": 0.212,
+        "K": 0.025,
+        "N": 0.303,
+        "V": 0.223
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.277,
+       "CN_lib": 0.041,
+       "K_polar": 0.0,
+       "coherence": 0.908
+      },
+      {
+       "THz": 1.409,
+       "cm1": 47.0,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.377,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.623,
+        "V": 0.0
+       },
+       "rot_V": 0.62,
+       "rot_M": 0.376,
+       "CN_bend_tr": 0.993,
+       "CN_lib": 0.007,
+       "K_polar": 0.0,
+       "coherence": 0.492
+      },
+      {
+       "THz": 2.203,
+       "cm1": 73.5,
+       "irrep": null,
+       "label": "M-C / V-N stretch or metal vs cyanide translation",
+       "w": {
+        "C": 0.165,
+        "Cr": 0.267,
+        "K": 0.0,
+        "N": 0.266,
+        "V": 0.302
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.015,
+       "CN_lib": 0.122,
+       "K_polar": 0.0,
+       "coherence": 0.756
+      },
+      {
+       "THz": 3.577,
+       "cm1": 119.3,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.168,
+        "Cr": 0.0,
+        "K": 0.002,
+        "N": 0.829,
+        "V": 0.001
+       },
+       "rot_V": 0.822,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.895,
+       "CN_lib": 0.101,
+       "K_polar": 0.0,
+       "coherence": 0.394
+      }
+     ],
+     "n_imag": 2,
+     "n_imag_framework": 0,
+     "lowest_framework_THz": 1.293,
+     "lowest_framework_label": "acoustic-like (rigid framework translation)"
+    },
+    "G[L30]": {
+     "q_prim_frac": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "n_star_points": 1,
+     "star_spread_THz": 0.0,
+     "acoustic_THz": [
+      -0.0,
+      -0.0,
+      0.0
+     ],
+     "freq_THz": [
+      -1.291,
+      -1.291,
+      -1.291,
+      -0.0,
+      -0.0,
+      0.0,
+      1.392,
+      1.394,
+      1.394,
+      5.588,
+      5.588,
+      5.588,
+      6.706,
+      6.706,
+      6.708,
+      7.126,
+      7.126,
+      7.136,
+      7.896,
+      7.896,
+      7.897,
+      9.115,
+      9.157,
+      9.157,
+      11.702,
+      11.735,
+      11.735,
+      12.318,
+      12.318,
+      12.349,
+      12.884,
+      12.884,
+      12.902,
+      13.058,
+      13.058,
+      13.279,
+      15.081,
+      15.082,
+      15.082,
+      64.173,
+      64.174,
+      64.174,
+      64.255,
+      64.255,
+      64.414
+     ],
+     "lowest_optic": [
+      {
+       "THz": -1.291,
+       "cm1": -43.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.036,
+        "Cr": 0.023,
+        "K": 0.867,
+        "N": 0.051,
+        "V": 0.024
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.061,
+       "CN_lib": 0.001,
+       "K_polar": 1.0,
+       "coherence": 0.985
+      },
+      {
+       "THz": -1.291,
+       "cm1": -43.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.036,
+        "Cr": 0.023,
+        "K": 0.867,
+        "N": 0.051,
+        "V": 0.024
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.061,
+       "CN_lib": 0.001,
+       "K_polar": 1.0,
+       "coherence": 0.985
+      },
+      {
+       "THz": -1.291,
+       "cm1": -43.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.036,
+        "Cr": 0.023,
+        "K": 0.867,
+        "N": 0.05,
+        "V": 0.024
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.061,
+       "CN_lib": 0.001,
+       "K_polar": 1.0,
+       "coherence": 0.985
+      },
+      {
+       "THz": 1.392,
+       "cm1": 46.4,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.377,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.623,
+        "V": 0.0
+       },
+       "rot_V": 0.619,
+       "rot_M": 0.377,
+       "CN_bend_tr": 0.993,
+       "CN_lib": 0.007,
+       "K_polar": 0.0,
+       "coherence": 0.492
+      },
+      {
+       "THz": 1.394,
+       "cm1": 46.5,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.378,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.622,
+        "V": 0.0
+       },
+       "rot_V": 0.619,
+       "rot_M": 0.377,
+       "CN_bend_tr": 0.993,
+       "CN_lib": 0.007,
+       "K_polar": 1.0,
+       "coherence": 0.493
+      },
+      {
+       "THz": 1.394,
+       "cm1": 46.5,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.378,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.622,
+        "V": 0.0
+       },
+       "rot_V": 0.619,
+       "rot_M": 0.377,
+       "CN_bend_tr": 0.993,
+       "CN_lib": 0.007,
+       "K_polar": 1.0,
+       "coherence": 0.493
+      },
+      {
+       "THz": 5.588,
+       "cm1": 186.4,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.365,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.635,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.004,
+       "CN_bend_tr": 0.99,
+       "CN_lib": 0.01,
+       "K_polar": 0.0,
+       "coherence": 0.489
+      },
+      {
+       "THz": 5.588,
+       "cm1": 186.4,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.365,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.635,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.003,
+       "CN_bend_tr": 0.99,
+       "CN_lib": 0.01,
+       "K_polar": 1.0,
+       "coherence": 0.489
+      }
+     ],
+     "n_imag": 3,
+     "n_imag_framework": 0,
+     "lowest_framework_THz": 1.392,
+     "lowest_framework_label": "octahedral tilt (cooperative rotation, CN transverse)"
+    },
+    "L[L30]": {
+     "q_prim_frac": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "n_star_points": 1,
+     "star_spread_THz": 0.0,
+     "acoustic_THz": null,
+     "freq_THz": [
+      -1.129,
+      -1.129,
+      0.587,
+      2.691,
+      2.691,
+      3.045,
+      3.291,
+      3.291,
+      4.06,
+      4.239,
+      4.367,
+      5.136,
+      5.136,
+      5.518,
+      5.518,
+      6.632,
+      6.632,
+      7.239,
+      7.239,
+      7.36,
+      8.253,
+      10.256,
+      10.954,
+      10.954,
+      11.06,
+      11.458,
+      11.458,
+      11.917,
+      11.917,
+      12.183,
+      12.397,
+      12.397,
+      12.623,
+      13.755,
+      13.755,
+      13.897,
+      14.891,
+      14.891,
+      15.182,
+      64.15,
+      64.15,
+      64.174,
+      64.286,
+      64.286,
+      64.39
+     ],
+     "lowest_optic": [
+      {
+       "THz": -1.129,
+       "cm1": -37.7,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.001,
+        "Cr": 0.0,
+        "K": 0.994,
+        "N": 0.005,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.001,
+       "CN_bend_tr": 0.005,
+       "CN_lib": 0.001,
+       "K_polar": 0.0,
+       "coherence": 0.48
+      },
+      {
+       "THz": -1.129,
+       "cm1": -37.7,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.001,
+        "Cr": 0.0,
+        "K": 0.994,
+        "N": 0.005,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.001,
+       "CN_bend_tr": 0.005,
+       "CN_lib": 0.001,
+       "K_polar": 0.0,
+       "coherence": 0.48
+      },
+      {
+       "THz": 0.587,
+       "cm1": 19.6,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.0,
+        "Cr": 0.001,
+        "K": 0.998,
+        "N": 0.001,
+        "V": 0.0
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.001,
+       "CN_lib": 0.0,
+       "K_polar": 0.0,
+       "coherence": 0.463
+      },
+      {
+       "THz": 2.691,
+       "cm1": 89.8,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.299,
+        "Cr": 0.082,
+        "K": 0.001,
+        "N": 0.617,
+        "V": 0.001
+       },
+       "rot_V": 0.593,
+       "rot_M": 0.007,
+       "CN_bend_tr": 0.866,
+       "CN_lib": 0.022,
+       "K_polar": 0.0,
+       "coherence": 0.626
+      },
+      {
+       "THz": 2.691,
+       "cm1": 89.8,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.299,
+        "Cr": 0.082,
+        "K": 0.001,
+        "N": 0.617,
+        "V": 0.001
+       },
+       "rot_V": 0.593,
+       "rot_M": 0.007,
+       "CN_bend_tr": 0.866,
+       "CN_lib": 0.022,
+       "K_polar": 0.0,
+       "coherence": 0.626
+      },
+      {
+       "THz": 3.045,
+       "cm1": 101.6,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.232,
+        "Cr": 0.0,
+        "K": 0.0,
+        "N": 0.768,
+        "V": 0.0
+       },
+       "rot_V": 0.74,
+       "rot_M": 0.028,
+       "CN_bend_tr": 0.936,
+       "CN_lib": 0.064,
+       "K_polar": 0.0,
+       "coherence": 0.433
+      },
+      {
+       "THz": 3.291,
+       "cm1": 109.8,
+       "irrep": null,
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.364,
+        "Cr": 0.003,
+        "K": 0.003,
+        "N": 0.46,
+        "V": 0.17
+       },
+       "rot_V": 0.006,
+       "rot_M": 0.341,
+       "CN_bend_tr": 0.787,
+       "CN_lib": 0.004,
+       "K_polar": 0.0,
+       "coherence": 0.738
+      },
+      {
+       "THz": 3.291,
+       "cm1": 109.8,
+       "irrep": null,
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.364,
+        "Cr": 0.003,
+        "K": 0.003,
+        "N": 0.46,
+        "V": 0.17
+       },
+       "rot_V": 0.006,
+       "rot_M": 0.341,
+       "CN_bend_tr": 0.787,
+       "CN_lib": 0.004,
+       "K_polar": 0.0,
+       "coherence": 0.738
+      }
+     ],
+     "n_imag": 2,
+     "n_imag_framework": 0,
+     "lowest_framework_THz": 2.691,
+     "lowest_framework_label": "octahedral tilt (cooperative rotation, CN transverse)"
+    }
+   },
+   "lowest_by_class": {
+    "K": {
+     "G[prim]": {
+      "THz": -1.291,
+      "cm1": -43.1,
+      "irrep": "T2",
+      "label": "K rattling (in-phase / polar off-centring)"
+     },
+     "G[conv]": {
+      "THz": -1.292,
+      "cm1": -43.1,
+      "irrep": "T2",
+      "label": "K rattling (in-phase / polar off-centring)"
+     },
+     "X[conv]": {
+      "THz": -1.04,
+      "cm1": -34.7,
+      "irrep": null,
+      "label": "K rattling (antiphase)"
+     },
+     "G[L30]": {
+      "THz": -1.291,
+      "cm1": -43.1,
+      "irrep": "T2",
+      "label": "K rattling (in-phase / polar off-centring)"
+     },
+     "L[L30]": {
+      "THz": -1.129,
+      "cm1": -37.7,
+      "irrep": null,
+      "label": "K rattling (antiphase)"
+     }
+    },
+    "tilt": {
+     "G[prim]": {
+      "THz": 1.389,
+      "cm1": 46.3,
+      "irrep": "T1",
+      "label": "octahedral tilt (cooperative rotation, CN transverse)"
+     },
+     "G[conv]": {
+      "THz": 1.388,
+      "cm1": 46.3,
+      "irrep": "T1",
+      "label": "octahedral tilt (cooperative rotation, CN transverse)"
+     },
+     "X[conv]": {
+      "THz": 1.409,
+      "cm1": 47.0,
+      "irrep": null,
+      "label": "octahedral tilt (cooperative rotation, CN transverse)"
+     },
+     "G[L30]": {
+      "THz": 1.392,
+      "cm1": 46.4,
+      "irrep": "T1",
+      "label": "octahedral tilt (cooperative rotation, CN transverse)"
+     },
+     "L[L30]": {
+      "THz": 2.691,
+      "cm1": 89.8,
+      "irrep": null,
+      "label": "octahedral tilt (cooperative rotation, CN transverse)"
+     }
+    },
+    "CN_bend": {
+     "G[prim]": {
+      "THz": 5.586,
+      "cm1": 186.3,
+      "irrep": "T1",
+      "label": "CN bending (transverse translation)"
+     },
+     "G[conv]": {
+      "THz": 5.588,
+      "cm1": 186.4,
+      "irrep": "T1",
+      "label": "CN bending (transverse translation)"
+     },
+     "X[conv]": {
+      "THz": 4.72,
+      "cm1": 157.4,
+      "irrep": null,
+      "label": "CN bending (transverse translation)"
+     },
+     "G[L30]": {
+      "THz": 5.588,
+      "cm1": 186.4,
+      "irrep": "T1",
+      "label": "CN bending (transverse translation)"
+     },
+     "L[L30]": {
+      "THz": 3.291,
+      "cm1": 109.8,
+      "irrep": null,
+      "label": "CN bending (transverse translation)"
+     }
+    }
+   },
+   "diag": {
+    "prim": {
+     "ref_residual_max_eV_A": 0.020474210386373915,
+     "M_range": [
+      -0.0,
+      -0.0
+     ],
+     "absM_range": [
+      7.07,
+      7.08
+     ],
+     "all_conv": true,
+     "pm_asymmetry": [
+      0.0122,
+      0.0142,
+      0.0125,
+      0.0416,
+      0.0426
+     ],
+     "gamma_lowest3_rawFC_THz": [
+      -1.291,
+      -1.291,
+      -1.291
+     ],
+     "rawFC_ASR_max_eV_A2": {
+      "row": 3.636089256875419e-05,
+      "col": 0.009408380964169627
+     }
+    },
+    "conv": {
+     "ref_residual_max_eV_A": 0.022557061229502493,
+     "M_range": [
+      -0.0,
+      -0.0
+     ],
+     "absM_range": [
+      28.28,
+      28.3
+     ],
+     "all_conv": true,
+     "pm_asymmetry": [
+      0.0465,
+      0.0203,
+      0.0193,
+      0.0416,
+      0.0426
+     ],
+     "gamma_lowest3_rawFC_THz": [
+      -1.292,
+      -1.292,
+      -1.292
+     ],
+     "rawFC_ASR_max_eV_A2": {
+      "row": 6.363156207651855e-05,
+      "col": 0.026888510114149833
+     }
+    },
+    "L30": {
+     "ref_residual_max_eV_A": 0.021322674499733293,
+     "M_range": [
+      0.0,
+      0.0
+     ],
+     "absM_range": [
+      14.14,
+      14.15
+     ],
+     "all_conv": true,
+     "pm_asymmetry": [
+      0.0111,
+      0.014,
+      0.0125,
+      0.0415,
+      0.0177,
+      0.0415,
+      0.0176,
+      0.0426,
+      0.0181,
+      0.0426,
+      0.018
+     ],
+     "gamma_lowest3_rawFC_THz": [
+      -1.291,
+      -1.291,
+      -1.291
+     ],
+     "rawFC_ASR_max_eV_A2": {
+      "row": 4.118860936438637e-05,
+      "col": 0.027614819497112864
+     }
+    }
+   },
+   "missing": {},
+   "interp_conv_mesh8_min_THz": -1.269248403958288,
+   "interp_conv_mesh8_argmin_q": [
+    0.062,
+    0.062,
+    0.062
+   ],
+   "gamma_prim_vs_conv_maxdiff_THz": 0.014699999999999491,
+   "gamma_prim_vs_L30_maxdiff_THz": 0.07070000000000043,
+   "n_imag_exact": 13,
+   "n_imag_exact_framework": 0,
+   "min_optic_or_zone_boundary_THz": -1.292,
+   "verdict": "UNSTABLE at an exact q (prim, conv, L30)",
+   "verdict_framework": "framework (all non-K modes) stable at G[prim], G[conv], X[conv], G[L30], L[L30]; K rattling imaginary (13 modes): ordered centred-K F-43m is a saddle",
+   "K_offcentring_relax_15atom": {
+    "c": {
+     "dE_meV_per_fu": 0.0,
+     "K_disp_A": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "K_disp_norm_A": 0.0,
+     "K_nearest": [
+      [
+       3.817,
+       "N"
+      ],
+      [
+       3.817,
+       "N"
+      ],
+      [
+       3.817,
+       "N"
+      ],
+      [
+       3.825,
+       "C"
+      ],
+      [
+       3.825,
+       "C"
+      ],
+      [
+       3.825,
+       "C"
+      ]
+     ],
+     "bfgs_converged": true,
+     "M": -0.0,
+     "absM": 7.07,
+     "gap": 2.0165936657899373,
+     "win_VB": 2.016330183401919,
+     "win_CB": 1.1360576647335758,
+     "vbm_spin": 1,
+     "cbm_spin": 1
+    }
+   },
+   "K_offcentring_relax_15atom_running": {
+    "koff_x": {
+     "n_scf": 9,
+     "dE_last_meV": -8.22,
+     "dE_min_meV": -8.22,
+     "K_disp_A": [
+      0.297,
+      -0.0,
+      -0.0
+     ],
+     "K_disp_norm_A": 0.297,
+     "total_force_Ry_bohr": 0.005419,
+     "state": "terminated"
+    },
+    "koff_xy": {
+     "n_scf": 16,
+     "dE_last_meV": -14.18,
+     "dE_min_meV": -14.18,
+     "K_disp_A": [
+      0.349,
+      0.349,
+      -0.026
+     ],
+     "K_disp_norm_A": 0.494,
+     "total_force_Ry_bohr": 0.014334,
+     "state": "running"
+    },
+    "koff_p111": {
+     "n_scf": 12,
+     "dE_last_meV": -8.17,
+     "dE_min_meV": -8.17,
+     "K_disp_A": [
+      0.174,
+      0.174,
+      0.174
+     ],
+     "K_disp_norm_A": 0.301,
+     "total_force_Ry_bohr": 0.007238,
+     "state": "terminated"
+    },
+    "koff_m111": {
+     "n_scf": 9,
+     "dE_last_meV": -8.74,
+     "dE_min_meV": -8.74,
+     "K_disp_A": [
+      -0.174,
+      -0.174,
+      -0.174
+     ],
+     "K_disp_norm_A": 0.301,
+     "total_force_Ry_bohr": 0.006653,
+     "state": "terminated"
+    },
+    "koff2_x": {
+     "n_scf": 17,
+     "dE_last_meV": -47.25,
+     "dE_min_meV": -47.25,
+     "K_disp_A": [
+      0.912,
+      -0.0,
+      -0.0
+     ],
+     "K_disp_norm_A": 0.912,
+     "total_force_Ry_bohr": 0.000776,
+     "state": "running"
+    },
+    "koff2_p111": {
+     "n_scf": 13,
+     "dE_last_meV": -19.96,
+     "dE_min_meV": -19.96,
+     "K_disp_A": [
+      0.329,
+      0.329,
+      0.329
+     ],
+     "K_disp_norm_A": 0.569,
+     "total_force_Ry_bohr": 0.001096,
+     "state": "running"
+    },
+    "koff2_m111": {
+     "n_scf": 23,
+     "dE_last_meV": -39.53,
+     "dE_min_meV": -39.53,
+     "K_disp_A": [
+      -0.447,
+      -0.447,
+      -0.447
+     ],
+     "K_disp_norm_A": 0.774,
+     "total_force_Ry_bohr": 0.000379,
+     "state": "running"
+    }
+   },
+   "K_rigid_scan_15atom": {
+    "x": [
+     {
+      "amp_A": 0.4,
+      "dE_meV": -15.11,
+      "F_K_along_u_eV_A": 0.0669,
+      "M": -0.0,
+      "absM": 7.07
+     },
+     {
+      "amp_A": 0.55,
+      "dE_meV": -25.69,
+      "F_K_along_u_eV_A": 0.0715,
+      "M": -0.0,
+      "absM": 7.07
+     },
+     {
+      "amp_A": 0.7,
+      "dE_meV": -35.65,
+      "F_K_along_u_eV_A": 0.058,
+      "M": 0.0,
+      "absM": 7.07
+     },
+     {
+      "amp_A": 0.85,
+      "dE_meV": -42.04,
+      "F_K_along_u_eV_A": 0.0236,
+      "M": -0.0,
+      "absM": 7.07
+     },
+     {
+      "amp_A": 1.0,
+      "dE_meV": -41.65,
+      "F_K_along_u_eV_A": -0.0323,
+      "M": -0.0,
+      "absM": 7.08
+     }
+    ],
+    "p111": [
+     {
+      "amp_A": 0.4,
+      "dE_meV": -12.49,
+      "F_K_along_u_eV_A": 0.0441,
+      "M": 0.0,
+      "absM": 7.07
+     },
+     {
+      "amp_A": 0.55,
+      "dE_meV": -17.5,
+      "F_K_along_u_eV_A": 0.0164,
+      "M": -0.0,
+      "absM": 7.07
+     },
+     {
+      "amp_A": 0.7,
+      "dE_meV": -15.12,
+      "F_K_along_u_eV_A": -0.0575,
+      "M": 0.0,
+      "absM": 7.07
+     },
+     {
+      "amp_A": 0.85,
+      "dE_meV": 3.09,
+      "F_K_along_u_eV_A": -0.1987,
+      "M": -0.0,
+      "absM": 7.07
+     },
+     {
+      "amp_A": 1.0,
+      "dE_meV": 49.24,
+      "F_K_along_u_eV_A": -0.4354,
+      "M": -0.0,
+      "absM": 7.07
+     }
+    ],
+    "m111": [
+     {
+      "amp_A": 0.4,
+      "dE_meV": -15.91,
+      "F_K_along_u_eV_A": 0.0704,
+      "M": 0.0,
+      "absM": 7.07
+     },
+     {
+      "amp_A": 0.55,
+      "dE_meV": -26.67,
+      "F_K_along_u_eV_A": 0.0684,
+      "M": 0.0,
+      "absM": 7.07
+     },
+     {
+      "amp_A": 0.7,
+      "dE_meV": -34.72,
+      "F_K_along_u_eV_A": 0.0316,
+      "M": 0.0,
+      "absM": 7.08
+     },
+     {
+      "amp_A": 0.85,
+      "dE_meV": -33.55,
+      "F_K_along_u_eV_A": -0.0579,
+      "M": -0.0,
+      "absM": 7.08
+     },
+     {
+      "amp_A": 1.0,
+      "dE_meV": -13.5,
+      "F_K_along_u_eV_A": -0.2248,
+      "M": 0.0,
+      "absM": 7.08
+     }
+    ]
+   }
+  },
+  "KVMo": {
+   "exact": {
+    "G[prim]": {
+     "q_prim_frac": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "n_star_points": 1,
+     "star_spread_THz": 0.0,
+     "acoustic_THz": [
+      -0.0,
+      -0.0,
+      0.0
+     ],
+     "freq_THz": [
+      -1.352,
+      -1.352,
+      -1.352,
+      -0.0,
+      -0.0,
+      0.0,
+      1.356,
+      1.356,
+      1.356,
+      5.434,
+      5.434,
+      5.434,
+      5.847,
+      5.847,
+      5.847,
+      6.524,
+      6.524,
+      6.524,
+      7.796,
+      7.796,
+      7.796,
+      9.038,
+      9.038,
+      9.038,
+      11.857,
+      11.857,
+      11.857,
+      11.859,
+      11.859,
+      11.859,
+      12.877,
+      12.877,
+      12.877,
+      13.795,
+      13.795,
+      13.986,
+      13.986,
+      13.986,
+      14.162,
+      62.758,
+      62.758,
+      62.758,
+      62.964,
+      62.964,
+      63.388
+     ],
+     "lowest_optic": [
+      {
+       "THz": -1.352,
+       "cm1": -45.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.028,
+        "K": 0.883,
+        "Mo": 0.031,
+        "N": 0.039,
+        "V": 0.018
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.048,
+       "CN_lib": 0.0,
+       "K_polar": 1.0,
+       "coherence": 0.982
+      },
+      {
+       "THz": -1.352,
+       "cm1": -45.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.028,
+        "K": 0.883,
+        "Mo": 0.031,
+        "N": 0.039,
+        "V": 0.018
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.048,
+       "CN_lib": 0.0,
+       "K_polar": 1.0,
+       "coherence": 0.982
+      },
+      {
+       "THz": -1.352,
+       "cm1": -45.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.028,
+        "K": 0.883,
+        "Mo": 0.031,
+        "N": 0.039,
+        "V": 0.018
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.048,
+       "CN_lib": 0.0,
+       "K_polar": 1.0,
+       "coherence": 0.982
+      },
+      {
+       "THz": 1.356,
+       "cm1": 45.2,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.392,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.608,
+        "V": 0.0
+       },
+       "rot_V": 0.605,
+       "rot_M": 0.391,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 1.356,
+       "cm1": 45.2,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.392,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.608,
+        "V": 0.0
+       },
+       "rot_V": 0.605,
+       "rot_M": 0.391,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 1.356,
+       "cm1": 45.2,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.392,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.608,
+        "V": 0.0
+       },
+       "rot_V": 0.605,
+       "rot_M": 0.391,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 5.434,
+       "cm1": 181.3,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.394,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.606,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.003,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 5.434,
+       "cm1": 181.3,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.394,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.606,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.003,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      }
+     ],
+     "n_imag": 3,
+     "n_imag_framework": 0,
+     "lowest_framework_THz": 1.356,
+     "lowest_framework_label": "octahedral tilt (cooperative rotation, CN transverse)"
+    },
+    "G[conv]": {
+     "q_prim_frac": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "n_star_points": 1,
+     "star_spread_THz": 0.0,
+     "acoustic_THz": [
+      -0.0,
+      -0.0,
+      0.0
+     ],
+     "freq_THz": [
+      -1.352,
+      -1.352,
+      -1.352,
+      -0.0,
+      -0.0,
+      0.0,
+      1.358,
+      1.358,
+      1.358,
+      5.437,
+      5.437,
+      5.437,
+      5.855,
+      5.855,
+      5.855,
+      6.524,
+      6.524,
+      6.524,
+      7.804,
+      7.804,
+      7.804,
+      9.035,
+      9.035,
+      9.035,
+      11.855,
+      11.855,
+      11.855,
+      11.863,
+      11.863,
+      11.863,
+      12.882,
+      12.882,
+      12.882,
+      13.797,
+      13.797,
+      13.991,
+      13.991,
+      13.991,
+      14.173,
+      62.767,
+      62.767,
+      62.767,
+      62.937,
+      62.937,
+      63.406
+     ],
+     "lowest_optic": [
+      {
+       "THz": -1.352,
+       "cm1": -45.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.028,
+        "K": 0.883,
+        "Mo": 0.031,
+        "N": 0.039,
+        "V": 0.018
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.048,
+       "CN_lib": 0.0,
+       "K_polar": 1.0,
+       "coherence": 0.982
+      },
+      {
+       "THz": -1.352,
+       "cm1": -45.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.028,
+        "K": 0.883,
+        "Mo": 0.031,
+        "N": 0.039,
+        "V": 0.018
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.048,
+       "CN_lib": 0.0,
+       "K_polar": 1.0,
+       "coherence": 0.982
+      },
+      {
+       "THz": -1.352,
+       "cm1": -45.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.028,
+        "K": 0.883,
+        "Mo": 0.031,
+        "N": 0.039,
+        "V": 0.018
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.048,
+       "CN_lib": 0.0,
+       "K_polar": 1.0,
+       "coherence": 0.982
+      },
+      {
+       "THz": 1.358,
+       "cm1": 45.3,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.392,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.608,
+        "V": 0.0
+       },
+       "rot_V": 0.605,
+       "rot_M": 0.391,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 1.358,
+       "cm1": 45.3,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.392,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.608,
+        "V": 0.0
+       },
+       "rot_V": 0.605,
+       "rot_M": 0.391,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 1.358,
+       "cm1": 45.3,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.392,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.608,
+        "V": 0.0
+       },
+       "rot_V": 0.605,
+       "rot_M": 0.391,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 5.437,
+       "cm1": 181.4,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.393,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.607,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.003,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.494
+      },
+      {
+       "THz": 5.437,
+       "cm1": 181.4,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.393,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.607,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.003,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.494
+      }
+     ],
+     "n_imag": 3,
+     "n_imag_framework": 0,
+     "lowest_framework_THz": 1.358,
+     "lowest_framework_label": "octahedral tilt (cooperative rotation, CN transverse)"
+    },
+    "X[conv]": {
+     "q_prim_frac": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "n_star_points": 3,
+     "star_spread_THz": 0.0,
+     "acoustic_THz": null,
+     "freq_THz": [
+      -1.142,
+      -1.142,
+      0.384,
+      1.044,
+      1.044,
+      1.378,
+      1.787,
+      3.363,
+      3.363,
+      4.447,
+      4.573,
+      4.573,
+      4.728,
+      4.728,
+      5.404,
+      6.175,
+      6.175,
+      6.543,
+      7.958,
+      7.958,
+      8.849,
+      9.034,
+      10.486,
+      10.486,
+      11.116,
+      11.116,
+      11.853,
+      11.904,
+      12.247,
+      12.247,
+      12.456,
+      12.456,
+      12.489,
+      13.795,
+      13.919,
+      14.036,
+      14.106,
+      14.106,
+      14.247,
+      62.795,
+      62.795,
+      62.835,
+      62.86,
+      62.905,
+      63.324
+     ],
+     "lowest_optic": [
+      {
+       "THz": -1.142,
+       "cm1": -38.1,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.005,
+        "K": 0.971,
+        "Mo": 0.009,
+        "N": 0.011,
+        "V": 0.003
+       },
+       "rot_V": 0.002,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.011,
+       "CN_lib": 0.002,
+       "K_polar": 0.0,
+       "coherence": 0.773
+      },
+      {
+       "THz": -1.142,
+       "cm1": -38.1,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.005,
+        "K": 0.971,
+        "Mo": 0.009,
+        "N": 0.011,
+        "V": 0.003
+       },
+       "rot_V": 0.002,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.011,
+       "CN_lib": 0.002,
+       "K_polar": 0.0,
+       "coherence": 0.773
+      },
+      {
+       "THz": 0.384,
+       "cm1": 12.8,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.0,
+        "K": 1.0,
+        "Mo": 0.0,
+        "N": 0.0,
+        "V": 0.0
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.0,
+       "CN_lib": 0.0,
+       "K_polar": 0.0,
+       "coherence": 0.465
+      },
+      {
+       "THz": 1.044,
+       "cm1": 34.8,
+       "irrep": null,
+       "label": "acoustic-like (rigid framework translation)",
+       "w": {
+        "C": 0.196,
+        "K": 0.023,
+        "Mo": 0.339,
+        "N": 0.257,
+        "V": 0.185
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.232,
+       "CN_lib": 0.034,
+       "K_polar": 0.0,
+       "coherence": 0.907
+      },
+      {
+       "THz": 1.044,
+       "cm1": 34.8,
+       "irrep": null,
+       "label": "acoustic-like (rigid framework translation)",
+       "w": {
+        "C": 0.196,
+        "K": 0.023,
+        "Mo": 0.339,
+        "N": 0.257,
+        "V": 0.185
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.232,
+       "CN_lib": 0.034,
+       "K_polar": 0.0,
+       "coherence": 0.907
+      },
+      {
+       "THz": 1.378,
+       "cm1": 46.0,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.392,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.608,
+        "V": 0.0
+       },
+       "rot_V": 0.605,
+       "rot_M": 0.391,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 1.787,
+       "cm1": 59.6,
+       "irrep": null,
+       "label": "M-C / V-N stretch or metal vs cyanide translation",
+       "w": {
+        "C": 0.127,
+        "K": 0.0,
+        "Mo": 0.429,
+        "N": 0.218,
+        "V": 0.227
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.017,
+       "CN_lib": 0.094,
+       "K_polar": 0.0,
+       "coherence": 0.753
+      },
+      {
+       "THz": 3.363,
+       "cm1": 112.2,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.203,
+        "K": 0.003,
+        "Mo": 0.0,
+        "N": 0.793,
+        "V": 0.001
+       },
+       "rot_V": 0.788,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.92,
+       "CN_lib": 0.075,
+       "K_polar": 0.0,
+       "coherence": 0.421
+      }
+     ],
+     "n_imag": 2,
+     "n_imag_framework": 0,
+     "lowest_framework_THz": 1.044,
+     "lowest_framework_label": "acoustic-like (rigid framework translation)"
+    },
+    "G[L30]": {
+     "q_prim_frac": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "n_star_points": 1,
+     "star_spread_THz": 0.0,
+     "acoustic_THz": [
+      -0.0,
+      -0.0,
+      0.0
+     ],
+     "freq_THz": [
+      -1.352,
+      -1.352,
+      -1.351,
+      -0.0,
+      -0.0,
+      0.0,
+      1.364,
+      1.368,
+      1.368,
+      5.438,
+      5.438,
+      5.438,
+      5.86,
+      5.86,
+      5.861,
+      6.526,
+      6.526,
+      6.526,
+      7.802,
+      7.803,
+      7.803,
+      9.066,
+      9.108,
+      9.108,
+      11.884,
+      11.891,
+      11.891,
+      11.915,
+      11.915,
+      11.922,
+      12.908,
+      12.908,
+      12.93,
+      13.795,
+      13.795,
+      13.986,
+      13.989,
+      13.989,
+      14.159,
+      62.746,
+      62.751,
+      62.751,
+      62.949,
+      62.949,
+      63.367
+     ],
+     "lowest_optic": [
+      {
+       "THz": -1.352,
+       "cm1": -45.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.028,
+        "K": 0.883,
+        "Mo": 0.031,
+        "N": 0.039,
+        "V": 0.018
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.048,
+       "CN_lib": 0.0,
+       "K_polar": 1.0,
+       "coherence": 0.982
+      },
+      {
+       "THz": -1.352,
+       "cm1": -45.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.028,
+        "K": 0.883,
+        "Mo": 0.031,
+        "N": 0.039,
+        "V": 0.018
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.048,
+       "CN_lib": 0.0,
+       "K_polar": 1.0,
+       "coherence": 0.982
+      },
+      {
+       "THz": -1.351,
+       "cm1": -45.1,
+       "irrep": "T2",
+       "label": "K rattling (in-phase / polar off-centring)",
+       "w": {
+        "C": 0.028,
+        "K": 0.883,
+        "Mo": 0.031,
+        "N": 0.039,
+        "V": 0.018
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.048,
+       "CN_lib": 0.0,
+       "K_polar": 1.0,
+       "coherence": 0.982
+      },
+      {
+       "THz": 1.364,
+       "cm1": 45.5,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.392,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.608,
+        "V": 0.0
+       },
+       "rot_V": 0.605,
+       "rot_M": 0.391,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 1.368,
+       "cm1": 45.6,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.393,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.607,
+        "V": 0.0
+       },
+       "rot_V": 0.604,
+       "rot_M": 0.392,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 1.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 1.368,
+       "cm1": 45.6,
+       "irrep": "T1",
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.393,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.607,
+        "V": 0.0
+       },
+       "rot_V": 0.604,
+       "rot_M": 0.392,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 1.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 5.438,
+       "cm1": 181.4,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.394,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.606,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.003,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 0.0,
+       "coherence": 0.495
+      },
+      {
+       "THz": 5.438,
+       "cm1": 181.4,
+       "irrep": "T1",
+       "label": "CN bending (transverse translation)",
+       "w": {
+        "C": 0.394,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.606,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.003,
+       "CN_bend_tr": 0.995,
+       "CN_lib": 0.005,
+       "K_polar": 1.0,
+       "coherence": 0.495
+      }
+     ],
+     "n_imag": 3,
+     "n_imag_framework": 0,
+     "lowest_framework_THz": 1.364,
+     "lowest_framework_label": "octahedral tilt (cooperative rotation, CN transverse)"
+    },
+    "L[L30]": {
+     "q_prim_frac": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "n_star_points": 1,
+     "star_spread_THz": 0.0,
+     "acoustic_THz": null,
+     "freq_THz": [
+      -1.213,
+      -1.213,
+      -0.449,
+      2.512,
+      2.512,
+      2.828,
+      3.299,
+      3.299,
+      3.67,
+      4.003,
+      4.25,
+      4.25,
+      4.259,
+      5.368,
+      5.368,
+      6.319,
+      6.319,
+      6.812,
+      7.093,
+      7.093,
+      8.03,
+      10.345,
+      11.055,
+      11.055,
+      11.118,
+      11.503,
+      11.503,
+      12.012,
+      12.012,
+      12.104,
+      12.104,
+      12.295,
+      12.4,
+      13.488,
+      13.488,
+      13.753,
+      14.402,
+      14.402,
+      14.631,
+      62.715,
+      62.715,
+      62.997,
+      62.997,
+      63.029,
+      63.096
+     ],
+     "lowest_optic": [
+      {
+       "THz": -1.213,
+       "cm1": -40.5,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.002,
+        "K": 0.993,
+        "Mo": 0.0,
+        "N": 0.005,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.001,
+       "CN_bend_tr": 0.006,
+       "CN_lib": 0.0,
+       "K_polar": 0.0,
+       "coherence": 0.519
+      },
+      {
+       "THz": -1.213,
+       "cm1": -40.5,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.002,
+        "K": 0.993,
+        "Mo": 0.0,
+        "N": 0.005,
+        "V": 0.0
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.001,
+       "CN_bend_tr": 0.006,
+       "CN_lib": 0.0,
+       "K_polar": 0.0,
+       "coherence": 0.519
+      },
+      {
+       "THz": -0.449,
+       "cm1": -15.0,
+       "irrep": null,
+       "label": "K rattling (antiphase)",
+       "w": {
+        "C": 0.001,
+        "K": 0.996,
+        "Mo": 0.002,
+        "N": 0.001,
+        "V": 0.0
+       },
+       "rot_V": 0.0,
+       "rot_M": 0.0,
+       "CN_bend_tr": 0.001,
+       "CN_lib": 0.0,
+       "K_polar": 0.0,
+       "coherence": 0.638
+      },
+      {
+       "THz": 2.512,
+       "cm1": 83.8,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.287,
+        "K": 0.001,
+        "Mo": 0.17,
+        "N": 0.541,
+        "V": 0.0
+       },
+       "rot_V": 0.521,
+       "rot_M": 0.004,
+       "CN_bend_tr": 0.786,
+       "CN_lib": 0.015,
+       "K_polar": 0.0,
+       "coherence": 0.647
+      },
+      {
+       "THz": 2.512,
+       "cm1": 83.8,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.287,
+        "K": 0.001,
+        "Mo": 0.17,
+        "N": 0.541,
+        "V": 0.0
+       },
+       "rot_V": 0.521,
+       "rot_M": 0.004,
+       "CN_bend_tr": 0.786,
+       "CN_lib": 0.015,
+       "K_polar": 0.0,
+       "coherence": 0.647
+      },
+      {
+       "THz": 2.828,
+       "cm1": 94.3,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.246,
+        "K": 0.0,
+        "Mo": 0.0,
+        "N": 0.754,
+        "V": 0.0
+       },
+       "rot_V": 0.736,
+       "rot_M": 0.019,
+       "CN_bend_tr": 0.945,
+       "CN_lib": 0.055,
+       "K_polar": 0.0,
+       "coherence": 0.443
+      },
+      {
+       "THz": 3.299,
+       "cm1": 110.1,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.384,
+        "K": 0.003,
+        "Mo": 0.005,
+        "N": 0.442,
+        "V": 0.165
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.364,
+       "CN_bend_tr": 0.794,
+       "CN_lib": 0.004,
+       "K_polar": 0.0,
+       "coherence": 0.729
+      },
+      {
+       "THz": 3.299,
+       "cm1": 110.1,
+       "irrep": null,
+       "label": "octahedral tilt (cooperative rotation, CN transverse)",
+       "w": {
+        "C": 0.384,
+        "K": 0.003,
+        "Mo": 0.005,
+        "N": 0.442,
+        "V": 0.165
+       },
+       "rot_V": 0.001,
+       "rot_M": 0.364,
+       "CN_bend_tr": 0.794,
+       "CN_lib": 0.004,
+       "K_polar": 0.0,
+       "coherence": 0.729
+      }
+     ],
+     "n_imag": 3,
+     "n_imag_framework": 0,
+     "lowest_framework_THz": 2.512,
+     "lowest_framework_label": "octahedral tilt (cooperative rotation, CN transverse)"
+    }
+   },
+   "lowest_by_class": {
+    "K": {
+     "G[prim]": {
+      "THz": -1.352,
+      "cm1": -45.1,
+      "irrep": "T2",
+      "label": "K rattling (in-phase / polar off-centring)"
+     },
+     "G[conv]": {
+      "THz": -1.352,
+      "cm1": -45.1,
+      "irrep": "T2",
+      "label": "K rattling (in-phase / polar off-centring)"
+     },
+     "X[conv]": {
+      "THz": -1.142,
+      "cm1": -38.1,
+      "irrep": null,
+      "label": "K rattling (antiphase)"
+     },
+     "G[L30]": {
+      "THz": -1.352,
+      "cm1": -45.1,
+      "irrep": "T2",
+      "label": "K rattling (in-phase / polar off-centring)"
+     },
+     "L[L30]": {
+      "THz": -1.213,
+      "cm1": -40.5,
+      "irrep": null,
+      "label": "K rattling (antiphase)"
+     }
+    },
+    "tilt": {
+     "G[prim]": {
+      "THz": 1.356,
+      "cm1": 45.2,
+      "irrep": "T1",
+      "label": "octahedral tilt (cooperative rotation, CN transverse)"
+     },
+     "G[conv]": {
+      "THz": 1.358,
+      "cm1": 45.3,
+      "irrep": "T1",
+      "label": "octahedral tilt (cooperative rotation, CN transverse)"
+     },
+     "X[conv]": {
+      "THz": 1.378,
+      "cm1": 46.0,
+      "irrep": null,
+      "label": "octahedral tilt (cooperative rotation, CN transverse)"
+     },
+     "G[L30]": {
+      "THz": 1.364,
+      "cm1": 45.5,
+      "irrep": "T1",
+      "label": "octahedral tilt (cooperative rotation, CN transverse)"
+     },
+     "L[L30]": {
+      "THz": 2.512,
+      "cm1": 83.8,
+      "irrep": null,
+      "label": "octahedral tilt (cooperative rotation, CN transverse)"
+     }
+    },
+    "CN_bend": {
+     "G[prim]": {
+      "THz": 5.434,
+      "cm1": 181.3,
+      "irrep": "T1",
+      "label": "CN bending (transverse translation)"
+     },
+     "G[conv]": {
+      "THz": 5.437,
+      "cm1": 181.4,
+      "irrep": "T1",
+      "label": "CN bending (transverse translation)"
+     },
+     "X[conv]": {
+      "THz": 4.728,
+      "cm1": 157.7,
+      "irrep": null,
+      "label": "CN bending (transverse translation)"
+     },
+     "G[L30]": {
+      "THz": 5.438,
+      "cm1": 181.4,
+      "irrep": "T1",
+      "label": "CN bending (transverse translation)"
+     },
+     "L[L30]": {
+      "THz": 4.259,
+      "cm1": 142.1,
+      "irrep": null,
+      "label": "CN bending (transverse translation)"
+     }
+    }
+   },
+   "diag": {
+    "prim": {
+     "ref_residual_max_eV_A": 0.00731993130525499,
+     "M_range": [
+      -0.0,
+      -0.0
+     ],
+     "absM_range": [
+      6.64,
+      6.65
+     ],
+     "all_conv": true,
+     "pm_asymmetry": [
+      0.0296,
+      0.014,
+      0.0119,
+      0.044,
+      0.0442
+     ],
+     "gamma_lowest3_rawFC_THz": [
+      -1.352,
+      -1.352,
+      -1.352
+     ],
+     "rawFC_ASR_max_eV_A2": {
+      "row": 2.7270669463064223e-05,
+      "col": 0.011508222512707222
+     }
+    },
+    "conv": {
+     "ref_residual_max_eV_A": 0.009064167834051963,
+     "M_range": [
+      0.0,
+      0.0
+     ],
+     "absM_range": [
+      26.58,
+      26.58
+     ],
+     "all_conv": true,
+     "pm_asymmetry": [
+      0.0165,
+      0.0203,
+      0.0184,
+      0.044,
+      0.0442
+     ],
+     "gamma_lowest3_rawFC_THz": [
+      -1.352,
+      -1.352,
+      -1.352
+     ],
+     "rawFC_ASR_max_eV_A2": {
+      "row": 5.7849825915346105e-05,
+      "col": 0.02997292855061673
+     }
+    },
+    "L30": {
+     "ref_residual_max_eV_A": 0.011477405460715937,
+     "M_range": [
+      0.0,
+      0.0
+     ],
+     "absM_range": [
+      13.28,
+      13.29
+     ],
+     "all_conv": true,
+     "pm_asymmetry": [
+      0.0191,
+      0.0142,
+      0.0116,
+      0.044,
+      0.0184,
+      0.044,
+      0.0184,
+      0.0442,
+      0.0187,
+      0.0442,
+      0.0187
+     ],
+     "gamma_lowest3_rawFC_THz": [
+      -1.352,
+      -1.352,
+      -1.351
+     ],
+     "rawFC_ASR_max_eV_A2": {
+      "row": 3.936182089114837e-05,
+      "col": 0.023590136238758386
+     }
+    }
+   },
+   "missing": {},
+   "interp_conv_mesh8_min_THz": -1.3382358067196667,
+   "interp_conv_mesh8_argmin_q": [
+    -0.062,
+    0.062,
+    0.062
+   ],
+   "gamma_prim_vs_conv_maxdiff_THz": 0.027000000000001023,
+   "gamma_prim_vs_L30_maxdiff_THz": 0.06959999999999944,
+   "n_imag_exact": 14,
+   "n_imag_exact_framework": 0,
+   "min_optic_or_zone_boundary_THz": -1.352,
+   "verdict": "UNSTABLE at an exact q (prim, conv, L30)",
+   "verdict_framework": "framework (all non-K modes) stable at G[prim], G[conv], X[conv], G[L30], L[L30]; K rattling imaginary (14 modes): ordered centred-K F-43m is a saddle",
+   "K_offcentring_relax_15atom": {
+    "c": {
+     "dE_meV_per_fu": 0.0,
+     "K_disp_A": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "K_disp_norm_A": 0.0,
+     "K_nearest": [
+      [
+       3.879,
+       "C"
+      ],
+      [
+       3.879,
+       "C"
+      ],
+      [
+       3.879,
+       "C"
+      ],
+      [
+       3.888,
+       "N"
+      ],
+      [
+       3.888,
+       "N"
+      ],
+      [
+       3.888,
+       "N"
+      ]
+     ],
+     "bfgs_converged": true,
+     "M": -0.0,
+     "absM": 6.65,
+     "gap": 1.3847527772025516,
+     "win_VB": 0.9748404869158223,
+     "win_CB": 1.86864207314198,
+     "vbm_spin": 1,
+     "cbm_spin": 1
+    }
+   },
+   "K_offcentring_relax_15atom_running": {
+    "koff_x": {
+     "n_scf": 9,
+     "dE_last_meV": -10.0,
+     "dE_min_meV": -10.0,
+     "K_disp_A": [
+      0.314,
+      0.0,
+      0.0
+     ],
+     "K_disp_norm_A": 0.314,
+     "total_force_Ry_bohr": 0.005565,
+     "state": "terminated"
+    },
+    "koff_xy": {
+     "n_scf": 18,
+     "dE_last_meV": -23.21,
+     "dE_min_meV": -23.21,
+     "K_disp_A": [
+      0.395,
+      0.395,
+      -0.026
+     ],
+     "K_disp_norm_A": 0.56,
+     "total_force_Ry_bohr": 0.012125,
+     "state": "running"
+    },
+    "koff_p111": {
+     "n_scf": 11,
+     "dE_last_meV": -10.32,
+     "dE_min_meV": -10.32,
+     "K_disp_A": [
+      0.21,
+      0.21,
+      0.21
+     ],
+     "K_disp_norm_A": 0.364,
+     "total_force_Ry_bohr": 0.007151,
+     "state": "terminated"
+    },
+    "koff_m111": {
+     "n_scf": 10,
+     "dE_last_meV": -11.4,
+     "dE_min_meV": -11.4,
+     "K_disp_A": [
+      -0.203,
+      -0.203,
+      -0.203
+     ],
+     "K_disp_norm_A": 0.351,
+     "total_force_Ry_bohr": 0.007802,
+     "state": "terminated"
+    },
+    "koff2_x": {
+     "n_scf": 15,
+     "dE_last_meV": -67.61,
+     "dE_min_meV": -67.61,
+     "K_disp_A": [
+      0.999,
+      -0.0,
+      -0.0
+     ],
+     "K_disp_norm_A": 0.999,
+     "total_force_Ry_bohr": 0.003403,
+     "state": "running"
+    },
+    "koff2_p111": {
+     "n_scf": 9,
+     "dE_last_meV": -27.28,
+     "dE_min_meV": -27.28,
+     "K_disp_A": [
+      0.343,
+      0.343,
+      0.343
+     ],
+     "K_disp_norm_A": 0.594,
+     "total_force_Ry_bohr": 0.006788,
+     "state": "running"
+    },
+    "koff2_m111": {
+     "n_scf": 11,
+     "dE_last_meV": -56.06,
+     "dE_min_meV": -56.06,
+     "K_disp_A": [
+      -0.482,
+      -0.482,
+      -0.482
+     ],
+     "K_disp_norm_A": 0.835,
+     "total_force_Ry_bohr": 0.003887,
+     "state": "running"
+    }
+   },
+   "K_rigid_scan_15atom": {
+    "x": [
+     {
+      "amp_A": 0.4,
+      "dE_meV": -17.63,
+      "F_K_along_u_eV_A": 0.0807,
+      "M": -0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 0.55,
+      "dE_meV": -30.86,
+      "F_K_along_u_eV_A": 0.0933,
+      "M": -0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 0.7,
+      "dE_meV": -44.83,
+      "F_K_along_u_eV_A": 0.0901,
+      "M": 0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 0.85,
+      "dE_meV": -57.0,
+      "F_K_along_u_eV_A": 0.0689,
+      "M": 0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 1.0,
+      "dE_meV": -64.53,
+      "F_K_along_u_eV_A": 0.0283,
+      "M": 0.0,
+      "absM": 6.65
+     }
+    ],
+    "p111": [
+     {
+      "amp_A": 0.4,
+      "dE_meV": -15.47,
+      "F_K_along_u_eV_A": 0.0621,
+      "M": 0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 0.55,
+      "dE_meV": -24.17,
+      "F_K_along_u_eV_A": 0.0485,
+      "M": -0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 0.7,
+      "dE_meV": -28.08,
+      "F_K_along_u_eV_A": -0.0043,
+      "M": -0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 0.85,
+      "dE_meV": -20.02,
+      "F_K_along_u_eV_A": -0.1146,
+      "M": -0.0,
+      "absM": 6.64
+     },
+     {
+      "amp_A": 1.0,
+      "dE_meV": 10.43,
+      "F_K_along_u_eV_A": -0.3077,
+      "M": -0.0,
+      "absM": 6.64
+     }
+    ],
+    "m111": [
+     {
+      "amp_A": 0.4,
+      "dE_meV": -18.47,
+      "F_K_along_u_eV_A": 0.0851,
+      "M": -0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 0.55,
+      "dE_meV": -32.21,
+      "F_K_along_u_eV_A": 0.0945,
+      "M": -0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 0.7,
+      "dE_meV": -45.42,
+      "F_K_along_u_eV_A": 0.0758,
+      "M": -0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 0.85,
+      "dE_meV": -52.79,
+      "F_K_along_u_eV_A": 0.0137,
+      "M": -0.0,
+      "absM": 6.65
+     },
+     {
+      "amp_A": 1.0,
+      "dE_meV": -46.32,
+      "F_K_along_u_eV_A": -0.1128,
+      "M": 0.0,
+      "absM": 6.65
+     }
+    ]
+   }
+  }
+ }
+}

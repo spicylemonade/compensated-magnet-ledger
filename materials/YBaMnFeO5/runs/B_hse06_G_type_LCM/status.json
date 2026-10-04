@@ -1,0 +1,10 @@
+{
+ "job": "lcm/deep/stack_hse_G",
+ "state": "done",
+ "cmd": "python lcm_deep.py YBMFO_stack_hse_G.json hse",
+ "ncores": 64,
+ "start": 1790963289.8219404,
+ "rc": 0,
+ "end": 1790980053.3504968,
+ "hours": 4.656535710096359
+}

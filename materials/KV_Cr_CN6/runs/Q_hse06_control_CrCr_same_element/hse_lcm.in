@@ -1,0 +1,64 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'hse_lcm'
+  outdir = '/tmp/scratch/hse_lcm'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .false.
+  tprnfor = .false.
+  disk_io = 'low'
+  verbosity = 'high'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 14
+  ntyp = 4
+  ecutwfc = 90.0
+  ecutrho = 360.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+  nspin = 2
+  input_dft = 'hse'
+  nqx1 = 2
+  nqx2 = 2
+  nqx3 = 2
+  ecutfock = 180.0
+  exxdiv_treatment = 'gygi-baldereschi'
+  x_gamma_extrapolation = .true.
+  starting_magnetization(1) = -0.2143
+  starting_magnetization(2) = 0.2143
+  starting_magnetization(3) = 0.0000
+  starting_magnetization(4) = 0.0000
+/
+&ELECTRONS
+  conv_thr = 1.4d-07
+  mixing_beta = 0.3
+  electron_maxstep = 200
+  mixing_mode = 'local-TF'
+/
+ATOMIC_SPECIES
+  Cr 51.9961 Cr.upf
+  Cr1 51.9961 Cr.upf
+  C 12.0110 C.upf
+  N 14.0070 N.upf
+CELL_PARAMETERS angstrom
+  0.0000000000 5.2435923490 5.2435923490
+  5.2435923490 0.0000000000 5.2435923490
+  5.2435923490 5.2435923490 0.0000000000
+ATOMIC_POSITIONS crystal
+  Cr 0.0000000000 0.0000000000 0.0000000000
+  Cr1 0.5000000000 0.5000000000 0.5000000000
+  C 0.6971035203 0.3028964797 0.3028964797
+  C 0.3028964797 0.6971035203 0.6971035203
+  C 0.3028964797 0.6971035203 0.3028964797
+  C 0.6971035203 0.3028964797 0.6971035203
+  C 0.3028964797 0.3028964797 0.6971035203
+  C 0.6971035203 0.6971035203 0.3028964797
+  N 0.8080852510 0.1919147490 0.1919147490
+  N 0.1919147490 0.8080852510 0.8080852510
+  N 0.1919147490 0.8080852510 0.1919147490
+  N 0.8080852510 0.1919147490 0.8080852510
+  N 0.1919147490 0.1919147490 0.8080852510
+  N 0.8080852510 0.8080852510 0.1919147490
+K_POINTS automatic
+  4 4 4 0 0 0

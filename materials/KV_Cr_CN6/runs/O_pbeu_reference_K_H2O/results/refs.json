@@ -1,0 +1,20 @@
+{
+ "K_bcc": {
+  "energy_eV": -817.8393593585871,
+  "per_atom_eV": -817.8393593585871,
+  "pressure_kbar": 0.03,
+  "bfgs_converged": true,
+  "volume_bohr3": 496.6705,
+  "a_A": 5.279999969850847,
+  "sec": 28.898383617401123,
+  "errors": []
+ },
+ "H2O": {
+  "energy_eV": -482.10522809960446,
+  "bfgs_converged": true,
+  "box_A": 14.0,
+  "sec": 452.94169783592224,
+  "errors": []
+ },
+ "done": true
+}

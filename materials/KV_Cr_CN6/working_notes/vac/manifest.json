@@ -1,0 +1,69 @@
+{
+ "jobs": [
+  {
+   "job": "lcm/pba/def/KVCr_VAC_r",
+   "id": "KVCr_VAC_r",
+   "parent": "lcm/pba/def/KVCr_VAC",
+   "material": "KVCr",
+   "defect": "VAC",
+   "fn": "run_cpu64",
+   "cmd": "ECUT=110 NB_EXTRA=40 SKIP_RELAX=1 SCF_MAXSEC=7200 NPOOL_MAX=16 python pba_defect.py KVCr_VAC_r.json",
+   "M_expected": -3.0,
+   "positions_from": "jobs/lcm/pba/def/KVCr_VAC/KVCr_VAC_relax.out",
+   "positions_blocks": 33,
+   "positions_n_scf": 33,
+   "max_disp_from_build_A": 1.03,
+   "results": [
+    "jobs/lcm/pba/def/KVCr_VAC_r/results/KVCr_VAC_r.json",
+    "jobs/lcm/pba/def/KVCr_VAC_r/results/KVCr_VAC_r_bands.npz"
+   ],
+   "est_wall_h": 0.8,
+   "call_id": "fc-01M41AA0620YQXGFYMT0ZYDQ1B",
+   "t_submit": "2026-10-03 09:42:10"
+  },
+  {
+   "job": "lcm/pba/def/KVMo_VAC_r",
+   "id": "KVMo_VAC_r",
+   "parent": "lcm/pba/def/KVMo_VAC",
+   "material": "KVMo",
+   "defect": "VAC",
+   "fn": "run_cpu64",
+   "cmd": "ECUT=110 NB_EXTRA=40 SKIP_RELAX=1 SCF_MAXSEC=7200 NPOOL_MAX=16 python pba_defect.py KVMo_VAC_r.json",
+   "M_expected": -3.0,
+   "positions_from": "jobs/lcm/pba/def/KVMo_VAC/KVMo_VAC_relax.out",
+   "positions_blocks": 55,
+   "positions_n_scf": 55,
+   "max_disp_from_build_A": 1.189,
+   "results": [
+    "jobs/lcm/pba/def/KVMo_VAC_r/results/KVMo_VAC_r.json",
+    "jobs/lcm/pba/def/KVMo_VAC_r/results/KVMo_VAC_r_bands.npz"
+   ],
+   "est_wall_h": 0.8,
+   "call_id": "fc-01M41AA1T9Z2PQ21W2DPCMRSMY",
+   "t_submit": "2026-10-03 09:42:12"
+  },
+  {
+   "job": "lcm/pba/def/KVCr_VAC_w1",
+   "id": "KVCr_VAC_w1",
+   "parent": "lcm/pba/def/KVCr_VAC_r",
+   "material": "KVCr",
+   "defect": "VAC",
+   "fn": "run_cpu64",
+   "cmd": "ECUT=110 NB_EXTRA=40 RELAX_MAXSEC=2700 SCF_MAXSEC=7200 NPOOL_MAX=16 python pba_defect.py KVCr_VAC_w1.json",
+   "M_expected": -3.0,
+   "positions_from": "inputs/KVCr_VAC_r.json + central zeolitic H2O (submit_vac_w.py)",
+   "results": [
+    "jobs/lcm/pba/def/KVCr_VAC_w1/results/KVCr_VAC_w1.json",
+    "jobs/lcm/pba/def/KVCr_VAC_w1/results/KVCr_VAC_w1_bands.npz"
+   ],
+   "est_wall_h": 2.0,
+   "call_id": "fc-01M41BZ9NAZ1WFTJAQ36VQSD88",
+   "t_submit": "2026-10-03 10:11:16"
+  }
+ ],
+ "lane": "Track L (session 66190d), PBA vacancy + building-block lability (tracks/lcm/pba/vac/)",
+ "job_script": {
+  "pba_defect.py": "79e8f16383834559c49aa03e86e8636b"
+ },
+ "updated": "2026-10-03 10:11"
+}

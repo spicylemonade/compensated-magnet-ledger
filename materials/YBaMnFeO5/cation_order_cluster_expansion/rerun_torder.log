@@ -1,0 +1,11 @@
+/private/var/folders/b6/hcw2g69d26178fy5nmcf62g80000gn/T/tmp.KEKy4rgL6A/mc_ce.py:164: RuntimeWarning: invalid value encountered in scalar divide
+  rec[f"U4_{name}"] = float(1 - np.mean(eta[:, i] ** 4) / (3 * np.mean(eta[:, i] ** 2) ** 2))
+CE E_PM_best_bw_bayes ip1+ap+Y+ip2+apd+Yd+ip3+c2 CV 39.0 meV/fu {'ip1': 14.06, 'ap': 23.12, 'Y': 24.31, 'ip2': 4.28, 'apd': -7.2, 'Yd': 2.44, 'ip3': -3.02, 'c2': 1.85}
+ground-state ordering vector q = (1.0, 1.0, 1.0) eta = 1.0 E = -114.0 meV/fu, SRO {'ip1': -1.0, 'ap': -1.0, 'Y': -1.0, 'ip2': 1.0, 'apd': 1.0, 'Yd': 1.0, 'ip3': 1.0, 'c2': 1.0, 'ip4': -1.0}
+coarse C-peak (L=8): 900 K
+L=8 C-peak 915 K (C=5.68)
+L=12 C-peak 965 K (C=4.46)
+L=16 C-peak 915 K (C=4.31)
+T_order(C peak, L=16) = 915 K; bootstrap (L=8 x fs 1.000): 867 +- 330 K (16-84%: 596-1140)
+re-run  T_peak by L: {'8': 915.0, '12': 965.0, '16': 915.0}  T_order(L=16) = 915.0 K
+recorded T_peak by L: {'8': 915.0, '12': 965.0, '16': 915.0}  T_order(L=16) = 915.0 K

@@ -1,0 +1,16 @@
+# PseudoDojo v0.4, PBE, scalar-relativistic, "standard" accuracy, norm-conserving, UPF format
+# Source tarball: https://www.pseudo-dojo.org/pseudos/nc-sr-04_pbe_standard_upf.tgz
+# md5 of each file exactly as used in the original runs (read back from the campaign's storage volume)
+# element  file    md5                               z_valence
+K   K.upf    0aa97b2c023445f040759afc9fdb6c80   9
+V   V.upf    40fb93c06b4f9d8c28c5ccd071294a04   13
+Cr  Cr.upf   41892f80c335c8b1e803fd21ab4016b0   14
+Mo  Mo.upf   7ca7a9feba7bf08d88d14bc7fbf60c1e   14
+C   C.upf    34a24e64c0a39f27c6c36b90a16ac686   4
+N   N.upf    d34365f73bb0e2ee98afc20ec3e87676   5
+H   H.upf    e96aa7e3e4a958db16958554ea960e2a   1
+O   O.upf    3e3f909f7470e8921608ab6b1f57bbae   6
+Ba  Ba.upf   d1993ebf099ea5c29fdb9ecc5bd2bc91   10
+Y   Y.upf    28b7a77fe5d3539441de961898735449   11
+Mn  Mn.upf   ae71e1481ef25a952ba54bed1e0db183   15
+Fe  Fe.upf   a5f07f5dca5be6cacb81ceb54992e4ae   16

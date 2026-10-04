@@ -1,0 +1,10 @@
+{
+ "job": "lcm/s1/YBMFO_antisite_pristine",
+ "state": "done",
+ "cmd": "python lcm_stage1.py YBMFO_antisite_pristine.json",
+ "ncores": 64,
+ "start": 1790922179.5223763,
+ "rc": 0,
+ "end": 1790924610.869254,
+ "hours": 0.6753741327259276
+}

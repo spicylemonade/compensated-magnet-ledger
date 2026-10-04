@@ -1,0 +1,10 @@
+{
+ "job": "lcm/h110/YBMFO_P4n",
+ "state": "done",
+ "cmd": "python lcm_hull110.py hull_YBMFO_P4n.json cfg_YBMFO_P4n.json 110",
+ "ncores": 32,
+ "start": 1790923164.9321146,
+ "rc": 0,
+ "end": 1790925738.465029,
+ "hours": 0.714870254000028
+}

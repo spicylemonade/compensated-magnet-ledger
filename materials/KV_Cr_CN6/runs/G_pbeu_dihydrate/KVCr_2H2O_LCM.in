@@ -1,0 +1,74 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'KVCr_2H2O_LCM'
+  outdir = '/tmp/scratch/KVCr_2H2O_LCM'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .false.
+  tprnfor = .false.
+  disk_io = 'low'
+  verbosity = 'high'
+  max_seconds = 10800.0
+/
+&SYSTEM
+  ibrav = 0
+  nat = 21
+  ntyp = 7
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+  nspin = 2
+  starting_magnetization(1) = 0.0000
+  starting_magnetization(2) = -0.2308
+  starting_magnetization(3) = 0.2143
+  starting_magnetization(4) = 0.0000
+  starting_magnetization(5) = 0.0000
+  starting_magnetization(6) = 0.0000
+  starting_magnetization(7) = 0.0000
+/
+&ELECTRONS
+  conv_thr = 2.1d-06
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+ATOMIC_SPECIES
+  K 39.0983 K.upf
+  V 50.9415 V.upf
+  Cr 51.9961 Cr.upf
+  C 12.0110 C.upf
+  N 14.0070 N.upf
+  O 15.9990 O.upf
+  H 1.0080 H.upf
+CELL_PARAMETERS angstrom
+  7.6285695080 0.0821873540 0.0669329120
+  3.8849698680 6.5406943340 0.0488836300
+  3.8921769680 2.2227366870 6.3386484870
+ATOMIC_POSITIONS crystal
+  K 0.2536467546 0.2536861026 0.2463421239
+  V 0.0022503973 0.0022048411 0.9977613958
+  Cr 0.5031603899 0.5031702140 0.4968346696
+  C 0.6909288605 0.3144378155 0.3003583453
+  C 0.3144551881 0.6909182764 0.6943057336
+  C 0.3027795041 0.7011298048 0.3113864998
+  C 0.7011187955 0.3027866481 0.6847009477
+  C 0.3098041475 0.3098182017 0.6901821630
+  C 0.6959395572 0.6959333710 0.3040582386
+  N 0.7961266290 0.2083137272 0.1890503905
+  N 0.2082793022 0.7961350839 0.8065210198
+  N 0.1912966718 0.8075369127 0.2061184256
+  N 0.8075186613 0.1913122160 0.7950445423
+  N 0.2013065788 0.2013007170 0.7986959975
+  N 0.8043785155 0.8044019921 0.1956171473
+  O 0.6415423451 0.8351104510 0.9098425152
+  H 0.7196051058 0.9311932606 0.8520040154
+  H 0.6085640752 0.8595280064 0.7925833662
+  O 0.8351526892 0.6415560416 0.6134607696
+  H 0.9312241437 0.7196557306 0.4971666958
+  H 0.8595827577 0.6085316555 0.7393039272
+K_POINTS automatic
+  3 3 3 0 0 0
+HUBBARD ortho-atomic
+  U V-3d 3.0
+  U Cr-3d 3.0

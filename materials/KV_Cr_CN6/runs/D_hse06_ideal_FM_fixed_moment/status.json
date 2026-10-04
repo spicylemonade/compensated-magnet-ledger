@@ -1,0 +1,10 @@
+{
+ "job": "lcm/pba/hse/KVCr_hse_FMfix",
+ "state": "done",
+ "cmd": "python pba_fmfix.py KVCr_hse_FMfix.json",
+ "ncores": 64,
+ "start": 1791026975.4074812,
+ "rc": 0,
+ "end": 1791030588.1496236,
+ "hours": 1.0035394840108023
+}

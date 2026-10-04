@@ -1,0 +1,50 @@
+Traceback (most recent call last):
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/pba/s1/KVCr_2H2O/lcm_stage1.py", line 205, in <module>
+    o = run_one(c)
+        ^^^^^^^^^^
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/pba/s1/KVCr_2H2O/lcm_stage1.py", line 136, in run_one
+    r = run_pw(f"{pref}.in", ncores=NC, npool=NPOOL,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jobs/lcm/pba/s1/KVCr_2H2O/lib/qeutil.py", line 194, in run_pw
+    r = subprocess.run(cmd, shell=True, timeout=timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2141, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/pba/s1/KVCr_2H2O/lcm_stage1.py", line 205, in <module>
+    o = run_one(c)
+        ^^^^^^^^^^
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/pba/s1/KVCr_2H2O/lcm_stage1.py", line 136, in run_one
+    r = run_pw(f"{pref}.in", ncores=NC, npool=NPOOL,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jobs/lcm/pba/s1/KVCr_2H2O/lib/qeutil.py", line 194, in run_pw
+    r = subprocess.run(cmd, shell=True, timeout=timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2141, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+KVCr_2H2O KVCr(CN)6.2H2O FM dE=0.0 M=6.0 gap=1.57 winVB=1.08 winCB=1.24 flip=0 col=0
+KVCr_2H2O KVCr(CN)6.2H2O LCM dE=-127.7 M=0.0 gap=2.24 winVB=0.93 winCB=0.92 flip=0 col=0

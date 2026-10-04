@@ -1,0 +1,37 @@
+{
+ "model": "tracks/lcm/jfit110/mc_clean_Mle10.5_10.json",
+ "S": 2.5,
+ "path": [
+  "G",
+  "X",
+  "M",
+  "G",
+  "Z",
+  "R",
+  "A",
+  "Z"
+ ],
+ "max_split_path_meV": 1.0673938374454224,
+ "max_split_BZ_meV": 1.0673938374454224,
+ "mean_split_BZ_meV": 0.5351003435373538,
+ "bandwidth_meV": 69.60420926883046,
+ "gamma_modes_meV": [
+  [
+   2.437687062592045e-06,
+   "alpha"
+  ],
+  [
+   64.4405751390941,
+   "alpha"
+  ],
+  [
+   1.4030064533600078e-06,
+   "beta"
+  ],
+  [
+   65.50796897653952,
+   "beta"
+  ]
+ ],
+ "note": "isotropic exchange only; easy-plane anisotropy (0.34 meV/ion) would gap/split the Gamma modes further"
+}

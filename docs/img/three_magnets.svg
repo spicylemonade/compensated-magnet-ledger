@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 344" width="920" height="344"><style>
+.f-text{font:13px/1.2 -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
+.f-title{font:700 16px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
+.f-sub,.f-small{font:12px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#5a6170}
+.f-strong{font-weight:700}.f-strong-t{font:700 13px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
+.f-atom{font:600 11px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
+.s-up{stroke:#b07a00}.s-up-fill{fill:#b07a00}.s-dn{stroke:#23508e}.s-dn-fill{fill:#23508e}
+.f-stroke3{stroke-width:3;stroke-linecap:round}.f-stroke2{stroke-width:1.5}
+.atom-n{fill:#eceff3;stroke:#8a909c;stroke-width:1.2}.atom-up{fill:#f3e6c6;stroke:#b07a00;stroke-width:1.2}.atom-dn{fill:#d9e3f2;stroke:#23508e;stroke-width:1.2}
+.vb-up{fill:#b07a00;fill-opacity:.35;stroke:#b07a00;stroke-width:1.2}.cb-up{fill:#b07a00;fill-opacity:.07;stroke:#b07a00;stroke-width:1.2;stroke-dasharray:3 3}
+.vb-dn{fill:#23508e;fill-opacity:.35;stroke:#23508e;stroke-width:1.2}.cb-dn{fill:#23508e;fill-opacity:.07;stroke:#23508e;stroke-width:1.2;stroke-dasharray:3 3}
+.f-axis{stroke:#8a909c;stroke-width:1}.f-guide{stroke:#8a909c;stroke-width:1;stroke-dasharray:4 4}
+.f-ink{stroke:#161a22}.f-ink-fill{fill:#161a22}
+.bar-a{fill:#161a22;fill-opacity:.78}.bar-b{fill:#161a22;fill-opacity:.22;stroke:#161a22;stroke-width:1}.bar-m{fill:#5a6170;fill-opacity:.45}
+</style><rect x="0" y="0" width="100%" height="100%" rx="10" fill="#ffffff"/><g transform="translate(0,0)"><text x="150.0" y="24.0" class="f-title" text-anchor="middle">Ferromagnet</text>
+<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">the fridge-magnet kind</text>
+<line x1="50" y1="106" x2="50" y2="74" class="s-up f-stroke3"/><polygon points="44,77 56,77 50,64" class="s-up-fill"/>
+<circle cx="50" cy="128" r="14" class="atom-n"/>
+<text x="50.0" y="132.0" class="f-atom" text-anchor="middle">Fe</text>
+<line x1="90" y1="106" x2="90" y2="74" class="s-up f-stroke3"/><polygon points="84,77 96,77 90,64" class="s-up-fill"/>
+<circle cx="90" cy="128" r="14" class="atom-n"/>
+<text x="90.0" y="132.0" class="f-atom" text-anchor="middle">Fe</text>
+<line x1="130" y1="106" x2="130" y2="74" class="s-up f-stroke3"/><polygon points="124,77 136,77 130,64" class="s-up-fill"/>
+<circle cx="130" cy="128" r="14" class="atom-n"/>
+<text x="130.0" y="132.0" class="f-atom" text-anchor="middle">Fe</text>
+<line x1="170" y1="106" x2="170" y2="74" class="s-up f-stroke3"/><polygon points="164,77 176,77 170,64" class="s-up-fill"/>
+<circle cx="170" cy="128" r="14" class="atom-n"/>
+<text x="170.0" y="132.0" class="f-atom" text-anchor="middle">Fe</text>
+<line x1="210" y1="106" x2="210" y2="74" class="s-up f-stroke3"/><polygon points="204,77 216,77 210,64" class="s-up-fill"/>
+<circle cx="210" cy="128" r="14" class="atom-n"/>
+<text x="210.0" y="132.0" class="f-atom" text-anchor="middle">Fe</text>
+<line x1="250" y1="106" x2="250" y2="74" class="s-up f-stroke3"/><polygon points="244,77 256,77 250,64" class="s-up-fill"/>
+<circle cx="250" cy="128" r="14" class="atom-n"/>
+<text x="250.0" y="132.0" class="f-atom" text-anchor="middle">Fe</text>
+<text x="150.0" y="176.0" class="f-text" text-anchor="middle">Net magnetism: <tspan class="f-strong">large</tspan></text>
+<rect x="100" y="272" width="34" height="24" class="vb-up"/>
+<rect x="100" y="206" width="34" height="16" class="cb-up"/>
+<text x="117.0" y="312.0" class="f-small" text-anchor="middle">spin ↑</text>
+<rect x="166" y="254" width="34" height="42" class="vb-dn"/>
+<rect x="166" y="206" width="34" height="32" class="cb-dn"/>
+<text x="183.0" y="312.0" class="f-small" text-anchor="middle">spin ↓</text>
+<text x="92.0" y="226.0" class="f-small" text-anchor="end">empty</text>
+<text x="92.0" y="288.0" class="f-small" text-anchor="end">filled</text>
+<text x="150.0" y="334.0" class="f-text" text-anchor="middle">Electrons sorted by spin: <tspan class="f-strong">yes</tspan></text></g><g transform="translate(310,0)"><text x="150.0" y="24.0" class="f-title" text-anchor="middle">Antiferromagnet</text>
+<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">one element, cancels out</text>
+<line x1="50" y1="106" x2="50" y2="74" class="s-up f-stroke3"/><polygon points="44,77 56,77 50,64" class="s-up-fill"/>
+<circle cx="50" cy="128" r="14" class="atom-n"/>
+<text x="50.0" y="132.0" class="f-atom" text-anchor="middle">Mn</text>
+<line x1="90" y1="64" x2="90" y2="96" class="s-dn f-stroke3"/><polygon points="84,93 96,93 90,106" class="s-dn-fill"/>
+<circle cx="90" cy="128" r="14" class="atom-n"/>
+<text x="90.0" y="132.0" class="f-atom" text-anchor="middle">Mn</text>
+<line x1="130" y1="106" x2="130" y2="74" class="s-up f-stroke3"/><polygon points="124,77 136,77 130,64" class="s-up-fill"/>
+<circle cx="130" cy="128" r="14" class="atom-n"/>
+<text x="130.0" y="132.0" class="f-atom" text-anchor="middle">Mn</text>
+<line x1="170" y1="64" x2="170" y2="96" class="s-dn f-stroke3"/><polygon points="164,93 176,93 170,106" class="s-dn-fill"/>
+<circle cx="170" cy="128" r="14" class="atom-n"/>
+<text x="170.0" y="132.0" class="f-atom" text-anchor="middle">Mn</text>
+<line x1="210" y1="106" x2="210" y2="74" class="s-up f-stroke3"/><polygon points="204,77 216,77 210,64" class="s-up-fill"/>
+<circle cx="210" cy="128" r="14" class="atom-n"/>
+<text x="210.0" y="132.0" class="f-atom" text-anchor="middle">Mn</text>
+<line x1="250" y1="64" x2="250" y2="96" class="s-dn f-stroke3"/><polygon points="244,93 256,93 250,106" class="s-dn-fill"/>
+<circle cx="250" cy="128" r="14" class="atom-n"/>
+<text x="250.0" y="132.0" class="f-atom" text-anchor="middle">Mn</text>
+<text x="150.0" y="176.0" class="f-text" text-anchor="middle">Net magnetism: <tspan class="f-strong">zero</tspan></text>
+<rect x="100" y="262" width="34" height="34" class="vb-up"/>
+<rect x="100" y="206" width="34" height="34" class="cb-up"/>
+<text x="117.0" y="312.0" class="f-small" text-anchor="middle">spin ↑</text>
+<rect x="166" y="262" width="34" height="34" class="vb-dn"/>
+<rect x="166" y="206" width="34" height="34" class="cb-dn"/>
+<text x="183.0" y="312.0" class="f-small" text-anchor="middle">spin ↓</text>
+<text x="92.0" y="226.0" class="f-small" text-anchor="end">empty</text>
+<text x="92.0" y="288.0" class="f-small" text-anchor="end">filled</text>
+<text x="150.0" y="334.0" class="f-text" text-anchor="middle">Electrons sorted by spin: <tspan class="f-strong">no</tspan></text></g><g transform="translate(620,0)"><text x="150.0" y="24.0" class="f-title" text-anchor="middle">Luttinger-compensated</text>
+<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">two elements, cancels out</text>
+<line x1="50" y1="106" x2="50" y2="74" class="s-up f-stroke3"/><polygon points="44,77 56,77 50,64" class="s-up-fill"/>
+<circle cx="50" cy="128" r="14" class="atom-up"/>
+<text x="50.0" y="132.0" class="f-atom" text-anchor="middle">Cr</text>
+<line x1="90" y1="64" x2="90" y2="96" class="s-dn f-stroke3"/><polygon points="84,93 96,93 90,106" class="s-dn-fill"/>
+<circle cx="90" cy="128" r="14" class="atom-dn"/>
+<text x="90.0" y="132.0" class="f-atom" text-anchor="middle">V</text>
+<line x1="130" y1="106" x2="130" y2="74" class="s-up f-stroke3"/><polygon points="124,77 136,77 130,64" class="s-up-fill"/>
+<circle cx="130" cy="128" r="14" class="atom-up"/>
+<text x="130.0" y="132.0" class="f-atom" text-anchor="middle">Cr</text>
+<line x1="170" y1="64" x2="170" y2="96" class="s-dn f-stroke3"/><polygon points="164,93 176,93 170,106" class="s-dn-fill"/>
+<circle cx="170" cy="128" r="14" class="atom-dn"/>
+<text x="170.0" y="132.0" class="f-atom" text-anchor="middle">V</text>
+<line x1="210" y1="106" x2="210" y2="74" class="s-up f-stroke3"/><polygon points="204,77 216,77 210,64" class="s-up-fill"/>
+<circle cx="210" cy="128" r="14" class="atom-up"/>
+<text x="210.0" y="132.0" class="f-atom" text-anchor="middle">Cr</text>
+<line x1="250" y1="64" x2="250" y2="96" class="s-dn f-stroke3"/><polygon points="244,93 256,93 250,106" class="s-dn-fill"/>
+<circle cx="250" cy="128" r="14" class="atom-dn"/>
+<text x="250.0" y="132.0" class="f-atom" text-anchor="middle">V</text>
+<text x="150.0" y="176.0" class="f-text" text-anchor="middle">Net magnetism: <tspan class="f-strong">zero</tspan></text>
+<rect x="100" y="272" width="34" height="24" class="vb-up"/>
+<rect x="100" y="206" width="34" height="16" class="cb-up"/>
+<text x="117.0" y="312.0" class="f-small" text-anchor="middle">spin ↑</text>
+<rect x="166" y="254" width="34" height="42" class="vb-dn"/>
+<rect x="166" y="206" width="34" height="32" class="cb-dn"/>
+<text x="183.0" y="312.0" class="f-small" text-anchor="middle">spin ↓</text>
+<text x="92.0" y="226.0" class="f-small" text-anchor="end">empty</text>
+<text x="92.0" y="288.0" class="f-small" text-anchor="end">filled</text>
+<text x="150.0" y="334.0" class="f-text" text-anchor="middle">Electrons sorted by spin: <tspan class="f-strong">yes</tspan></text></g></svg>

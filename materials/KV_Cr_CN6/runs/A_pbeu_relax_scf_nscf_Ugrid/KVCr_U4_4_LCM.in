@@ -1,0 +1,64 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'KVCr_U4_4_LCM'
+  outdir = '/tmp/scratch/KVCr_U4_4_LCM'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .false.
+  tprnfor = .false.
+  disk_io = 'low'
+  verbosity = 'high'
+  max_seconds = 7200.0
+/
+&SYSTEM
+  ibrav = 0
+  nat = 15
+  ntyp = 5
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+  nspin = 2
+  starting_magnetization(1) = 0.0000
+  starting_magnetization(2) = -0.2308
+  starting_magnetization(3) = 0.2143
+  starting_magnetization(4) = 0.0000
+  starting_magnetization(5) = 0.0000
+/
+&ELECTRONS
+  conv_thr = 1.5d-06
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+ATOMIC_SPECIES
+  K 39.0983 K.upf
+  V 50.9415 V.upf
+  Cr 51.9961 Cr.upf
+  C 12.0110 C.upf
+  N 14.0070 N.upf
+CELL_PARAMETERS angstrom
+  0.0000000000 5.3399591550 5.3399591550
+  5.3399591550 0.0000000000 5.3399591550
+  5.3399591550 5.3399591550 0.0000000000
+ATOMIC_POSITIONS crystal
+  K 0.2500000000 0.2500000000 0.2500000000
+  V 0.0000000000 0.0000000000 0.0000000000
+  Cr 0.5000000000 0.5000000000 0.5000000000
+  C 0.6928391408 0.3071608592 0.3071608592
+  C 0.3071608592 0.6928391408 0.6928391408
+  C 0.3071608592 0.6928391408 0.3071608592
+  C 0.6928391408 0.3071608592 0.6928391408
+  C 0.3071608592 0.3071608592 0.6928391408
+  C 0.6928391408 0.6928391408 0.3071608592
+  N 0.8022412175 0.1977587825 0.1977587825
+  N 0.1977587825 0.8022412175 0.8022412175
+  N 0.1977587825 0.8022412175 0.1977587825
+  N 0.8022412175 0.1977587825 0.8022412175
+  N 0.1977587825 0.1977587825 0.8022412175
+  N 0.8022412175 0.8022412175 0.1977587825
+K_POINTS automatic
+  5 5 5 0 0 0
+HUBBARD ortho-atomic
+  U V-3d 4.0
+  U Cr-3d 4.0

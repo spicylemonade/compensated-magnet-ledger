@@ -1,0 +1,7 @@
+# Level 1 (tools/verify.py) needs only numpy.
+numpy>=1.24
+# Level 2 (exchange fit + Monte Carlo; cluster-expansion Monte Carlo)
+pymatgen>=2024.1
+numba>=0.58
+# Optional: one-command cloud re-runs (reproduce/modal_repro.py)
+# modal>=1.0

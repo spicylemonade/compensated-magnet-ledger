@@ -1,0 +1,18 @@
+25 unique configurations from raw outputs
+re-fitted J (meV, unit spins, E = E0 - sum J s_i.s_j):
+   ip               -32.61    recorded   -32.61
+   ap               -53.67    recorded   -53.67
+   Y                -12.85    recorded   -12.85
+   MnMn_oop_5.4      -1.17    recorded    -1.17
+   FeFe_oop_5.5      -1.01    recorded    -1.01
+   FeFe_oop_5.6      -1.77    recorded    -1.77
+   FeFe_ip_5.7       -3.25    recorded    -3.25
+   MnMn_ip_5.7       -3.25    recorded    -3.25
+   MnMn_oop_5.7      -1.94    recorded    -1.94
+   FeMn_6.8          -0.22    recorded    -0.22
+   rms 2.26 meV/cell (recorded 2.26); LOO 7.97 (recorded 7.97); 22 configs
+mean-field T = 669 K; Monte Carlo 330-480 K, 12000 sweeps
+Binder crossing L=6/8: [409, 416, 425]
+Binder crossing L=8/10: [417, 439, 441, 465]
+Binder crossing L=6/10: [417]
+T_N (classical MC, raw) = 414 +- 4 K   (recorded 417 +- 10 K)

@@ -1,0 +1,208 @@
+{
+ "offsets": {
+  "A": [
+   -6.3005175685248105,
+   37.704481334039045,
+   5
+  ],
+  "B": [
+   4.836313692067051,
+   0.0,
+   1
+  ],
+  "C": [
+   30.193380021955818,
+   3.3086324528994737,
+   2
+  ],
+  "F": [
+   7.312277726668981,
+   0.0,
+   1
+  ]
+ },
+ "arr": {
+  "YBCFO_BPR_F": {
+   "cell": "F",
+   "E_relax": -12699.257416912396,
+   "E_prot": -12700.038602715302,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.004091,
+   "ct_r0": null,
+   "rel_relax": -11.843771659187041,
+   "rel_prot": -19.156049385856022,
+   "rel_relax_corr": -19.156049385856022
+  },
+  "YBCFO_COL_A": {
+   "cell": "A",
+   "E_relax": -12698.81288622369,
+   "E_prot": -12699.605671220124,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.003231,
+   "ct_r0": null,
+   "rel_relax": 432.68691704724915,
+   "rel_prot": 413.77544579154346,
+   "rel_relax_corr": 438.98743461577396
+  },
+  "YBCFO_LAYY_A": {
+   "cell": "A",
+   "E_relax": -12698.71647852232,
+   "E_prot": -12699.51571748133,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.005942,
+   "ct_r0": null,
+   "rel_relax": 529.0946184177301,
+   "rel_prot": 503.7291845856089,
+   "rel_relax_corr": 535.3951359862549
+  },
+  "YBCFO_LAY_A": {
+   "cell": "A",
+   "E_relax": -12699.338923172903,
+   "E_prot": -12700.113076363104,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.005212,
+   "ct_r0": null,
+   "rel_relax": -93.35003216619953,
+   "rel_prot": -93.62969718858949,
+   "rel_relax_corr": -87.04951459767472
+  },
+  "YBCFO_LAYap_A": {
+   "cell": "A",
+   "E_relax": -12699.338211053322,
+   "E_prot": -12700.120086392755,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.003245,
+   "ct_r0": null,
+   "rel_relax": -92.63791258490528,
+   "rel_prot": -100.63972683929023,
+   "rel_relax_corr": -86.33739501638047
+  },
+  "YBCFO_MIX_A": {
+   "cell": "A",
+   "E_relax": -12699.156079751052,
+   "E_prot": -12699.850624976349,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.004566,
+   "ct_r0": null,
+   "rel_relax": 89.4933896852308,
+   "rel_prot": 168.82168956726673,
+   "rel_relax_corr": 95.7939072537556
+  },
+  "YBCFO_MIX_C": {
+   "cell": "C",
+   "E_relax": -12699.148842582248,
+   "E_prot": -12699.956218119902,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.005283,
+   "ct_r0": null,
+   "rel_relax": 96.73055848907097,
+   "rel_prot": 63.22854601421568,
+   "rel_relax_corr": 66.53717846711515
+  },
+  "YBCFO_MIXap_A": {
+   "cell": "A",
+   "E_relax": -12699.289840351721,
+   "E_prot": -12700.06504325516,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.004497,
+   "ct_r0": null,
+   "rel_relax": -44.26721098388953,
+   "rel_prot": -45.59658924335963,
+   "rel_relax_corr": -37.966693415364716
+  },
+  "YBCFO_RSYap_A": {
+   "cell": "A",
+   "E_relax": -12698.824933200101,
+   "E_prot": null,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.004767,
+   "ct_r0": null,
+   "rel_relax": 420.63994063573773,
+   "rel_prot": null,
+   "rel_relax_corr": 426.94045820426254
+  },
+  "YBCFO_RS_A": {
+   "cell": "A",
+   "E_relax": -12699.245573140737,
+   "E_prot": -12700.019446665916,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.005792,
+   "ct_r0": null,
+   "rel_relax": 0.0,
+   "rel_prot": 0.0,
+   "rel_relax_corr": 6.3005175685248105
+  },
+  "YBCFO_RSapY_A": {
+   "cell": "A",
+   "E_relax": -12699.241803621668,
+   "E_prot": -12700.019225953798,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.005587,
+   "ct_r0": null,
+   "rel_relax": 3.7695190694648772,
+   "rel_prot": 0.22071211787988432,
+   "rel_relax_corr": 10.070036637989688
+  },
+  "YBCFO_STRd_B": {
+   "cell": "B",
+   "E_relax": -12699.280316656574,
+   "E_prot": -12700.059026495444,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.005183,
+   "ct_r0": null,
+   "rel_relax": -34.7435158364533,
+   "rel_prot": -39.57982952852035,
+   "rel_relax_corr": -39.57982952852035
+  },
+  "YBCFO_STRp_C": {
+   "cell": "C",
+   "E_relax": -12699.196953143464,
+   "E_prot": -12699.997711416212,
+   "relaxed": true,
+   "bfgs": true,
+   "F": 0.003739,
+   "ct_r0": null,
+   "rel_relax": 48.61999727290822,
+   "rel_prot": 21.735249703851878,
+   "rel_relax_corr": 18.426617250952404
+  },
+  "YBCFO_SQS_D": {
+   "cell": "D",
+   "E_relax": -12699.119737414087,
+   "E_prot": null,
+   "relaxed": false,
+   "bfgs": false,
+   "F": 0.023368,
+   "nsteps_current_run": 9,
+   "E_first_last_meV_fu": 34.28313232496365,
+   "rel_relax": 125.83572665062093,
+   "rel_prot": null,
+   "rel_relax_corr": null
+  },
+  "YBCFO_CHKmix_A": {
+   "cell": "A",
+   "E_relax": -12699.039403748677,
+   "E_prot": null,
+   "relaxed": false,
+   "bfgs": false,
+   "F": 0.011178,
+   "nsteps_current_run": 20,
+   "E_first_last_meV_fu": -0.24422219194655287,
+   "rel_relax": 206.1693920604739,
+   "rel_prot": null,
+   "rel_relax_corr": 212.46990962899872
+  }
+ }
+}

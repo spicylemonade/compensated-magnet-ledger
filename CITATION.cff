@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these data or scripts, please cite the repository and the original experimental work on KV[Cr(CN)6]."
+title: "Two magnets that add up to zero: a computational ledger for YBaMnFeO5 and KV[Cr(CN)6]"
+type: dataset
+date-released: 2026-10-04
+license: CC-BY-4.0
+authors:
+  - name: "compensated-magnet-ledger contributors (computations by Claude agents, Anthropic)"
+keywords:
+  - Luttinger-compensated magnet
+  - fully compensated ferrimagnet
+  - Prussian blue analogue
+  - density functional theory
+  - Quantum ESPRESSO
+  - spintronics
+references:
+  - type: article
+    title: "Sol-Gel Synthesis of KV(II)[Cr(III)(CN)6]·2H2O: A Crystalline Molecule-Based Magnet with a Magnetic Ordering Temperature above 100 °C"
+    authors:
+      - family-names: Holmes
+        given-names: Stephen M.
+      - family-names: Girolami
+        given-names: Gregory S.
+    journal: "Journal of the American Chemical Society"
+    volume: 121
+    start: 5593
+    year: 1999

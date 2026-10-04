@@ -1,0 +1,25 @@
+{
+ "case": "kvcr_pbeu_sssp",
+ "md5_check": [
+  "C.pbe-n-kjpaw_psl.1.0.0.UPF ok 5d2aebdfa2cae82b50a7e79e9516da0f",
+  "cr_pbe_v1.5.uspp.F.UPF ok 0d52af634a40206e4dee301ad30da4bf",
+  "K.pbe-spn-kjpaw_psl.1.0.0.UPF ok 7d58810084cac21f60fbe77ea2b688fd",
+  "N.pbe-n-radius_5.UPF ok 16739722b17309cd8fe442a2ace49922",
+  "v_pbe_v1.4.uspp.F.UPF ok 22b79981416ebb76fdaf5b1b8640f6fb",
+  "SSSP efficiency 1.3: {'files': {'C': 'C.pbe-n-kjpaw_psl.1.0.0.UPF', 'N': 'N.pbe-n-radius_5.UPF', 'Cr': 'cr_pbe_v1.5.uspp.F.UPF', 'K': 'K.pbe-spn-kjpaw_psl.1.0.0.UPF', 'V': 'v_pbe_v1.4.uspp.F.UPF'}, 'ecutwfc': 60.0, 'ecutrho': 480.0}"
+ ],
+ "total_seconds": 213.1,
+ "pw_version": "v.7.5",
+ "runs": [
+  {
+   "input": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_LCM.in",
+   "rc": 0,
+   "seconds": 105.3
+  },
+  {
+   "input": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_LCM_nscf.in",
+   "rc": 0,
+   "seconds": 72.3
+  }
+ ]
+}

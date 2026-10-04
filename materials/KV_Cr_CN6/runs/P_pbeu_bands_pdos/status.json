@@ -1,0 +1,10 @@
+{
+ "job": "lcm/ms/bands_pdos/KVCr",
+ "state": "done",
+ "cmd": "NPOOL=8 NPOOL_NSCF=16 NPOOL_PROJ=8 python bands_pdos.py KVCr.json",
+ "ncores": 32,
+ "start": 1791100755.8610568,
+ "rc": 0,
+ "end": 1791102584.3406744,
+ "hours": 0.5079110048876868
+}

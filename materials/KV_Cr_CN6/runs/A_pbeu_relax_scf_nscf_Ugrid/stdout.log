@@ -1,0 +1,14 @@
+KVCr KVCr(CN)6 FM dE=0.0 M=6.0 gap=1.38 winVB=2.74 winCB=1.47 flip=0 col=0
+KVCr KVCr(CN)6 LCM dE=-152.2 M=-0.0 gap=2.01 winVB=2.02 winCB=1.15 flip=0 col=0
+[chain KVCr] stage1 base: rc=0 1867s
+[chain KVCr] symmetrized (relaxed): a=10.6799 xN=0.19776 xC=0.30716 bonds={'M_N-N': np.float64(2.112), 'C-N': np.float64(1.168), 'M_C-C': np.float64(2.06)} max_dev=1.53e-15 A
+KVCr_U2_2 KVCr(CN)6 FM dE=0.0 M=6.0 gap=0.77 winVB=3.09 winCB=1.70 flip=0 col=0
+KVCr_U2_2 KVCr(CN)6 LCM dE=-196.6 M=0.0 gap=1.50 winVB=1.95 winCB=1.41 flip=0 col=0
+KVCr_U2_4 KVCr(CN)6 FM dE=0.0 M=6.0 gap=1.16 winVB=3.09 winCB=1.31 flip=0 col=0
+KVCr_U2_4 KVCr(CN)6 LCM dE=-159.8 M=0.0 gap=1.92 winVB=2.63 winCB=0.91 flip=0 col=0
+KVCr_U4_2 KVCr(CN)6 FM dE=0.0 M=6.0 gap=1.56 winVB=2.37 winCB=1.68 flip=0 col=0
+KVCr_U4_2 KVCr(CN)6 LCM dE=-145.7 M=-0.0 gap=2.10 winVB=1.39 winCB=1.40 flip=0 col=0
+KVCr_U4_4 KVCr(CN)6 FM dE=0.0 M=6.0 gap=1.97 winVB=2.37 winCB=1.26 flip=0 col=0
+KVCr_U4_4 KVCr(CN)6 LCM dE=-121.9 M=0.0 gap=2.55 winVB=2.00 winCB=0.87 flip=0 col=0
+[chain KVCr] stage1 grid: rc=0 2760s
+[chain KVCr] done

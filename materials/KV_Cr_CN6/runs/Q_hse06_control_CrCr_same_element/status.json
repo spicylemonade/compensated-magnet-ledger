@@ -1,0 +1,10 @@
+{
+ "job": "lcm/pba/hse/CrCr_hse_LCM",
+ "state": "done",
+ "cmd": "python lcm_deep.py CrCr_hse_LCM.json hse",
+ "ncores": 64,
+ "start": 1791026086.4046953,
+ "rc": 0,
+ "end": 1791028695.338922,
+ "hours": 0.7247039518753687
+}

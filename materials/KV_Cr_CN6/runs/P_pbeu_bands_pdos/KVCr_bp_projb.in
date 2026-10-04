@@ -1,0 +1,8 @@
+&PROJWFC
+ prefix='KVCr_bp'
+ outdir='/tmp/scratch/KVCr_bp'
+ lsym=.false.
+ filpdos='/tmp/scratch/KVCr_bp_pb'
+ degauss=0.01
+ DeltaE=0.05
+/

@@ -1,0 +1,10 @@
+{
+ "job": "lcm/pba/hse/KVCr_VAC_w1_hse",
+ "state": "done",
+ "cmd": "python lcm_deep.py KVCr_VAC_w1_hse.json hse",
+ "ncores": 64,
+ "start": 1791062380.5503411,
+ "rc": 0,
+ "end": 1791084561.112907,
+ "hours": 6.1612673793898685
+}

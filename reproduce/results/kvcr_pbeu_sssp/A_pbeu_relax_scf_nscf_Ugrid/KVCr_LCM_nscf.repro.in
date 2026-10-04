@@ -1,0 +1,63 @@
+&CONTROL
+  calculation = 'nscf'
+  prefix = 'KVCr_LCM'
+  outdir = '/tmp/scratch/65640244/KVCr_LCM'
+  pseudo_dir = '/tmp/pseudo'
+  tstress = .false.
+  tprnfor = .false.
+  disk_io = 'low'
+  verbosity = 'high'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 15
+  ntyp = 5
+  ecutwfc = 60.0
+  ecutrho = 480.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+  nspin = 2
+  starting_magnetization(1) = 0.0000
+  starting_magnetization(2) = -0.2308
+  starting_magnetization(3) = 0.2143
+  starting_magnetization(4) = 0.0000
+  starting_magnetization(5) = 0.0000
+/
+&ELECTRONS
+  conv_thr = 1.5d-07
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+ATOMIC_SPECIES
+  K 39.0983 K.pbe-spn-kjpaw_psl.1.0.0.UPF
+  V 50.9415 v_pbe_v1.4.uspp.F.UPF
+  Cr 51.9961 cr_pbe_v1.5.uspp.F.UPF
+  C 12.0110 C.pbe-n-kjpaw_psl.1.0.0.UPF
+  N 14.0070 N.pbe-n-radius_5.UPF
+CELL_PARAMETERS angstrom
+  0.0000000000 5.3399591550 5.3399591550
+  5.3399591550 0.0000000000 5.3399591550
+  5.3399591550 5.3399591550 0.0000000000
+ATOMIC_POSITIONS crystal
+  K 0.2500000000 0.2500000000 0.2500000000
+  V 0.0000000000 0.0000000000 0.0000000000
+  Cr 0.5000000000 0.5000000000 0.5000000000
+  C 0.6928391408 0.3071608592 0.3071608592
+  C 0.3071608592 0.6928391408 0.6928391408
+  C 0.3071608592 0.6928391408 0.3071608592
+  C 0.6928391408 0.3071608592 0.6928391408
+  C 0.3071608592 0.3071608592 0.6928391408
+  C 0.6928391408 0.6928391408 0.3071608592
+  N 0.8022412175 0.1977587825 0.1977587825
+  N 0.1977587825 0.8022412175 0.8022412175
+  N 0.1977587825 0.8022412175 0.1977587825
+  N 0.8022412175 0.1977587825 0.8022412175
+  N 0.1977587825 0.1977587825 0.8022412175
+  N 0.8022412175 0.8022412175 0.1977587825
+K_POINTS automatic
+  8 8 8 0 0 0
+HUBBARD ortho-atomic
+  U V-3d 3.0
+  U Cr-3d 3.0

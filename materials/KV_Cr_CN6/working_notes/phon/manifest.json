@@ -1,0 +1,1606 @@
+{
+ "jobs": {
+  "lcm/pba/phon/KVCr_prim_g0": {
+   "m": "KVCr",
+   "tag": "prim",
+   "idx": [
+    6
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFAP9YK8X6ZVW6CS07S74",
+   "t": "2026-10-03 09:45:05",
+   "cmd": "python pba_phon.py KVCr_prim.json 6",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_prim_g0/forces_6.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_prim_g1": {
+   "m": "KVCr",
+   "tag": "prim",
+   "idx": [
+    7
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFB7K63GKJ5SQZ5TSBVGZ",
+   "t": "2026-10-03 09:45:05",
+   "cmd": "python pba_phon.py KVCr_prim.json 7",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_prim_g1/forces_7.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_prim_g2": {
+   "m": "KVCr",
+   "tag": "prim",
+   "idx": [
+    8
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFBRP8Z6B3B7K5VNN27ZP",
+   "t": "2026-10-03 09:45:06",
+   "cmd": "python pba_phon.py KVCr_prim.json 8",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_prim_g2/forces_8.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_prim_g3": {
+   "m": "KVCr",
+   "tag": "prim",
+   "idx": [
+    9
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFC76D0DDCCFVRT3KM0BF",
+   "t": "2026-10-03 09:45:06",
+   "cmd": "python pba_phon.py KVCr_prim.json 9",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_prim_g3/forces_9.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_prim_g4": {
+   "m": "KVCr",
+   "tag": "prim",
+   "idx": [
+    0,
+    1
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFCN8S8DNDTX3NZPDRJS2",
+   "t": "2026-10-03 09:45:07",
+   "cmd": "python pba_phon.py KVCr_prim.json 0 1",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_prim_g4/forces_0.json",
+    "jobs/lcm/pba/phon/KVCr_prim_g4/forces_1.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_prim_g5": {
+   "m": "KVCr",
+   "tag": "prim",
+   "idx": [
+    2,
+    3
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFD7SPPHCENJF0ARFSHXJ",
+   "t": "2026-10-03 09:45:07",
+   "cmd": "python pba_phon.py KVCr_prim.json 2 3",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_prim_g5/forces_2.json",
+    "jobs/lcm/pba/phon/KVCr_prim_g5/forces_3.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_prim_g6": {
+   "m": "KVCr",
+   "tag": "prim",
+   "idx": [
+    4,
+    5,
+    -1
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFDMZ0MMAGG979990ECCR",
+   "t": "2026-10-03 09:45:08",
+   "cmd": "python pba_phon.py KVCr_prim.json 4 5 -1",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_prim_g6/forces_4.json",
+    "jobs/lcm/pba/phon/KVCr_prim_g6/forces_5.json",
+    "jobs/lcm/pba/phon/KVCr_prim_g6/forces_-1.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g0": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    -1
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFE3J2WWZNN002344PYXK",
+   "t": "2026-10-03 09:45:08",
+   "cmd": "python pba_phon.py KVCr_conv.json -1",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g0/forces_-1.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g1": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    0
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFEHAYR1HPMTZ4VH1TK3V",
+   "t": "2026-10-03 09:45:09",
+   "cmd": "python pba_phon.py KVCr_conv.json 0",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g1/forces_0.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g2": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    1
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFF08MB63X5J42YPZKFFA",
+   "t": "2026-10-03 09:45:09",
+   "cmd": "python pba_phon.py KVCr_conv.json 1",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g2/forces_1.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g3": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    2
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFFEKFTBXW63VZCJHD9RN",
+   "t": "2026-10-03 09:45:10",
+   "cmd": "python pba_phon.py KVCr_conv.json 2",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g3/forces_2.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g4": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    3
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFFXW25N6XM7NANWC3CA9",
+   "t": "2026-10-03 09:45:10",
+   "cmd": "python pba_phon.py KVCr_conv.json 3",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g4/forces_3.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g5": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    4
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFGCEM8416Y672J2HWG46",
+   "t": "2026-10-03 09:45:10",
+   "cmd": "python pba_phon.py KVCr_conv.json 4",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g5/forces_4.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g6": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    5
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFGTT4SP8JSNVJPNFRCNW",
+   "t": "2026-10-03 09:45:11",
+   "cmd": "python pba_phon.py KVCr_conv.json 5",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g6/forces_5.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g7": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    6
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFH94Z4DSPYDYA1V1QTGJ",
+   "t": "2026-10-03 09:45:11",
+   "cmd": "python pba_phon.py KVCr_conv.json 6",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g7/forces_6.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g8": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    7
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFHRAM06B6VGHMKD2SBNA",
+   "t": "2026-10-03 09:45:12",
+   "cmd": "python pba_phon.py KVCr_conv.json 7",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g8/forces_7.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g9": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    8
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFJ6984N1ZQ51S1RB1QPJ",
+   "t": "2026-10-03 09:45:12",
+   "cmd": "python pba_phon.py KVCr_conv.json 8",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g9/forces_8.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_conv_g10": {
+   "m": "KVCr",
+   "tag": "conv",
+   "idx": [
+    9
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFJM8ZR2ZCYEQE7HAT98R",
+   "t": "2026-10-03 09:45:13",
+   "cmd": "python pba_phon.py KVCr_conv.json 9",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_conv_g10/forces_9.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_prim_g0": {
+   "m": "KVMo",
+   "tag": "prim",
+   "idx": [
+    6,
+    7
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFK26JK4N36FP3SJWHTTF",
+   "t": "2026-10-03 09:45:13",
+   "cmd": "python pba_phon.py KVMo_prim.json 6 7",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_prim_g0/forces_6.json",
+    "jobs/lcm/pba/phon/KVMo_prim_g0/forces_7.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_prim_g1": {
+   "m": "KVMo",
+   "tag": "prim",
+   "idx": [
+    8,
+    9
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFKFRQHCY576YZ1RTX4VH",
+   "t": "2026-10-03 09:45:14",
+   "cmd": "python pba_phon.py KVMo_prim.json 8 9",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_prim_g1/forces_8.json",
+    "jobs/lcm/pba/phon/KVMo_prim_g1/forces_9.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_prim_g2": {
+   "m": "KVMo",
+   "tag": "prim",
+   "idx": [
+    0,
+    1
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFKXS2SDE0X8MSYHXJ8TA",
+   "t": "2026-10-03 09:45:14",
+   "cmd": "python pba_phon.py KVMo_prim.json 0 1",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_prim_g2/forces_0.json",
+    "jobs/lcm/pba/phon/KVMo_prim_g2/forces_1.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_prim_g3": {
+   "m": "KVMo",
+   "tag": "prim",
+   "idx": [
+    2,
+    3
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFMCFCXCQRD04CNY4WDVB",
+   "t": "2026-10-03 09:45:15",
+   "cmd": "python pba_phon.py KVMo_prim.json 2 3",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_prim_g3/forces_2.json",
+    "jobs/lcm/pba/phon/KVMo_prim_g3/forces_3.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_prim_g4": {
+   "m": "KVMo",
+   "tag": "prim",
+   "idx": [
+    4,
+    5,
+    -1
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFMTFGCZNCT6GH1SP18EF",
+   "t": "2026-10-03 09:45:15",
+   "cmd": "python pba_phon.py KVMo_prim.json 4 5 -1",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_prim_g4/forces_4.json",
+    "jobs/lcm/pba/phon/KVMo_prim_g4/forces_5.json",
+    "jobs/lcm/pba/phon/KVMo_prim_g4/forces_-1.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g0": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    -1
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFN9YTQG4HTTQ28B35D9X",
+   "t": "2026-10-03 09:45:16",
+   "cmd": "python pba_phon.py KVMo_conv.json -1",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g0/forces_-1.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g1": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    0
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFNRAZFCX8JB1CJFHSXH4",
+   "t": "2026-10-03 09:45:16",
+   "cmd": "python pba_phon.py KVMo_conv.json 0",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g1/forces_0.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g2": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    1
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFP6A3AP5BC2PQ9KYNSPY",
+   "t": "2026-10-03 09:45:16",
+   "cmd": "python pba_phon.py KVMo_conv.json 1",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g2/forces_1.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g3": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    2
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFPN1RBDHHN5Y635EC7Y1",
+   "t": "2026-10-03 09:45:17",
+   "cmd": "python pba_phon.py KVMo_conv.json 2",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g3/forces_2.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g4": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    3
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFQ2GD62D4A51RVEGZYD8",
+   "t": "2026-10-03 09:45:17",
+   "cmd": "python pba_phon.py KVMo_conv.json 3",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g4/forces_3.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g5": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    4
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFQG7GJKBH7C84YPH13GH",
+   "t": "2026-10-03 09:45:18",
+   "cmd": "python pba_phon.py KVMo_conv.json 4",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g5/forces_4.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g6": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    5
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFQXGM7GAPDJXA9H3F1CP",
+   "t": "2026-10-03 09:45:18",
+   "cmd": "python pba_phon.py KVMo_conv.json 5",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g6/forces_5.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g7": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    6
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFRBGEVNK39WCBQPB0CRW",
+   "t": "2026-10-03 09:45:19",
+   "cmd": "python pba_phon.py KVMo_conv.json 6",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g7/forces_6.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g8": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    7
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFRT04RRV79PM7CJX6J3S",
+   "t": "2026-10-03 09:45:19",
+   "cmd": "python pba_phon.py KVMo_conv.json 7",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g8/forces_7.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g9": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    8
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFS8TCRP4V0FQBJDW56AR",
+   "t": "2026-10-03 09:45:20",
+   "cmd": "python pba_phon.py KVMo_conv.json 8",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g9/forces_8.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_conv_g10": {
+   "m": "KVMo",
+   "tag": "conv",
+   "idx": [
+    9
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AFSQ1TG3XG95E94F65111",
+   "t": "2026-10-03 09:45:20",
+   "cmd": "python pba_phon.py KVMo_conv.json 9",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_conv_g10/forces_9.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g0": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    -1,
+    11
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX1SCR6ANSRGFV2C7FTJS",
+   "t": "2026-10-03 09:52:34",
+   "cmd": "python pba_phon.py KVCr_L30.json -1 11",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g0/forces_-1.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g0/forces_11.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g1": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    0,
+    12
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX2B3Y45PP5E3678F0B5X",
+   "t": "2026-10-03 09:52:35",
+   "cmd": "python pba_phon.py KVCr_L30.json 0 12",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g1/forces_0.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g1/forces_12.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g2": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    1,
+    13
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX2WQC356ST7AQRHD5YBA",
+   "t": "2026-10-03 09:52:35",
+   "cmd": "python pba_phon.py KVCr_L30.json 1 13",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g2/forces_1.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g2/forces_13.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g3": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    2,
+    14
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX3CBPTGQK9M3BGDWT5JA",
+   "t": "2026-10-03 09:52:36",
+   "cmd": "python pba_phon.py KVCr_L30.json 2 14",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g3/forces_2.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g3/forces_14.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g4": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    3,
+    15
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX3Y3SSGC1D84C1VBC4N1",
+   "t": "2026-10-03 09:52:37",
+   "cmd": "python pba_phon.py KVCr_L30.json 3 15",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g4/forces_3.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g4/forces_15.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g5": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    4,
+    16
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX4D0GS8R9W91JGZZG4VZ",
+   "t": "2026-10-03 09:52:37",
+   "cmd": "python pba_phon.py KVCr_L30.json 4 16",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g5/forces_4.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g5/forces_16.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g6": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    5,
+    17
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX4TNZGX57C0YC3WFJHSD",
+   "t": "2026-10-03 09:52:37",
+   "cmd": "python pba_phon.py KVCr_L30.json 5 17",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g6/forces_5.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g6/forces_17.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g7": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    6,
+    18
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX5JN1CMXX660Z4BJS506",
+   "t": "2026-10-03 09:52:38",
+   "cmd": "python pba_phon.py KVCr_L30.json 6 18",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g7/forces_6.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g7/forces_18.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g8": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    7,
+    19
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX61TC76PHT5GQYWDYX6D",
+   "t": "2026-10-03 09:52:39",
+   "cmd": "python pba_phon.py KVCr_L30.json 7 19",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g8/forces_7.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g8/forces_19.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g9": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    8,
+    20
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX6GWVD6MYC0VTXNCSF10",
+   "t": "2026-10-03 09:52:39",
+   "cmd": "python pba_phon.py KVCr_L30.json 8 20",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g9/forces_8.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g9/forces_20.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g10": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    9,
+    21
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX6Z97JD18PZYRDNTPF8E",
+   "t": "2026-10-03 09:52:40",
+   "cmd": "python pba_phon.py KVCr_L30.json 9 21",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g10/forces_9.json",
+    "jobs/lcm/pba/phon/KVCr_L30_g10/forces_21.json"
+   ]
+  },
+  "lcm/pba/phon/KVCr_L30_g11": {
+   "m": "KVCr",
+   "tag": "L30",
+   "idx": [
+    10
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX7ETMD6JPNWBFJ5X37RG",
+   "t": "2026-10-03 09:52:40",
+   "cmd": "python pba_phon.py KVCr_L30.json 10",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_L30_g11/forces_10.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g0": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    -1,
+    11
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX7Z7REBCGZ0ZMNSSHYMY",
+   "t": "2026-10-03 09:52:41",
+   "cmd": "python pba_phon.py KVMo_L30.json -1 11",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g0/forces_-1.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g0/forces_11.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g1": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    0,
+    12
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX8E9A365BYJHN3SCQHQF",
+   "t": "2026-10-03 09:52:41",
+   "cmd": "python pba_phon.py KVMo_L30.json 0 12",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g1/forces_0.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g1/forces_12.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g2": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    1,
+    13
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX8W1S27QQ97XS14MCP7C",
+   "t": "2026-10-03 09:52:42",
+   "cmd": "python pba_phon.py KVMo_L30.json 1 13",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g2/forces_1.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g2/forces_13.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g3": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    2,
+    14
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX9A8DTQX5Z82F6BBRR75",
+   "t": "2026-10-03 09:52:42",
+   "cmd": "python pba_phon.py KVMo_L30.json 2 14",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g3/forces_2.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g3/forces_14.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g4": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    3,
+    15
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AX9RCWM4F6AE76ARQVWHF",
+   "t": "2026-10-03 09:52:42",
+   "cmd": "python pba_phon.py KVMo_L30.json 3 15",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g4/forces_3.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g4/forces_15.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g5": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    4,
+    16
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AXA6TQYEWZVPFMR8K6PFJ",
+   "t": "2026-10-03 09:52:43",
+   "cmd": "python pba_phon.py KVMo_L30.json 4 16",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g5/forces_4.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g5/forces_16.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g6": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    5,
+    17
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AXAPC9N3D1YJVW7PA658V",
+   "t": "2026-10-03 09:52:43",
+   "cmd": "python pba_phon.py KVMo_L30.json 5 17",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g6/forces_5.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g6/forces_17.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g7": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    6,
+    18
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AXB4M3K5FZSJWZWY5Y81C",
+   "t": "2026-10-03 09:52:44",
+   "cmd": "python pba_phon.py KVMo_L30.json 6 18",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g7/forces_6.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g7/forces_18.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g8": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    7,
+    19
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AXBKXJQYE3SW6SETV12PG",
+   "t": "2026-10-03 09:52:44",
+   "cmd": "python pba_phon.py KVMo_L30.json 7 19",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g8/forces_7.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g8/forces_19.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g9": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    8,
+    20
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AXC16RZR59X6JFHKT4J6J",
+   "t": "2026-10-03 09:52:45",
+   "cmd": "python pba_phon.py KVMo_L30.json 8 20",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g9/forces_8.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g9/forces_20.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g10": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    9,
+    21
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AXCERP07MQ57CKXJ60QQW",
+   "t": "2026-10-03 09:52:45",
+   "cmd": "python pba_phon.py KVMo_L30.json 9 21",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g10/forces_9.json",
+    "jobs/lcm/pba/phon/KVMo_L30_g10/forces_21.json"
+   ]
+  },
+  "lcm/pba/phon/KVMo_L30_g11": {
+   "m": "KVMo",
+   "tag": "L30",
+   "idx": [
+    10
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41AXCXMPQAA0XE2HZ74AC56",
+   "t": "2026-10-03 09:52:46",
+   "cmd": "python pba_phon.py KVMo_L30.json 10",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_L30_g11/forces_10.json"
+   ]
+  },
+  "lcm/pba/phon/koff/KVMo_xy": {
+   "m": "KVMo",
+   "tag": "koff_xy",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41B512PG3JNZ76HENWX7SQS",
+   "t": "2026-10-03 09:56:56",
+   "cmd": "NPOOL=16 python pba_koff.py KVMo_prim.json xy",
+   "results": [
+    "jobs/lcm/pba/phon/koff/KVMo_xy/results/koff_KVMo_xy.json"
+   ]
+  },
+  "lcm/pba/phon/koff/KVMo_c": {
+   "m": "KVMo",
+   "tag": "koff_c",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41B5333ND4DT0EWX3GP00MC",
+   "t": "2026-10-03 09:56:58",
+   "cmd": "NPOOL=16 python pba_koff.py KVMo_prim.json c",
+   "results": [
+    "jobs/lcm/pba/phon/koff/KVMo_c/results/koff_KVMo_c.json"
+   ]
+  },
+  "lcm/pba/phon/koff/KVCr_xy": {
+   "m": "KVCr",
+   "tag": "koff_xy",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41B540A4KZQFM9SE5PRKB9Q",
+   "t": "2026-10-03 09:56:59",
+   "cmd": "NPOOL=16 python pba_koff.py KVCr_prim.json xy",
+   "results": [
+    "jobs/lcm/pba/phon/koff/KVCr_xy/results/koff_KVCr_xy.json"
+   ]
+  },
+  "lcm/pba/phon/koff/KVCr_c": {
+   "m": "KVCr",
+   "tag": "koff_c",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41B55BR1ADE6X9GCF0FYWM3",
+   "t": "2026-10-03 09:57:00",
+   "cmd": "NPOOL=16 python pba_koff.py KVCr_prim.json c",
+   "results": [
+    "jobs/lcm/pba/phon/koff/KVCr_c/results/koff_KVCr_c.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVMo_x_g0": {
+   "m": "KVMo",
+   "tag": "kscan",
+   "idx": [
+    10,
+    12,
+    14
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4PR1EN03WFH1RBJ2VNXG",
+   "t": "2026-10-03 10:14:14",
+   "cmd": "python pba_phon.py KVMo_kscan.json 10 12 14",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVMo_x_g0/forces_10.json",
+    "jobs/lcm/pba/phon/kscan/KVMo_x_g0/forces_12.json",
+    "jobs/lcm/pba/phon/kscan/KVMo_x_g0/forces_14.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVMo_x_g1": {
+   "m": "KVMo",
+   "tag": "kscan",
+   "idx": [
+    11,
+    13
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4Q8EH4MPS6NFM3KYZ4KP",
+   "t": "2026-10-03 10:14:14",
+   "cmd": "python pba_phon.py KVMo_kscan.json 11 13",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVMo_x_g1/forces_11.json",
+    "jobs/lcm/pba/phon/kscan/KVMo_x_g1/forces_13.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVMo_p111_g0": {
+   "m": "KVMo",
+   "tag": "kscan",
+   "idx": [
+    20,
+    22,
+    24
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4QXAHB0PY7YA6W7FD92B",
+   "t": "2026-10-03 10:14:15",
+   "cmd": "python pba_phon.py KVMo_kscan.json 20 22 24",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVMo_p111_g0/forces_20.json",
+    "jobs/lcm/pba/phon/kscan/KVMo_p111_g0/forces_22.json",
+    "jobs/lcm/pba/phon/kscan/KVMo_p111_g0/forces_24.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVMo_p111_g1": {
+   "m": "KVMo",
+   "tag": "kscan",
+   "idx": [
+    21,
+    23
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4RBW6MNQ1YV216NE1J1C",
+   "t": "2026-10-03 10:14:15",
+   "cmd": "python pba_phon.py KVMo_kscan.json 21 23",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVMo_p111_g1/forces_21.json",
+    "jobs/lcm/pba/phon/kscan/KVMo_p111_g1/forces_23.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVMo_m111_g0": {
+   "m": "KVMo",
+   "tag": "kscan",
+   "idx": [
+    30,
+    32,
+    34
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4RZG1ESXVBMJX2D1YBDT",
+   "t": "2026-10-03 10:14:16",
+   "cmd": "python pba_phon.py KVMo_kscan.json 30 32 34",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVMo_m111_g0/forces_30.json",
+    "jobs/lcm/pba/phon/kscan/KVMo_m111_g0/forces_32.json",
+    "jobs/lcm/pba/phon/kscan/KVMo_m111_g0/forces_34.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVMo_m111_g1": {
+   "m": "KVMo",
+   "tag": "kscan",
+   "idx": [
+    31,
+    33
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4SDP6TS7EHH1NN0FSAXR",
+   "t": "2026-10-03 10:14:16",
+   "cmd": "python pba_phon.py KVMo_kscan.json 31 33",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVMo_m111_g1/forces_31.json",
+    "jobs/lcm/pba/phon/kscan/KVMo_m111_g1/forces_33.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVCr_x_g0": {
+   "m": "KVCr",
+   "tag": "kscan",
+   "idx": [
+    10,
+    12,
+    14
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4SWX06ATYDFZ51VRQYGS",
+   "t": "2026-10-03 10:14:17",
+   "cmd": "python pba_phon.py KVCr_kscan.json 10 12 14",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVCr_x_g0/forces_10.json",
+    "jobs/lcm/pba/phon/kscan/KVCr_x_g0/forces_12.json",
+    "jobs/lcm/pba/phon/kscan/KVCr_x_g0/forces_14.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVCr_x_g1": {
+   "m": "KVCr",
+   "tag": "kscan",
+   "idx": [
+    11,
+    13
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4TC12JJ95ZMRTFVA5MRG",
+   "t": "2026-10-03 10:14:17",
+   "cmd": "python pba_phon.py KVCr_kscan.json 11 13",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVCr_x_g1/forces_11.json",
+    "jobs/lcm/pba/phon/kscan/KVCr_x_g1/forces_13.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVCr_p111_g0": {
+   "m": "KVCr",
+   "tag": "kscan",
+   "idx": [
+    20,
+    22,
+    24
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4WWTV3DR9EJ6RB8M9Y2S",
+   "t": "2026-10-03 10:14:20",
+   "cmd": "python pba_phon.py KVCr_kscan.json 20 22 24",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVCr_p111_g0/forces_20.json",
+    "jobs/lcm/pba/phon/kscan/KVCr_p111_g0/forces_22.json",
+    "jobs/lcm/pba/phon/kscan/KVCr_p111_g0/forces_24.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVCr_p111_g1": {
+   "m": "KVCr",
+   "tag": "kscan",
+   "idx": [
+    21,
+    23
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4XA9K04CEPPQEXHSV7H7",
+   "t": "2026-10-03 10:14:20",
+   "cmd": "python pba_phon.py KVCr_kscan.json 21 23",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVCr_p111_g1/forces_21.json",
+    "jobs/lcm/pba/phon/kscan/KVCr_p111_g1/forces_23.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVCr_m111_g0": {
+   "m": "KVCr",
+   "tag": "kscan",
+   "idx": [
+    30,
+    32,
+    34
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4XQZE93FVBW535SC1GKE",
+   "t": "2026-10-03 10:14:21",
+   "cmd": "python pba_phon.py KVCr_kscan.json 30 32 34",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVCr_m111_g0/forces_30.json",
+    "jobs/lcm/pba/phon/kscan/KVCr_m111_g0/forces_32.json",
+    "jobs/lcm/pba/phon/kscan/KVCr_m111_g0/forces_34.json"
+   ]
+  },
+  "lcm/pba/phon/kscan/KVCr_m111_g1": {
+   "m": "KVCr",
+   "tag": "kscan",
+   "idx": [
+    31,
+    33
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41C4Y6BHRR7JP2B3ESPZVCP",
+   "t": "2026-10-03 10:14:21",
+   "cmd": "python pba_phon.py KVCr_kscan.json 31 33",
+   "results": [
+    "jobs/lcm/pba/phon/kscan/KVCr_m111_g1/forces_31.json",
+    "jobs/lcm/pba/phon/kscan/KVCr_m111_g1/forces_33.json"
+   ]
+  },
+  "lcm/pba/phon/koff2/KVMo_x": {
+   "m": "KVMo",
+   "tag": "koff2_x",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41D0SMJAQJNXPMXRCH4YR4B",
+   "t": "2026-10-03 10:29:34",
+   "cmd": "DISP0=0.9 NPOOL=16 python pba_koff.py KVMo_prim.json x",
+   "results": [
+    "jobs/lcm/pba/phon/koff2/KVMo_x/results/koff_KVMo_x.json"
+   ]
+  },
+  "lcm/pba/phon/koff2/KVMo_m111": {
+   "m": "KVMo",
+   "tag": "koff2_m111",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41D0T5HX25MBSA9SPFFFV3D",
+   "t": "2026-10-03 10:29:35",
+   "cmd": "DISP0=0.8 NPOOL=16 python pba_koff.py KVMo_prim.json m111",
+   "results": [
+    "jobs/lcm/pba/phon/koff2/KVMo_m111/results/koff_KVMo_m111.json"
+   ]
+  },
+  "lcm/pba/phon/koff2/KVMo_p111": {
+   "m": "KVMo",
+   "tag": "koff2_p111",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41D0TP52TXEDJTAMEN1BR78",
+   "t": "2026-10-03 10:29:35",
+   "cmd": "DISP0=0.55 NPOOL=16 python pba_koff.py KVMo_prim.json p111",
+   "results": [
+    "jobs/lcm/pba/phon/koff2/KVMo_p111/results/koff_KVMo_p111.json"
+   ]
+  },
+  "lcm/pba/phon/koff2/KVCr_x": {
+   "m": "KVCr",
+   "tag": "koff2_x",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41D0V3RERQSSRDTFBDD7V30",
+   "t": "2026-10-03 10:29:36",
+   "cmd": "DISP0=0.9 NPOOL=16 python pba_koff.py KVCr_prim.json x",
+   "results": [
+    "jobs/lcm/pba/phon/koff2/KVCr_x/results/koff_KVCr_x.json"
+   ]
+  },
+  "lcm/pba/phon/koff2/KVCr_m111": {
+   "m": "KVCr",
+   "tag": "koff2_m111",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41D0VJMZF4QHZS2VENYJFX6",
+   "t": "2026-10-03 10:29:36",
+   "cmd": "DISP0=0.8 NPOOL=16 python pba_koff.py KVCr_prim.json m111",
+   "results": [
+    "jobs/lcm/pba/phon/koff2/KVCr_m111/results/koff_KVCr_m111.json"
+   ]
+  },
+  "lcm/pba/phon/koff2/KVCr_p111": {
+   "m": "KVCr",
+   "tag": "koff2_p111",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41D0W1BN24R41FZT6664BWC",
+   "t": "2026-10-03 10:29:37",
+   "cmd": "DISP0=0.55 NPOOL=16 python pba_koff.py KVCr_prim.json p111",
+   "results": [
+    "jobs/lcm/pba/phon/koff2/KVCr_p111/results/koff_KVCr_p111.json"
+   ]
+  }
+ },
+ "terminated": {
+  "lcm/pba/phon/KVCr_rhl_g0": {
+   "m": "KVCr",
+   "tag": "rhl",
+   "idx": [
+    -1,
+    7,
+    15
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASE3D8W2W16S6SEY931VQ",
+   "t": "2026-10-03 09:50:36",
+   "cmd": "python pba_phon.py KVCr_rhl.json -1 7 15",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_rhl_g0/forces_-1.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g0/forces_7.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g0/forces_15.json"
+   ],
+   "terminated": "2026-10-03 09:52:15",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVCr_rhl_g1": {
+   "m": "KVCr",
+   "tag": "rhl",
+   "idx": [
+    0,
+    8,
+    16
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASEJJM8H5T8PJ8KVXFHFK",
+   "t": "2026-10-03 09:50:36",
+   "cmd": "python pba_phon.py KVCr_rhl.json 0 8 16",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_rhl_g1/forces_0.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g1/forces_8.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g1/forces_16.json"
+   ],
+   "terminated": "2026-10-03 09:52:15",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVCr_rhl_g2": {
+   "m": "KVCr",
+   "tag": "rhl",
+   "idx": [
+    1,
+    9,
+    17
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASF5TET1YG7CGJ2KQ195N",
+   "t": "2026-10-03 09:50:37",
+   "cmd": "python pba_phon.py KVCr_rhl.json 1 9 17",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_rhl_g2/forces_1.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g2/forces_9.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g2/forces_17.json"
+   ],
+   "terminated": "2026-10-03 09:52:15",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVCr_rhl_g3": {
+   "m": "KVCr",
+   "tag": "rhl",
+   "idx": [
+    2,
+    10,
+    18
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASFT16VXQTG34PYGTHD4E",
+   "t": "2026-10-03 09:50:38",
+   "cmd": "python pba_phon.py KVCr_rhl.json 2 10 18",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_rhl_g3/forces_2.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g3/forces_10.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g3/forces_18.json"
+   ],
+   "terminated": "2026-10-03 09:52:15",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVCr_rhl_g4": {
+   "m": "KVCr",
+   "tag": "rhl",
+   "idx": [
+    3,
+    11,
+    19
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASG8KTE7H9JJWT6GSBWGY",
+   "t": "2026-10-03 09:50:38",
+   "cmd": "python pba_phon.py KVCr_rhl.json 3 11 19",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_rhl_g4/forces_3.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g4/forces_11.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g4/forces_19.json"
+   ],
+   "terminated": "2026-10-03 09:52:15",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVCr_rhl_g5": {
+   "m": "KVCr",
+   "tag": "rhl",
+   "idx": [
+    4,
+    12,
+    20
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASGQFEENJA10JFDP9FS4G",
+   "t": "2026-10-03 09:50:39",
+   "cmd": "python pba_phon.py KVCr_rhl.json 4 12 20",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_rhl_g5/forces_4.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g5/forces_12.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g5/forces_20.json"
+   ],
+   "terminated": "2026-10-03 09:52:15",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVCr_rhl_g6": {
+   "m": "KVCr",
+   "tag": "rhl",
+   "idx": [
+    5,
+    13,
+    21
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASH8AVKGS349VH5906QKG",
+   "t": "2026-10-03 09:50:39",
+   "cmd": "python pba_phon.py KVCr_rhl.json 5 13 21",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_rhl_g6/forces_5.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g6/forces_13.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g6/forces_21.json"
+   ],
+   "terminated": "2026-10-03 09:52:16",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVCr_rhl_g7": {
+   "m": "KVCr",
+   "tag": "rhl",
+   "idx": [
+    6,
+    14
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASHQ5S34TCCZP932F5APE",
+   "t": "2026-10-03 09:50:40",
+   "cmd": "python pba_phon.py KVCr_rhl.json 6 14",
+   "results": [
+    "jobs/lcm/pba/phon/KVCr_rhl_g7/forces_6.json",
+    "jobs/lcm/pba/phon/KVCr_rhl_g7/forces_14.json"
+   ],
+   "terminated": "2026-10-03 09:52:16",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVMo_rhl_g0": {
+   "m": "KVMo",
+   "tag": "rhl",
+   "idx": [
+    -1,
+    7,
+    15
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASJ4WR94QAHSHCSC0WH0Z",
+   "t": "2026-10-03 09:50:40",
+   "cmd": "python pba_phon.py KVMo_rhl.json -1 7 15",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_rhl_g0/forces_-1.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g0/forces_7.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g0/forces_15.json"
+   ],
+   "terminated": "2026-10-03 09:52:16",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVMo_rhl_g1": {
+   "m": "KVMo",
+   "tag": "rhl",
+   "idx": [
+    0,
+    8,
+    16
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASJJDQFG3PXJZRR4XH4F3",
+   "t": "2026-10-03 09:50:40",
+   "cmd": "python pba_phon.py KVMo_rhl.json 0 8 16",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_rhl_g1/forces_0.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g1/forces_8.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g1/forces_16.json"
+   ],
+   "terminated": "2026-10-03 09:52:16",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVMo_rhl_g2": {
+   "m": "KVMo",
+   "tag": "rhl",
+   "idx": [
+    1,
+    9,
+    17
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASK1NJR86E76GZ9VXWRN1",
+   "t": "2026-10-03 09:50:41",
+   "cmd": "python pba_phon.py KVMo_rhl.json 1 9 17",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_rhl_g2/forces_1.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g2/forces_9.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g2/forces_17.json"
+   ],
+   "terminated": "2026-10-03 09:52:16",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVMo_rhl_g3": {
+   "m": "KVMo",
+   "tag": "rhl",
+   "idx": [
+    2,
+    10,
+    18
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASKFFP6XZGGD412EX1E1V",
+   "t": "2026-10-03 09:50:41",
+   "cmd": "python pba_phon.py KVMo_rhl.json 2 10 18",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_rhl_g3/forces_2.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g3/forces_10.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g3/forces_18.json"
+   ],
+   "terminated": "2026-10-03 09:52:16",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVMo_rhl_g4": {
+   "m": "KVMo",
+   "tag": "rhl",
+   "idx": [
+    3,
+    11,
+    19
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASKXHMK9AJFN2KRTMYNAS",
+   "t": "2026-10-03 09:50:42",
+   "cmd": "python pba_phon.py KVMo_rhl.json 3 11 19",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_rhl_g4/forces_3.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g4/forces_11.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g4/forces_19.json"
+   ],
+   "terminated": "2026-10-03 09:52:16",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVMo_rhl_g5": {
+   "m": "KVMo",
+   "tag": "rhl",
+   "idx": [
+    4,
+    12,
+    20
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASMBC5QGR8CDH1FY55ARW",
+   "t": "2026-10-03 09:50:42",
+   "cmd": "python pba_phon.py KVMo_rhl.json 4 12 20",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_rhl_g5/forces_4.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g5/forces_12.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g5/forces_20.json"
+   ],
+   "terminated": "2026-10-03 09:52:16",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVMo_rhl_g6": {
+   "m": "KVMo",
+   "tag": "rhl",
+   "idx": [
+    5,
+    13,
+    21
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASMSH0DDZB422KMXQ7697",
+   "t": "2026-10-03 09:50:43",
+   "cmd": "python pba_phon.py KVMo_rhl.json 5 13 21",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_rhl_g6/forces_5.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g6/forces_13.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g6/forces_21.json"
+   ],
+   "terminated": "2026-10-03 09:52:17",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/KVMo_rhl_g7": {
+   "m": "KVMo",
+   "tag": "rhl",
+   "idx": [
+    6,
+    14
+   ],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41ASN7PY1JC1WBJV5N2GFKG",
+   "t": "2026-10-03 09:50:43",
+   "cmd": "python pba_phon.py KVMo_rhl.json 6 14",
+   "results": [
+    "jobs/lcm/pba/phon/KVMo_rhl_g7/forces_6.json",
+    "jobs/lcm/pba/phon/KVMo_rhl_g7/forces_14.json"
+   ],
+   "terminated": "2026-10-03 09:52:17",
+   "why": "skewed 33.6-deg rhombohedral basis -> 180^3 FFT, ~40 min/SCF; replaced by reduced-basis L30 cell"
+  },
+  "lcm/pba/phon/koff/KVMo_x": {
+   "m": "KVMo",
+   "tag": "koff_x",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41B50GJ0E7GQH7S0AK7PZ96",
+   "t": "2026-10-03 09:56:55",
+   "cmd": "NPOOL=16 python pba_koff.py KVMo_prim.json x",
+   "results": [
+    "jobs/lcm/pba/phon/koff/KVMo_x/results/koff_KVMo_x.json"
+   ],
+   "terminated": "2026-10-03 10:29:33",
+   "why": "BFGS from 0.25 A crawled (K at 0.29-0.36 A after ~10 steps, dE -8..-11 meV); replaced by koff2 started at the rigid-scan minimum"
+  },
+  "lcm/pba/phon/koff/KVMo_p111": {
+   "m": "KVMo",
+   "tag": "koff_p111",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41B51KRH0J4VCZQPQYV1Q8F",
+   "t": "2026-10-03 09:56:56",
+   "cmd": "NPOOL=16 python pba_koff.py KVMo_prim.json p111",
+   "results": [
+    "jobs/lcm/pba/phon/koff/KVMo_p111/results/koff_KVMo_p111.json"
+   ],
+   "terminated": "2026-10-03 10:29:33",
+   "why": "BFGS from 0.25 A crawled (K at 0.29-0.36 A after ~10 steps, dE -8..-11 meV); replaced by koff2 started at the rigid-scan minimum"
+  },
+  "lcm/pba/phon/koff/KVMo_m111": {
+   "m": "KVMo",
+   "tag": "koff_m111",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41B52EA3NWED00F97J3NXXD",
+   "t": "2026-10-03 09:56:57",
+   "cmd": "NPOOL=16 python pba_koff.py KVMo_prim.json m111",
+   "results": [
+    "jobs/lcm/pba/phon/koff/KVMo_m111/results/koff_KVMo_m111.json"
+   ],
+   "terminated": "2026-10-03 10:29:33",
+   "why": "BFGS from 0.25 A crawled (K at 0.29-0.36 A after ~10 steps, dE -8..-11 meV); replaced by koff2 started at the rigid-scan minimum"
+  },
+  "lcm/pba/phon/koff/KVCr_x": {
+   "m": "KVCr",
+   "tag": "koff_x",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41B53J49EWQ1FN16CWGCWC3",
+   "t": "2026-10-03 09:56:58",
+   "cmd": "NPOOL=16 python pba_koff.py KVCr_prim.json x",
+   "results": [
+    "jobs/lcm/pba/phon/koff/KVCr_x/results/koff_KVCr_x.json"
+   ],
+   "terminated": "2026-10-03 10:29:33",
+   "why": "BFGS from 0.25 A crawled (K at 0.29-0.36 A after ~10 steps, dE -8..-11 meV); replaced by koff2 started at the rigid-scan minimum"
+  },
+  "lcm/pba/phon/koff/KVCr_p111": {
+   "m": "KVCr",
+   "tag": "koff_p111",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41B54FH8E4N3WHZJHGAHQKS",
+   "t": "2026-10-03 09:56:59",
+   "cmd": "NPOOL=16 python pba_koff.py KVCr_prim.json p111",
+   "results": [
+    "jobs/lcm/pba/phon/koff/KVCr_p111/results/koff_KVCr_p111.json"
+   ],
+   "terminated": "2026-10-03 10:29:33",
+   "why": "BFGS from 0.25 A crawled (K at 0.29-0.36 A after ~10 steps, dE -8..-11 meV); replaced by koff2 started at the rigid-scan minimum"
+  },
+  "lcm/pba/phon/koff/KVCr_m111": {
+   "m": "KVCr",
+   "tag": "koff_m111",
+   "idx": [],
+   "fn": "run_cpu32",
+   "call_id": "fc-01M41B54Y15PS0BYZTDJJDNKE5",
+   "t": "2026-10-03 09:57:00",
+   "cmd": "NPOOL=16 python pba_koff.py KVCr_prim.json m111",
+   "results": [
+    "jobs/lcm/pba/phon/koff/KVCr_m111/results/koff_KVCr_m111.json"
+   ],
+   "terminated": "2026-10-03 10:29:34",
+   "why": "BFGS from 0.25 A crawled (K at 0.29-0.36 A after ~10 steps, dE -8..-11 meV); replaced by koff2 started at the rigid-scan minimum"
+  }
+ }
+}

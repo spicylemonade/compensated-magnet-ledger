@@ -1,0 +1,58 @@
+#\#CIF_2.0
+data_lcmcheck
+_parent_space_group.name_H-M_alt  'P 1'
+_parent_space_group.IT_number 1
+loop_
+_parent_propagation_vector.id
+_parent_propagation_vector.kxkykz
+k1 [0 0 0]
+_space_group_magn.number_BNS  1.1
+_space_group_magn.name_BNS  "P 1"
+_cell_length_a 5.664908
+_cell_length_b 5.664908
+_cell_length_c 7.688801
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 90.0000
+loop_
+_space_group_symop_magn_operation.id
+_space_group_symop_magn_operation.xyz
+1 x,y,z,+1
+loop_
+_space_group_symop_magn_centering.id
+_space_group_symop_magn_centering.xyz
+1 x,y,z,+1
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ba1 Ba 0.000000 0.000000 0.000000 1
+Ba2 Ba 0.500000 0.500000 0.000000 1
+Y3 Y 0.000000 0.000000 0.500000 1
+Y4 Y 0.500000 0.500000 0.500000 1
+Mn5 Mn 0.000000 0.500000 0.260928 1
+Mn6 Mn 0.500000 0.000000 0.739072 1
+Fe7 Fe 0.500000 0.000000 0.258280 1
+Fe8 Fe 0.000000 0.500000 0.741720 1
+O9 O 0.500000 0.000000 0.008767 1
+O10 O 0.000000 0.500000 0.991233 1
+O11 O 0.214449 0.228749 0.685787 1
+O12 O 0.785551 0.771251 0.685787 1
+O13 O 0.271251 0.714449 0.685787 1
+O14 O 0.728749 0.285551 0.685787 1
+O15 O 0.285551 0.271251 0.314213 1
+O16 O 0.714449 0.728749 0.314213 1
+O17 O 0.228749 0.785551 0.314213 1
+O18 O 0.771251 0.214449 0.314213 1
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+Mn5 0 0 4.300
+Mn6 0 0 4.300
+Fe7 0 0 -4.300
+Fe8 0 0 -4.300

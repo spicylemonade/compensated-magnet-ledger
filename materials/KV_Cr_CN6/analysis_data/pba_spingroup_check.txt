@@ -1,0 +1,6 @@
+# Spin-group check of the PBA cells (manuscript draft, 2026-10-03 ~22:30 PDT).
+# Command: python tracks/lcm/spingroup_check.py <cell>.json LCM ; cells built from candidates/lcm/KVCrCN6_KVMoCN6/structures/*_P1_PBEU110_relaxed.cif
+# Spins: V -1 (N-bound, 4a), Cr/Mo +1 (C-bound, 4b), all other atoms 0. amcheck failed to parse these inputs; amscreen and findspingroup ran.
+KVCr LCM {"amcheck": "error:Something is wrong with the description of magnetic atoms!", "amscreen": "ferrimagnet(no-swap-op)", "findspingroup": "ferrimagnet(compensated)", "fsg_phase": "Compensated FiM", "fsg_ssg": "216.216.1.1.L", "fsg_splitting_wo_soc": "Zeeman"}
+KVMo LCM {"amcheck": "error:Something is wrong with the description of magnetic atoms!", "amscreen": "ferrimagnet(no-swap-op)", "findspingroup": "ferrimagnet(compensated)", "fsg_phase": "Compensated FiM", "fsg_ssg": "216.216.1.1.L", "fsg_splitting_wo_soc": "Zeeman"}
+KVCr2H2O LCM {"amcheck": "error:Something is wrong with the description of magnetic atoms!", "amscreen": "ferrimagnet(no-swap-op)", "findspingroup": "ferrimagnet(compensated)", "fsg_phase": "Compensated FiM", "fsg_ssg": "5.5.1.1.L", "fsg_splitting_wo_soc": "Zeeman"}

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360"><style>
+.f-text{font:13px/1.2 -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
+.f-title{font:700 16px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
+.f-sub,.f-small{font:12px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#5a6170}
+.f-strong{font-weight:700}.f-strong-t{font:700 13px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
+.f-atom{font:600 11px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
+.s-up{stroke:#b07a00}.s-up-fill{fill:#b07a00}.s-dn{stroke:#23508e}.s-dn-fill{fill:#23508e}
+.f-stroke3{stroke-width:3;stroke-linecap:round}.f-stroke2{stroke-width:1.5}
+.atom-n{fill:#eceff3;stroke:#8a909c;stroke-width:1.2}.atom-up{fill:#f3e6c6;stroke:#b07a00;stroke-width:1.2}.atom-dn{fill:#d9e3f2;stroke:#23508e;stroke-width:1.2}
+.vb-up{fill:#b07a00;fill-opacity:.35;stroke:#b07a00;stroke-width:1.2}.cb-up{fill:#b07a00;fill-opacity:.07;stroke:#b07a00;stroke-width:1.2;stroke-dasharray:3 3}
+.vb-dn{fill:#23508e;fill-opacity:.35;stroke:#23508e;stroke-width:1.2}.cb-dn{fill:#23508e;fill-opacity:.07;stroke:#23508e;stroke-width:1.2;stroke-dasharray:3 3}
+.f-axis{stroke:#8a909c;stroke-width:1}.f-guide{stroke:#8a909c;stroke-width:1;stroke-dasharray:4 4}
+.f-ink{stroke:#161a22}.f-ink-fill{fill:#161a22}
+.bar-a{fill:#161a22;fill-opacity:.78}.bar-b{fill:#161a22;fill-opacity:.22;stroke:#161a22;stroke-width:1}.bar-m{fill:#5a6170;fill-opacity:.45}
+</style><rect x="0" y="0" width="100%" height="100%" rx="10" fill="#ffffff"/><text x="240.0" y="26.0" class="f-text" text-anchor="middle">spin ↑ (Cr sites)</text>
+<text x="360.0" y="26.0" class="f-text" text-anchor="middle">spin ↓ (V sites)</text>
+<line x1="150" y1="40" x2="150" y2="352" class="f-axis"/>
+<line x1="146" y1="336" x2="150" y2="336" class="f-axis"/>
+<text x="140.0" y="340.0" class="f-small" text-anchor="end">−3</text>
+<line x1="146" y1="296" x2="150" y2="296" class="f-axis"/>
+<text x="140.0" y="300.0" class="f-small" text-anchor="end">−2</text>
+<line x1="146" y1="256" x2="150" y2="256" class="f-axis"/>
+<text x="140.0" y="260.0" class="f-small" text-anchor="end">−1</text>
+<line x1="146" y1="216" x2="150" y2="216" class="f-axis"/>
+<text x="140.0" y="220.0" class="f-small" text-anchor="end">0</text>
+<line x1="146" y1="176" x2="150" y2="176" class="f-axis"/>
+<text x="140.0" y="180.0" class="f-small" text-anchor="end">1</text>
+<line x1="146" y1="136" x2="150" y2="136" class="f-axis"/>
+<text x="140.0" y="140.0" class="f-small" text-anchor="end">2</text>
+<line x1="146" y1="96" x2="150" y2="96" class="f-axis"/>
+<text x="140.0" y="100.0" class="f-small" text-anchor="end">3</text>
+<line x1="146" y1="56" x2="150" y2="56" class="f-axis"/>
+<text x="140.0" y="60.0" class="f-small" text-anchor="end">4</text>
+<text x="104.0" y="196.0" class="f-small" text-anchor="middle" transform="rotate(-90 104 196)">energy (eV)</text>
+<rect x="320" y="216" width="80" height="136.0" class="vb-dn"/>
+<rect x="320" y="40" width="80" height="92.4" class="cb-dn"/>
+<rect x="200" y="321.6" width="80" height="30.4" class="vb-up"/>
+<rect x="200" y="40" width="80" height="29.6" class="cb-up"/>
+<text x="240.0" y="54.0" class="f-small" text-anchor="middle">empty</text>
+<text x="240.0" y="344.0" class="f-small" text-anchor="middle">filled</text>
+<text x="360.0" y="92.0" class="f-small" text-anchor="middle">empty</text>
+<text x="360.0" y="300.0" class="f-small" text-anchor="middle">filled</text>
+<line x1="196" y1="216.0" x2="404" y2="216.0" class="f-guide"/>
+<line x1="196" y1="132.4" x2="404" y2="132.4" class="f-guide"/>
+<line x1="418" y1="216.0" x2="418" y2="321.6" class="f-ink f-stroke2"/><line x1="413" y1="216.0" x2="423" y2="216.0" class="f-ink f-stroke2"/><line x1="413" y1="321.6" x2="423" y2="321.6" class="f-ink f-stroke2"/>
+<text x="430.0" y="264.8" class="f-strong-t" text-anchor="start">hole window</text>
+<text x="430.0" y="281.8" class="f-small" text-anchor="start">2.64 eV, every state spin ↓</text>
+<line x1="418" y1="132.4" x2="418" y2="69.6" class="f-ink f-stroke2"/><line x1="413" y1="132.4" x2="423" y2="132.4" class="f-ink f-stroke2"/><line x1="413" y1="69.6" x2="423" y2="69.6" class="f-ink f-stroke2"/>
+<text x="430.0" y="97.0" class="f-strong-t" text-anchor="start">electron window</text>
+<text x="430.0" y="114.0" class="f-small" text-anchor="start">1.57 eV, every state spin ↓</text>
+<line x1="306" y1="132.4" x2="306" y2="216.0" class="f-ink f-stroke2"/><line x1="301" y1="132.4" x2="311" y2="132.4" class="f-ink f-stroke2"/><line x1="301" y1="216.0" x2="311" y2="216.0" class="f-ink f-stroke2"/>
+<text x="298.0" y="170.2" class="f-strong-t" text-anchor="end">band gap</text>
+<text x="298.0" y="187.2" class="f-small" text-anchor="end">2.09 eV</text>
+<text x="470.0" y="284.0" class="f-small" text-anchor="start">for scale</text>
+<line x1="476" y1="296" x2="476" y2="336" class="f-ink f-stroke2"/>
+<text x="484.0" y="320.0" class="f-small" text-anchor="start">1 eV</text>
+<rect x="524" y="335" width="12" height="1.2" class="f-ink-fill"/>
+<text x="542.0" y="330.0" class="f-small" text-anchor="start">0.026 eV</text>
+<text x="542.0" y="346.0" class="f-small" text-anchor="start">(room temp.)</text></svg>

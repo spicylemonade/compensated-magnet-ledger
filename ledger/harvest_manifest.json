@@ -1,0 +1,3167 @@
+{
+ "files": [
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/stdout.log",
+   "bytes": 1079,
+   "md5_uncompressed": "576567aaf223cca39c84a0177110806b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/status.json",
+   "bytes": 293,
+   "md5_uncompressed": "798e52feb513043b3367e9838db62076"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/results/KVCr_U4_4.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/results/KVCr_U4_4.json",
+   "bytes": 4557,
+   "md5_uncompressed": "5dab13aca5dfc939c7992c9263ab8666"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_4_LCM_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_4_LCM_nscf.out",
+   "bytes": 94809,
+   "md5_uncompressed": "baea93141a98f414d4185c502b0d6eda"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_4_LCM_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_4_LCM_nscf.in",
+   "bytes": 1678,
+   "md5_uncompressed": "90b3fbfa5334739556653d92d7f96889"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_4_LCM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_4_LCM.out",
+   "bytes": 107162,
+   "md5_uncompressed": "566b0ea8ec28b871d752422ed3f1b870"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_4_LCM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_4_LCM.in",
+   "bytes": 1700,
+   "md5_uncompressed": "bffbb6914fbe27e489a989421dfbcd2f"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_4_FM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_4_FM.out",
+   "bytes": 107107,
+   "md5_uncompressed": "00a09a4209c60300df1caccabfabfa58"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/results/KVCr_U4_2.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/results/KVCr_U4_2.json",
+   "bytes": 4550,
+   "md5_uncompressed": "5b2c067636bcbc28b1fd63f13f1bc9e3"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_4_FM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_4_FM.in",
+   "bytes": 1697,
+   "md5_uncompressed": "0fc79d787bb1e73e8274c291253b06cc"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_2_LCM_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_2_LCM_nscf.out",
+   "bytes": 94809,
+   "md5_uncompressed": "bc89c52d5020890f34cc089950f535ca"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_2_LCM_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_2_LCM_nscf.in",
+   "bytes": 1678,
+   "md5_uncompressed": "9773960d525832ade7df1293e5a301e6"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_2_LCM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_2_LCM.out",
+   "bytes": 117545,
+   "md5_uncompressed": "ba064b177fac628a90e9d90c932e6614"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_2_LCM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_2_LCM.in",
+   "bytes": 1700,
+   "md5_uncompressed": "8e2b8cb50b94099536c6c935c0a6684f"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_2_FM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_2_FM.out",
+   "bytes": 117490,
+   "md5_uncompressed": "96a3f2180250d734e7d1c4f8c8ef0751"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/results/KVCr_U2_4.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/results/KVCr_U2_4.json",
+   "bytes": 4547,
+   "md5_uncompressed": "3b54978a63d94286ffa43ba59a13c25e"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U4_2_FM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U4_2_FM.in",
+   "bytes": 1697,
+   "md5_uncompressed": "ad75363adfbde8fe783b60f329e36fc0"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_4_LCM_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_4_LCM_nscf.out",
+   "bytes": 94809,
+   "md5_uncompressed": "0b92c8d722f01d34abc0ba5c1f09245a"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_4_LCM_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_4_LCM_nscf.in",
+   "bytes": 1678,
+   "md5_uncompressed": "7a2d2a6d740c796f0ef817d77d4f391b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_4_LCM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_4_LCM.out",
+   "bytes": 110623,
+   "md5_uncompressed": "4187f500af40d4623db39cb7afe242c6"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_4_LCM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_4_LCM.in",
+   "bytes": 1700,
+   "md5_uncompressed": "5130630ab1bada5c6a696bd1cbb246c5"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_4_FM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_4_FM.out",
+   "bytes": 114081,
+   "md5_uncompressed": "cbd44df9da88292eb6765183a9a12a63"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/results/KVCr_U2_2.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/results/KVCr_U2_2.json",
+   "bytes": 4544,
+   "md5_uncompressed": "72bb6857369f8a44f497e5f8a17fcc06"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_4_FM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_4_FM.in",
+   "bytes": 1697,
+   "md5_uncompressed": "5f35a9ede76aacca4b0aa3b0ce2c45b9"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_2_LCM_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_2_LCM_nscf.out",
+   "bytes": 94809,
+   "md5_uncompressed": "719fda300ad2355b1fa6d35db0aea852"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_2_LCM_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_2_LCM_nscf.in",
+   "bytes": 1678,
+   "md5_uncompressed": "0b7a11265fdfa31adf44b5c1e36882aa"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_2_LCM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_2_LCM.out",
+   "bytes": 121006,
+   "md5_uncompressed": "84ea6d5d5b9887958c64326b8db06825"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_2_LCM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_2_LCM.in",
+   "bytes": 1700,
+   "md5_uncompressed": "16fbb0699b88d991a5917cee8b7b7869"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_2_FM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_2_FM.out",
+   "bytes": 145178,
+   "md5_uncompressed": "4ffb77a8fe8cc9f63506bf180d266804"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/results/KVCr_sym.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/results/KVCr_sym.json",
+   "bytes": 2259,
+   "md5_uncompressed": "9ac8c5beb596a86c1427a758402432b1"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/results/KVCr.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/results/KVCr.json",
+   "bytes": 6010,
+   "md5_uncompressed": "7dc7f491274068e6920497850e9a5679"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/chain_grid.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/chain_grid.json",
+   "bytes": 7710,
+   "md5_uncompressed": "488abbe589c7477e58011eb17060be15"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_U2_2_FM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_U2_2_FM.in",
+   "bytes": 1697,
+   "md5_uncompressed": "147d951fb3134e3307eb337f0a094f5d"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_LCM_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_LCM_nscf.out",
+   "bytes": 94774,
+   "md5_uncompressed": "9a037ec1b834a24ab9be11763814b87b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_LCM_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_LCM_nscf.in",
+   "bytes": 1668,
+   "md5_uncompressed": "525a0cdae73536a43898a2c38cbf70e7"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_LCM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_LCM.out",
+   "bytes": 114069,
+   "md5_uncompressed": "acea862b8ef67ad39db39961bf36e837"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_LCM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_LCM.in",
+   "bytes": 1690,
+   "md5_uncompressed": "3990d131f91b817157893cc1d06d3159"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_FM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_FM.out",
+   "bytes": 114109,
+   "md5_uncompressed": "cdd236596c03339efb26d173f0b5367c"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_vcrelax.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_vcrelax.out.gz",
+   "bytes": 686075,
+   "md5_uncompressed": "aad86ec15eea77d71fba8d5b39afadb7"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_FM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_FM.in",
+   "bytes": 1687,
+   "md5_uncompressed": "0f4c0533d07965568b9819da7ed9c53c"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/chain_base.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/chain_base.json",
+   "bytes": 1916,
+   "md5_uncompressed": "2ef24b12e0793ad3efd40db848b06e0a"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_vcrelax.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_vcrelax.in",
+   "bytes": 1820,
+   "md5_uncompressed": "1585cc1dd7af12d0857b167354abee88"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/KVCr/KVCr_chain.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_chain.json",
+   "bytes": 2505,
+   "md5_uncompressed": "318b79062dfb0e366c070403b15b1d6e"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/status.json",
+   "bytes": 217,
+   "md5_uncompressed": "cadb6c7d86232d1f6f75ed5c7a5c3c98"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/results/KVCr_U4_4_FMfix.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/results/KVCr_U4_4_FMfix.json",
+   "bytes": 728,
+   "md5_uncompressed": "8c7c246cd88314f86bee83d2201740e3"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/KVCr_U4_4_FMfix.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/KVCr_U4_4_FMfix.out",
+   "bytes": 105318,
+   "md5_uncompressed": "98ffdcf4f17d23860873bbd755098bcb"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/results/KVCr_U4_2_FMfix.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/results/KVCr_U4_2_FMfix.json",
+   "bytes": 732,
+   "md5_uncompressed": "28e7533d4ededca0f60cd14130044c3a"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/KVCr_U4_4_FMfix.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/KVCr_U4_4_FMfix.in",
+   "bytes": 1706,
+   "md5_uncompressed": "aceb257f8a8e7e3dcec1abfc78b4b7a6"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/KVCr_U4_2_FMfix.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/KVCr_U4_2_FMfix.out",
+   "bytes": 108779,
+   "md5_uncompressed": "f07080be55b96db0d06073219caec730"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/results/KVCr_U2_4_FMfix.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/results/KVCr_U2_4_FMfix.json",
+   "bytes": 736,
+   "md5_uncompressed": "35f68969c1259d58f6747bba335073c7"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/KVCr_U4_2_FMfix.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/KVCr_U4_2_FMfix.in",
+   "bytes": 1706,
+   "md5_uncompressed": "231d28051b9db48b49f13258f015eea5"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/KVCr_U2_4_FMfix.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/KVCr_U2_4_FMfix.out",
+   "bytes": 112188,
+   "md5_uncompressed": "f8d518ca4b197cbaac94040ac36dc76b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/results/KVCr_U2_2_FMfix.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/results/KVCr_U2_2_FMfix.json",
+   "bytes": 734,
+   "md5_uncompressed": "fca4f247ee0e0e4c9bda5efb7d7d8c3c"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/KVCr_U2_4_FMfix.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/KVCr_U2_4_FMfix.in",
+   "bytes": 1706,
+   "md5_uncompressed": "d614d1c9a26f582b1952f02699653691"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/KVCr_U2_2_FMfix.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/KVCr_U2_2_FMfix.out",
+   "bytes": 108727,
+   "md5_uncompressed": "3880c398d4214e2b608feb26a160ed76"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/results/KVCr_U3_3_FMfix.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/results/KVCr_U3_3_FMfix.json",
+   "bytes": 726,
+   "md5_uncompressed": "2840c475e93043cc6e7b2846a4578d81"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/KVCr_U3_3_FMfix.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/KVCr_U3_3_FMfix.out",
+   "bytes": 108822,
+   "md5_uncompressed": "d0473d1120881d048f3f0faa5a7ce890"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/KVCr_U2_2_FMfix.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/KVCr_U2_2_FMfix.in",
+   "bytes": 1706,
+   "md5_uncompressed": "0d31471a2f6417ce85d00e7be8f78cd5"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/KVCr_U3_3_FMfix.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/KVCr_U3_3_FMfix.in",
+   "bytes": 1706,
+   "md5_uncompressed": "1c875f3e871addd2d1a9c3c1489f5889"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1a/FMfix/FMfix_pbeU.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/B_pbeu_FM_fixed_moment/FMfix_pbeU.json",
+   "bytes": 16917,
+   "md5_uncompressed": "e810a725719b402cb185650889025eac"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/C_hse06_ideal_LCM/stdout.log",
+   "bytes": 485,
+   "md5_uncompressed": "32c26c4a82590058341c2b67d001794d"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/C_hse06_ideal_LCM/status.json",
+   "bytes": 220,
+   "md5_uncompressed": "a8ca1cd3d87bddb840e63e9c67037b0a"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM/hse_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/C_hse06_ideal_LCM/hse_lcm.out",
+   "bytes": 236981,
+   "md5_uncompressed": "2a7b4e9f6cfd4987421cc46d248d07bd"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM/deep_hse.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/C_hse06_ideal_LCM/deep_hse.json",
+   "bytes": 595,
+   "md5_uncompressed": "a6aca787201cbfaafb084abbce573921"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM/hse_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/C_hse06_ideal_LCM/hse_lcm.in",
+   "bytes": 1761,
+   "md5_uncompressed": "3e4e546585cf1858e9455765246b9fe4"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM/KVCr_hse_LCM.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/C_hse06_ideal_LCM/KVCr_hse_LCM.json",
+   "bytes": 1669,
+   "md5_uncompressed": "73d1332829b7b778919d09d089aa806e"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_FMfix/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/D_hse06_ideal_FM_fixed_moment/status.json",
+   "bytes": 222,
+   "md5_uncompressed": "4df019430092fcbabf9037f4b54b7ee2"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_FMfix/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/D_hse06_ideal_FM_fixed_moment/stdout.log",
+   "bytes": 62,
+   "md5_uncompressed": "18ebad3f1c8bea04f7045f449882098c"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_FMfix/results/KVCr_hse_FMfix.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/D_hse06_ideal_FM_fixed_moment/results/KVCr_hse_FMfix.json",
+   "bytes": 682,
+   "md5_uncompressed": "df0b9fcd9b2eae4a9a91ce47afcb018b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_FMfix/KVCr_hse_FMfix.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/D_hse06_ideal_FM_fixed_moment/KVCr_hse_FMfix.out",
+   "bytes": 211280,
+   "md5_uncompressed": "981450583e814f281f1c9abd97151296"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_FMfix/KVCr_hse_FMfix.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/D_hse06_ideal_FM_fixed_moment/KVCr_hse_FMfix.in",
+   "bytes": 1800,
+   "md5_uncompressed": "da1794cb930803f13f56abc992f6a105"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_FMfix/KVCr_hse_FMfix.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/D_hse06_ideal_FM_fixed_moment/KVCr_hse_FMfix.json",
+   "bytes": 1690,
+   "md5_uncompressed": "a68afcfa6efcbc83322396d637422dbf"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM_nq1/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/E_hse06_ideal_LCM_nq1/status.json",
+   "bytes": 229,
+   "md5_uncompressed": "9441d99c089cddffea2da8a0f72269c2"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM_nq1/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/E_hse06_ideal_LCM_nq1/stdout.log",
+   "bytes": 482,
+   "md5_uncompressed": "4884c1814aca60b5a4dd4d4c77846527"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM_nq1/deep_hse.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/E_hse06_ideal_LCM_nq1/deep_hse.json",
+   "bytes": 596,
+   "md5_uncompressed": "df9c3f64351d53e9ff213254d7cb3d5a"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM_nq1/hse_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/E_hse06_ideal_LCM_nq1/hse_lcm.out.gz",
+   "bytes": 720765,
+   "md5_uncompressed": "fc1d0bf39a909d89196c3edb53571737"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM_nq1/hse_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/E_hse06_ideal_LCM_nq1/hse_lcm.in",
+   "bytes": 1761,
+   "md5_uncompressed": "5185fe843a88124fc278dec3d822c3be"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_hse_LCM_nq1/KVCr_hse_LCM_nq1.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/E_hse06_ideal_LCM_nq1/KVCr_hse_LCM_nq1.json",
+   "bytes": 1279,
+   "md5_uncompressed": "5d2326a4c4bcd443f0e50020d66bdb9e"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr2H2O_hse_LCM/hse_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/F_hse06_dihydrate_LCM/hse_lcm.out.gz",
+   "bytes": 1417134,
+   "md5_uncompressed": "991552d9de78d487e2a56700e8023f4c"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr2H2O_hse_LCM/hse_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/F_hse06_dihydrate_LCM/hse_lcm.in",
+   "bytes": 2128,
+   "md5_uncompressed": "a41a1d68d9d65150d4bf559bd026bdf8"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr2H2O_hse_LCM/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/F_hse06_dihydrate_LCM/status.json",
+   "bytes": 164,
+   "md5_uncompressed": "eb229b4e9e28fdb0656b282f74592ffc"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr2H2O_hse_LCM/KVCr2H2O_hse_LCM.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/F_hse06_dihydrate_LCM/KVCr2H2O_hse_LCM.json",
+   "bytes": 1796,
+   "md5_uncompressed": "a13fd65ed8adea8d6e29e778c14ef543"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr2H2O_hse_LCM/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/F_hse06_dihydrate_LCM/stdout.log",
+   "bytes": 155,
+   "md5_uncompressed": "547343c27d3602d6d27a6d3e24975c75"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/stdout.log",
+   "bytes": 2946,
+   "md5_uncompressed": "effeb9fd53050077b64802515ae49ecb"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/status.json",
+   "bytes": 300,
+   "md5_uncompressed": "f7b08ebb9affa449e2e2d2af35a90910"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/results/KVCr_2H2O.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/results/KVCr_2H2O.json",
+   "bytes": 7099,
+   "md5_uncompressed": "683b06028611de5a7175d1376aab73ce"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O_LCM_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O_LCM_nscf.out",
+   "bytes": 270456,
+   "md5_uncompressed": "27c615f61752c8d85c38b4f988583d62"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O_LCM_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O_LCM_nscf.in",
+   "bytes": 2045,
+   "md5_uncompressed": "68850846e426b2f931041b96f1f50f85"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O_LCM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O_LCM.out",
+   "bytes": 121675,
+   "md5_uncompressed": "70123589f657b90d343e662327758750"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O_LCM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O_LCM.in",
+   "bytes": 2068,
+   "md5_uncompressed": "0e36459f069750b28b284e79c63121b8"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O_FM.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O_FM.out",
+   "bytes": 114879,
+   "md5_uncompressed": "6607d28297045f58e9ac255924c54f45"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O_vcrelax.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O_vcrelax.out.gz",
+   "bytes": 3736672,
+   "md5_uncompressed": "f7a50e4113d516e2372ac5c77fdd174b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O_FM.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O_FM.in",
+   "bytes": 2065,
+   "md5_uncompressed": "043400ef2a712ad84f8b7ff1ba33136c"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O_vcrelax_prev1.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O_vcrelax_prev1.out.gz",
+   "bytes": 372868,
+   "md5_uncompressed": "0734029dc7f7e747a2bcf9de18213e33"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O_vcrelax.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O_vcrelax.in",
+   "bytes": 2183,
+   "md5_uncompressed": "264478e4302286074520b770a6316658"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O.json",
+   "bytes": 2697,
+   "md5_uncompressed": "03c07589be7604e18cf40db05b8402dc"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/s1/KVCr_2H2O/KVCr_2H2O_vcrelax_prev0.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/G_pbeu_dihydrate/KVCr_2H2O_vcrelax_prev0.out.gz",
+   "bytes": 2713879,
+   "md5_uncompressed": "01eb60541db118fbf33052200956917a"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_VAC_w1_hse/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/H_hse06_vacancy_with_water/stdout.log",
+   "bytes": 907,
+   "md5_uncompressed": "f751a29c803b2f319dbba5d5273be0ff"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_VAC_w1_hse/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/H_hse06_vacancy_with_water/status.json",
+   "bytes": 226,
+   "md5_uncompressed": "67d5bbeb87ff81ed18beb3f1af52d51d"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_VAC_w1_hse/hse_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/H_hse06_vacancy_with_water/hse_lcm.out.gz",
+   "bytes": 599349,
+   "md5_uncompressed": "bb5045c3c1b64ec5b3731cd9f09a7ef8"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_VAC_w1_hse/deep_hse.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/H_hse06_vacancy_with_water/deep_hse.json",
+   "bytes": 1170,
+   "md5_uncompressed": "5d0fe95034821783221cd1184056682f"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_VAC_w1_hse/hse_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/H_hse06_vacancy_with_water/hse_lcm.in",
+   "bytes": 4025,
+   "md5_uncompressed": "d90933a59f90c20d3b8cfa6d0eb9bf28"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/KVCr_VAC_w1_hse/KVCr_VAC_w1_hse.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/H_hse06_vacancy_with_water/KVCr_VAC_w1_hse.json",
+   "bytes": 3740,
+   "md5_uncompressed": "9c46e8f037dec7f2495cf717a97ff28b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/stdout.log",
+   "bytes": 2188,
+   "md5_uncompressed": "f0754290e8ac63780d85566eaaf0bd5b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/status.json",
+   "bytes": 283,
+   "md5_uncompressed": "721d5240f4c321e90a758a7adf5d5ef9"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/results/KVCr_VAC_w1.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/results/KVCr_VAC_w1.json",
+   "bytes": 27654,
+   "md5_uncompressed": "bbceb05478eff764502d31204fc9fae9"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/KVCr_VAC_w1_lcm_proj.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/KVCr_VAC_w1_lcm_proj.in",
+   "bytes": 230,
+   "md5_uncompressed": "cbb2d0a3f350ff557b40eaa1d9579800"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/KVCr_VAC_w1_lcm_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/KVCr_VAC_w1_lcm_nscf.out.gz",
+   "bytes": 319531,
+   "md5_uncompressed": "14439d3db68982e9a658e964ece3f52c"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/KVCr_VAC_w1_lcm_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/KVCr_VAC_w1_lcm_nscf.in",
+   "bytes": 3959,
+   "md5_uncompressed": "94a2973ea854b08e78b3f9245ea789e7"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/KVCr_VAC_w1_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/KVCr_VAC_w1_lcm.out",
+   "bytes": 277100,
+   "md5_uncompressed": "642b855b70c1ad92c9e4c6702ba70ede"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/KVCr_VAC_w1_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/KVCr_VAC_w1_lcm.in",
+   "bytes": 3968,
+   "md5_uncompressed": "052630a8e052c249bee4fe748fec1194"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/KVCr_VAC_w1.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/KVCr_VAC_w1.json",
+   "bytes": 7596,
+   "md5_uncompressed": "0ad66bb1b809316f46395b4499f86a3f"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/KVCr_VAC_w1_relax.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/KVCr_VAC_w1_relax.out.gz",
+   "bytes": 830237,
+   "md5_uncompressed": "2fcde5d868169441b037cf7a6bfec866"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_w1/KVCr_VAC_w1_relax.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/I_pbeu_vacancy_with_water/KVCr_VAC_w1_relax.in",
+   "bytes": 4059,
+   "md5_uncompressed": "405d81e0ee167aefacbc567be5b18adb"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/stdout.log",
+   "bytes": 363,
+   "md5_uncompressed": "605745e74a96d3c95203b1bd5af48029"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/status.json",
+   "bytes": 273,
+   "md5_uncompressed": "6aca789018e681687951dbd8d47b7414"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/results/KVCr_P.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/results/KVCr_P.json",
+   "bytes": 29338,
+   "md5_uncompressed": "391a1b985ec73373ac58eed99c3aa8fb"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/KVCr_P_lcm_proj.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/KVCr_P_lcm_proj.in",
+   "bytes": 210,
+   "md5_uncompressed": "a75edb0d1a310c18423d24e6ce19a59f"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/KVCr_P_lcm_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/KVCr_P_lcm_nscf.out",
+   "bytes": 128627,
+   "md5_uncompressed": "7e992b499548af12b234623195b43df9"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/KVCr_P_lcm_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/KVCr_P_lcm_nscf.in",
+   "bytes": 3624,
+   "md5_uncompressed": "12b5dd2947adc17c16ad047d8597bf25"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/KVCr_P_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/KVCr_P_lcm.out",
+   "bytes": 245354,
+   "md5_uncompressed": "433c552df6fe6513e11116ccad7db37e"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/KVCr_P_relax.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/KVCr_P_relax.out",
+   "bytes": 282909,
+   "md5_uncompressed": "6e7be0460a9d2b78282a76cece2fb791"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/KVCr_P_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/KVCr_P_lcm.in",
+   "bytes": 3633,
+   "md5_uncompressed": "8d2bad66e1f10e7f542eb09234b2aa52"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/KVCr_P_relax.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/KVCr_P_relax.in",
+   "bytes": 3724,
+   "md5_uncompressed": "bebcdf99fcb9249c70c4be1fa0c11b3d"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_P/KVCr_P.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/J_pbeu_defect_supercell_pristine/KVCr_P.json",
+   "bytes": 5314,
+   "md5_uncompressed": "553059da232986e83c43efb2e5a11de1"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/stdout.log",
+   "bytes": 357,
+   "md5_uncompressed": "171d5b3002b663905afbee7852017cd6"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/status.json",
+   "bytes": 278,
+   "md5_uncompressed": "a735f4b3d0d42b8a6fab244a27314af8"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/results/KVCr_AS.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/results/KVCr_AS.json",
+   "bytes": 26317,
+   "md5_uncompressed": "7fa99081a88ebe47faf6f9ad1dce5ea6"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/KVCr_AS_lcm_proj.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/KVCr_AS_lcm_proj.in",
+   "bytes": 214,
+   "md5_uncompressed": "668b617dc15b03e6a6eb8e958bc3e186"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/KVCr_AS_lcm_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/KVCr_AS_lcm_nscf.out",
+   "bytes": 131057,
+   "md5_uncompressed": "47c873e75af347d103a74534dbbe151e"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/KVCr_AS_lcm_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/KVCr_AS_lcm_nscf.in",
+   "bytes": 3774,
+   "md5_uncompressed": "eed350bf0e5089f209c7501fd1a68aae"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/KVCr_AS_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/KVCr_AS_lcm.out",
+   "bytes": 282207,
+   "md5_uncompressed": "9c3287bc7bfb229856c7a4e84e538588"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/KVCr_AS_relax.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/KVCr_AS_relax.out.gz",
+   "bytes": 3808370,
+   "md5_uncompressed": "6ebe6124f49229d202d7438f9ed75b70"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/KVCr_AS_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/KVCr_AS_lcm.in",
+   "bytes": 3783,
+   "md5_uncompressed": "d132fde6ba64ac34a9fc982f0585f32b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/KVCr_AS_relax.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/KVCr_AS_relax.in",
+   "bytes": 3875,
+   "md5_uncompressed": "0ccbef32d6a95029651b26bf67844ff6"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_AS/KVCr_AS.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/K_pbeu_defect_antisite_pair/KVCr_AS.json",
+   "bytes": 5576,
+   "md5_uncompressed": "79a28dc01f8042128ebe3c05a7b29167"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/stdout.log",
+   "bytes": 364,
+   "md5_uncompressed": "870f227b8ce71f7584e4f255facb9344"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/status.json",
+   "bytes": 281,
+   "md5_uncompressed": "67bcffd60dbbcd8ff74aae41d4124cf7"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/results/KVCr_FLIP.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/results/KVCr_FLIP.json",
+   "bytes": 30989,
+   "md5_uncompressed": "f6fcd77df2cdd29b7a848cb8e35c5023"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/KVCr_FLIP_lcm_proj.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/KVCr_FLIP_lcm_proj.in",
+   "bytes": 222,
+   "md5_uncompressed": "057bdf5ecb0e59d1873bc30166040fa5"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/KVCr_FLIP_lcm_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/KVCr_FLIP_lcm_nscf.out",
+   "bytes": 216637,
+   "md5_uncompressed": "eb5dc329303a0c81607fe4e453127f3b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/KVCr_FLIP_lcm_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/KVCr_FLIP_lcm_nscf.in",
+   "bytes": 3630,
+   "md5_uncompressed": "f72b1e5586626416513e78009e0f3efa"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/KVCr_FLIP_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/KVCr_FLIP_lcm.out",
+   "bytes": 246213,
+   "md5_uncompressed": "0da4b3874e426c8a2c7f5fc8f8fe92ac"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/KVCr_FLIP_relax.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/KVCr_FLIP_relax.out.gz",
+   "bytes": 1091867,
+   "md5_uncompressed": "d6f1d082749cdb3d5a9566cad1081038"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/KVCr_FLIP_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/KVCr_FLIP_lcm.in",
+   "bytes": 3639,
+   "md5_uncompressed": "540bacfdb6d0c72ab09202709346c035"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/KVCr_FLIP_relax.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/KVCr_FLIP_relax.in",
+   "bytes": 3731,
+   "md5_uncompressed": "3d402c27bffd968cac345c78197b98fe"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_FLIP/KVCr_FLIP.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/L_pbeu_defect_cyanide_flip/KVCr_FLIP.json",
+   "bytes": 5421,
+   "md5_uncompressed": "42bffe352dc741eb8b209275ae961db2"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/stdout.log",
+   "bytes": 2085,
+   "md5_uncompressed": "cb771b60c346a2ebeb9d60936aa655b9"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/status.json",
+   "bytes": 280,
+   "md5_uncompressed": "d63438982a5ee4d6c13476b0a3d40490"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/results/KVCr_KVAC.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/results/KVCr_KVAC.json",
+   "bytes": 18843,
+   "md5_uncompressed": "2ac785849b37c5d4608c9c6dd1e4ce24"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/KVCr_KVAC_lcm_proj.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/KVCr_KVAC_lcm_proj.in",
+   "bytes": 222,
+   "md5_uncompressed": "43e42b891f9ad3edbb37ebfb5aa8850b"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/KVCr_KVAC_lcm_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/KVCr_KVAC_lcm_nscf.out",
+   "bytes": 126937,
+   "md5_uncompressed": "540fe333a01e98970d7d0d331f788c71"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/KVCr_KVAC_lcm_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/KVCr_KVAC_lcm_nscf.in",
+   "bytes": 3603,
+   "md5_uncompressed": "10f82bbdd26f3759d472618e6e6e8215"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/KVCr_KVAC_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/KVCr_KVAC_lcm.out",
+   "bytes": 267559,
+   "md5_uncompressed": "6abfd4b50c9961c475b0a78cdbbc4da4"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/KVCr_KVAC_relax.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/KVCr_KVAC_relax.out.gz",
+   "bytes": 1618835,
+   "md5_uncompressed": "72833bddf9f93a5205e2b1e6d19feee7"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/KVCr_KVAC_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/KVCr_KVAC_lcm.in",
+   "bytes": 3612,
+   "md5_uncompressed": "9755d69a362fa35b88237e1cb095c187"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/KVCr_KVAC_relax_prev0.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/KVCr_KVAC_relax_prev0.out.gz",
+   "bytes": 1068254,
+   "md5_uncompressed": "eea9ebb51f890e5e06d39ab2c76bf8c6"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/KVCr_KVAC_relax.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/KVCr_KVAC_relax.in",
+   "bytes": 3689,
+   "md5_uncompressed": "8388646951b194c1f59176303fda36ac"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_KVAC/KVCr_KVAC.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/M_pbeu_defect_K_vacancy/KVCr_KVAC.json",
+   "bytes": 5517,
+   "md5_uncompressed": "f018416c47b4d2047f16c776111084bf"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_r/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/N_pbeu_defect_CrCN6_vacancy/stdout.log",
+   "bytes": 240,
+   "md5_uncompressed": "5d6a29489f00708a8279a2db3c387b03"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_r/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/N_pbeu_defect_CrCN6_vacancy/status.json",
+   "bytes": 278,
+   "md5_uncompressed": "2c9692896c6bd01d08f483e989f286c1"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_r/results/KVCr_VAC_r.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/N_pbeu_defect_CrCN6_vacancy/results/KVCr_VAC_r.json",
+   "bytes": 27274,
+   "md5_uncompressed": "f1ec86c48f9ef5fea10e29984d0088d1"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_r/KVCr_VAC_r_lcm_proj.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/N_pbeu_defect_CrCN6_vacancy/KVCr_VAC_r_lcm_proj.in",
+   "bytes": 226,
+   "md5_uncompressed": "78e9f84ec44e6580d53d5161109460bd"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_r/KVCr_VAC_r_lcm_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/N_pbeu_defect_CrCN6_vacancy/KVCr_VAC_r_lcm_nscf.out",
+   "bytes": 143915,
+   "md5_uncompressed": "ce85ce5137e1e9d1677323ee541fbc66"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_r/KVCr_VAC_r_lcm_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/N_pbeu_defect_CrCN6_vacancy/KVCr_VAC_r_lcm_nscf.in",
+   "bytes": 3828,
+   "md5_uncompressed": "c0dc89cb0d6d5efa02ad41539a1849c8"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_r/KVCr_VAC_r_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/N_pbeu_defect_CrCN6_vacancy/KVCr_VAC_r_lcm.out",
+   "bytes": 261858,
+   "md5_uncompressed": "d9a227814a9a0feabd99574cfcb923f4"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_r/KVCr_VAC_r_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/N_pbeu_defect_CrCN6_vacancy/KVCr_VAC_r_lcm.in",
+   "bytes": 3837,
+   "md5_uncompressed": "fcf415f59996c77990898fffec11acb8"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/KVCr_VAC_r/KVCr_VAC_r.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/N_pbeu_defect_CrCN6_vacancy/KVCr_VAC_r.json",
+   "bytes": 7154,
+   "md5_uncompressed": "bc2528023d5a2ec40a713e2f957be634"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/refs/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/O_pbeu_reference_K_H2O/stdout.log",
+   "bytes": 334,
+   "md5_uncompressed": "3664b1fb61b8b1bd90fbb1e503262013"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/refs/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/O_pbeu_reference_K_H2O/status.json",
+   "bytes": 191,
+   "md5_uncompressed": "3c003fcbbaf3371bded18acf2718770f"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/refs/results/refs.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/O_pbeu_reference_K_H2O/results/refs.json",
+   "bytes": 393,
+   "md5_uncompressed": "e0c5b38f7f8b16ffc295ffbd2ea4cd25"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/refs/H2O.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/O_pbeu_reference_K_H2O/H2O.out",
+   "bytes": 96340,
+   "md5_uncompressed": "ab0dae24c8951f932a3d8a15747c79d8"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/refs/K_bcc.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/O_pbeu_reference_K_H2O/K_bcc.out",
+   "bytes": 171483,
+   "md5_uncompressed": "f3910822b3be231a9422b0fba2464ee4"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/refs/H2O.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/O_pbeu_reference_K_H2O/H2O.in",
+   "bytes": 924,
+   "md5_uncompressed": "1c558d7361967f79254f9d6418717ff9"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/def/refs/K_bcc.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/O_pbeu_reference_K_H2O/K_bcc.in",
+   "bytes": 838,
+   "md5_uncompressed": "ce89b15899461db4d045fd0641334d0f"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/status.json",
+   "bytes": 244,
+   "md5_uncompressed": "bc6d02889314e94aee6f14dc58d6be54"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/stdout.log",
+   "bytes": 3140,
+   "md5_uncompressed": "17009b3b90f457dc210cf9241101a551"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/results/KVCr_bands_pdos.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/results/KVCr_bands_pdos.json.gz",
+   "bytes": 1187739,
+   "md5_uncompressed": "93086245d49f667d055a83126d6edf7e"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_projd.head.txt",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_projd.head.txt",
+   "bytes": 3808,
+   "md5_uncompressed": "93ca52dbaafdaf0d42f1ce7a8a3bff2a"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_lowdin.txt",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_lowdin.txt",
+   "bytes": 12632,
+   "md5_uncompressed": "ea0bc5be986d7baa11389367e5ae2dd3"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_projd.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_projd.in",
+   "bytes": 159,
+   "md5_uncompressed": "571f3260f3d31a61f18803b3b64b0eba"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_nscf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_nscf.out",
+   "bytes": 124366,
+   "md5_uncompressed": "38636d10fcb19849fb606d2ec285cd0d"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_nscf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_nscf.in",
+   "bytes": 1704,
+   "md5_uncompressed": "a3ab0e7e2ef3a11790d80878f5cfe1f8"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_projb.head.txt",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_projb.head.txt",
+   "bytes": 3825,
+   "md5_uncompressed": "8ac32e3cce7f9202f2078f9289870323"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_projb.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_projb.in",
+   "bytes": 136,
+   "md5_uncompressed": "9340afb4afc0f44d1dd76f6d207d12c2"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_bands.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_bands.out.gz",
+   "bytes": 302111,
+   "md5_uncompressed": "38a96f64733e6c7989db71eca8f20ba3"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_scf.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_scf.out",
+   "bytes": 124453,
+   "md5_uncompressed": "ede9b1d80f2d3ba9ff0a5bd3a31b663a"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_bands.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_bands.in",
+   "bytes": 8535,
+   "md5_uncompressed": "b7c06bd966201e2a0c2549e7d4c9192b"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr_bp_scf.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr_bp_scf.in",
+   "bytes": 1680,
+   "md5_uncompressed": "4c3b602cf274ba14530bec34367012af"
+  },
+  {
+   "volume_path": "jobs/lcm/ms/bands_pdos/KVCr/KVCr.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/P_pbeu_bands_pdos/KVCr.json",
+   "bytes": 3412,
+   "md5_uncompressed": "d77cc911bcd9bfa0cc875bec2331a034"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/CrCr_hse_LCM/stdout.log",
+   "repo_path": "materials/KV_Cr_CN6/runs/Q_hse06_control_CrCr_same_element/stdout.log",
+   "bytes": 474,
+   "md5_uncompressed": "f8beab5dc890de17122901a32f019ee0"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/CrCr_hse_LCM/status.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/Q_hse06_control_CrCr_same_element/status.json",
+   "bytes": 220,
+   "md5_uncompressed": "6dc1e3c1d287048d1cff95cade175b62"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/CrCr_hse_LCM/hse_lcm.out",
+   "repo_path": "materials/KV_Cr_CN6/runs/Q_hse06_control_CrCr_same_element/hse_lcm.out",
+   "bytes": 199988,
+   "md5_uncompressed": "4410515a1befb1adbd658677e7af2ae8"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/CrCr_hse_LCM/deep_hse.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/Q_hse06_control_CrCr_same_element/deep_hse.json",
+   "bytes": 581,
+   "md5_uncompressed": "bea0d0d91397666379621c00c7a671ff"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/CrCr_hse_LCM/hse_lcm.in",
+   "repo_path": "materials/KV_Cr_CN6/runs/Q_hse06_control_CrCr_same_element/hse_lcm.in",
+   "bytes": 1668,
+   "md5_uncompressed": "ce1729533b810a5bfdb00f4a872849fc"
+  },
+  {
+   "volume_path": "jobs/lcm/pba/hse/CrCr_hse_LCM/CrCr_hse_LCM.json",
+   "repo_path": "materials/KV_Cr_CN6/runs/Q_hse06_control_CrCr_same_element/CrCr_hse_LCM.json",
+   "bytes": 1475,
+   "md5_uncompressed": "7aa41c686727a254b4df352ec2d85b0e"
+  },
+  {
+   "volume_path": "jobs/lcm/h110/YBMFO_P4n/vc110.out",
+   "repo_path": "materials/YBaMnFeO5/runs/A_pbeu_vcrelax_110Ry/vc110.out.gz",
+   "bytes": 2759576,
+   "md5_uncompressed": "53bfed02cbb5619d1f96da718a5dc5c1"
+  },
+  {
+   "volume_path": "jobs/lcm/h110/YBMFO_P4n/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/A_pbeu_vcrelax_110Ry/stdout.log",
+   "bytes": 287,
+   "md5_uncompressed": "b72eacdfe0816e15dc966bcb6493306c"
+  },
+  {
+   "volume_path": "jobs/lcm/h110/YBMFO_P4n/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/A_pbeu_vcrelax_110Ry/status.json",
+   "bytes": 237,
+   "md5_uncompressed": "e4d63fe05893578e9d79331a07184cff"
+  },
+  {
+   "volume_path": "jobs/lcm/h110/YBMFO_P4n/h110_YBMFO_P4n.json",
+   "repo_path": "materials/YBaMnFeO5/runs/A_pbeu_vcrelax_110Ry/h110_YBMFO_P4n.json",
+   "bytes": 1947,
+   "md5_uncompressed": "ecb09a40f3da82ff983c67ea8fe3d6e0"
+  },
+  {
+   "volume_path": "jobs/lcm/h110/YBMFO_P4n/vc110.in",
+   "repo_path": "materials/YBaMnFeO5/runs/A_pbeu_vcrelax_110Ry/vc110.in",
+   "bytes": 1907,
+   "md5_uncompressed": "e05ae07eb16241c155d3bde0d8febd4a"
+  },
+  {
+   "volume_path": "jobs/lcm/h110/YBMFO_P4n/hull_YBMFO_P4n.json",
+   "repo_path": "materials/YBaMnFeO5/runs/A_pbeu_vcrelax_110Ry/hull_YBMFO_P4n.json",
+   "bytes": 950,
+   "md5_uncompressed": "0331eead92a927ce1ef6fb3f2d20e348"
+  },
+  {
+   "volume_path": "jobs/lcm/h110/YBMFO_P4n/cfg_YBMFO_P4n.json",
+   "repo_path": "materials/YBaMnFeO5/runs/A_pbeu_vcrelax_110Ry/cfg_YBMFO_P4n.json",
+   "bytes": 990,
+   "md5_uncompressed": "d35c725b217ca52d4cbdb72a76aa18b8"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_G/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/B_hse06_G_type_LCM/stdout.log",
+   "bytes": 667,
+   "md5_uncompressed": "cd211540b2be7c2b2a0816c0a3ba99fb"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_G/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/B_hse06_G_type_LCM/status.json",
+   "bytes": 221,
+   "md5_uncompressed": "f8620211179b6118035ca0419e99fb6d"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_G/hse_lcm.out",
+   "repo_path": "materials/YBaMnFeO5/runs/B_hse06_G_type_LCM/hse_lcm.out.gz",
+   "bytes": 1387618,
+   "md5_uncompressed": "c0622f579bd2ee87a95d7d04ccd8400b"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_G/deep_hse.json",
+   "repo_path": "materials/YBaMnFeO5/runs/B_hse06_G_type_LCM/deep_hse.json",
+   "bytes": 845,
+   "md5_uncompressed": "f3e585422d2daf48ef82aef7df081884"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_G/hse_lcm.in",
+   "repo_path": "materials/YBaMnFeO5/runs/B_hse06_G_type_LCM/hse_lcm.in",
+   "bytes": 2681,
+   "md5_uncompressed": "620e5c56d8efc351cf012f53d7a0e879"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_G/YBMFO_stack_hse_G.json",
+   "repo_path": "materials/YBaMnFeO5/runs/B_hse06_G_type_LCM/YBMFO_stack_hse_G.json",
+   "bytes": 2207,
+   "md5_uncompressed": "8f509a2ca08b94fa8792949459188f3d"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_Yflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/C_hse06_Yflip_competitor/stdout.log",
+   "bytes": 660,
+   "md5_uncompressed": "cf5980ab18249478c47b0163787ff71a"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_Yflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/C_hse06_Yflip_competitor/status.json",
+   "bytes": 229,
+   "md5_uncompressed": "eb1d8d68765765b321400cd16e94ca73"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_Yflip/hse_lcm.out",
+   "repo_path": "materials/YBaMnFeO5/runs/C_hse06_Yflip_competitor/hse_lcm.out.gz",
+   "bytes": 1383606,
+   "md5_uncompressed": "d617c9f45decd344cb04adbb0731a992"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_Yflip/deep_hse.json",
+   "repo_path": "materials/YBaMnFeO5/runs/C_hse06_Yflip_competitor/deep_hse.json",
+   "bytes": 842,
+   "md5_uncompressed": "ba3eed9bbf97566b63b8418aa8327cee"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_Yflip/hse_lcm.in",
+   "repo_path": "materials/YBaMnFeO5/runs/C_hse06_Yflip_competitor/hse_lcm.in",
+   "bytes": 2802,
+   "md5_uncompressed": "5ff2bd2bb7462070d3d83a199b22246d"
+  },
+  {
+   "volume_path": "jobs/lcm/deep/stack_hse_Yflip/YBMFO_stack_hse_Yflip.json",
+   "repo_path": "materials/YBaMnFeO5/runs/C_hse06_Yflip_competitor/YBMFO_stack_hse_Yflip.json",
+   "bytes": 2211,
+   "md5_uncompressed": "95dc3e8c12e7a6c3960329f7a371048f"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/stdout.log",
+   "bytes": 1960,
+   "md5_uncompressed": "1bd105f448aae577eeb30a7632e6227a"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/status.json",
+   "bytes": 223,
+   "md5_uncompressed": "e355371e3585024b4dd22091650809b0"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/results/YBMFO110_snap.json",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/results/YBMFO110_snap.json",
+   "bytes": 21584,
+   "md5_uncompressed": "cc4af55e12014db361f26a6eb49f155e"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flip2near_nscf.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flip2near_nscf.out",
+   "bytes": 182689,
+   "md5_uncompressed": "b58d0e917b1162e428fef7e88b690a8d"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flip2near_nscf.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flip2near_nscf.in",
+   "bytes": 4334,
+   "md5_uncompressed": "298ba90954ae24a71372026dcb979f0e"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flip2near.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flip2near.out.gz",
+   "bytes": 422637,
+   "md5_uncompressed": "3907087820cbb4263d998064325266cb"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flip2near.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flip2near.in",
+   "bytes": 4333,
+   "md5_uncompressed": "f403943d21bfa8f3115ba08da3d5f6c3"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flip2far_nscf.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flip2far_nscf.out",
+   "bytes": 182639,
+   "md5_uncompressed": "c4f6301e1d999177c82f2b2cb0538799"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flip2far_nscf.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flip2far_nscf.in",
+   "bytes": 4332,
+   "md5_uncompressed": "2140d7e77797e9acab0cb168ec151cfe"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flip2far.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flip2far.out.gz",
+   "bytes": 444141,
+   "md5_uncompressed": "9a2bb775ec60eff08c73a78b20fdf692"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flipFe_nscf.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flipFe_nscf.out",
+   "bytes": 181985,
+   "md5_uncompressed": "d125bec832ddb2a996f31d7128ba0031"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flip2far.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flip2far.in",
+   "bytes": 4331,
+   "md5_uncompressed": "6e197ec43a6c5230fa00d6694fe04a31"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flipFe_nscf.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flipFe_nscf.in",
+   "bytes": 4247,
+   "md5_uncompressed": "74b1fe513a64414f255787cef51ea727"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flipFe.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flipFe.out.gz",
+   "bytes": 443201,
+   "md5_uncompressed": "2f0b4b27e12bce23a9871ddad8b6ac90"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flipMn_nscf.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flipMn_nscf.out",
+   "bytes": 182028,
+   "md5_uncompressed": "5eb15f049218c3a3c0b2901467c44d75"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flipFe.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flipFe.in",
+   "bytes": 4246,
+   "md5_uncompressed": "8f23017dc550787e06dcc0c4384be00c"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flipMn_nscf.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flipMn_nscf.in",
+   "bytes": 4254,
+   "md5_uncompressed": "c1b5dfa02ab399a11497bbe9870caef4"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flipMn.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flipMn.out.gz",
+   "bytes": 443571,
+   "md5_uncompressed": "0d81f10a2d21702bb9f7bc102229a6c6"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_flipMn.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_flipMn.in",
+   "bytes": 4253,
+   "md5_uncompressed": "15aca321d59dff99688666d5de765cb4"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap.json",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap.json",
+   "bytes": 5503,
+   "md5_uncompressed": "b33cecc4ef50fab01a114a4cc00fcb46"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_G_nscf.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_G_nscf.out",
+   "bytes": 181020,
+   "md5_uncompressed": "878598dd2b3da5cd30019351344d02f5"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_G_nscf.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_G_nscf.in",
+   "bytes": 4163,
+   "md5_uncompressed": "cd3c28affa2ca8b625c3fc6f58898e26"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_G.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_G.out.gz",
+   "bytes": 420815,
+   "md5_uncompressed": "e6a13eb538a38d2e389c1ee08cd565dc"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_G.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_G.in",
+   "bytes": 4162,
+   "md5_uncompressed": "ed8a030454318aa730aff4bf87b01bcc"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_FM.out",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_FM.out.gz",
+   "bytes": 420709,
+   "md5_uncompressed": "448e9048f64866c87c0cf743525dc86b"
+  },
+  {
+   "volume_path": "jobs/lcm/snap/YBMFO110/YBMFO110_snap_FM.in",
+   "repo_path": "materials/YBaMnFeO5/runs/D_pbeu_72atom_G_FM_and_spin_flips/YBMFO110_snap_FM.in",
+   "bytes": 4163,
+   "md5_uncompressed": "19437ad71d34eccd6a090d0b39d9b4ff"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_pristine/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/E_pbeu_antisite_reference/stdout.log",
+   "bytes": 197,
+   "md5_uncompressed": "f65271527452083e55f7b7677f6297ed"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_pristine/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/E_pbeu_antisite_reference/status.json",
+   "bytes": 235,
+   "md5_uncompressed": "842b648a5ac173b481785b35ca51baf0"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_pristine/results/YBMFO_antisite_pristine.json",
+   "repo_path": "materials/YBaMnFeO5/runs/E_pbeu_antisite_reference/results/YBMFO_antisite_pristine.json",
+   "bytes": 6786,
+   "md5_uncompressed": "13780f4f8fdd47117e8b5535c4a573d4"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_pristine/YBMFO_antisite_pristine_Gsite_nscf.out",
+   "repo_path": "materials/YBaMnFeO5/runs/E_pbeu_antisite_reference/YBMFO_antisite_pristine_Gsite_nscf.out.gz",
+   "bytes": 407858,
+   "md5_uncompressed": "c2c00e4f97fcb73afb1a7b92de6e761f"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_pristine/YBMFO_antisite_pristine_Gsite_nscf.in",
+   "repo_path": "materials/YBaMnFeO5/runs/E_pbeu_antisite_reference/YBMFO_antisite_pristine_Gsite_nscf.in",
+   "bytes": 4192,
+   "md5_uncompressed": "5ce544f855f4df4b8141ba66e9c19b34"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_pristine/YBMFO_antisite_pristine_Gsite.out",
+   "repo_path": "materials/YBaMnFeO5/runs/E_pbeu_antisite_reference/YBMFO_antisite_pristine_Gsite.out.gz",
+   "bytes": 420629,
+   "md5_uncompressed": "238d4ed663b1a100b47d3181984c81b3"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_pristine/YBMFO_antisite_pristine_Gsite.in",
+   "repo_path": "materials/YBaMnFeO5/runs/E_pbeu_antisite_reference/YBMFO_antisite_pristine_Gsite.in",
+   "bytes": 4191,
+   "md5_uncompressed": "eb99e0d50b8bf4dc6197e67c95a5c0c0"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_pristine/YBMFO_antisite_pristine_FM.out",
+   "repo_path": "materials/YBaMnFeO5/runs/E_pbeu_antisite_reference/YBMFO_antisite_pristine_FM.out.gz",
+   "bytes": 420663,
+   "md5_uncompressed": "500697018d0d9f40f2feee16000aca41"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_pristine/YBMFO_antisite_pristine_FM.in",
+   "repo_path": "materials/YBaMnFeO5/runs/E_pbeu_antisite_reference/YBMFO_antisite_pristine_FM.in",
+   "bytes": 4184,
+   "md5_uncompressed": "e633626003e2177369637943f382cca3"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_pristine/YBMFO_antisite_pristine.json",
+   "repo_path": "materials/YBaMnFeO5/runs/E_pbeu_antisite_reference/YBMFO_antisite_pristine.json",
+   "bytes": 4398,
+   "md5_uncompressed": "2d7a19210ac6f817b7820cf4201ab869"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/stdout.log",
+   "bytes": 194,
+   "md5_uncompressed": "58f7dce44c7ea5d3c0d783d259c96e83"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/status.json",
+   "bytes": 232,
+   "md5_uncompressed": "d9ec35971ea7efb7ccfb8b7066038265"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/results/YBMFO_antisite_swap_NN.json",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/results/YBMFO_antisite_swap_NN.json",
+   "bytes": 12650,
+   "md5_uncompressed": "a0b5770a9702d05ec6282c518c30705c"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/YBMFO_antisite_swap_NN_Gsite_nscf.out",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/YBMFO_antisite_swap_NN_Gsite_nscf.out.gz",
+   "bytes": 409010,
+   "md5_uncompressed": "9e02632ef3bdefefe7689e6a6821c22e"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/YBMFO_antisite_swap_NN_Gsite_nscf.in",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/YBMFO_antisite_swap_NN_Gsite_nscf.in",
+   "bytes": 4345,
+   "md5_uncompressed": "5ec88adbc47bbf137bb9d81f131b1394"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/YBMFO_antisite_swap_NN_Gsite.out",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/YBMFO_antisite_swap_NN_Gsite.out.gz",
+   "bytes": 550870,
+   "md5_uncompressed": "2cd3ee6e416775d626dd2045ea25e3cd"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/YBMFO_antisite_swap_NN_Gsite.in",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/YBMFO_antisite_swap_NN_Gsite.in",
+   "bytes": 4344,
+   "md5_uncompressed": "0145de61d4da5fdadff817ab670df93a"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/YBMFO_antisite_swap_NN_FM.out",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/YBMFO_antisite_swap_NN_FM.out.gz",
+   "bytes": 485060,
+   "md5_uncompressed": "35931ac67222071cb883916256add47d"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/YBMFO_antisite_swap_NN_vcrelax.out",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/YBMFO_antisite_swap_NN_vcrelax.out.gz",
+   "bytes": 6742897,
+   "md5_uncompressed": "973b0d87d3a590acaa410946ea5d48f6"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/YBMFO_antisite_swap_NN_FM.in",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/YBMFO_antisite_swap_NN_FM.in",
+   "bytes": 4182,
+   "md5_uncompressed": "08b62bb0003da6519177f85f6a1d4198"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/YBMFO_antisite_swap_NN_vcrelax.in",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/YBMFO_antisite_swap_NN_vcrelax.in",
+   "bytes": 4454,
+   "md5_uncompressed": "b4d92d3818b21b254541bbe48867f880"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_NN/YBMFO_antisite_swap_NN.json",
+   "repo_path": "materials/YBaMnFeO5/runs/F_pbeu_antisite_pair_nearest/YBMFO_antisite_swap_NN.json",
+   "bytes": 4400,
+   "md5_uncompressed": "73cc281eef4de843aaaa690909469af2"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/stdout.log",
+   "bytes": 3120,
+   "md5_uncompressed": "53a2a4e022a77e16225258e36485fce4"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/status.json",
+   "bytes": 236,
+   "md5_uncompressed": "e0b9474793af75f4d8b8b84ad439d494"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/results/YBMFO_antisite_swap_far.json",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/results/YBMFO_antisite_swap_far.json",
+   "bytes": 12397,
+   "md5_uncompressed": "d47f0d34b5ff2b49a5c2885f82041c4b"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/YBMFO_antisite_swap_far_Gsite_nscf.out",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/YBMFO_antisite_swap_far_Gsite_nscf.out.gz",
+   "bytes": 409060,
+   "md5_uncompressed": "c7c76bc68c6b7208cfcec7dfc6b5bfde"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/YBMFO_antisite_swap_far_Gsite_nscf.in",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/YBMFO_antisite_swap_far_Gsite_nscf.in",
+   "bytes": 4347,
+   "md5_uncompressed": "da74d991e9730e6acc503ac3aa6a4ddc"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/YBMFO_antisite_swap_far_Gsite.out",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/YBMFO_antisite_swap_far_Gsite.out.gz",
+   "bytes": 464802,
+   "md5_uncompressed": "3dc230e810fda8d34489289e2aae06f8"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/YBMFO_antisite_swap_far_Gsite.in",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/YBMFO_antisite_swap_far_Gsite.in",
+   "bytes": 4346,
+   "md5_uncompressed": "c5a33eb5ad729dcc9692fa7eadd6c354"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/YBMFO_antisite_swap_far_FM.out",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/YBMFO_antisite_swap_far_FM.out.gz",
+   "bytes": 528034,
+   "md5_uncompressed": "d8cb71cbaccfa0f878436e66bc3b24bf"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/YBMFO_antisite_swap_far_FM.in",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/YBMFO_antisite_swap_far_FM.in",
+   "bytes": 4184,
+   "md5_uncompressed": "e946b440151a0c8ea13c3ad922822bd7"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/YBMFO_antisite_swap_far.json",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/YBMFO_antisite_swap_far.json",
+   "bytes": 4401,
+   "md5_uncompressed": "fb3a30b0ee1c1d5c4c701850b0beb3cb"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/YBMFO_antisite_swap_far_vcrelax.out",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/YBMFO_antisite_swap_far_vcrelax.out.gz",
+   "bytes": 7932158,
+   "md5_uncompressed": "8fc777d2ecfe09f94cfa3bd9851cc41d"
+  },
+  {
+   "volume_path": "jobs/lcm/s1/YBMFO_antisite_swap_far/YBMFO_antisite_swap_far_vcrelax.in",
+   "repo_path": "materials/YBaMnFeO5/runs/G_pbeu_antisite_pair_far/YBMFO_antisite_swap_far_vcrelax.in",
+   "bytes": 4456,
+   "md5_uncompressed": "0b18fe37720048aedfea8a0c5943230e"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_G/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_G/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "47de9c147f48997e201ee22814b6a831"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_G/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_G/status.json",
+   "bytes": 242,
+   "md5_uncompressed": "4a6b99aa1598eb12d864a30d4e1db0d0"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_G/single_ybmfo110_stack_G_U00.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_G/single_ybmfo110_stack_G_U00.json",
+   "bytes": 626,
+   "md5_uncompressed": "ba84266b1cb31bd5b3d96ad063c27bb4"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_G/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_G/single.out",
+   "bytes": 124609,
+   "md5_uncompressed": "bf2de45076269894915c8ae404a7b489"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_G/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_G/single.in",
+   "bytes": 2534,
+   "md5_uncompressed": "0ca41b09b7f255bfcf397c9a394659fa"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_G/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_G/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Yflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Yflip/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "b8158f2b02b2579f5352bb2687c49c63"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Yflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Yflip/status.json",
+   "bytes": 249,
+   "md5_uncompressed": "c451ef7bb54963a28d9eb0f41eb5c5fd"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Yflip/single_ybmfo110_stack_Yflip_U00.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Yflip/single_ybmfo110_stack_Yflip_U00.json",
+   "bytes": 605,
+   "md5_uncompressed": "644dfecf23b1ce54e0a9f00a83b0139f"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Yflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Yflip/single.out",
+   "bytes": 127857,
+   "md5_uncompressed": "932c39622322696e671ca041b41727d8"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Yflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Yflip/single.in",
+   "bytes": 2655,
+   "md5_uncompressed": "f591b5f35cd1d64dde06e75b581c8883"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Yflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Yflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Baflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Baflip/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "96f5265ee37f861def7cddaafc94c626"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Baflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Baflip/status.json",
+   "bytes": 251,
+   "md5_uncompressed": "df3550c40585de23d3eee8615e5a9520"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Baflip/single_ybmfo110_stack_Baflip_U00.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Baflip/single_ybmfo110_stack_Baflip_U00.json",
+   "bytes": 591,
+   "md5_uncompressed": "80e8397df458ad9ebf4b9bedb87870a1"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Baflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Baflip/single.out",
+   "bytes": 128152,
+   "md5_uncompressed": "ca1b510859f4a96bbccde8ff87d892d0"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Baflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Baflip/single.in",
+   "bytes": 2655,
+   "md5_uncompressed": "4d55090c94ecf522d1c1b1046da007fb"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U00_Baflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U00_Baflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_G/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_G/status.json",
+   "bytes": 240,
+   "md5_uncompressed": "3b71c0b36aabde122d7e10270c715acc"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_G/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_G/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "49e0dc5e4b748e5a57e342d2d955cb54"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_G/single_ybmfo110_stack_G_U22.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_G/single_ybmfo110_stack_G_U22.json",
+   "bytes": 624,
+   "md5_uncompressed": "1f3c281500eb742bb90d82a2805d91b2"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_G/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_G/single.out",
+   "bytes": 292941,
+   "md5_uncompressed": "e113b58dc51fc3e880d0e7834ae1850a"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_G/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_G/single.in",
+   "bytes": 2583,
+   "md5_uncompressed": "a074234c0268f8deda349d622ab46c1d"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_G/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_G/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Yflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Yflip/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "8b40462e23adfdf329ae69a3699f2c5a"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Yflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Yflip/status.json",
+   "bytes": 250,
+   "md5_uncompressed": "87c32aa8934ac6ca3f66c2e84aff8141"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Yflip/single_ybmfo110_stack_Yflip_U22.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Yflip/single_ybmfo110_stack_Yflip_U22.json",
+   "bytes": 585,
+   "md5_uncompressed": "5ee9f7b7b4a070edc0bbdb5d17953316"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Yflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Yflip/single.out",
+   "bytes": 296196,
+   "md5_uncompressed": "1bbc0e9d9819d0659f0a1e0124f25287"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Yflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Yflip/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "a705354770445a34e004488d00a0accf"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Yflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Yflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Baflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Baflip/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "1a29da41daf84f34dabffd98ca751974"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Baflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Baflip/status.json",
+   "bytes": 252,
+   "md5_uncompressed": "af088efe7ab308133a3dd5c527acf0b2"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Baflip/single_ybmfo110_stack_Baflip_U22.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Baflip/single_ybmfo110_stack_Baflip_U22.json",
+   "bytes": 607,
+   "md5_uncompressed": "ed24a2287861d404b0bbc09921a8d9e1"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Baflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Baflip/single.out",
+   "bytes": 296491,
+   "md5_uncompressed": "61761de06c967dd6da5dee614c572cf3"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Baflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Baflip/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "6cb6b4f45b055ef1c95a34539ee15f28"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U22_Baflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U22_Baflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_G/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_G/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "567155ea9d9a7cad9238813f2580af44"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_G/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_G/status.json",
+   "bytes": 242,
+   "md5_uncompressed": "0eec802e5e9c100079138b596db859da"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_G/single_ybmfo110_stack_G_U44.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_G/single_ybmfo110_stack_G_U44.json",
+   "bytes": 621,
+   "md5_uncompressed": "ce392ecc57e231c8e7450d49ab5d8ef4"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_G/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_G/single.out",
+   "bytes": 292941,
+   "md5_uncompressed": "4d6deab6eec1febf9fd460faeac43d14"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_G/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_G/single.in",
+   "bytes": 2583,
+   "md5_uncompressed": "6819288744d3768913280125a6457251"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_G/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_G/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Yflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Yflip/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "a5624a25a523287bb7ddebfaaf781405"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Yflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Yflip/status.json",
+   "bytes": 248,
+   "md5_uncompressed": "4afe65aa44b4dbec097f58e0d6f901d8"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Yflip/single_ybmfo110_stack_Yflip_U44.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Yflip/single_ybmfo110_stack_Yflip_U44.json",
+   "bytes": 605,
+   "md5_uncompressed": "d0f80708df39de430da36c38205ca51f"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Yflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Yflip/single.out",
+   "bytes": 296196,
+   "md5_uncompressed": "55545d30274af4204082e46050a459eb"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Yflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Yflip/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "b766e6a74f026cd2f1ed4cc2c1b3c6e9"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Yflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Yflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Baflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Baflip/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "6a4380efc364c3a01b0d115ac2d6ecc7"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Baflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Baflip/status.json",
+   "bytes": 251,
+   "md5_uncompressed": "1543a54da1194346c8746eff10fd66e8"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Baflip/single_ybmfo110_stack_Baflip_U44.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Baflip/single_ybmfo110_stack_Baflip_U44.json",
+   "bytes": 605,
+   "md5_uncompressed": "fc61bba6430f7725e83e40c6f28c39b5"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Baflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Baflip/single.out",
+   "bytes": 296448,
+   "md5_uncompressed": "12919ac46cd682a6ab9905989cb032c8"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Baflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Baflip/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "3961065acd7bbc1cec1fc0ee99010dba"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U44_Baflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_Baflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_G/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_G/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "96c7dc499d100a3b28a02ce6b0f86a49"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_G/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_G/status.json",
+   "bytes": 241,
+   "md5_uncompressed": "e67d986f426d0055edf7ff6cef4eb311"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_G/single_ybmfo110_stack_G_U66.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_G/single_ybmfo110_stack_G_U66.json",
+   "bytes": 622,
+   "md5_uncompressed": "42a2525a56d4aac37c1d3acff00da081"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_G/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_G/single.out",
+   "bytes": 292941,
+   "md5_uncompressed": "27d1a35993ff361197568af9ba607267"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_G/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_G/single.in",
+   "bytes": 2583,
+   "md5_uncompressed": "0a3dd4801e066007d8f31aba3a5bbf10"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_G/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_G/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Yflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Yflip/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "a2fc479fd23b3a36afcfef0e2c2adfca"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Yflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Yflip/status.json",
+   "bytes": 250,
+   "md5_uncompressed": "1457684f90c2f11ef7b760427a52647a"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Yflip/single_ybmfo110_stack_Yflip_U66.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Yflip/single_ybmfo110_stack_Yflip_U66.json",
+   "bytes": 598,
+   "md5_uncompressed": "9a26c22b70d1230b5383d44759c0c25f"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Yflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Yflip/single.out",
+   "bytes": 296196,
+   "md5_uncompressed": "0a2888dbeb1465d25ec867c3223dbcca"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Yflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Yflip/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "4d6e852d4b918354276e1209668cfd6b"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Yflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Yflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Baflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Baflip/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "bdc524ba333bca800f1371f0784ab5e2"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Baflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Baflip/status.json",
+   "bytes": 252,
+   "md5_uncompressed": "953550e82bdb2224a327697702bfe4da"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Baflip/single_ybmfo110_stack_Baflip_U66.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Baflip/single_ybmfo110_stack_Baflip_U66.json",
+   "bytes": 591,
+   "md5_uncompressed": "bdda26b829a8cda5b46a410e4d20c638"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Baflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Baflip/single.out",
+   "bytes": 296448,
+   "md5_uncompressed": "7b7d807ef7eac4ee1a90c034ae5ea3bf"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Baflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Baflip/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "c3bed67900eafa90c3f2b79c641d99f8"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U66_Baflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U66_Baflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_G/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_G/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "b79071b0a3a9a03da7fab79fc543419a"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_G/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_G/status.json",
+   "bytes": 242,
+   "md5_uncompressed": "6f508f279e6b6b69642b0aa8789cc124"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_G/single_ybmfo110_stack_G_U46.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_G/single_ybmfo110_stack_G_U46.json",
+   "bytes": 617,
+   "md5_uncompressed": "c41fef5afa77e042ed5c3007b644fdc3"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_G/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_G/single.out.gz",
+   "bytes": 304136,
+   "md5_uncompressed": "4df1c3fc9a22041a94cfd331144148eb"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_G/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_G/single.in",
+   "bytes": 2583,
+   "md5_uncompressed": "4ea38900d0203e4432d8b12167a4aab6"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_G/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_G/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Yflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Yflip/stdout.log",
+   "bytes": 25,
+   "md5_uncompressed": "4fd9245fc92d4cfcb5ad10943f87c8e5"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Yflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Yflip/status.json",
+   "bytes": 249,
+   "md5_uncompressed": "8871cad0993f0d2a3b9701f43891c25a"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Yflip/single_ybmfo110_stack_Yflip_U46.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Yflip/single_ybmfo110_stack_Yflip_U46.json",
+   "bytes": 605,
+   "md5_uncompressed": "5c7ac1d12dec2d37a61d612123aeb751"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Yflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Yflip/single.out.gz",
+   "bytes": 307391,
+   "md5_uncompressed": "8f3ac2e6d271171fe6923421940572ff"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Yflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Yflip/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "cb8997198cf02769108c11afa8a7c7b3"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Yflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Yflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Baflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Baflip/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "2ea3c405530064b65548130ef9b99b08"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Baflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Baflip/status.json",
+   "bytes": 252,
+   "md5_uncompressed": "bf0477264ec8709ec5eaf8dd2eed0760"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Baflip/single_ybmfo110_stack_Baflip_U46.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Baflip/single_ybmfo110_stack_Baflip_U46.json",
+   "bytes": 612,
+   "md5_uncompressed": "c6d42d6b1e30201834148c6500fd7c2b"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Baflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Baflip/single.out",
+   "bytes": 296448,
+   "md5_uncompressed": "c429bf95d7ba90955044af327b638e17"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Baflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Baflip/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "48d70a40ed150fadc7b8b831d6a34435"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U46_Baflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U46_Baflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_G/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_G/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "5df544fa1542b8ac4eeb5eccf72a00b1"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_G/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_G/status.json",
+   "bytes": 242,
+   "md5_uncompressed": "c954f77ce694240a464b2c150a12e935"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_G/single_ybmfo110_stack_G_U64.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_G/single_ybmfo110_stack_G_U64.json",
+   "bytes": 611,
+   "md5_uncompressed": "e869bb0aa19175a60fae58ce49fae29c"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_G/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_G/single.out",
+   "bytes": 292941,
+   "md5_uncompressed": "453e627d20ff3c0a03a9574386454840"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_G/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_G/single.in",
+   "bytes": 2583,
+   "md5_uncompressed": "302dfe8188f0ba8e227c938b37bc3ed4"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_G/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_G/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Yflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Yflip/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "4c662784f3a54eec2380bad65ef410f5"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Yflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Yflip/status.json",
+   "bytes": 250,
+   "md5_uncompressed": "9177985a8ca3b62d8ae6a7fabaeb732a"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Yflip/single_ybmfo110_stack_Yflip_U64.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Yflip/single_ybmfo110_stack_Yflip_U64.json",
+   "bytes": 609,
+   "md5_uncompressed": "5bbbeec7a839ef5c1ca0a26eca71be2d"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Yflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Yflip/single.out",
+   "bytes": 296196,
+   "md5_uncompressed": "6c4b7ef5a6dfd1a6768e96898a17152a"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Yflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Yflip/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "6cf58adc28d92479ad955bc483d34cbe"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Yflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Yflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Baflip/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Baflip/status.json",
+   "bytes": 252,
+   "md5_uncompressed": "dd46d61dcbdfc8ebb7132b90e49b6dd2"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Baflip/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Baflip/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "6516405647a3ad8b6230ef5169863541"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Baflip/single_ybmfo110_stack_Baflip_U64.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Baflip/single_ybmfo110_stack_Baflip_U64.json",
+   "bytes": 610,
+   "md5_uncompressed": "cf9c5d01e596ad096f7bde1561dfb4a5"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Baflip/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Baflip/single.out",
+   "bytes": 296448,
+   "md5_uncompressed": "6d031fc05f44b10c92709f49b48f2816"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Baflip/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Baflip/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "db5c9d334cf5e6d5c562fd0259e64529"
+  },
+  {
+   "volume_path": "jobs/lcm/jy/U64_Baflip/ybmfo110_stack.json",
+   "repo_path": "materials/YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U64_Baflip/ybmfo110_stack.json",
+   "bytes": 2336,
+   "md5_uncompressed": "8cbe3c34ea2f2815c243f800286434ae"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_00/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_00/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "19aad1e06ba28514dfd9c970f8d41876"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_00/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_00/status.json",
+   "bytes": 229,
+   "md5_uncompressed": "1ece47794d08b5a4222ec7dd28d2ec56"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_00/single_j110_00_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_00/single_j110_00_C_e90.json",
+   "bytes": 412,
+   "md5_uncompressed": "c388d10983b3463243a582f9f4e35ad5"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_00/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_00/single.out",
+   "bytes": 164205,
+   "md5_uncompressed": "37e7e51d43583b74a78a73e8164ca870"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_00/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_00/single.in",
+   "bytes": 1801,
+   "md5_uncompressed": "3b94f58f47d9240d0be971a989f67418"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_00/j110_00.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_00/j110_00.json",
+   "bytes": 1160,
+   "md5_uncompressed": "2ffc0292dcbe68d94135da16cdff449f"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_01/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_01/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "a0ad14f99731951c7b29bd74d9fc12fb"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_01/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_01/status.json",
+   "bytes": 227,
+   "md5_uncompressed": "4519773a3ada469520c6ad8a74f5ed8c"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_01/single_j110_01_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_01/single_j110_01_C_e90.json",
+   "bytes": 425,
+   "md5_uncompressed": "72f2632d861ee31c3e7513973f080e75"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_01/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_01/single.out",
+   "bytes": 162948,
+   "md5_uncompressed": "76de66960700b28d979976b024a45447"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_01/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_01/single.in",
+   "bytes": 1876,
+   "md5_uncompressed": "4a7c44a3e8cd72141a80d7a72f6d7bd0"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_01/j110_01.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_01/j110_01.json",
+   "bytes": 1161,
+   "md5_uncompressed": "4a3f051aea9ae6aef81dc818c2bc1ad3"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_02/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_02/status.json",
+   "bytes": 228,
+   "md5_uncompressed": "12c4501828d77df121ce2621adf9c447"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_02/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_02/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "a0ad14f99731951c7b29bd74d9fc12fb"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_02/single_j110_02_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_02/single_j110_02_C_e90.json",
+   "bytes": 424,
+   "md5_uncompressed": "3048d1b9bc23399e26a1af08bf13d9bb"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_02/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_02/single.out",
+   "bytes": 162948,
+   "md5_uncompressed": "deb31fd270ffe999d488b7017c756a22"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_02/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_02/single.in",
+   "bytes": 1876,
+   "md5_uncompressed": "3300d3fa6f5af6acffd25c0e2fa0dbf9"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_02/j110_02.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_02/j110_02.json",
+   "bytes": 1161,
+   "md5_uncompressed": "3e72d0b612b79ee590e9bda01b611d23"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_03/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_03/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "7678a055d343a95ea27c33a9f1a3e7b9"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_03/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_03/status.json",
+   "bytes": 227,
+   "md5_uncompressed": "dfe5351e60d749216bfefce79e883ace"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_03/single_j110_03_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_03/single_j110_03_C_e90.json",
+   "bytes": 431,
+   "md5_uncompressed": "2fb423109c91d2f2c9a58e4a604690d2"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_03/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_03/single.out",
+   "bytes": 164162,
+   "md5_uncompressed": "01e9f257cf6a15c81511bf047a0c3784"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_03/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_03/single.in",
+   "bytes": 1802,
+   "md5_uncompressed": "e7f84f6cf566b85b6b353a0ae7d109fe"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_03/j110_03.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_03/j110_03.json",
+   "bytes": 1162,
+   "md5_uncompressed": "cfda35e0f58e18d413cafb41a7306d36"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_04/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_04/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "17ba41ef23d3f8478f248b0a3adaa38a"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_04/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_04/status.json",
+   "bytes": 228,
+   "md5_uncompressed": "0a26d4eb98327b1aa3bfae608dde9608"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_04/single_j110_04_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_04/single_j110_04_C_e90.json",
+   "bytes": 421,
+   "md5_uncompressed": "b8980568b75978bc4b4141bae5235ae1"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_04/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_04/single.out",
+   "bytes": 162948,
+   "md5_uncompressed": "8807c7aad579bca76d23230c05169a65"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_04/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_04/single.in",
+   "bytes": 1876,
+   "md5_uncompressed": "3e433528dee288dfe0813a7c4b13fdfa"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_04/j110_04.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_04/j110_04.json",
+   "bytes": 1161,
+   "md5_uncompressed": "6cbbf9e4424628332d969df42dfd8bb8"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_05/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_05/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "d73697bd33879489055e3a6c878222f1"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_05/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_05/status.json",
+   "bytes": 228,
+   "md5_uncompressed": "9ff8b0a2b577ccc4256254a6440a42a3"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_05/single_j110_05_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_05/single_j110_05_C_e90.json",
+   "bytes": 418,
+   "md5_uncompressed": "7682c57a316884e2366be0e7b0458ce9"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_05/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_05/single.out",
+   "bytes": 163588,
+   "md5_uncompressed": "ffa594a10a4a82f73955e88a6e68bd55"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_05/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_05/single.in",
+   "bytes": 1951,
+   "md5_uncompressed": "3c13626487c9e4099a0c3799a1e31bc9"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_05/j110_05.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_05/j110_05.json",
+   "bytes": 1162,
+   "md5_uncompressed": "6fe785d4b5f0d99fc965537b3ce7af01"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_06/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_06/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "6eb3828fa94cbf15e0946c758dfb8ddb"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_06/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_06/status.json",
+   "bytes": 229,
+   "md5_uncompressed": "acf727576240e9ac62acf2893d953d4b"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_06/single_j110_06_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_06/single_j110_06_C_e90.json",
+   "bytes": 418,
+   "md5_uncompressed": "73e7271d5887960f00049d445abf29d3"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_06/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_06/single.out",
+   "bytes": 163588,
+   "md5_uncompressed": "60a1c6204ad94ea674dc810082120a50"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_06/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_06/single.in",
+   "bytes": 1951,
+   "md5_uncompressed": "b0062329e73d72e6bc001ec95287bd10"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_06/j110_06.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_06/j110_06.json",
+   "bytes": 1162,
+   "md5_uncompressed": "a28743d06ee7185cd1367f7a6dc78536"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_07/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_07/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "17ba41ef23d3f8478f248b0a3adaa38a"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_07/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_07/status.json",
+   "bytes": 228,
+   "md5_uncompressed": "9bcf1e7a3406aedd6050849622c73eb2"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_07/single_j110_07_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_07/single_j110_07_C_e90.json",
+   "bytes": 437,
+   "md5_uncompressed": "0bcce7684970e1e556b3e271055461ee"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_07/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_07/single.out",
+   "bytes": 162948,
+   "md5_uncompressed": "63b2b423ea2cb5e51fe186f799ecd88b"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_07/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_07/single.in",
+   "bytes": 1877,
+   "md5_uncompressed": "ce8b7ee6d18d0e2f921b82a3528e5356"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_07/j110_07.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_07/j110_07.json",
+   "bytes": 1163,
+   "md5_uncompressed": "bfecc70ee01d6b7f96616b28a395b92a"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_08/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_08/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "2dd3accc44b17ba7ff77f73e294ce032"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_08/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_08/status.json",
+   "bytes": 227,
+   "md5_uncompressed": "2eb15fc016380141d39c58911ab99191"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_08/single_j110_08_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_08/single_j110_08_C_e90.json",
+   "bytes": 614,
+   "md5_uncompressed": "33c3e1daf2bb19597ae6f20a6fa3ef2d"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_08/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_08/single.out",
+   "bytes": 279022,
+   "md5_uncompressed": "78275b07768303ef7871c9525a321794"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_08/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_08/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "98a6131ab0275c7a745d4a5b9bcacdbc"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_08/j110_08.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_08/j110_08.json",
+   "bytes": 2273,
+   "md5_uncompressed": "f43659f05336464ddaa4c907db3023bd"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_09/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_09/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "6a4380efc364c3a01b0d115ac2d6ecc7"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_09/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_09/status.json",
+   "bytes": 227,
+   "md5_uncompressed": "86b18ee324224cbf5090a9b63f1ab4b0"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_09/single_j110_09_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_09/single_j110_09_C_e90.json",
+   "bytes": 624,
+   "md5_uncompressed": "5f9a793ff6dd018bc34c1bc91d7bcbd4"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_09/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_09/single.out",
+   "bytes": 296448,
+   "md5_uncompressed": "ff9906b836527eed2bd76833ef969490"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_09/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_09/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "3961065acd7bbc1cec1fc0ee99010dba"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_09/j110_09.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_09/j110_09.json",
+   "bytes": 2091,
+   "md5_uncompressed": "6e7770b608eab13858a08fb7fb1385b6"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_10/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_10/status.json",
+   "bytes": 226,
+   "md5_uncompressed": "2ec573b6c3b7f50d0b2d4ab38fe6724e"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_10/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_10/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "8b377d73749f238480d2c47713f1e799"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_10/single_j110_10_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_10/single_j110_10_C_e90.json",
+   "bytes": 618,
+   "md5_uncompressed": "7154b1fed3469e05b90058ef100608ca"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_10/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_10/single.out",
+   "bytes": 296196,
+   "md5_uncompressed": "c851d4afdc2e2d610bae3715e98fd246"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_10/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_10/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "3123f91321cfda69eaec0c77ae404a8d"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_10/j110_10.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_10/j110_10.json",
+   "bytes": 2091,
+   "md5_uncompressed": "25623a8e1e2e6e8f2022cbc71e580a88"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_11/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_11/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "0bc0bb6f06e63ae9b3630b0bf1ed63d2"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_11/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_11/status.json",
+   "bytes": 227,
+   "md5_uncompressed": "4b5209e8d4fe8207120ace5d369a2e19"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_11/single_j110_11_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_11/single_j110_11_C_e90.json",
+   "bytes": 1003,
+   "md5_uncompressed": "db95c29032c37a2c9d3e02091f402204"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_11/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_11/single.out.gz",
+   "bytes": 508111,
+   "md5_uncompressed": "4b9bef05951a41c0fb2b2f2606a15628"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_11/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_11/single.in",
+   "bytes": 4299,
+   "md5_uncompressed": "d5ebd5547a7b73d23784f988a7bb92ca"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_11/j110_11.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_11/j110_11.json",
+   "bytes": 4339,
+   "md5_uncompressed": "40eaaad64635f3534ca8ec36cf36d2c8"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_12/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_12/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "a6aba4c02a3225c26aea3adddc65f105"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_12/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_12/status.json",
+   "bytes": 228,
+   "md5_uncompressed": "45f91d8fde18c585919933171ba5ced2"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_12/single_j110_12_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_12/single_j110_12_C_e90.json",
+   "bytes": 608,
+   "md5_uncompressed": "648c9f0c498e92aeb83b5a1ea75ae102"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_12/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_12/single.out",
+   "bytes": 296448,
+   "md5_uncompressed": "44c2f529246e8fd2cbcf984123b3af08"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_12/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_12/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "b2d6ee31769a16de87badc9c6ff30135"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_12/j110_12.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_12/j110_12.json",
+   "bytes": 2091,
+   "md5_uncompressed": "8d9a7c7e493b5a857b28d4cc12bbf1c3"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_13/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_13/status.json",
+   "bytes": 227,
+   "md5_uncompressed": "a80837b66165a327c60e8406a85764e3"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_13/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_13/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "a5624a25a523287bb7ddebfaaf781405"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_13/single_j110_13_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_13/single_j110_13_C_e90.json",
+   "bytes": 623,
+   "md5_uncompressed": "0ad546ce25db34d87ce5fc1d049f7421"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_13/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_13/single.out",
+   "bytes": 296196,
+   "md5_uncompressed": "eb4776cf18ac025e443a2d88a2a42ec7"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_13/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_13/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "b766e6a74f026cd2f1ed4cc2c1b3c6e9"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_13/j110_13.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_13/j110_13.json",
+   "bytes": 2091,
+   "md5_uncompressed": "20a4741764feb35411d5b2febab4664d"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_14/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_14/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "1c80996f77f54a912e4b1b68e193bd54"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_14/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_14/status.json",
+   "bytes": 228,
+   "md5_uncompressed": "bd0029a750c0b3eff6bde2a86fec9fad"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_14/single_j110_14_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_14/single_j110_14_C_e90.json",
+   "bytes": 642,
+   "md5_uncompressed": "e422db7fcbc11691d89359d4045d4cfb"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_14/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_14/single.out",
+   "bytes": 292184,
+   "md5_uncompressed": "b9041491fa194010faa69ede376a168c"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_14/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_14/single.in",
+   "bytes": 2583,
+   "md5_uncompressed": "33eaff39597d83d181f8bb26f328efcd"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_14/j110_14.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_14/j110_14.json",
+   "bytes": 2157,
+   "md5_uncompressed": "b2732de54407f0031e9397ecba830c22"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_15/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_15/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "e5265e46c53ec8a3e423bec0c1128eed"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_15/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_15/status.json",
+   "bytes": 227,
+   "md5_uncompressed": "0c03c9a55b61a1b01f9482a1f4d0d4da"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_15/single_j110_15_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_15/single_j110_15_C_e90.json",
+   "bytes": 612,
+   "md5_uncompressed": "d217b3173a67e782d2cd75ad1a2fd3f9"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_15/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_15/single.out",
+   "bytes": 293421,
+   "md5_uncompressed": "ed442650fcb9ee846bc257925c65089a"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_15/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_15/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "31c51a485d8f61d61465a1516761ebab"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_15/j110_15.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_15/j110_15.json",
+   "bytes": 2157,
+   "md5_uncompressed": "db5dd2ba475d6c8798749adf22ca330f"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_16/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_16/stdout.log",
+   "bytes": 25,
+   "md5_uncompressed": "d23f57cefba7c81a653ef561b692e754"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_16/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_16/status.json",
+   "bytes": 227,
+   "md5_uncompressed": "a07234960d167d7ad879261b18b3a60a"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_16/single_j110_16_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_16/single_j110_16_C_e90.json",
+   "bytes": 606,
+   "md5_uncompressed": "c5d9540faf0c4d69e375086160ff6d19"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_16/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_16/single.out",
+   "bytes": 292227,
+   "md5_uncompressed": "5cabe6777927cbdc033369d1f7af4f43"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_16/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_16/single.in",
+   "bytes": 2582,
+   "md5_uncompressed": "dd84ef94d39a805239b95acddc503a0c"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_16/j110_16.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_16/j110_16.json",
+   "bytes": 2153,
+   "md5_uncompressed": "8bb85ed873c2931e2ab5f265c6866773"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_17/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_17/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "4ffb5d6f95654d3ec29ecbea6daeeb6a"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_17/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_17/status.json",
+   "bytes": 228,
+   "md5_uncompressed": "a4ce14d42cbc72ef413f2ebd379db7a5"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_17/single_j110_17_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_17/single_j110_17_C_e90.json",
+   "bytes": 612,
+   "md5_uncompressed": "4d825b1eccae52270955554ea607f0ff"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_17/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_17/single.out",
+   "bytes": 293378,
+   "md5_uncompressed": "4da745b680016c3a74e08c22c9f41bd3"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_17/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_17/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "1e044e15ddd5928094a55d5d9ae2d237"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_17/j110_17.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_17/j110_17.json",
+   "bytes": 2157,
+   "md5_uncompressed": "30a8955df0157f39de31d93d467eb55a"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_18/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_18/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "2853d77453efb653795b426b69cb7c14"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_18/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_18/status.json",
+   "bytes": 226,
+   "md5_uncompressed": "06627da5eba2dbec63744394a0319035"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_18/single_j110_18_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_18/single_j110_18_C_e90.json",
+   "bytes": 616,
+   "md5_uncompressed": "fa1ed68b5a3a78d915e4aa8062c1958f"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_18/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_18/single.out.gz",
+   "bytes": 301412,
+   "md5_uncompressed": "16c8ad29e95f9b2f22c5f7d39c5cef59"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_18/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_18/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "1413fca7fb61d15060b800f7bb77ce1f"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_18/j110_18.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_18/j110_18.json",
+   "bytes": 2273,
+   "md5_uncompressed": "59ff013abaee78a46c35eabc88b7afa8"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_19/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_19/status.json",
+   "bytes": 228,
+   "md5_uncompressed": "fd9005089bd9353c9de61a7598948e7d"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_19/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_19/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "2dd3accc44b17ba7ff77f73e294ce032"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_19/single_j110_19_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_19/single_j110_19_C_e90.json",
+   "bytes": 611,
+   "md5_uncompressed": "baf06829e2a97814a81f15db1bfba894"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_19/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_19/single.out",
+   "bytes": 279022,
+   "md5_uncompressed": "6641046aae15804ede23b39ccf3bac8e"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_19/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_19/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "693af990f82b3fae6f0b8a319f11f5e2"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_19/j110_19.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_19/j110_19.json",
+   "bytes": 2273,
+   "md5_uncompressed": "eb38838f31aa1a8edf294bb6a0b965b6"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_20/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_20/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "7dc5cdf86dbd22f3d7586cbbd3585364"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_20/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_20/status.json",
+   "bytes": 228,
+   "md5_uncompressed": "319337eb166f2f8dab6ee4fb2f9a9795"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_20/single_j110_20_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_20/single_j110_20_C_e90.json",
+   "bytes": 643,
+   "md5_uncompressed": "67a1b7de2b885f45587e09a99bf24ede"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_20/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_20/single.out",
+   "bytes": 292184,
+   "md5_uncompressed": "a1301cbe9c6d10fcbbaf387aa6b4b3ac"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_20/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_20/single.in",
+   "bytes": 2583,
+   "md5_uncompressed": "20ba03a041c0dfb9846e488977db7077"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_20/j110_20.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_20/j110_20.json",
+   "bytes": 2157,
+   "md5_uncompressed": "3d795aab5f503d23f4e46fd8a4c7fda1"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_21/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_21/stdout.log",
+   "bytes": 27,
+   "md5_uncompressed": "e5265e46c53ec8a3e423bec0c1128eed"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_21/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_21/status.json",
+   "bytes": 227,
+   "md5_uncompressed": "109d3f8795fd359bc4d4259bd810802d"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_21/single_j110_21_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_21/single_j110_21_C_e90.json",
+   "bytes": 611,
+   "md5_uncompressed": "be701a5a4aa72f82dee1ddc350616046"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_21/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_21/single.out",
+   "bytes": 293421,
+   "md5_uncompressed": "e658aaa9995409f42ac76ccb9e88c803"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_21/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_21/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "356995e88c453029ce4265a80dbc8afb"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_21/j110_21.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_21/j110_21.json",
+   "bytes": 2157,
+   "md5_uncompressed": "d2fefa9cc5848d6828cca8ef70b2b2de"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_22/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_22/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "2419b483774fce3d09e86eb4361d37c6"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_22/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_22/status.json",
+   "bytes": 228,
+   "md5_uncompressed": "9ab900b7872393b6cb2b26daac2b9273"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_22/single_j110_22_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_22/single_j110_22_C_e90.json",
+   "bytes": 605,
+   "md5_uncompressed": "0f2db471867d3977e7141f4c37cc7901"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_22/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_22/single.out",
+   "bytes": 292141,
+   "md5_uncompressed": "868a79344815643af68bf51f66020a7a"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_22/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_22/single.in",
+   "bytes": 2582,
+   "md5_uncompressed": "deb2571df4ca7aefacd9bee910b5682a"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_22/j110_22.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_22/j110_22.json",
+   "bytes": 2153,
+   "md5_uncompressed": "7bd69b3591390e9e103da3dc4d43f8c0"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_23/stdout.log",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_23/stdout.log",
+   "bytes": 26,
+   "md5_uncompressed": "4ffb5d6f95654d3ec29ecbea6daeeb6a"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_23/status.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_23/status.json",
+   "bytes": 227,
+   "md5_uncompressed": "354bf64c119a16fb1c1b47761969cc64"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_23/single_j110_23_C_e90.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_23/single_j110_23_C_e90.json",
+   "bytes": 615,
+   "md5_uncompressed": "005091dcf3d83ad2e19ab486b2f171b0"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_23/single.out",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_23/single.out",
+   "bytes": 293378,
+   "md5_uncompressed": "f277e585a9762d133509e7781c5f3472"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_23/single.in",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_23/single.in",
+   "bytes": 2734,
+   "md5_uncompressed": "45b2a58ccc7e20e5c05772f74ede063e"
+  },
+  {
+   "volume_path": "jobs/lcm/jfit110/j110_23/j110_23.json",
+   "repo_path": "materials/YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/j110_23/j110_23.json",
+   "bytes": 2157,
+   "md5_uncompressed": "5a708873e65b5ae1ce129e8675d8d7ff"
+  }
+ ],
+ "skipped": []
+}

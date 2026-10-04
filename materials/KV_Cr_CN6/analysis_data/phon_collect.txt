@@ -1,0 +1,122 @@
+<campaign_root>/tracks/lcm/pba/phon/collect.py:370: DeprecationWarning: get_qpoints_dict() is deprecated. Use the qpoints property to access the Qpoints result object; its frequencies, eigenvectors, group_velocities, and dynamical_matrices attributes replace the dict keys.
+  ph.run_qpoints([[0, 0, 0]]); f_raw = np.sort(ph.get_qpoints_dict()["frequencies"][0])
+<campaign_root>/tracks/lcm/pba/phon/collect.py:387: DeprecationWarning: get_qpoints_dict() is deprecated. Use the qpoints property to access the Qpoints result object; its frequencies, eigenvectors, group_velocities, and dynamical_matrices attributes replace the dict keys.
+  f = ph.get_qpoints_dict()["frequencies"][0]
+<campaign_root>/tracks/lcm/pba/phon/collect.py:392: DeprecationWarning: set_irreps() is deprecated. Use run_irreps() instead.
+  irr = ph.set_irreps(q, degeneracy_tolerance=0.02)
+<campaign_root>/tracks/lcm/pba/phon/collect.py:401: DeprecationWarning: get_modulations_and_supercell() is deprecated. Use the modulations and supercell attributes of the Modulation object returned by run_modulations() or of the modulation property.
+  U, sc = ph.get_modulations_and_supercell()
+<campaign_root>/.venv/lib/python3.12/site-packages/phonopy/api_phonopy.py:1748: MeshSymmetryFallbackWarning: Half-grid shift [1, 1, 1] is not preserved by the primitive-cell point group for mesh [8, 8, 8]. Point-group symmetry reduction is disabled; only time-reversal symmetry is applied. Use a gamma-centered mesh (no shift) to keep full symmetry.
+  self._mesh = Mesh(
+<campaign_root>/.venv/lib/python3.12/site-packages/phonopy/api_phonopy.py:245: UserWarning: Warning: Point group symmetries of supercell and primitivecell are different.
+  self._search_primitive_symmetry()
+fetched 0 new force files
+== KVCr_prim (15 atoms) diag {"ref_residual_max_eV_A": 0.020474210386373915, "M_range": [-0.0, -0.0], "absM_range": [7.07, 7.08], "all_conv": true, "pm_asymmetry": [0.0122, 0.0142, 0.0125, 0.0416, 0.0426], "gamma_lowest3_rawFC_THz": [-1.291, -1.291, -1.291], "rawFC_ASR_max_eV_A2": {"row": 3.636089256875419e-05, "col": 0.009408380964169627}}
+  G: min optic -1.291 THz  n_imag 3  star spread 0.0000  acoustic [0.0, 0.0, 0.0]
+      -1.291 THz   -43.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.036, 'Cr': 0.023, 'K': 0.867, 'N': 0.051, 'V': 0.024} rotV 0.0 rotM 0.0 CNtr 0.061 CNlib 0.001 Kpol 1.0 coh 0.985
+      -1.291 THz   -43.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.036, 'Cr': 0.023, 'K': 0.867, 'N': 0.051, 'V': 0.024} rotV 0.0 rotM 0.0 CNtr 0.061 CNlib 0.001 Kpol 1.0 coh 0.985
+      -1.291 THz   -43.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.036, 'Cr': 0.023, 'K': 0.867, 'N': 0.051, 'V': 0.024} rotV 0.0 rotM 0.0 CNtr 0.061 CNlib 0.001 Kpol 1.0 coh 0.985
+      +1.389 THz    46.3 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.377, 'Cr': 0.0, 'K': 0.0, 'N': 0.623, 'V': 0.0} rotV 0.62 rotM 0.376 CNtr 0.993 CNlib 0.007 Kpol 0.0 coh 0.492
+      +1.389 THz    46.3 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.377, 'Cr': 0.0, 'K': 0.0, 'N': 0.623, 'V': 0.0} rotV 0.62 rotM 0.376 CNtr 0.993 CNlib 0.007 Kpol 0.0 coh 0.492
+      +1.389 THz    46.3 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.377, 'Cr': 0.0, 'K': 0.0, 'N': 0.623, 'V': 0.0} rotV 0.62 rotM 0.376 CNtr 0.993 CNlib 0.007 Kpol 0.0 coh 0.492
+== KVCr_conv (60 atoms) diag {"ref_residual_max_eV_A": 0.022557061229502493, "M_range": [-0.0, -0.0], "absM_range": [28.28, 28.3], "all_conv": true, "pm_asymmetry": [0.0465, 0.0203, 0.0193, 0.0416, 0.0426], "gamma_lowest3_rawFC_THz": [-1.292, -1.292, -1.292], "rawFC_ASR_max_eV_A2": {"row": 6.363156207651855e-05, "col": 0.026888510114149833}}
+  G: min optic -1.292 THz  n_imag 3  star spread 0.0000  acoustic [-0.0, 0.0, 0.0]
+      -1.292 THz   -43.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.036, 'Cr': 0.023, 'K': 0.867, 'N': 0.051, 'V': 0.024} rotV 0.0 rotM 0.0 CNtr 0.061 CNlib 0.001 Kpol 1.0 coh 0.985
+      -1.292 THz   -43.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.036, 'Cr': 0.023, 'K': 0.867, 'N': 0.051, 'V': 0.024} rotV 0.0 rotM 0.0 CNtr 0.061 CNlib 0.001 Kpol 1.0 coh 0.985
+      -1.292 THz   -43.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.036, 'Cr': 0.023, 'K': 0.867, 'N': 0.051, 'V': 0.024} rotV 0.0 rotM 0.0 CNtr 0.061 CNlib 0.001 Kpol 1.0 coh 0.985
+      +1.388 THz    46.3 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.377, 'Cr': 0.0, 'K': 0.0, 'N': 0.623, 'V': 0.0} rotV 0.62 rotM 0.376 CNtr 0.993 CNlib 0.007 Kpol 0.0 coh 0.492
+      +1.388 THz    46.3 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.377, 'Cr': 0.0, 'K': 0.0, 'N': 0.623, 'V': 0.0} rotV 0.62 rotM 0.376 CNtr 0.993 CNlib 0.007 Kpol 0.0 coh 0.492
+      +1.388 THz    46.3 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.377, 'Cr': 0.0, 'K': 0.0, 'N': 0.623, 'V': 0.0} rotV 0.62 rotM 0.376 CNtr 0.993 CNlib 0.007 Kpol 0.0 coh 0.492
+  X: min optic -1.040 THz  n_imag 2  star spread 0.0000
+      -1.040 THz   -34.7 cm-1 None  K rattling (antiphase)                     w {'C': 0.007, 'Cr': 0.006, 'K': 0.97, 'N': 0.013, 'V': 0.004} rotV 0.001 rotM 0.0 CNtr 0.012 CNlib 0.002 Kpol 0.0 coh 0.794
+      -1.040 THz   -34.7 cm-1 None  K rattling (antiphase)                     w {'C': 0.007, 'Cr': 0.006, 'K': 0.97, 'N': 0.013, 'V': 0.004} rotV 0.001 rotM 0.0 CNtr 0.012 CNlib 0.002 Kpol 0.0 coh 0.794
+      +0.833 THz    27.8 cm-1 None  K rattling (antiphase)                     w {'C': 0.0, 'Cr': 0.0, 'K': 1.0, 'N': 0.0, 'V': 0.0} rotV 0.0 rotM 0.0 CNtr 0.0 CNlib 0.0 Kpol 0.0 coh 0.485
+      +1.293 THz    43.1 cm-1 None  acoustic-like (rigid framework translation) w {'C': 0.237, 'Cr': 0.212, 'K': 0.025, 'N': 0.303, 'V': 0.223} rotV 0.001 rotM 0.0 CNtr 0.277 CNlib 0.041 Kpol 0.0 coh 0.908
+      +1.293 THz    43.1 cm-1 None  acoustic-like (rigid framework translation) w {'C': 0.237, 'Cr': 0.212, 'K': 0.025, 'N': 0.303, 'V': 0.223} rotV 0.001 rotM 0.0 CNtr 0.277 CNlib 0.041 Kpol 0.0 coh 0.908
+      +1.409 THz    47.0 cm-1 None  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.377, 'Cr': 0.0, 'K': 0.0, 'N': 0.623, 'V': 0.0} rotV 0.62 rotM 0.376 CNtr 0.993 CNlib 0.007 Kpol 0.0 coh 0.492
+  interpolated 8x8x8 mesh min -1.269 THz at [0.062, 0.062, 0.062] (indicative)
+== KVCr_L30 (30 atoms) diag {"ref_residual_max_eV_A": 0.021322674499733293, "M_range": [0.0, 0.0], "absM_range": [14.14, 14.15], "all_conv": true, "pm_asymmetry": [0.0111, 0.014, 0.0125, 0.0415, 0.0177, 0.0415, 0.0176, 0.0426, 0.0181, 0.0426, 0.018], "gamma_lowest3_rawFC_THz": [-1.291, -1.291, -1.291], "rawFC_ASR_max_eV_A2": {"row": 4.118860936438637e-05, "col": 0.027614819497112864}}
+  G: min optic -1.291 THz  n_imag 3  star spread 0.0000  acoustic [-0.0, -0.0, 0.0]
+      -1.291 THz   -43.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.036, 'Cr': 0.023, 'K': 0.867, 'N': 0.051, 'V': 0.024} rotV 0.0 rotM 0.0 CNtr 0.061 CNlib 0.001 Kpol 1.0 coh 0.985
+      -1.291 THz   -43.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.036, 'Cr': 0.023, 'K': 0.867, 'N': 0.051, 'V': 0.024} rotV 0.0 rotM 0.0 CNtr 0.061 CNlib 0.001 Kpol 1.0 coh 0.985
+      -1.291 THz   -43.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.036, 'Cr': 0.023, 'K': 0.867, 'N': 0.05, 'V': 0.024} rotV 0.0 rotM 0.0 CNtr 0.061 CNlib 0.001 Kpol 1.0 coh 0.985
+      +1.392 THz    46.4 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.377, 'Cr': 0.0, 'K': 0.0, 'N': 0.623, 'V': 0.0} rotV 0.619 rotM 0.377 CNtr 0.993 CNlib 0.007 Kpol 0.0 coh 0.492
+      +1.394 THz    46.5 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.378, 'Cr': 0.0, 'K': 0.0, 'N': 0.622, 'V': 0.0} rotV 0.619 rotM 0.377 CNtr 0.993 CNlib 0.007 Kpol 1.0 coh 0.493
+      +1.394 THz    46.5 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.378, 'Cr': 0.0, 'K': 0.0, 'N': 0.622, 'V': 0.0} rotV 0.619 rotM 0.377 CNtr 0.993 CNlib 0.007 Kpol 1.0 coh 0.493
+  L: min optic -1.129 THz  n_imag 2  star spread 0.0000
+      -1.129 THz   -37.7 cm-1 None  K rattling (antiphase)                     w {'C': 0.001, 'Cr': 0.0, 'K': 0.994, 'N': 0.005, 'V': 0.0} rotV 0.001 rotM 0.001 CNtr 0.005 CNlib 0.001 Kpol 0.0 coh 0.48
+      -1.129 THz   -37.7 cm-1 None  K rattling (antiphase)                     w {'C': 0.001, 'Cr': 0.0, 'K': 0.994, 'N': 0.005, 'V': 0.0} rotV 0.001 rotM 0.001 CNtr 0.005 CNlib 0.001 Kpol 0.0 coh 0.48
+      +0.587 THz    19.6 cm-1 None  K rattling (antiphase)                     w {'C': 0.0, 'Cr': 0.001, 'K': 0.998, 'N': 0.001, 'V': 0.0} rotV 0.0 rotM 0.0 CNtr 0.001 CNlib 0.0 Kpol 0.0 coh 0.463
+      +2.691 THz    89.8 cm-1 None  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.299, 'Cr': 0.082, 'K': 0.001, 'N': 0.617, 'V': 0.001} rotV 0.593 rotM 0.007 CNtr 0.866 CNlib 0.022 Kpol 0.0 coh 0.626
+      +2.691 THz    89.8 cm-1 None  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.299, 'Cr': 0.082, 'K': 0.001, 'N': 0.617, 'V': 0.001} rotV 0.593 rotM 0.007 CNtr 0.866 CNlib 0.022 Kpol 0.0 coh 0.626
+      +3.045 THz   101.6 cm-1 None  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.232, 'Cr': 0.0, 'K': 0.0, 'N': 0.768, 'V': 0.0} rotV 0.74 rotM 0.028 CNtr 0.936 CNlib 0.064 Kpol 0.0 coh 0.433
+== KVMo_prim (15 atoms) diag {"ref_residual_max_eV_A": 0.00731993130525499, "M_range": [-0.0, -0.0], "absM_range": [6.64, 6.65], "all_conv": true, "pm_asymmetry": [0.0296, 0.014, 0.0119, 0.044, 0.0442], "gamma_lowest3_rawFC_THz": [-1.352, -1.352, -1.352], "rawFC_ASR_max_eV_A2": {"row": 2.7270669463064223e-05, "col": 0.011508222512707222}}
+  G: min optic -1.352 THz  n_imag 3  star spread 0.0000  acoustic [-0.0, -0.0, 0.0]
+      -1.352 THz   -45.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.028, 'K': 0.883, 'Mo': 0.031, 'N': 0.039, 'V': 0.018} rotV 0.0 rotM 0.0 CNtr 0.048 CNlib 0.0 Kpol 1.0 coh 0.982
+      -1.352 THz   -45.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.028, 'K': 0.883, 'Mo': 0.031, 'N': 0.039, 'V': 0.018} rotV 0.0 rotM 0.0 CNtr 0.048 CNlib 0.0 Kpol 1.0 coh 0.982
+      -1.352 THz   -45.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.028, 'K': 0.883, 'Mo': 0.031, 'N': 0.039, 'V': 0.018} rotV 0.0 rotM 0.0 CNtr 0.048 CNlib 0.0 Kpol 1.0 coh 0.982
+      +1.356 THz    45.2 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.392, 'K': 0.0, 'Mo': 0.0, 'N': 0.608, 'V': 0.0} rotV 0.605 rotM 0.391 CNtr 0.995 CNlib 0.005 Kpol 0.0 coh 0.495
+      +1.356 THz    45.2 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.392, 'K': 0.0, 'Mo': 0.0, 'N': 0.608, 'V': 0.0} rotV 0.605 rotM 0.391 CNtr 0.995 CNlib 0.005 Kpol 0.0 coh 0.495
+      +1.356 THz    45.2 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.392, 'K': 0.0, 'Mo': 0.0, 'N': 0.608, 'V': 0.0} rotV 0.605 rotM 0.391 CNtr 0.995 CNlib 0.005 Kpol 0.0 coh 0.495
+== KVMo_conv (60 atoms) diag {"ref_residual_max_eV_A": 0.009064167834051963, "M_range": [0.0, 0.0], "absM_range": [26.58, 26.58], "all_conv": true, "pm_asymmetry": [0.0165, 0.0203, 0.0184, 0.044, 0.0442], "gamma_lowest3_rawFC_THz": [-1.352, -1.352, -1.352], "rawFC_ASR_max_eV_A2": {"row": 5.7849825915346105e-05, "col": 0.02997292855061673}}
+  G: min optic -1.352 THz  n_imag 3  star spread 0.0000  acoustic [-0.0, -0.0, 0.0]
+      -1.352 THz   -45.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.028, 'K': 0.883, 'Mo': 0.031, 'N': 0.039, 'V': 0.018} rotV 0.0 rotM 0.0 CNtr 0.048 CNlib 0.0 Kpol 1.0 coh 0.982
+      -1.352 THz   -45.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.028, 'K': 0.883, 'Mo': 0.031, 'N': 0.039, 'V': 0.018} rotV 0.0 rotM 0.0 CNtr 0.048 CNlib 0.0 Kpol 1.0 coh 0.982
+      -1.352 THz   -45.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.028, 'K': 0.883, 'Mo': 0.031, 'N': 0.039, 'V': 0.018} rotV 0.0 rotM 0.0 CNtr 0.048 CNlib 0.0 Kpol 1.0 coh 0.982
+      +1.358 THz    45.3 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.392, 'K': 0.0, 'Mo': 0.0, 'N': 0.608, 'V': 0.0} rotV 0.605 rotM 0.391 CNtr 0.995 CNlib 0.005 Kpol 0.0 coh 0.495
+      +1.358 THz    45.3 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.392, 'K': 0.0, 'Mo': 0.0, 'N': 0.608, 'V': 0.0} rotV 0.605 rotM 0.391 CNtr 0.995 CNlib 0.005 Kpol 0.0 coh 0.495
+      +1.358 THz    45.3 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.392, 'K': 0.0, 'Mo': 0.0, 'N': 0.608, 'V': 0.0} rotV 0.605 rotM 0.391 CNtr 0.995 CNlib 0.005 Kpol 0.0 coh 0.495
+  X: min optic -1.142 THz  n_imag 2  star spread 0.0000
+      -1.142 THz   -38.1 cm-1 None  K rattling (antiphase)                     w {'C': 0.005, 'K': 0.971, 'Mo': 0.009, 'N': 0.011, 'V': 0.003} rotV 0.002 rotM 0.0 CNtr 0.011 CNlib 0.002 Kpol 0.0 coh 0.773
+      -1.142 THz   -38.1 cm-1 None  K rattling (antiphase)                     w {'C': 0.005, 'K': 0.971, 'Mo': 0.009, 'N': 0.011, 'V': 0.003} rotV 0.002 rotM 0.0 CNtr 0.011 CNlib 0.002 Kpol 0.0 coh 0.773
+      +0.384 THz    12.8 cm-1 None  K rattling (antiphase)                     w {'C': 0.0, 'K': 1.0, 'Mo': 0.0, 'N': 0.0, 'V': 0.0} rotV 0.0 rotM 0.0 CNtr 0.0 CNlib 0.0 Kpol 0.0 coh 0.465
+      +1.044 THz    34.8 cm-1 None  acoustic-like (rigid framework translation) w {'C': 0.196, 'K': 0.023, 'Mo': 0.339, 'N': 0.257, 'V': 0.185} rotV 0.001 rotM 0.0 CNtr 0.232 CNlib 0.034 Kpol 0.0 coh 0.907
+      +1.044 THz    34.8 cm-1 None  acoustic-like (rigid framework translation) w {'C': 0.196, 'K': 0.023, 'Mo': 0.339, 'N': 0.257, 'V': 0.185} rotV 0.001 rotM 0.0 CNtr 0.232 CNlib 0.034 Kpol 0.0 coh 0.907
+      +1.378 THz    46.0 cm-1 None  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.392, 'K': 0.0, 'Mo': 0.0, 'N': 0.608, 'V': 0.0} rotV 0.605 rotM 0.391 CNtr 0.995 CNlib 0.005 Kpol 0.0 coh 0.495
+  interpolated 8x8x8 mesh min -1.338 THz at [-0.062, 0.062, 0.062] (indicative)
+== KVMo_L30 (30 atoms) diag {"ref_residual_max_eV_A": 0.011477405460715937, "M_range": [0.0, 0.0], "absM_range": [13.28, 13.29], "all_conv": true, "pm_asymmetry": [0.0191, 0.0142, 0.0116, 0.044, 0.0184, 0.044, 0.0184, 0.0442, 0.0187, 0.0442, 0.0187], "gamma_lowest3_rawFC_THz": [-1.352, -1.352, -1.351], "rawFC_ASR_max_eV_A2": {"row": 3.936182089114837e-05, "col": 0.023590136238758386}}
+  G: min optic -1.352 THz  n_imag 3  star spread 0.0000  acoustic [-0.0, -0.0, 0.0]
+      -1.352 THz   -45.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.028, 'K': 0.883, 'Mo': 0.031, 'N': 0.039, 'V': 0.018} rotV 0.0 rotM 0.0 CNtr 0.048 CNlib 0.0 Kpol 1.0 coh 0.982
+      -1.352 THz   -45.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.028, 'K': 0.883, 'Mo': 0.031, 'N': 0.039, 'V': 0.018} rotV 0.0 rotM 0.0 CNtr 0.048 CNlib 0.0 Kpol 1.0 coh 0.982
+      -1.351 THz   -45.1 cm-1   T2  K rattling (in-phase / polar off-centring) w {'C': 0.028, 'K': 0.883, 'Mo': 0.031, 'N': 0.039, 'V': 0.018} rotV 0.0 rotM 0.0 CNtr 0.048 CNlib 0.0 Kpol 1.0 coh 0.982
+      +1.364 THz    45.5 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.392, 'K': 0.0, 'Mo': 0.0, 'N': 0.608, 'V': 0.0} rotV 0.605 rotM 0.391 CNtr 0.995 CNlib 0.005 Kpol 0.0 coh 0.495
+      +1.368 THz    45.6 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.393, 'K': 0.0, 'Mo': 0.0, 'N': 0.607, 'V': 0.0} rotV 0.604 rotM 0.392 CNtr 0.995 CNlib 0.005 Kpol 1.0 coh 0.495
+      +1.368 THz    45.6 cm-1   T1  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.393, 'K': 0.0, 'Mo': 0.0, 'N': 0.607, 'V': 0.0} rotV 0.604 rotM 0.392 CNtr 0.995 CNlib 0.005 Kpol 1.0 coh 0.495
+  L: min optic -1.213 THz  n_imag 3  star spread 0.0000
+      -1.213 THz   -40.5 cm-1 None  K rattling (antiphase)                     w {'C': 0.002, 'K': 0.993, 'Mo': 0.0, 'N': 0.005, 'V': 0.0} rotV 0.001 rotM 0.001 CNtr 0.006 CNlib 0.0 Kpol 0.0 coh 0.519
+      -1.213 THz   -40.5 cm-1 None  K rattling (antiphase)                     w {'C': 0.002, 'K': 0.993, 'Mo': 0.0, 'N': 0.005, 'V': 0.0} rotV 0.001 rotM 0.001 CNtr 0.006 CNlib 0.0 Kpol 0.0 coh 0.519
+      -0.449 THz   -15.0 cm-1 None  K rattling (antiphase)                     w {'C': 0.001, 'K': 0.996, 'Mo': 0.002, 'N': 0.001, 'V': 0.0} rotV 0.0 rotM 0.0 CNtr 0.001 CNlib 0.0 Kpol 0.0 coh 0.638
+      +2.512 THz    83.8 cm-1 None  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.287, 'K': 0.001, 'Mo': 0.17, 'N': 0.541, 'V': 0.0} rotV 0.521 rotM 0.004 CNtr 0.786 CNlib 0.015 Kpol 0.0 coh 0.647
+      +2.512 THz    83.8 cm-1 None  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.287, 'K': 0.001, 'Mo': 0.17, 'N': 0.541, 'V': 0.0} rotV 0.521 rotM 0.004 CNtr 0.786 CNlib 0.015 Kpol 0.0 coh 0.647
+      +2.828 THz    94.3 cm-1 None  octahedral tilt (cooperative rotation, CN transverse) w {'C': 0.246, 'K': 0.0, 'Mo': 0.0, 'N': 0.754, 'V': 0.0} rotV 0.736 rotM 0.019 CNtr 0.945 CNlib 0.055 Kpol 0.0 coh 0.443
+KVCr: Gamma prim (k 5^3) vs conv max |df| = 0.015 THz; lowest optic diffs [-0.0, 0.0, 0.0, -0.001, -0.001, -0.001, 0.002, 0.002, 0.002]
+KVCr: Gamma prim (k 5^3) vs L30 max |df| = 0.071 THz; lowest optic diffs [-0.0, -0.0, 0.0, 0.003, 0.005, 0.005, 0.001, 0.002, 0.002]
+KVMo: Gamma prim (k 5^3) vs conv max |df| = 0.027 THz; lowest optic diffs [0.0, 0.0, 0.0, 0.002, 0.002, 0.002, 0.003, 0.003, 0.003]
+KVMo: Gamma prim (k 5^3) vs L30 max |df| = 0.070 THz; lowest optic diffs [0.0, 0.0, 0.0, 0.008, 0.011, 0.011, 0.004, 0.005, 0.005]
+K off-centring KVCr:
+   c     dE 0.0 meV/f.u.  |dK| 0.0  conv True  M -0.0 |M| 7.07  gap 2.0165936657899373 win 2.016330183401919/1.1360576647335758 spins 1/1  nearest [[3.817, 'N'], [3.817, 'N']]
+K off-centring KVMo:
+   c     dE 0.0 meV/f.u.  |dK| 0.0  conv True  M -0.0 |M| 6.65  gap 1.3847527772025516 win 0.9748404869158223/1.86864207314198 spins 1/1  nearest [[3.879, 'C'], [3.879, 'C']]
+rigid K scan KVCr (E - E_centred, meV/f.u.; framework frozen):
+    x [(0.4, -15.11, 0.0669), (0.55, -25.69, 0.0715), (0.7, -35.65, 0.058), (0.85, -42.04, 0.0236), (1.0, -41.65, -0.0323)]
+    p111 [(0.4, -12.49, 0.0441), (0.55, -17.5, 0.0164), (0.7, -15.12, -0.0575), (0.85, 3.09, -0.1987), (1.0, 49.24, -0.4354)]
+    m111 [(0.4, -15.91, 0.0704), (0.55, -26.67, 0.0684), (0.7, -34.72, 0.0316), (0.85, -33.55, -0.0579), (1.0, -13.5, -0.2248)]
+rigid K scan KVMo (E - E_centred, meV/f.u.; framework frozen):
+    x [(0.4, -17.63, 0.0807), (0.55, -30.86, 0.0933), (0.7, -44.83, 0.0901), (0.85, -57.0, 0.0689), (1.0, -64.53, 0.0283)]
+    p111 [(0.4, -15.47, 0.0621), (0.55, -24.17, 0.0485), (0.7, -28.08, -0.0043), (0.85, -20.02, -0.1146), (1.0, 10.43, -0.3077)]
+    m111 [(0.4, -18.47, 0.0851), (0.55, -32.21, 0.0945), (0.7, -45.42, 0.0758), (0.85, -52.79, 0.0137), (1.0, -46.32, -0.1128)]
+   koff terminated KVCr x: n_scf 9 dE -8.22 meV |dK| 0.297 A F 0.005419
+   koff running KVCr xy: n_scf 14 dE -11.0 meV |dK| 0.386 A F 0.010469
+   koff terminated KVCr p111: n_scf 12 dE -8.17 meV |dK| 0.301 A F 0.007238
+   koff terminated KVCr m111: n_scf 9 dE -8.74 meV |dK| 0.301 A F 0.006653
+   koff2 running KVCr x: n_scf 13 dE -47.22 meV |dK| 0.908 A F 0.000723
+   koff2 running KVCr p111: n_scf 10 dE -19.85 meV |dK| 0.563 A F 0.001545
+   koff2 running KVCr m111: n_scf 20 dE -39.51 meV |dK| 0.775 A F 0.000568
+   koff terminated KVMo x: n_scf 9 dE -10.0 meV |dK| 0.314 A F 0.005565
+   koff running KVMo xy: n_scf 16 dE -18.18 meV |dK| 0.458 A F 0.011061
+   koff terminated KVMo p111: n_scf 11 dE -10.32 meV |dK| 0.364 A F 0.007151
+   koff terminated KVMo m111: n_scf 10 dE -11.4 meV |dK| 0.351 A F 0.007802
+   koff2 running KVMo x: n_scf 12 dE -66.56 meV |dK| 0.965 A F 0.004917
+   koff2 running KVMo p111: n_scf 7 dE -26.76 meV |dK| 0.575 A F 0.00355
+   koff2 running KVMo m111: n_scf 9 dE -55.72 meV |dK| 0.818 A F 0.002462
+wrote summary.json: {'KVCr': 'framework (all non-K modes) stable at G[prim], G[conv], X[conv], G[L30], L[L30]; K rattling imaginary (13 modes): ordered centred-K F-43m is a saddle', 'KVMo': 'framework (all non-K modes) stable at G[prim], G[conv], X[conv], G[L30], L[L30]; K rattling imaginary (14 modes): ordered centred-K F-43m is a saddle'}

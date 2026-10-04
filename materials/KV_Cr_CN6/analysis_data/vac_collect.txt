@@ -1,0 +1,46 @@
+== status ==
+  KVCr_P       done     rc=0 h=0.47 stage=done
+  KVMo_P       done     rc=0 h=0.48 stage=done
+  KVCr_VAC     running  rc=None h=- stage=relax relax: 56 SCF, M -3.0, F 0.010645, dE -990 meV
+  KVMo_VAC     done     rc=0 h=5.45 stage=done
+  refs         done     rc=0 h=0.14 stage=done
+  KVCr_VAC_r   done     rc=0 h=0.41 stage=done
+  KVMo_VAC_r   done     rc=0 h=0.42 stage=done
+  KVCr_VAC_w1  running  rc=None h=- stage=nscf
+
+  KVCr_VAC: not done
+
+  KVCr_VAC_r: M = -3.000 (expected -3), |M| 24.40, gap 1.43 eV, VBM V-maj CBM V-maj, cell windows 2.07/0.45
+     aligned (shift -0.951; K3p -0.632): opp-spin VB top -1.93 vs host VBM, opp-spin CB bottom +0.07 vs host CBM; same-spin top +0.14, bottom -0.38; windows 1.93/0.07 (95%/6%)
+     capped V (m_sphere/m_d): #1 -2.11/-2.82, #3 -2.11/-2.82, #4 -2.11/-2.82 | bulk V: #2 -2.00/-2.70
+     M sites: #5 +2.32/+2.95, #6 +2.32/+2.95, #7 +2.32/+2.95
+     state Cr-maj  E-VBM [2.022, 2.259] E-CBM [0.074, 0.311] occ 0.0 region 0.948 {'H_w': 0.669, 'O_w': 0.219, 'V(N)': 0.06} top [[51, 'H', 'H_w', 0.079], [49, 'H', 'H_w', 0.079], [58, 'H', 'H_w', 0.078]]
+     state V-maj   E-VBM [0.037, 0.106] E-CBM [-1.911, -1.842] occ 1.0 region 0.037 {'C': 0.165, 'N': 0.021, 'V(N)': 0.798} top [[2, 'V', 'V(N)', 0.761], [13, 'C', 'C', 0.028], [16, 'C', 'C', 0.028]]
+     state V-maj   E-VBM [0.065, 0.14] E-CBM [-1.884, -1.809] occ 1.0 region 0.04 {'C': 0.161, 'V(N)': 0.803} top [[2, 'V', 'V(N)', 0.764], [13, 'C', 'C', 0.031], [14, 'C', 'C', 0.028]]
+     state V-maj   E-VBM [0.086, 0.14] E-CBM [-1.862, -1.809] occ 1.0 region 0.032 {'C': 0.162, 'V(N)': 0.808} top [[2, 'V', 'V(N)', 0.776], [16, 'C', 'C', 0.033], [14, 'C', 'C', 0.028]]
+     state V-maj   E-VBM [1.568, 1.988] E-CBM [-0.38, 0.04] occ 0.0 region 0.407 {'C': 0.12, 'H_w': 0.267, 'M(C)': 0.286, 'N': 0.181, 'O_w': 0.09, 'V(N)': 0.051} top [[5, 'Cr', 'M(C)', 0.14], [6, 'Cr', 'M(C)', 0.106], [7, 'Cr', 'M(C)', 0.04]]
+     E(VAC) - E(P) + 3 mu_K - 6 mu_H2O = +5099.571 eV (+ mu[M(CN)6])
+     KILL opp-spin near edge: True; KILL window cut: True
+
+  KVCr_VAC_w1: not done
+
+  KVMo_VAC: M = -3.000 (expected -3), |M| 23.15, gap 1.02 eV, VBM V-maj CBM V-maj, cell windows 0.99/1.05
+     aligned (shift -1.024; K3p -0.630): opp-spin VB top -0.91 vs host VBM, opp-spin CB bottom +0.84 vs host CBM; same-spin top +0.08, bottom -0.20; windows 0.91/0.84 (93%/45%)
+     capped V (m_sphere/m_d): #1 -2.06/-2.77, #3 -2.06/-2.77, #4 -2.06/-2.77 | bulk V: #2 -1.91/-2.59
+     M sites: #5 +1.42/+2.47, #6 +1.42/+2.47, #7 +1.42/+2.47
+     state V-maj   E-VBM [-0.053, 0.054] E-CBM [-1.356, -1.249] occ 1.0 region 0.065 {'C': 0.175, 'M(C)': 0.033, 'N': 0.025, 'V(N)': 0.767} top [[2, 'V', 'V(N)', 0.702], [16, 'C', 'C', 0.034], [17, 'C', 'C', 0.028]]
+     state V-maj   E-VBM [-0.031, 0.08] E-CBM [-1.334, -1.223] occ 1.0 region 0.075 {'C': 0.17, 'M(C)': 0.029, 'N': 0.024, 'V(N)': 0.777} top [[2, 'V', 'V(N)', 0.702], [3, 'V', 'V(N)', 0.038], [13, 'C', 'C', 0.03]]
+     state V-maj   E-VBM [0.019, 0.08] E-CBM [-1.284, -1.223] occ 1.0 region 0.082 {'C': 0.17, 'M(C)': 0.021, 'N': 0.022, 'V(N)': 0.787} top [[2, 'V', 'V(N)', 0.705], [3, 'V', 'V(N)', 0.056], [14, 'C', 'C', 0.032]]
+     state V-maj   E-VBM [1.1, 1.643] E-CBM [-0.203, 0.34] occ 0.0 region 0.083 {'C': 0.088, 'H_w': 0.032, 'M(C)': 0.556, 'N': 0.272, 'V(N)': 0.04} top [[5, 'Mo', 'M(C)', 0.318], [6, 'Mo', 'M(C)', 0.182], [7, 'Mo', 'M(C)', 0.056]]
+     E(VAC) - E(P) + 3 mu_K - 6 mu_H2O = +4589.363 eV (+ mu[M(CN)6])
+     KILL opp-spin near edge: False; KILL window cut: True
+
+  KVMo_VAC_r: M = -3.000 (expected -3), |M| 23.16, gap 1.04 eV, VBM V-maj CBM V-maj, cell windows 0.98/1.08
+     aligned (shift -1.030; K3p -0.588): opp-spin VB top -0.91 vs host VBM, opp-spin CB bottom +0.89 vs host CBM; same-spin top +0.07, bottom -0.19; windows 0.91/0.89 (94%/47%)
+     capped V (m_sphere/m_d): #1 -2.06/-2.77, #3 -2.06/-2.77, #4 -2.06/-2.77 | bulk V: #2 -1.91/-2.59
+     M sites: #5 +1.42/+2.47, #6 +1.42/+2.47, #7 +1.42/+2.47
+     state V-maj   E-VBM [-0.043, 0.067] E-CBM [-1.346, -1.236] occ 1.0 region 0.072 {'C': 0.17, 'M(C)': 0.029, 'N': 0.024, 'V(N)': 0.777} top [[2, 'V', 'V(N)', 0.705], [3, 'V', 'V(N)', 0.032], [16, 'C', 'C', 0.031]]
+     state V-maj   E-VBM [0.007, 0.067] E-CBM [-1.296, -1.236] occ 1.0 region 0.091 {'C': 0.17, 'M(C)': 0.02, 'N': 0.022, 'V(N)': 0.788} top [[2, 'V', 'V(N)', 0.697], [3, 'V', 'V(N)', 0.066], [14, 'C', 'C', 0.032]]
+     state V-maj   E-VBM [1.111, 1.65] E-CBM [-0.192, 0.347] occ 0.0 region 0.08 {'C': 0.089, 'H_w': 0.03, 'M(C)': 0.558, 'N': 0.272, 'V(N)': 0.04} top [[5, 'Mo', 'M(C)', 0.317], [6, 'Mo', 'M(C)', 0.183], [7, 'Mo', 'M(C)', 0.058]]
+     E(VAC) - E(P) + 3 mu_K - 6 mu_H2O = +4589.396 eV (+ mu[M(CN)6])
+     KILL opp-spin near edge: False; KILL window cut: True

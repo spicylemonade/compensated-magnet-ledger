@@ -1,0 +1,44 @@
+&CONTROL
+  calculation = 'vc-relax'
+  prefix = 'K_bcc'
+  outdir = '/tmp/scratch/K_bcc'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .true.
+  tprnfor = .true.
+  disk_io = 'low'
+  verbosity = 'high'
+  forc_conv_thr = 0.001
+  etot_conv_thr = 1d-05
+  nstep = 150
+/
+&SYSTEM
+  ibrav = 0
+  nat = 1
+  ntyp = 1
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'mv'
+  degauss = 0.02
+/
+&ELECTRONS
+  conv_thr = 1d-09
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+&IONS
+/
+&CELL
+  press_conv_thr = 0.2
+/
+ATOMIC_SPECIES
+  K 39.0983 K.upf
+CELL_PARAMETERS angstrom
+  -2.6400000000 2.6400000000 2.6400000000
+  2.6400000000 -2.6400000000 2.6400000000
+  2.6400000000 2.6400000000 -2.6400000000
+ATOMIC_POSITIONS crystal
+  K 0.0000000000 0.0000000000 0.0000000000
+K_POINTS automatic
+  15 15 15 0 0 0

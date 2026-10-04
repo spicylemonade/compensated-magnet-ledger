@@ -1,0 +1,2598 @@
+
+     Program PWSCF v.7.5 starts on  3Oct2026 at 11:37:18 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      32 processor cores
+     Number of MPI processes:                32
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+     409233 MiB available memory on the printing compute node when the environment starts
+
+     Reading input from KVCr_U4_2_FMfix.in
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     Message from routine setup:
+     using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
+
+     K-points division:     npool     =       8
+     R & G space division:  proc/nbgrp/npool/nimage =       4
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min        1545    1545    412                80210    80210   11098
+     Max        1546    1546    413                80212    80212   11101
+     Sum        6181    6181   1651               320843   320843   44399
+
+     Using Slab Decomposition
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      14.2709  a.u.
+     unit-cell volume          =    2055.1352 (a.u.)^3
+     number of atoms/cell      =           15
+     number of atomic types    =            5
+     number of electrons       =        90.00 (up:  48.00, down:  42.00)
+     number of Kohn-Sham states=           58
+     kinetic-energy cutoff     =     110.0000  Ry
+     charge density cutoff     =     440.0000  Ry
+     scf convergence threshold =      1.5E-06
+     mixing beta               =       0.3000
+     number of iterations used =            8  local-TF  mixing
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Hubbard projectors: ortho-atomic
+     Hubbard parameters of DFT+U (Dudarev formulation) in eV:
+     U(V-3d) =  4.0000
+     U(Cr-3d) =  2.0000
+
+     Internal variables: lda_plus_u =T, lda_plus_u_kind = 0
+
+     Internal variables: orbital_resolved =F, hub_pot_fix =F, apply_U = F
+
+     celldm(1)=  14.270914  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   0.000000   0.707107   0.707107 )  
+               a(2) = (   0.707107   0.000000   0.707107 )  
+               a(3) = (   0.707107   0.707107   0.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = ( -0.707107  0.707107  0.707107 )  
+               b(2) = (  0.707107 -0.707107  0.707107 )  
+               b(3) = (  0.707107  0.707107 -0.707107 )  
+
+
+     PseudoPot. # 1 for K  read from file:
+     /data/pseudo/dojo_sr/K.upf
+     MD5 check sum: 0aa97b2c023445f040759afc9fdb6c80
+     Pseudo is Norm-conserving + core correction, Zval =  9.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 2222 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+
+     PseudoPot. # 2 for V  read from file:
+     /data/pseudo/dojo_sr/V.upf
+     MD5 check sum: 40fb93c06b4f9d8c28c5ccd071294a04
+     Pseudo is Norm-conserving + core correction, Zval = 13.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 1536 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+
+     PseudoPot. # 3 for Cr read from file:
+     /data/pseudo/dojo_sr/Cr.upf
+     MD5 check sum: 41892f80c335c8b1e803fd21ab4016b0
+     Pseudo is Norm-conserving + core correction, Zval = 14.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 1638 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+
+     PseudoPot. # 4 for C  read from file:
+     /data/pseudo/dojo_sr/C.upf
+     MD5 check sum: 34a24e64c0a39f27c6c36b90a16ac686
+     Pseudo is Norm-conserving + core correction, Zval =  4.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 1248 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+
+     PseudoPot. # 5 for N  read from file:
+     /data/pseudo/dojo_sr/N.upf
+     MD5 check sum: d34365f73bb0e2ee98afc20ec3e87676
+     Pseudo is Norm-conserving + core correction, Zval =  5.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 1058 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+
+     atomic species   valence    mass     pseudopotential
+     K                 9.00    39.09830     K ( 1.00)
+     V                13.00    50.94150     V ( 1.00)
+     Cr               14.00    51.99610     Cr( 1.00)
+     C                 4.00    12.01100     C ( 1.00)
+     N                 5.00    14.00700     N ( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+     K               0.000
+     V               0.231
+     Cr              0.214
+     C               0.000
+     N               0.000
+
+     24 Sym. Ops. (no inversion) found
+
+
+                                    s                        frac. trans.
+
+      isym =  1     identity                                     
+
+ cryst.   s( 1) = (     1          0          0      )
+                  (     0          1          0      )
+                  (     0          0          1      )
+
+ cart.    s( 1) = (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  2     180 deg rotation - cart. axis [0,0,1]        
+
+ cryst.   s( 2) = (     0          1         -1      )
+                  (     1          0         -1      )
+                  (     0          0         -1      )
+
+ cart.    s( 2) = ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  3     180 deg rotation - cart. axis [0,1,0]        
+
+ cryst.   s( 3) = (     0         -1          1      )
+                  (     0         -1          0      )
+                  (     1         -1          0      )
+
+ cart.    s( 3) = ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+
+
+      isym =  4     180 deg rotation - cart. axis [1,0,0]        
+
+ cryst.   s( 4) = (    -1          0          0      )
+                  (    -1          0          1      )
+                  (    -1          1          0      )
+
+ cart.    s( 4) = (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+
+
+      isym =  5     120 deg rotation - cart. axis [-1,-1,-1]     
+
+ cryst.   s( 5) = (     0          0          1      )
+                  (     1          0          0      )
+                  (     0          1          0      )
+
+ cart.    s( 5) = (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+                  (  1.0000000  0.0000000  0.0000000 )
+
+
+      isym =  6     120 deg rotation - cart. axis [-1,1,1]       
+
+ cryst.   s( 6) = (     1         -1          0      )
+                  (     0         -1          1      )
+                  (     0         -1          0      )
+
+ cart.    s( 6) = (  0.0000000 -1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+                  ( -1.0000000  0.0000000  0.0000000 )
+
+
+      isym =  7     120 deg rotation - cart. axis [1,1,-1]       
+
+ cryst.   s( 7) = (    -1          1          0      )
+                  (    -1          0          0      )
+                  (    -1          0          1      )
+
+ cart.    s( 7) = (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+                  ( -1.0000000  0.0000000  0.0000000 )
+
+
+      isym =  8     120 deg rotation - cart. axis [1,-1,1]       
+
+ cryst.   s( 8) = (     0          0         -1      )
+                  (     0          1         -1      )
+                  (     1          0         -1      )
+
+ cart.    s( 8) = (  0.0000000 -1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+                  (  1.0000000  0.0000000  0.0000000 )
+
+
+      isym =  9     120 deg rotation - cart. axis [1,1,1]        
+
+ cryst.   s( 9) = (     0          1          0      )
+                  (     0          0          1      )
+                  (     1          0          0      )
+
+ cart.    s( 9) = (  0.0000000  0.0000000  1.0000000 )
+                  (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+
+
+      isym = 10     120 deg rotation - cart. axis [-1,1,-1]      
+
+ cryst.   s(10) = (    -1          0          1      )
+                  (    -1          1          0      )
+                  (    -1          0          0      )
+
+ cart.    s(10) = (  0.0000000  0.0000000  1.0000000 )
+                  ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )
+
+
+      isym = 11     120 deg rotation - cart. axis [1,-1,-1]      
+
+ cryst.   s(11) = (     1          0         -1      )
+                  (     0          0         -1      )
+                  (     0          1         -1      )
+
+ cart.    s(11) = (  0.0000000  0.0000000 -1.0000000 )
+                  ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+
+
+      isym = 12     120 deg rotation - cart. axis [-1,-1,1]      
+
+ cryst.   s(12) = (     0         -1          0      )
+                  (     1         -1          0      )
+                  (     0         -1          1      )
+
+ cart.    s(12) = (  0.0000000  0.0000000 -1.0000000 )
+                  (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )
+
+
+      isym = 13     inv. 180 deg rotation - cart. axis [1,1,0]   
+
+ cryst.   s(13) = (     1          0         -1      )
+                  (     0          1         -1      )
+                  (     0          0         -1      )
+
+ cart.    s(13) = (  0.0000000 -1.0000000  0.0000000 )
+                  ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym = 14     inv. 180 deg rotation - cart. axis [1,-1,0]  
+
+ cryst.   s(14) = (     0          1          0      )
+                  (     1          0          0      )
+                  (     0          0          1      )
+
+ cart.    s(14) = (  0.0000000  1.0000000  0.0000000 )
+                  (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym = 15     inv.  90 deg rotation - cart. axis [0,0,-1]  
+
+ cryst.   s(15) = (     0         -1          0      )
+                  (     0         -1          1      )
+                  (     1         -1          0      )
+
+ cart.    s(15) = (  0.0000000 -1.0000000  0.0000000 )
+                  (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+
+
+      isym = 16     inv.  90 deg rotation - cart. axis [0,0,1]   
+
+ cryst.   s(16) = (    -1          0          1      )
+                  (    -1          0          0      )
+                  (    -1          1          0      )
+
+ cart.    s(16) = (  0.0000000  1.0000000  0.0000000 )
+                  ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+
+
+      isym = 17     inv. 180 deg rotation - cart. axis [1,0,1]   
+
+ cryst.   s(17) = (     1         -1          0      )
+                  (     0         -1          0      )
+                  (     0         -1          1      )
+
+ cart.    s(17) = (  0.0000000  0.0000000 -1.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  ( -1.0000000  0.0000000  0.0000000 )
+
+
+      isym = 18     inv. 180 deg rotation - cart. axis [-1,0,1]  
+
+ cryst.   s(18) = (     0          0          1      )
+                  (     0          1          0      )
+                  (     1          0          0      )
+
+ cart.    s(18) = (  0.0000000  0.0000000  1.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  1.0000000  0.0000000  0.0000000 )
+
+
+      isym = 19     inv.  90 deg rotation - cart. axis [0,1,0]   
+
+ cryst.   s(19) = (     0          0         -1      )
+                  (     1          0         -1      )
+                  (     0          1         -1      )
+
+ cart.    s(19) = (  0.0000000  0.0000000 -1.0000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )
+                  (  1.0000000  0.0000000  0.0000000 )
+
+
+      isym = 20     inv.  90 deg rotation - cart. axis [0,-1,0]  
+
+ cryst.   s(20) = (    -1          1          0      )
+                  (    -1          0          1      )
+                  (    -1          0          0      )
+
+ cart.    s(20) = (  0.0000000  0.0000000  1.0000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )
+                  ( -1.0000000  0.0000000  0.0000000 )
+
+
+      isym = 21     inv. 180 deg rotation - cart. axis [0,1,1]   
+
+ cryst.   s(21) = (    -1          0          0      )
+                  (    -1          1          0      )
+                  (    -1          0          1      )
+
+ cart.    s(21) = (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )
+
+
+      isym = 22     inv. 180 deg rotation - cart. axis [0,1,-1]  
+
+ cryst.   s(22) = (     1          0          0      )
+                  (     0          0          1      )
+                  (     0          1          0      )
+
+ cart.    s(22) = (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+
+
+      isym = 23     inv.  90 deg rotation - cart. axis [-1,0,0]  
+
+ cryst.   s(23) = (     0          1         -1      )
+                  (     0          0         -1      )
+                  (     1          0         -1      )
+
+ cart.    s(23) = ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+
+
+      isym = 24     inv.  90 deg rotation - cart. axis [1,0,0]   
+
+ cryst.   s(24) = (     0         -1          1      )
+                  (     1         -1          0      )
+                  (     0         -1          0      )
+
+ cart.    s(24) = ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1        K      tau(   1) = (   0.3535534   0.3535534   0.3535534  )
+         2        V      tau(   2) = (   0.0000000   0.0000000   0.0000000  )
+         3        Cr     tau(   3) = (   0.7071068   0.7071068   0.7071068  )
+         4        C      tau(   4) = (   0.4343911   0.7071068   0.7071068  )
+         5        C      tau(   5) = (   0.9798225   0.7071068   0.7071068  )
+         6        C      tau(   6) = (   0.7071068   0.4343911   0.7071068  )
+         7        C      tau(   7) = (   0.7071068   0.9798225   0.7071068  )
+         8        C      tau(   8) = (   0.7071068   0.7071068   0.4343911  )
+         9        C      tau(   9) = (   0.7071068   0.7071068   0.9798225  )
+        10        N      tau(  10) = (   0.2796732   0.7071068   0.7071068  )
+        11        N      tau(  11) = (   1.1345404   0.7071068   0.7071068  )
+        12        N      tau(  12) = (   0.7071068   0.2796732   0.7071068  )
+        13        N      tau(  13) = (   0.7071068   1.1345404   0.7071068  )
+        14        N      tau(  14) = (   0.7071068   0.7071068   0.2796732  )
+        15        N      tau(  15) = (   0.7071068   0.7071068   1.1345404  )
+
+   Crystallographic axes
+
+     site n.     atom                  positions (cryst. coord.)
+         1        K      tau(   1) = (  0.2500000  0.2500000  0.2500000  )
+         2        V      tau(   2) = (  0.0000000  0.0000000  0.0000000  )
+         3        Cr     tau(   3) = (  0.5000000  0.5000000  0.5000000  )
+         4        C      tau(   4) = (  0.6928391  0.3071609  0.3071609  )
+         5        C      tau(   5) = (  0.3071609  0.6928391  0.6928391  )
+         6        C      tau(   6) = (  0.3071609  0.6928391  0.3071609  )
+         7        C      tau(   7) = (  0.6928391  0.3071609  0.6928391  )
+         8        C      tau(   8) = (  0.3071609  0.3071609  0.6928391  )
+         9        C      tau(   9) = (  0.6928391  0.6928391  0.3071609  )
+        10        N      tau(  10) = (  0.8022412  0.1977588  0.1977588  )
+        11        N      tau(  11) = (  0.1977588  0.8022412  0.8022412  )
+        12        N      tau(  12) = (  0.1977588  0.8022412  0.1977588  )
+        13        N      tau(  13) = (  0.8022412  0.1977588  0.8022412  )
+        14        N      tau(  14) = (  0.1977588  0.1977588  0.8022412  )
+        15        N      tau(  15) = (  0.8022412  0.8022412  0.1977588  )
+
+     number of k points=    10  Gaussian smearing, width (Ry)=  0.0050
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0080000
+        k(    2) = (   0.1414214   0.1414214  -0.1414214), wk =   0.0640000
+        k(    3) = (   0.2828427   0.2828427  -0.2828427), wk =   0.0640000
+        k(    4) = (   0.2828427   0.0000000   0.0000000), wk =   0.0480000
+        k(    5) = (   0.4242641   0.1414214  -0.1414214), wk =   0.1920000
+        k(    6) = (  -0.1414214  -0.4242641   0.4242641), wk =   0.1920000
+        k(    7) = (   0.0000000  -0.2828427   0.2828427), wk =   0.0960000
+        k(    8) = (   0.5656854   0.0000000   0.0000000), wk =   0.0480000
+        k(    9) = (   0.0000000  -0.5656854   0.5656854), wk =   0.0960000
+        k(   10) = (  -0.1414214  -0.4242641   0.7071068), wk =   0.1920000
+
+                       cryst. coord.
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0080000
+        k(    2) = (   0.0000000   0.0000000   0.2000000), wk =   0.0640000
+        k(    3) = (   0.0000000   0.0000000   0.4000000), wk =   0.0640000
+        k(    4) = (   0.0000000   0.2000000   0.2000000), wk =   0.0480000
+        k(    5) = (   0.0000000   0.2000000   0.4000000), wk =   0.1920000
+        k(    6) = (   0.0000000   0.2000000  -0.4000000), wk =   0.1920000
+        k(    7) = (   0.0000000   0.2000000  -0.2000000), wk =   0.0960000
+        k(    8) = (   0.0000000   0.4000000   0.4000000), wk =   0.0480000
+        k(    9) = (   0.0000000   0.4000000  -0.4000000), wk =   0.0960000
+        k(   10) = (   0.2000000   0.4000000  -0.4000000), wk =   0.1920000
+
+     Dense  grid:   320843 G-vectors     FFT dimensions: (  96,  96,  96)
+
+     Dynamical RAM for                 wfc:       8.86 MB
+
+     Dynamical RAM for     wfc (w. buffer):      35.43 MB
+
+     Dynamical RAM for             U proj.:       1.53 MB
+
+     Dynamical RAM for  U proj. (w. buff.):       6.11 MB
+
+     Dynamical RAM for           str. fact:       6.12 MB
+
+     Dynamical RAM for           local pot:       0.00 MB
+
+     Dynamical RAM for          nlocal pot:      22.91 MB
+
+     Dynamical RAM for                qrad:       8.42 MB
+
+     Dynamical RAM for          rho,v,vnew:      17.47 MB
+
+     Dynamical RAM for               rhoin:       5.82 MB
+
+     Dynamical RAM for            rho*nmix:      39.17 MB
+
+     Dynamical RAM for           G-vectors:       5.20 MB
+
+     Dynamical RAM for          h,s,v(r/c):       0.62 MB
+
+     Dynamical RAM for          <psi|beta>:       0.13 MB
+
+     Dynamical RAM for                 psi:      17.72 MB
+
+     Dynamical RAM for                hpsi:      17.72 MB
+
+     Dynamical RAM for      wfcinit/wfcrot:      17.79 MB
+
+     Estimated static dynamical RAM per process >     124.95 MB
+
+     Estimated max dynamical RAM per process >     200.29 MB
+
+     Estimated total dynamical RAM >       5.19 GB
+     Generating pointlists ...
+     new r_m :   0.2085 (alat units)  2.9753 (a.u.) for type    1
+     new r_m :   0.1154 (alat units)  1.6464 (a.u.) for type    2
+     new r_m :   0.1125 (alat units)  1.6054 (a.u.) for type    3
+     new r_m :   0.0638 (alat units)  0.9108 (a.u.) for type    4
+     new r_m :   0.0638 (alat units)  0.9108 (a.u.) for type    5
+
+     Initial potential from superposition of free atoms
+
+     starting charge      89.9780, renormalised to      90.0000
+
+     HUBBARD ENERGY =    0.1764  (Ry)
+
+     STARTING HUBBARD OCCUPATIONS:
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.00000  0.00000  3.00000
+     Atomic magnetic moment for atom   2 =   3.00000
+     SPIN  1
+     eigenvalues:
+       0.600  0.600  0.600  0.600  0.600
+     eigenvectors (columns):
+       1.000  0.000  0.000  0.000  0.000
+       0.000  1.000  0.000  0.000  0.000
+       0.000  0.000  1.000  0.000  0.000
+       0.000  0.000  0.000  1.000  0.000
+       0.000  0.000  0.000  0.000  1.000
+     occupation matrix ns (before diag.):
+       0.600  0.000  0.000  0.000  0.000
+       0.000  0.600  0.000  0.000  0.000
+       0.000  0.000  0.600  0.000  0.000
+       0.000  0.000  0.000  0.600  0.000
+       0.000  0.000  0.000  0.000  0.600
+     SPIN  2
+     eigenvalues:
+       0.000  0.000  0.000  0.000  0.000
+     eigenvectors (columns):
+       1.000  0.000  0.000  0.000  0.000
+       0.000  1.000  0.000  0.000  0.000
+       0.000  0.000  1.000  0.000  0.000
+       0.000  0.000  0.000  1.000  0.000
+       0.000  0.000  0.000  0.000  1.000
+     occupation matrix ns (before diag.):
+       0.000  0.000  0.000  0.000  0.000
+       0.000  0.000  0.000  0.000  0.000
+       0.000  0.000  0.000  0.000  0.000
+       0.000  0.000  0.000  0.000  0.000
+       0.000  0.000  0.000  0.000  0.000
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   5.00000  0.00000  5.00000
+     Atomic magnetic moment for atom   3 =   5.00000
+     SPIN  1
+     eigenvalues:
+       1.000  1.000  1.000  1.000  1.000
+     eigenvectors (columns):
+       1.000  0.000  0.000  0.000  0.000
+       0.000  1.000  0.000  0.000  0.000
+       0.000  0.000  1.000  0.000  0.000
+       0.000  0.000  0.000  1.000  0.000
+       0.000  0.000  0.000  0.000  1.000
+     occupation matrix ns (before diag.):
+       1.000  0.000  0.000  0.000  0.000
+       0.000  1.000  0.000  0.000  0.000
+       0.000  0.000  1.000  0.000  0.000
+       0.000  0.000  0.000  1.000  0.000
+       0.000  0.000  0.000  0.000  1.000
+     SPIN  2
+     eigenvalues:
+       0.000  0.000  0.000  0.000  0.000
+     eigenvectors (columns):
+       1.000  0.000  0.000  0.000  0.000
+       0.000  1.000  0.000  0.000  0.000
+       0.000  0.000  1.000  0.000  0.000
+       0.000  0.000  0.000  1.000  0.000
+       0.000  0.000  0.000  0.000  1.000
+     occupation matrix ns (before diag.):
+       0.000  0.000  0.000  0.000  0.000
+       0.000  0.000  0.000  0.000  0.000
+       0.000  0.000  0.000  0.000  0.000
+       0.000  0.000  0.000  0.000  0.000
+       0.000  0.000  0.000  0.000  0.000
+
+     Number of occupied Hubbard levels =    8.0000
+
+     Atomic wfc used for Hubbard projectors are orthogonalized
+
+     Starting wfcs are   73 randomized atomic wfcs
+
+     total cpu time spent up to now is        6.8 secs
+
+     per-process dynamical memory:   123.8 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           280 MiB given to the printing process from OS
+           129 MiB allocation reported by mallinfo(arena+hblkhd)
+        405263 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  1.00E-02,  avg # of iterations =  2.0
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.09961  0.29167  3.39128
+     Atomic magnetic moment for atom   2 =   2.80794
+     SPIN  1
+     eigenvalues:
+       0.199  0.199  0.900  0.900  0.900
+     eigenvectors (columns):
+       0.517 -0.856 -0.000 -0.000 -0.000
+      -0.000 -0.000  0.327 -0.326  0.887
+      -0.000 -0.000  0.578 -0.673 -0.461
+       0.856  0.517  0.000  0.000  0.000
+       0.000  0.000 -0.748 -0.664  0.031
+     occupation matrix ns (before diag.):
+       0.199 -0.000 -0.000 -0.000  0.000
+      -0.000  0.900 -0.000  0.000  0.000
+      -0.000 -0.000  0.900  0.000  0.000
+      -0.000  0.000  0.000  0.199 -0.000
+       0.000  0.000  0.000 -0.000  0.900
+     SPIN  2
+     eigenvalues:
+       0.016  0.016  0.016  0.122  0.122
+     eigenvectors (columns):
+      -0.000  0.000 -0.000  0.271 -0.963
+      -0.293  0.227 -0.929  0.000  0.000
+      -0.562 -0.827 -0.025  0.000  0.000
+       0.000 -0.000  0.000  0.963  0.271
+       0.774 -0.515 -0.369 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.122 -0.000  0.000 -0.000  0.000
+      -0.000  0.016 -0.000  0.000  0.000
+       0.000 -0.000  0.016  0.000  0.000
+      -0.000  0.000  0.000  0.122 -0.000
+       0.000  0.000  0.000 -0.000  0.016
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   2.76335  0.46931  3.23266
+     Atomic magnetic moment for atom   3 =   2.29404
+     SPIN  1
+     eigenvalues:
+       0.348  0.348  0.689  0.689  0.689
+     eigenvectors (columns):
+       0.486  0.874 -0.000 -0.000 -0.000
+      -0.000  0.000  0.330 -0.218  0.918
+      -0.000  0.000  0.593 -0.709 -0.382
+       0.874 -0.486  0.000  0.000  0.000
+       0.000 -0.000 -0.734 -0.671  0.104
+     occupation matrix ns (before diag.):
+       0.348 -0.000 -0.000 -0.000  0.000
+      -0.000  0.689 -0.000  0.000  0.000
+      -0.000 -0.000  0.689  0.000  0.000
+      -0.000  0.000  0.000  0.348 -0.000
+       0.000  0.000  0.000 -0.000  0.689
+     SPIN  2
+     eigenvalues:
+       0.012  0.012  0.012  0.217  0.217
+     eigenvectors (columns):
+       0.000  0.000 -0.000  0.330 -0.944
+      -0.295 -0.081 -0.952  0.000  0.000
+      -0.698 -0.662  0.273  0.000 -0.000
+       0.000 -0.000  0.000  0.944  0.330
+       0.652 -0.745 -0.139 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.217 -0.000  0.000 -0.000 -0.000
+      -0.000  0.012 -0.000  0.000  0.000
+       0.000 -0.000  0.012  0.000  0.000
+      -0.000  0.000  0.000  0.217 -0.000
+      -0.000  0.000  0.000 -0.000  0.012
+
+     Number of occupied Hubbard levels =    6.6239
+
+     HUBBARD ENERGY =    0.2329  (Ry)
+
+     total cpu time spent up to now is       15.6 secs
+
+     total energy              =    -582.67493627 Ry
+     estimated scf accuracy    <       4.45309256 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.11 Bohr mag/cell
+
+     iteration #  2     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           329 MiB given to the printing process from OS
+           188 MiB allocation reported by mallinfo(arena+hblkhd)
+        403792 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  4.95E-03,  avg # of iterations =  1.0
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.15266  0.30932  3.46198
+     Atomic magnetic moment for atom   2 =   2.84334
+     SPIN  1
+     eigenvalues:
+       0.172  0.172  0.936  0.936  0.936
+     eigenvectors (columns):
+       0.562  0.827 -0.000 -0.000 -0.000
+      -0.000  0.000  0.335 -0.277  0.901
+      -0.000  0.000  0.598 -0.676 -0.430
+       0.827 -0.562  0.000  0.000  0.000
+       0.000 -0.000 -0.728 -0.683  0.061
+     occupation matrix ns (before diag.):
+       0.172 -0.000 -0.000 -0.000  0.000
+      -0.000  0.936 -0.000  0.000  0.000
+      -0.000 -0.000  0.936  0.000  0.000
+      -0.000  0.000  0.000  0.172 -0.000
+       0.000  0.000  0.000 -0.000  0.936
+     SPIN  2
+     eigenvalues:
+       0.018  0.018  0.018  0.128  0.128
+     eigenvectors (columns):
+      -0.000  0.000 -0.000 -0.471 -0.882
+      -0.307  0.408 -0.860 -0.000  0.000
+      -0.524  0.682  0.510 -0.000 -0.000
+       0.000  0.000  0.000 -0.882  0.471
+       0.795  0.607  0.004  0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.128 -0.000  0.000 -0.000  0.000
+      -0.000  0.018 -0.000  0.000  0.000
+       0.000 -0.000  0.018  0.000  0.000
+      -0.000  0.000  0.000  0.128 -0.000
+       0.000  0.000  0.000 -0.000  0.018
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.06413  0.52875  3.59288
+     Atomic magnetic moment for atom   3 =   2.53538
+     SPIN  1
+     eigenvalues:
+       0.350  0.350  0.788  0.788  0.788
+     eigenvectors (columns):
+       0.418  0.909 -0.000 -0.000 -0.000
+      -0.000  0.000  0.334 -0.253  0.908
+      -0.000  0.000  0.607 -0.680 -0.412
+       0.909 -0.418  0.000  0.000  0.000
+       0.000 -0.000 -0.722 -0.688  0.074
+     occupation matrix ns (before diag.):
+       0.350 -0.000 -0.000 -0.000  0.000
+      -0.000  0.788 -0.000  0.000  0.000
+      -0.000 -0.000  0.788  0.000  0.000
+      -0.000  0.000  0.000  0.350 -0.000
+       0.000  0.000  0.000 -0.000  0.788
+     SPIN  2
+     eigenvalues:
+       0.017  0.017  0.017  0.238  0.238
+     eigenvectors (columns):
+      -0.000  0.000  0.000  0.380 -0.925
+       0.329 -0.338  0.882  0.000  0.000
+       0.594 -0.652 -0.471  0.000 -0.000
+      -0.000 -0.000 -0.000  0.925  0.380
+      -0.734 -0.679  0.014 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.238 -0.000  0.000 -0.000 -0.000
+      -0.000  0.017 -0.000  0.000  0.000
+       0.000 -0.000  0.017  0.000  0.000
+      -0.000  0.000  0.000  0.238 -0.000
+      -0.000  0.000  0.000 -0.000  0.017
+
+     Number of occupied Hubbard levels =    7.0549
+
+     HUBBARD ENERGY =    0.2110  (Ry)
+
+     total cpu time spent up to now is       22.2 secs
+
+     total energy              =    -581.80765917 Ry
+     estimated scf accuracy    <       2.31945037 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.11 Bohr mag/cell
+
+     iteration #  3     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           334 MiB given to the printing process from OS
+           193 MiB allocation reported by mallinfo(arena+hblkhd)
+        403678 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  2.58E-03,  avg # of iterations =  7.2
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.23831  0.35609  3.59440
+     Atomic magnetic moment for atom   2 =   2.88222
+     SPIN  1
+     eigenvalues:
+       0.199  0.199  0.947  0.947  0.947
+     eigenvectors (columns):
+       0.615  0.789 -0.000 -0.000 -0.000
+      -0.000  0.000  0.339 -0.341  0.877
+      -0.000  0.000  0.589 -0.650 -0.480
+       0.789 -0.615  0.000  0.000  0.000
+       0.000 -0.000 -0.733 -0.680  0.019
+     occupation matrix ns (before diag.):
+       0.199 -0.000 -0.000 -0.000  0.000
+      -0.000  0.947 -0.000  0.000  0.000
+      -0.000 -0.000  0.947  0.000  0.000
+      -0.000  0.000  0.000  0.199 -0.000
+       0.000  0.000  0.000 -0.000  0.947
+     SPIN  2
+     eigenvalues:
+       0.022  0.022  0.022  0.146  0.146
+     eigenvectors (columns):
+      -0.000  0.000 -0.000 -0.677  0.736
+      -0.323 -0.041 -0.945 -0.000 -0.000
+      -0.630 -0.736  0.248  0.000 -0.000
+       0.000 -0.000  0.000 -0.736 -0.677
+       0.706 -0.676 -0.212  0.000  0.000
+     occupation matrix ns (before diag.):
+       0.146 -0.000  0.000 -0.000  0.000
+      -0.000  0.022 -0.000  0.000  0.000
+       0.000 -0.000  0.022  0.000  0.000
+      -0.000  0.000  0.000  0.146 -0.000
+       0.000  0.000  0.000 -0.000  0.022
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   4.04627  1.11791  5.16418
+     Atomic magnetic moment for atom   3 =   2.92836
+     SPIN  1
+     eigenvalues:
+       0.582  0.582  0.961  0.961  0.961
+     eigenvectors (columns):
+       0.452  0.892 -0.000 -0.000 -0.000
+      -0.000  0.000  0.327 -0.234  0.916
+      -0.000  0.000  0.595 -0.701 -0.392
+       0.892 -0.452  0.000  0.000  0.000
+       0.000 -0.000 -0.734 -0.673  0.090
+     occupation matrix ns (before diag.):
+       0.582 -0.000 -0.000 -0.000  0.000
+      -0.000  0.961 -0.000  0.000  0.000
+      -0.000 -0.000  0.961  0.000  0.000
+      -0.000  0.000  0.000  0.582 -0.000
+       0.000  0.000  0.000 -0.000  0.961
+     SPIN  2
+     eigenvalues:
+       0.072  0.072  0.072  0.451  0.451
+     eigenvectors (columns):
+      -0.000 -0.000  0.000 -0.338  0.941
+      -0.318 -0.774  0.548 -0.000 -0.000
+      -0.567  0.618  0.544 -0.000 -0.000
+       0.000  0.000  0.000 -0.941 -0.338
+       0.760  0.137  0.635  0.000  0.000
+     occupation matrix ns (before diag.):
+       0.451 -0.000 -0.000 -0.000  0.000
+      -0.000  0.072 -0.000  0.000  0.000
+      -0.000 -0.000  0.072  0.000  0.000
+      -0.000  0.000  0.000  0.451 -0.000
+       0.000  0.000  0.000 -0.000  0.072
+
+     Number of occupied Hubbard levels =    8.7586
+
+     HUBBARD ENERGY =    0.2209  (Ry)
+
+     total cpu time spent up to now is       31.6 secs
+
+     total energy              =    -582.29054134 Ry
+     estimated scf accuracy    <       0.61478459 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.43 Bohr mag/cell
+
+     iteration #  4     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           341 MiB given to the printing process from OS
+           200 MiB allocation reported by mallinfo(arena+hblkhd)
+        403666 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  6.83E-04,  avg # of iterations =  2.2
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.21688  0.35755  3.57443
+     Atomic magnetic moment for atom   2 =   2.85934
+     SPIN  1
+     eigenvalues:
+       0.189  0.189  0.946  0.946  0.946
+     eigenvectors (columns):
+       0.639 -0.769 -0.000 -0.000  0.000
+      -0.000 -0.000  0.327 -0.264 -0.908
+      -0.000 -0.000  0.593 -0.690  0.414
+       0.769  0.639  0.000  0.000 -0.000
+       0.000  0.000 -0.736 -0.674 -0.069
+     occupation matrix ns (before diag.):
+       0.189 -0.000 -0.000 -0.000  0.000
+      -0.000  0.946 -0.000  0.000  0.000
+      -0.000 -0.000  0.946  0.000  0.000
+      -0.000  0.000  0.000  0.189 -0.000
+       0.000  0.000  0.000 -0.000  0.946
+     SPIN  2
+     eigenvalues:
+       0.022  0.022  0.022  0.146  0.146
+     eigenvectors (columns):
+      -0.000 -0.000 -0.000  0.250 -0.968
+      -0.326  0.143 -0.934  0.000  0.000
+      -0.618  0.716  0.325  0.000 -0.000
+       0.000  0.000  0.000  0.968  0.250
+       0.715  0.684 -0.145 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.146 -0.000  0.000 -0.000  0.000
+      -0.000  0.022 -0.000  0.000  0.000
+       0.000 -0.000  0.022  0.000  0.000
+      -0.000  0.000  0.000  0.146 -0.000
+       0.000  0.000  0.000 -0.000  0.022
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.83314  0.89905  4.73219
+     Atomic magnetic moment for atom   3 =   2.93409
+     SPIN  1
+     eigenvalues:
+       0.501  0.501  0.944  0.944  0.944
+     eigenvectors (columns):
+       0.268  0.963 -0.000 -0.000 -0.000
+      -0.000  0.000  0.329 -0.282  0.901
+      -0.000  0.000  0.589 -0.685 -0.429
+       0.963 -0.268  0.000  0.000  0.000
+       0.000 -0.000 -0.738 -0.672  0.059
+     occupation matrix ns (before diag.):
+       0.501 -0.000 -0.000 -0.000  0.000
+      -0.000  0.944 -0.000  0.000  0.000
+      -0.000 -0.000  0.944  0.000  0.000
+      -0.000  0.000  0.000  0.501 -0.000
+       0.000  0.000  0.000 -0.000  0.944
+     SPIN  2
+     eigenvalues:
+       0.040  0.040  0.040  0.390  0.390
+     eigenvectors (columns):
+      -0.000  0.000 -0.000  0.498 -0.867
+      -0.311  0.875  0.372  0.000  0.000
+      -0.549 -0.485  0.681  0.000  0.000
+       0.000 -0.000  0.000  0.867  0.498
+       0.776  0.008  0.631 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.390 -0.000  0.000 -0.000  0.000
+      -0.000  0.040 -0.000  0.000  0.000
+       0.000 -0.000  0.040  0.000  0.000
+      -0.000  0.000  0.000  0.390 -0.000
+       0.000  0.000  0.000 -0.000  0.040
+
+     Number of occupied Hubbard levels =    8.3066
+
+     HUBBARD ENERGY =    0.1957  (Ry)
+
+     total cpu time spent up to now is       38.9 secs
+
+     total energy              =    -582.26531335 Ry
+     estimated scf accuracy    <       0.21676853 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.29 Bohr mag/cell
+
+     iteration #  5     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           346 MiB given to the printing process from OS
+           205 MiB allocation reported by mallinfo(arena+hblkhd)
+        403781 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  2.41E-04,  avg # of iterations =  6.8
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.18499  0.35456  3.53956
+     Atomic magnetic moment for atom   2 =   2.83043
+     SPIN  1
+     eigenvalues:
+       0.177  0.177  0.944  0.944  0.944
+     eigenvectors (columns):
+       0.342 -0.940 -0.000 -0.000 -0.000
+      -0.000 -0.000  0.335 -0.196  0.922
+      -0.000 -0.000  0.611 -0.700 -0.370
+       0.940  0.342  0.000  0.000  0.000
+       0.000  0.000 -0.718 -0.687  0.115
+     occupation matrix ns (before diag.):
+       0.177 -0.000 -0.000 -0.000  0.000
+      -0.000  0.944 -0.000  0.000  0.000
+      -0.000 -0.000  0.944  0.000  0.000
+      -0.000  0.000  0.000  0.177 -0.000
+       0.000  0.000  0.000 -0.000  0.944
+     SPIN  2
+     eigenvalues:
+       0.022  0.022  0.022  0.145  0.145
+     eigenvectors (columns):
+      -0.000 -0.000 -0.000  0.443 -0.897
+      -0.324  0.228 -0.918  0.000  0.000
+      -0.606  0.695  0.387  0.000  0.000
+       0.000  0.000  0.000  0.897  0.443
+       0.727  0.681 -0.087 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.145 -0.000  0.000 -0.000  0.000
+      -0.000  0.022 -0.000  0.000  0.000
+       0.000 -0.000  0.022  0.000  0.000
+      -0.000  0.000  0.000  0.145 -0.000
+       0.000  0.000  0.000 -0.000  0.022
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.57901  0.72639  4.30540
+     Atomic magnetic moment for atom   3 =   2.85262
+     SPIN  1
+     eigenvalues:
+       0.425  0.425  0.910  0.910  0.910
+     eigenvectors (columns):
+       0.414  0.910 -0.000 -0.000 -0.000
+      -0.000  0.000  0.336 -0.348  0.875
+      -0.000  0.000  0.583 -0.652 -0.484
+       0.910 -0.414  0.000  0.000  0.000
+       0.000 -0.000 -0.739 -0.673  0.016
+     occupation matrix ns (before diag.):
+       0.425 -0.000 -0.000 -0.000  0.000
+      -0.000  0.910 -0.000  0.000  0.000
+      -0.000 -0.000  0.910  0.000  0.000
+      -0.000  0.000  0.000  0.425 -0.000
+       0.000  0.000  0.000 -0.000  0.910
+     SPIN  2
+     eigenvalues:
+       0.025  0.025  0.025  0.325  0.325
+     eigenvectors (columns):
+       0.000 -0.000 -0.000  0.288 -0.957
+      -0.354  0.255 -0.900  0.000  0.000
+      -0.674  0.597  0.434 -0.000 -0.000
+       0.000  0.000  0.000  0.957  0.288
+       0.648  0.761 -0.039 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.325 -0.000  0.000 -0.000 -0.000
+      -0.000  0.025 -0.000  0.000  0.000
+       0.000 -0.000  0.025  0.000  0.000
+      -0.000  0.000  0.000  0.325 -0.000
+      -0.000  0.000  0.000 -0.000  0.025
+
+     Number of occupied Hubbard levels =    7.8450
+
+     HUBBARD ENERGY =    0.2007  (Ry)
+
+     total cpu time spent up to now is       48.7 secs
+
+     total energy              =    -582.22509883 Ry
+     estimated scf accuracy    <       0.31872678 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.21 Bohr mag/cell
+
+     iteration #  6     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           351 MiB given to the printing process from OS
+           210 MiB allocation reported by mallinfo(arena+hblkhd)
+        403596 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  2.41E-04,  avg # of iterations =  5.0
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.20448  0.36284  3.56732
+     Atomic magnetic moment for atom   2 =   2.84163
+     SPIN  1
+     eigenvalues:
+       0.185  0.185  0.945  0.945  0.945
+     eigenvectors (columns):
+      -0.071 -0.997 -0.000 -0.000  0.000
+       0.000 -0.000  0.329 -0.161 -0.931
+       0.000 -0.000  0.614 -0.712  0.340
+      -0.997  0.071  0.000  0.000 -0.000
+      -0.000  0.000 -0.718 -0.683 -0.135
+     occupation matrix ns (before diag.):
+       0.185 -0.000 -0.000 -0.000  0.000
+      -0.000  0.945 -0.000  0.000  0.000
+      -0.000 -0.000  0.945  0.000  0.000
+      -0.000  0.000  0.000  0.185 -0.000
+       0.000  0.000  0.000 -0.000  0.945
+     SPIN  2
+     eigenvalues:
+       0.021  0.021  0.021  0.150  0.150
+     eigenvectors (columns):
+      -0.000  0.000 -0.000  0.303 -0.953
+      -0.321 -0.174 -0.931  0.000  0.000
+      -0.582 -0.739  0.339  0.000  0.000
+       0.000 -0.000  0.000  0.953  0.303
+       0.747 -0.651 -0.136 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.021 -0.000  0.000  0.000
+       0.000 -0.000  0.021  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.021
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.90059  0.95541  4.85599
+     Atomic magnetic moment for atom   3 =   2.94518
+     SPIN  1
+     eigenvalues:
+       0.522  0.522  0.952  0.952  0.952
+     eigenvectors (columns):
+       0.329  0.944 -0.000 -0.000 -0.000
+      -0.000  0.000  0.328 -0.285  0.901
+      -0.000  0.000  0.584 -0.688 -0.431
+       0.944 -0.329  0.000  0.000  0.000
+       0.000 -0.000 -0.742 -0.667  0.059
+     occupation matrix ns (before diag.):
+       0.522 -0.000 -0.000 -0.000  0.000
+      -0.000  0.952 -0.000  0.000  0.000
+      -0.000 -0.000  0.952  0.000  0.000
+      -0.000  0.000  0.000  0.522 -0.000
+       0.000  0.000  0.000 -0.000  0.952
+     SPIN  2
+     eigenvalues:
+       0.042  0.042  0.042  0.414  0.414
+     eigenvectors (columns):
+       0.000 -0.000  0.000  0.400 -0.916
+      -0.320 -0.803  0.503  0.000  0.000
+      -0.609  0.581  0.540  0.000  0.000
+       0.000  0.000  0.000  0.916  0.400
+       0.726  0.133  0.674 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.414 -0.000  0.000 -0.000  0.000
+      -0.000  0.042 -0.000  0.000  0.000
+       0.000 -0.000  0.042  0.000  0.000
+      -0.000  0.000  0.000  0.414 -0.000
+       0.000  0.000  0.000 -0.000  0.042
+
+     Number of occupied Hubbard levels =    8.4233
+
+     HUBBARD ENERGY =    0.2068  (Ry)
+
+     total cpu time spent up to now is       58.1 secs
+
+     total energy              =    -582.27765740 Ry
+     estimated scf accuracy    <       0.07276531 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.33 Bohr mag/cell
+
+     iteration #  7     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           356 MiB given to the printing process from OS
+           215 MiB allocation reported by mallinfo(arena+hblkhd)
+        403612 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  8.09E-05,  avg # of iterations =  2.1
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.17971  0.35924  3.53894
+     Atomic magnetic moment for atom   2 =   2.82047
+     SPIN  1
+     eigenvalues:
+       0.181  0.181  0.939  0.939  0.939
+     eigenvectors (columns):
+       0.203  0.979 -0.000 -0.000 -0.000
+      -0.000  0.000  0.327 -0.267  0.906
+      -0.000  0.000  0.588 -0.693 -0.417
+       0.979 -0.203  0.000  0.000  0.000
+       0.000 -0.000 -0.739 -0.670  0.069
+     occupation matrix ns (before diag.):
+       0.181 -0.000 -0.000 -0.000  0.000
+      -0.000  0.939 -0.000  0.000  0.000
+      -0.000 -0.000  0.939  0.000  0.000
+      -0.000  0.000  0.000  0.181 -0.000
+       0.000  0.000  0.000 -0.000  0.939
+     SPIN  2
+     eigenvalues:
+       0.020  0.020  0.020  0.150  0.150
+     eigenvectors (columns):
+      -0.000  0.000 -0.000  0.245 -0.969
+      -0.340 -0.144 -0.929  0.000  0.000
+      -0.634 -0.695  0.340  0.000 -0.000
+       0.000 -0.000  0.000  0.969  0.245
+       0.694 -0.705 -0.146 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.020 -0.000  0.000  0.000
+       0.000 -0.000  0.020  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.020
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.80444  0.88619  4.69063
+     Atomic magnetic moment for atom   3 =   2.91825
+     SPIN  1
+     eigenvalues:
+       0.488  0.488  0.943  0.943  0.943
+     eigenvectors (columns):
+       0.265  0.964 -0.000 -0.000 -0.000
+      -0.000  0.000  0.322 -0.191  0.927
+      -0.000  0.000  0.609 -0.708 -0.358
+       0.964 -0.265  0.000  0.000  0.000
+       0.000 -0.000 -0.725 -0.680  0.112
+     occupation matrix ns (before diag.):
+       0.488 -0.000 -0.000 -0.000  0.000
+      -0.000  0.943 -0.000  0.000  0.000
+      -0.000 -0.000  0.943  0.000  0.000
+      -0.000  0.000  0.000  0.488 -0.000
+       0.000  0.000  0.000 -0.000  0.943
+     SPIN  2
+     eigenvalues:
+       0.038  0.038  0.038  0.386  0.386
+     eigenvectors (columns):
+       0.000  0.000  0.000  0.459 -0.889
+      -0.337 -0.040  0.941  0.000  0.000
+      -0.598 -0.763 -0.246  0.000  0.000
+       0.000 -0.000 -0.000  0.889  0.459
+       0.728 -0.645  0.233 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.386 -0.000  0.000 -0.000  0.000
+      -0.000  0.038 -0.000  0.000  0.000
+       0.000 -0.000  0.038  0.000  0.000
+      -0.000  0.000  0.000  0.386 -0.000
+       0.000  0.000  0.000 -0.000  0.038
+
+     Number of occupied Hubbard levels =    8.2296
+
+     HUBBARD ENERGY =    0.2073  (Ry)
+
+     total cpu time spent up to now is       65.3 secs
+
+     total energy              =    -582.27945536 Ry
+     estimated scf accuracy    <       0.01534063 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.28 Bohr mag/cell
+
+     iteration #  8     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           361 MiB given to the printing process from OS
+           220 MiB allocation reported by mallinfo(arena+hblkhd)
+        403560 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  1.70E-05,  avg # of iterations =  9.8
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.16317  0.35756  3.52074
+     Atomic magnetic moment for atom   2 =   2.80561
+     SPIN  1
+     eigenvalues:
+       0.178  0.178  0.936  0.936  0.936
+     eigenvectors (columns):
+       0.694 -0.720 -0.000 -0.000  0.000
+      -0.000 -0.000  0.328 -0.293 -0.898
+      -0.000 -0.000  0.584 -0.685  0.436
+       0.720  0.694  0.000  0.000 -0.000
+       0.000  0.000 -0.743 -0.668 -0.054
+     occupation matrix ns (before diag.):
+       0.178 -0.000 -0.000 -0.000  0.000
+      -0.000  0.936 -0.000  0.000  0.000
+      -0.000 -0.000  0.936  0.000  0.000
+      -0.000  0.000  0.000  0.178 -0.000
+       0.000  0.000  0.000 -0.000  0.936
+     SPIN  2
+     eigenvalues:
+       0.019  0.019  0.019  0.150  0.150
+     eigenvectors (columns):
+       0.000  0.000  0.000  0.297 -0.955
+       0.328 -0.348  0.879  0.000  0.000
+       0.588 -0.653 -0.478  0.000 -0.000
+      -0.000 -0.000 -0.000  0.955  0.297
+      -0.740 -0.673  0.009 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.019 -0.000  0.000  0.000
+       0.000 -0.000  0.019  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.019
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.74477  0.84077  4.58553
+     Atomic magnetic moment for atom   3 =   2.90400
+     SPIN  1
+     eigenvalues:
+       0.468  0.468  0.936  0.936  0.936
+     eigenvectors (columns):
+       0.356  0.934 -0.000 -0.000 -0.000
+      -0.000  0.000  0.334 -0.274  0.902
+      -0.000  0.000  0.601 -0.675 -0.428
+       0.934 -0.356  0.000  0.000  0.000
+       0.000 -0.000 -0.726 -0.685  0.061
+     occupation matrix ns (before diag.):
+       0.468 -0.000 -0.000 -0.000  0.000
+      -0.000  0.936 -0.000  0.000  0.000
+      -0.000 -0.000  0.936  0.000  0.000
+      -0.000  0.000  0.000  0.468 -0.000
+       0.000  0.000  0.000 -0.000  0.936
+     SPIN  2
+     eigenvalues:
+       0.035  0.035  0.035  0.368  0.368
+     eigenvectors (columns):
+       0.000  0.000 -0.000  0.335 -0.942
+      -0.290 -0.276 -0.916  0.000  0.000
+      -0.529 -0.752  0.394  0.000 -0.000
+       0.000 -0.000  0.000  0.942  0.335
+       0.797 -0.599 -0.072 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.368 -0.000  0.000 -0.000 -0.000
+      -0.000  0.035 -0.000  0.000  0.000
+       0.000 -0.000  0.035  0.000  0.000
+      -0.000  0.000  0.000  0.368 -0.000
+      -0.000  0.000  0.000 -0.000  0.035
+
+     Number of occupied Hubbard levels =    8.1063
+
+     negative rho (up, down):  2.339E-09 1.551E-08
+
+     HUBBARD ENERGY =    0.2067  (Ry)
+
+     total cpu time spent up to now is       75.7 secs
+
+     total energy              =    -582.27668246 Ry
+     estimated scf accuracy    <       0.01110709 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.24 Bohr mag/cell
+
+     iteration #  9     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           366 MiB given to the printing process from OS
+           225 MiB allocation reported by mallinfo(arena+hblkhd)
+        403522 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  1.23E-05,  avg # of iterations =  4.2
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.16292  0.35985  3.52277
+     Atomic magnetic moment for atom   2 =   2.80307
+     SPIN  1
+     eigenvalues:
+       0.177  0.177  0.936  0.936  0.936
+     eigenvectors (columns):
+       0.442 -0.897 -0.000 -0.000 -0.000
+      -0.000 -0.000  0.328 -0.282  0.902
+      -0.000 -0.000  0.593 -0.682 -0.429
+       0.897  0.442  0.000  0.000  0.000
+       0.000  0.000 -0.735 -0.675  0.057
+     occupation matrix ns (before diag.):
+       0.177 -0.000 -0.000 -0.000  0.000
+      -0.000  0.936 -0.000  0.000  0.000
+      -0.000 -0.000  0.936  0.000  0.000
+      -0.000  0.000  0.000  0.177 -0.000
+       0.000  0.000  0.000 -0.000  0.936
+     SPIN  2
+     eigenvalues:
+       0.020  0.020  0.020  0.150  0.150
+     eigenvectors (columns):
+       0.000  0.000  0.000 -0.451  0.892
+       0.334 -0.366  0.869 -0.000 -0.000
+       0.582 -0.646 -0.495 -0.000 -0.000
+      -0.000 -0.000 -0.000 -0.892 -0.451
+      -0.742 -0.671  0.003  0.000  0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.020 -0.000  0.000  0.000
+       0.000 -0.000  0.020  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.020
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.80473  0.87810  4.68283
+     Atomic magnetic moment for atom   3 =   2.92663
+     SPIN  1
+     eigenvalues:
+       0.489  0.489  0.942  0.942  0.942
+     eigenvectors (columns):
+       0.415  0.910 -0.000 -0.000 -0.000
+      -0.000  0.000  0.327 -0.234  0.916
+      -0.000  0.000  0.591 -0.706 -0.391
+       0.910 -0.415  0.000  0.000  0.000
+       0.000 -0.000 -0.737 -0.669  0.093
+     occupation matrix ns (before diag.):
+       0.489 -0.000 -0.000 -0.000  0.000
+      -0.000  0.942 -0.000  0.000  0.000
+      -0.000 -0.000  0.942  0.000  0.000
+      -0.000  0.000  0.000  0.489 -0.000
+       0.000  0.000  0.000 -0.000  0.942
+     SPIN  2
+     eigenvalues:
+       0.036  0.036  0.036  0.385  0.385
+     eigenvectors (columns):
+       0.000 -0.000 -0.000  0.311 -0.950
+      -0.336  0.268 -0.903  0.000  0.000
+      -0.608  0.671  0.425  0.000 -0.000
+       0.000  0.000  0.000  0.950  0.311
+       0.719  0.692 -0.063 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.385 -0.000  0.000 -0.000 -0.000
+      -0.000  0.036 -0.000  0.000  0.000
+       0.000 -0.000  0.036  0.000  0.000
+      -0.000  0.000  0.000  0.385 -0.000
+      -0.000  0.000  0.000 -0.000  0.036
+
+     Number of occupied Hubbard levels =    8.2056
+
+     negative rho (up, down):  1.781E-04 1.900E-04
+
+     HUBBARD ENERGY =    0.2070  (Ry)
+
+     total cpu time spent up to now is       84.8 secs
+
+     total energy              =    -582.27882776 Ry
+     estimated scf accuracy    <       0.00371700 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.26 Bohr mag/cell
+
+     iteration # 10     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           371 MiB given to the printing process from OS
+           230 MiB allocation reported by mallinfo(arena+hblkhd)
+        403498 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  4.13E-06,  avg # of iterations =  5.3
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.15844  0.35846  3.51689
+     Atomic magnetic moment for atom   2 =   2.79998
+     SPIN  1
+     eigenvalues:
+       0.177  0.177  0.935  0.935  0.935
+     eigenvectors (columns):
+       0.294 -0.956 -0.000 -0.000  0.000
+      -0.000 -0.000  0.323 -0.176 -0.930
+      -0.000 -0.000  0.609 -0.714  0.346
+       0.956  0.294  0.000  0.000 -0.000
+       0.000  0.000 -0.724 -0.678 -0.123
+     occupation matrix ns (before diag.):
+       0.177 -0.000 -0.000 -0.000  0.000
+      -0.000  0.935 -0.000  0.000  0.000
+      -0.000 -0.000  0.935  0.000  0.000
+      -0.000  0.000  0.000  0.177 -0.000
+       0.000  0.000  0.000 -0.000  0.935
+     SPIN  2
+     eigenvalues:
+       0.020  0.020  0.020  0.150  0.150
+     eigenvectors (columns):
+      -0.000  0.000 -0.000  0.369 -0.930
+      -0.319 -0.233 -0.919  0.000  0.000
+      -0.591 -0.710  0.384  0.000  0.000
+       0.000 -0.000  0.000  0.930  0.369
+       0.741 -0.665 -0.089 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.020 -0.000  0.000  0.000
+       0.000 -0.000  0.020  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.020
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.78919  0.86820  4.65740
+     Atomic magnetic moment for atom   3 =   2.92099
+     SPIN  1
+     eigenvalues:
+       0.483  0.483  0.941  0.941  0.941
+     eigenvectors (columns):
+       0.539  0.842 -0.000 -0.000 -0.000
+      -0.000  0.000  0.331 -0.327  0.885
+      -0.000  0.000  0.581 -0.669 -0.464
+       0.842 -0.539  0.000  0.000  0.000
+       0.000 -0.000 -0.744 -0.668  0.031
+     occupation matrix ns (before diag.):
+       0.483 -0.000 -0.000 -0.000  0.000
+      -0.000  0.941 -0.000  0.000  0.000
+      -0.000 -0.000  0.941  0.000  0.000
+      -0.000  0.000  0.000  0.483 -0.000
+       0.000  0.000  0.000 -0.000  0.941
+     SPIN  2
+     eigenvalues:
+       0.036  0.036  0.036  0.381  0.381
+     eigenvectors (columns):
+       0.000 -0.000 -0.000 -0.332 -0.943
+      -0.304  0.410 -0.860 -0.000  0.000
+      -0.519  0.685  0.511 -0.000 -0.000
+       0.000  0.000  0.000 -0.943  0.332
+       0.798  0.602  0.004  0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.381 -0.000  0.000 -0.000 -0.000
+      -0.000  0.036 -0.000  0.000  0.000
+       0.000 -0.000  0.036  0.000  0.000
+      -0.000  0.000  0.000  0.381 -0.000
+      -0.000  0.000  0.000 -0.000  0.036
+
+     Number of occupied Hubbard levels =    8.1743
+
+     negative rho (up, down):  2.740E-05 3.063E-05
+
+     HUBBARD ENERGY =    0.2062  (Ry)
+
+     total cpu time spent up to now is       92.9 secs
+
+     total energy              =    -582.27812297 Ry
+     estimated scf accuracy    <       0.00160602 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.25 Bohr mag/cell
+
+     iteration # 11     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           371 MiB given to the printing process from OS
+           230 MiB allocation reported by mallinfo(arena+hblkhd)
+        403501 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  1.78E-06,  avg # of iterations =  6.4
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.16129  0.35869  3.51998
+     Atomic magnetic moment for atom   2 =   2.80261
+     SPIN  1
+     eigenvalues:
+       0.177  0.177  0.936  0.936  0.936
+     eigenvectors (columns):
+       0.653 -0.757 -0.000 -0.000  0.000
+      -0.000 -0.000  0.322 -0.271 -0.907
+      -0.000 -0.000  0.591 -0.691  0.416
+       0.757  0.653  0.000  0.000 -0.000
+       0.000  0.000 -0.739 -0.671 -0.062
+     occupation matrix ns (before diag.):
+       0.177 -0.000 -0.000 -0.000  0.000
+      -0.000  0.936 -0.000  0.000  0.000
+      -0.000 -0.000  0.936  0.000  0.000
+      -0.000  0.000  0.000  0.177 -0.000
+       0.000  0.000  0.000 -0.000  0.936
+     SPIN  2
+     eigenvalues:
+       0.019  0.019  0.019  0.150  0.150
+     eigenvectors (columns):
+       0.000  0.000 -0.000  0.449 -0.893
+       0.341 -0.247 -0.907  0.000  0.000
+       0.609 -0.678  0.413  0.000 -0.000
+      -0.000 -0.000  0.000  0.893  0.449
+      -0.717 -0.693 -0.081 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.019 -0.000  0.000  0.000
+       0.000 -0.000  0.019  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.019
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.78299  0.86277  4.64576
+     Atomic magnetic moment for atom   3 =   2.92022
+     SPIN  1
+     eigenvalues:
+       0.481  0.481  0.941  0.941  0.941
+     eigenvectors (columns):
+       0.310 -0.951 -0.000 -0.000 -0.000
+      -0.000 -0.000  0.331 -0.263  0.906
+      -0.000 -0.000  0.603 -0.680 -0.418
+       0.951  0.310  0.000  0.000  0.000
+       0.000  0.000 -0.726 -0.684  0.067
+     occupation matrix ns (before diag.):
+       0.481 -0.000 -0.000 -0.000  0.000
+      -0.000  0.941 -0.000  0.000  0.000
+      -0.000 -0.000  0.941  0.000  0.000
+      -0.000  0.000  0.000  0.481 -0.000
+       0.000  0.000  0.000 -0.000  0.941
+     SPIN  2
+     eigenvalues:
+       0.036  0.036  0.036  0.378  0.378
+     eigenvectors (columns):
+       0.000 -0.000 -0.000  0.466 -0.885
+      -0.330  0.143 -0.933  0.000  0.000
+      -0.663  0.668  0.337 -0.000 -0.000
+       0.000  0.000  0.000  0.885  0.466
+       0.672  0.730 -0.125 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.378 -0.000  0.000 -0.000 -0.000
+      -0.000  0.036 -0.000  0.000  0.000
+       0.000 -0.000  0.036  0.000  0.000
+      -0.000  0.000  0.000  0.378 -0.000
+      -0.000  0.000  0.000 -0.000  0.036
+
+     Number of occupied Hubbard levels =    8.1657
+
+     negative rho (up, down):  4.231E-05 4.607E-05
+
+     HUBBARD ENERGY =    0.2064  (Ry)
+
+     total cpu time spent up to now is      104.0 secs
+
+     total energy              =    -582.27854316 Ry
+     estimated scf accuracy    <       0.00121429 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.25 Bohr mag/cell
+
+     iteration # 12     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           371 MiB given to the printing process from OS
+           230 MiB allocation reported by mallinfo(arena+hblkhd)
+        403538 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  1.35E-06,  avg # of iterations =  1.6
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.16121  0.35922  3.52043
+     Atomic magnetic moment for atom   2 =   2.80199
+     SPIN  1
+     eigenvalues:
+       0.177  0.177  0.936  0.936  0.936
+     eigenvectors (columns):
+       0.358  0.934 -0.000 -0.000  0.000
+      -0.000  0.000  0.330 -0.272 -0.904
+      -0.000  0.000  0.599 -0.680  0.423
+       0.934 -0.358  0.000  0.000 -0.000
+       0.000 -0.000 -0.729 -0.681 -0.061
+     occupation matrix ns (before diag.):
+       0.177 -0.000 -0.000 -0.000  0.000
+      -0.000  0.936 -0.000  0.000  0.000
+      -0.000 -0.000  0.936  0.000  0.000
+      -0.000  0.000  0.000  0.177 -0.000
+       0.000  0.000  0.000 -0.000  0.936
+     SPIN  2
+     eigenvalues:
+       0.020  0.020  0.020  0.150  0.150
+     eigenvectors (columns):
+       0.000  0.000 -0.000  0.411 -0.912
+       0.328 -0.276 -0.903  0.000  0.000
+       0.606 -0.672  0.425  0.000 -0.000
+      -0.000 -0.000  0.000  0.912  0.411
+      -0.725 -0.687 -0.053 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.020 -0.000  0.000  0.000
+       0.000 -0.000  0.020  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.020
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.78567  0.86408  4.64975
+     Atomic magnetic moment for atom   3 =   2.92159
+     SPIN  1
+     eigenvalues:
+       0.482  0.482  0.941  0.941  0.941
+     eigenvectors (columns):
+       0.271  0.963 -0.000 -0.000 -0.000
+      -0.000  0.000  0.327 -0.208  0.922
+      -0.000  0.000  0.606 -0.703 -0.373
+       0.963 -0.271  0.000  0.000  0.000
+       0.000 -0.000 -0.725 -0.680  0.104
+     occupation matrix ns (before diag.):
+       0.482 -0.000 -0.000 -0.000  0.000
+      -0.000  0.941 -0.000  0.000  0.000
+      -0.000 -0.000  0.941  0.000  0.000
+      -0.000  0.000  0.000  0.482 -0.000
+       0.000  0.000  0.000 -0.000  0.941
+     SPIN  2
+     eigenvalues:
+       0.036  0.036  0.036  0.378  0.378
+     eigenvectors (columns):
+      -0.000  0.000 -0.000 -0.368 -0.930
+       0.338 -0.383 -0.860 -0.000  0.000
+       0.574 -0.640  0.511 -0.000 -0.000
+      -0.000 -0.000  0.000 -0.930  0.368
+      -0.746 -0.666  0.004  0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.378 -0.000  0.000 -0.000 -0.000
+      -0.000  0.036 -0.000  0.000  0.000
+       0.000 -0.000  0.036  0.000  0.000
+      -0.000  0.000  0.000  0.378 -0.000
+      -0.000  0.000  0.000 -0.000  0.036
+
+     Number of occupied Hubbard levels =    8.1702
+
+     HUBBARD ENERGY =    0.2067  (Ry)
+
+     total cpu time spent up to now is      112.2 secs
+
+     total energy              =    -582.27846436 Ry
+     estimated scf accuracy    <       0.00036311 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.25 Bohr mag/cell
+
+     iteration # 13     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           371 MiB given to the printing process from OS
+           230 MiB allocation reported by mallinfo(arena+hblkhd)
+        403537 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  4.03E-07,  avg # of iterations =  3.7
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.16239  0.35982  3.52221
+     Atomic magnetic moment for atom   2 =   2.80258
+     SPIN  1
+     eigenvalues:
+       0.177  0.177  0.936  0.936  0.936
+     eigenvectors (columns):
+       0.326  0.945 -0.000 -0.000  0.000
+      -0.000  0.000  0.325 -0.202 -0.924
+      -0.000  0.000  0.599 -0.711  0.367
+       0.945 -0.326  0.000  0.000 -0.000
+       0.000 -0.000 -0.731 -0.673 -0.110
+     occupation matrix ns (before diag.):
+       0.177 -0.000 -0.000 -0.000  0.000
+      -0.000  0.936 -0.000  0.000  0.000
+      -0.000 -0.000  0.936  0.000  0.000
+      -0.000  0.000  0.000  0.177 -0.000
+       0.000  0.000  0.000 -0.000  0.936
+     SPIN  2
+     eigenvalues:
+       0.020  0.020  0.020  0.150  0.150
+     eigenvectors (columns):
+      -0.000 -0.000  0.000 -0.651  0.759
+      -0.327  0.269  0.906 -0.000 -0.000
+      -0.587  0.694 -0.418 -0.000 -0.000
+       0.000  0.000 -0.000 -0.759 -0.651
+       0.741  0.668  0.069  0.000  0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.020 -0.000  0.000  0.000
+       0.000 -0.000  0.020  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.020
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.78969  0.86737  4.65707
+     Atomic magnetic moment for atom   3 =   2.92232
+     SPIN  1
+     eigenvalues:
+       0.483  0.483  0.941  0.941  0.941
+     eigenvectors (columns):
+       0.391  0.921 -0.000 -0.000 -0.000
+      -0.000  0.000  0.330 -0.243  0.912
+      -0.000  0.000  0.604 -0.689 -0.402
+       0.921 -0.391  0.000  0.000  0.000
+       0.000 -0.000 -0.726 -0.683  0.081
+     occupation matrix ns (before diag.):
+       0.483 -0.000 -0.000 -0.000  0.000
+      -0.000  0.941 -0.000  0.000  0.000
+      -0.000 -0.000  0.941  0.000  0.000
+      -0.000  0.000  0.000  0.483 -0.000
+       0.000  0.000  0.000 -0.000  0.941
+     SPIN  2
+     eigenvalues:
+       0.036  0.036  0.036  0.380  0.380
+     eigenvectors (columns):
+       0.000 -0.000 -0.000  0.464 -0.886
+      -0.352  0.279 -0.893  0.000  0.000
+      -0.648  0.616  0.448  0.000  0.000
+       0.000  0.000  0.000  0.886  0.464
+       0.675  0.737 -0.036 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.380 -0.000  0.000 -0.000 -0.000
+      -0.000  0.036 -0.000  0.000  0.000
+       0.000 -0.000  0.036  0.000  0.000
+      -0.000  0.000  0.000  0.380 -0.000
+      -0.000  0.000  0.000 -0.000  0.036
+
+     Number of occupied Hubbard levels =    8.1793
+
+     HUBBARD ENERGY =    0.2066  (Ry)
+
+     total cpu time spent up to now is      121.1 secs
+
+     total energy              =    -582.27854528 Ry
+     estimated scf accuracy    <       0.00004124 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.25 Bohr mag/cell
+
+     iteration # 14     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           371 MiB given to the printing process from OS
+           230 MiB allocation reported by mallinfo(arena+hblkhd)
+        403532 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  4.58E-08,  avg # of iterations =  3.5
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.16273  0.35983  3.52257
+     Atomic magnetic moment for atom   2 =   2.80290
+     SPIN  1
+     eigenvalues:
+       0.177  0.177  0.936  0.936  0.936
+     eigenvectors (columns):
+       0.586 -0.810 -0.000 -0.000 -0.000
+      -0.000 -0.000  0.340 -0.271  0.901
+      -0.000 -0.000  0.603 -0.672 -0.430
+       0.810  0.586  0.000  0.000  0.000
+       0.000  0.000 -0.721 -0.690  0.065
+     occupation matrix ns (before diag.):
+       0.177 -0.000 -0.000 -0.000  0.000
+      -0.000  0.936 -0.000  0.000  0.000
+      -0.000 -0.000  0.936  0.000  0.000
+      -0.000  0.000  0.000  0.177 -0.000
+       0.000  0.000  0.000 -0.000  0.936
+     SPIN  2
+     eigenvalues:
+       0.020  0.020  0.020  0.150  0.150
+     eigenvectors (columns):
+      -0.000  0.000 -0.000 -0.683  0.730
+      -0.321 -0.060 -0.945 -0.000 -0.000
+      -0.625 -0.736  0.259 -0.000 -0.000
+       0.000 -0.000  0.000 -0.730 -0.683
+       0.711 -0.674 -0.198  0.000  0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.020 -0.000  0.000  0.000
+       0.000 -0.000  0.020  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.020
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.78907  0.86723  4.65630
+     Atomic magnetic moment for atom   3 =   2.92184
+     SPIN  1
+     eigenvalues:
+       0.483  0.483  0.941  0.941  0.941
+     eigenvectors (columns):
+       0.480 -0.877 -0.000 -0.000 -0.000
+      -0.000 -0.000  0.332 -0.234  0.914
+      -0.000 -0.000  0.607 -0.688 -0.397
+       0.877  0.480  0.000  0.000  0.000
+       0.000  0.000 -0.722 -0.687  0.086
+     occupation matrix ns (before diag.):
+       0.483 -0.000 -0.000 -0.000  0.000
+      -0.000  0.941 -0.000  0.000  0.000
+      -0.000 -0.000  0.941  0.000  0.000
+      -0.000  0.000  0.000  0.483 -0.000
+       0.000  0.000  0.000 -0.000  0.941
+     SPIN  2
+     eigenvalues:
+       0.036  0.036  0.036  0.380  0.380
+     eigenvectors (columns):
+      -0.000  0.000 -0.000  0.433 -0.902
+       0.298  0.303 -0.905  0.000  0.000
+       0.533 -0.840 -0.106  0.000  0.000
+      -0.000 -0.000  0.000  0.902  0.433
+      -0.792 -0.451 -0.411 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.380 -0.000  0.000 -0.000 -0.000
+      -0.000  0.036 -0.000  0.000  0.000
+       0.000 -0.000  0.036  0.000  0.000
+      -0.000  0.000  0.000  0.380 -0.000
+      -0.000  0.000  0.000 -0.000  0.036
+
+     Number of occupied Hubbard levels =    8.1789
+
+     HUBBARD ENERGY =    0.2066  (Ry)
+
+     total cpu time spent up to now is      128.8 secs
+
+     total energy              =    -582.27854812 Ry
+     estimated scf accuracy    <       0.00000987 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.25 Bohr mag/cell
+
+     iteration # 15     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           371 MiB given to the printing process from OS
+           230 MiB allocation reported by mallinfo(arena+hblkhd)
+        403545 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  1.10E-08,  avg # of iterations =  2.6
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.16262  0.35983  3.52245
+     Atomic magnetic moment for atom   2 =   2.80279
+     SPIN  1
+     eigenvalues:
+       0.177  0.177  0.936  0.936  0.936
+     eigenvectors (columns):
+       0.354 -0.935 -0.000 -0.000  0.000
+      -0.000 -0.000  0.324 -0.206 -0.923
+      -0.000 -0.000  0.610 -0.701  0.371
+       0.935  0.354  0.000  0.000 -0.000
+       0.000  0.000 -0.723 -0.683 -0.101
+     occupation matrix ns (before diag.):
+       0.177 -0.000 -0.000 -0.000  0.000
+      -0.000  0.936 -0.000  0.000  0.000
+      -0.000 -0.000  0.936  0.000  0.000
+      -0.000  0.000  0.000  0.177 -0.000
+       0.000  0.000  0.000 -0.000  0.936
+     SPIN  2
+     eigenvalues:
+       0.020  0.020  0.020  0.150  0.150
+     eigenvectors (columns):
+      -0.000 -0.000 -0.000  0.316 -0.949
+      -0.346  0.209 -0.915  0.000  0.000
+      -0.641  0.660  0.393  0.000  0.000
+       0.000  0.000  0.000  0.949  0.316
+       0.685  0.722 -0.095 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.020 -0.000  0.000  0.000
+       0.000 -0.000  0.020  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.020
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.78859  0.86701  4.65560
+     Atomic magnetic moment for atom   3 =   2.92157
+     SPIN  1
+     eigenvalues:
+       0.483  0.483  0.941  0.941  0.941
+     eigenvectors (columns):
+       0.330  0.944 -0.000 -0.000 -0.000
+      -0.000  0.000  0.331 -0.276  0.902
+      -0.000  0.000  0.606 -0.671 -0.428
+       0.944 -0.330  0.000  0.000  0.000
+       0.000 -0.000 -0.723 -0.688  0.055
+     occupation matrix ns (before diag.):
+       0.483 -0.000 -0.000 -0.000  0.000
+      -0.000  0.941 -0.000  0.000  0.000
+      -0.000 -0.000  0.941  0.000  0.000
+      -0.000  0.000  0.000  0.483 -0.000
+       0.000  0.000  0.000 -0.000  0.941
+     SPIN  2
+     eigenvalues:
+       0.036  0.036  0.036  0.380  0.380
+     eigenvectors (columns):
+       0.000 -0.000 -0.000  0.487 -0.873
+      -0.356  0.209 -0.911  0.000  0.000
+      -0.673  0.619  0.405  0.000 -0.000
+       0.000  0.000  0.000  0.873  0.487
+       0.649  0.757 -0.080 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.380 -0.000  0.000 -0.000 -0.000
+      -0.000  0.036 -0.000  0.000  0.000
+       0.000 -0.000  0.036  0.000  0.000
+      -0.000  0.000  0.000  0.380 -0.000
+      -0.000  0.000  0.000 -0.000  0.036
+
+     Number of occupied Hubbard levels =    8.1781
+
+     HUBBARD ENERGY =    0.2066  (Ry)
+
+     total cpu time spent up to now is      136.4 secs
+
+     total energy              =    -582.27854691 Ry
+     estimated scf accuracy    <       0.00000510 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.25 Bohr mag/cell
+
+     iteration # 16     ecut=   110.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+
+---- Real-time Memory Report at c_bands before calling an iterative solver
+           371 MiB given to the printing process from OS
+           230 MiB allocation reported by mallinfo(arena+hblkhd)
+        403514 MiB available memory on the node where the printing process lives
+------------------
+     ethr =  5.67E-09,  avg # of iterations =  4.4
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   3.16263  0.35980  3.52243
+     Atomic magnetic moment for atom   2 =   2.80282
+     SPIN  1
+     eigenvalues:
+       0.178  0.178  0.936  0.936  0.936
+     eigenvectors (columns):
+       0.684 -0.730 -0.000 -0.000  0.000
+      -0.000 -0.000  0.330 -0.247 -0.911
+      -0.000 -0.000  0.588 -0.702  0.403
+       0.730  0.684  0.000  0.000 -0.000
+       0.000  0.000 -0.739 -0.668 -0.086
+     occupation matrix ns (before diag.):
+       0.178 -0.000 -0.000 -0.000  0.000
+      -0.000  0.936 -0.000  0.000  0.000
+      -0.000 -0.000  0.936  0.000  0.000
+      -0.000  0.000  0.000  0.178 -0.000
+       0.000  0.000  0.000 -0.000  0.936
+     SPIN  2
+     eigenvalues:
+       0.020  0.020  0.020  0.150  0.150
+     eigenvectors (columns):
+      -0.000  0.000 -0.000  0.383 -0.924
+      -0.333  0.070 -0.940  0.000  0.000
+      -0.625 -0.763  0.165  0.000 -0.000
+       0.000 -0.000  0.000  0.924  0.383
+       0.706 -0.642 -0.298 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.150 -0.000  0.000 -0.000  0.000
+      -0.000  0.020 -0.000  0.000  0.000
+       0.000 -0.000  0.020  0.000  0.000
+      -0.000  0.000  0.000  0.150 -0.000
+       0.000  0.000  0.000 -0.000  0.020
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   3.78836  0.86696  4.65532
+     Atomic magnetic moment for atom   3 =   2.92140
+     SPIN  1
+     eigenvalues:
+       0.483  0.483  0.941  0.941  0.941
+     eigenvectors (columns):
+       0.431  0.902 -0.000 -0.000 -0.000
+      -0.000  0.000  0.325 -0.230  0.917
+      -0.000  0.000  0.592 -0.707 -0.387
+       0.902 -0.431  0.000  0.000  0.000
+       0.000 -0.000 -0.737 -0.669  0.093
+     occupation matrix ns (before diag.):
+       0.483 -0.000 -0.000 -0.000  0.000
+      -0.000  0.941 -0.000  0.000  0.000
+      -0.000 -0.000  0.941  0.000  0.000
+      -0.000  0.000  0.000  0.483 -0.000
+       0.000  0.000  0.000 -0.000  0.941
+     SPIN  2
+     eigenvalues:
+       0.036  0.036  0.036  0.380  0.380
+     eigenvectors (columns):
+      -0.000  0.000  0.000  0.335 -0.942
+       0.353 -0.337  0.873  0.000  0.000
+       0.624 -0.610 -0.488  0.000 -0.000
+      -0.000 -0.000 -0.000  0.942  0.335
+      -0.697 -0.717  0.005 -0.000 -0.000
+     occupation matrix ns (before diag.):
+       0.380 -0.000  0.000 -0.000 -0.000
+      -0.000  0.036 -0.000  0.000  0.000
+       0.000 -0.000  0.036  0.000  0.000
+      -0.000  0.000  0.000  0.380 -0.000
+      -0.000  0.000  0.000 -0.000  0.036
+
+     Number of occupied Hubbard levels =    8.1777
+
+     HUBBARD ENERGY =    0.2067  (Ry)
+
+     Magnetic moment per site  (integrated on atomic sphere of radius R)
+     atom   1 (R=0.208)  charge=  7.9801  magn=  0.0007
+     atom   2 (R=0.115)  charge= 10.1668  magn=  2.0969
+     atom   3 (R=0.112)  charge= 11.0686  magn=  2.3016
+     atom   4 (R=0.064)  charge=  1.0297  magn= -0.0051
+     atom   5 (R=0.064)  charge=  1.0297  magn= -0.0051
+     atom   6 (R=0.064)  charge=  1.0297  magn= -0.0051
+     atom   7 (R=0.064)  charge=  1.0297  magn= -0.0051
+     atom   8 (R=0.064)  charge=  1.0297  magn= -0.0051
+     atom   9 (R=0.064)  charge=  1.0297  magn= -0.0051
+     atom  10 (R=0.064)  charge=  1.8380  magn=  0.0078
+     atom  11 (R=0.064)  charge=  1.8380  magn=  0.0078
+     atom  12 (R=0.064)  charge=  1.8380  magn=  0.0078
+     atom  13 (R=0.064)  charge=  1.8380  magn=  0.0078
+     atom  14 (R=0.064)  charge=  1.8380  magn=  0.0078
+     atom  15 (R=0.064)  charge=  1.8380  magn=  0.0078
+
+     total cpu time spent up to now is      144.1 secs
+
+     End of self-consistent calculation
+
+ ------ SPIN UP ------------
+
+
+          k = 0.0000 0.0000 0.0000 ( 39957 PWs)   bands (ev):
+
+   -71.4631 -61.8253 -42.8398 -42.8398 -42.8398 -35.7291 -35.7291 -35.7291
+   -29.1709 -16.2677 -16.0746 -16.0746 -16.0746 -16.0174 -16.0174 -12.6181
+   -12.6181 -12.6181  -6.9759  -5.0495  -5.0495  -5.0495  -4.9334  -4.9334
+    -4.6493  -3.4474  -3.4474  -3.4474  -2.9059  -2.9059  -2.4084  -2.4084
+    -2.4084  -2.0481  -2.0481  -2.0481  -1.8897  -1.8897  -1.8897  -1.5482
+    -1.5482  -1.5482  -1.0098  -1.0098  -1.0098   1.1841   1.1841   1.1841
+     4.4218   4.4218   5.1721   5.6080   5.6080   5.6080   5.9205   5.9205
+     5.9205   6.9139
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.1414 0.1414-0.1414 ( 40011 PWs)   bands (ev):
+
+   -71.4631 -61.8253 -42.8398 -42.8398 -42.8398 -35.7291 -35.7291 -35.7291
+   -29.1709 -16.2531 -16.0908 -16.0698 -16.0698 -16.0224 -16.0224 -12.6177
+   -12.6177 -12.6167  -6.8747  -5.4980  -5.0258  -5.0258  -4.9318  -4.9318
+    -4.2201  -3.4269  -3.3781  -3.3781  -2.9433  -2.9433  -2.5343  -2.5022
+    -2.5022  -2.2368  -2.2368  -2.0129  -2.0096  -1.8879  -1.8879  -1.5951
+    -1.4856  -1.4856  -0.8334  -0.8126  -0.8126   1.1527   1.1527   1.1539
+     4.4452   4.4452   5.3500   5.5752   5.6464   5.6464   5.9691   5.9784
+     5.9785   6.5718
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.2828 0.2828-0.2828 ( 40038 PWs)   bands (ev):
+
+   -71.4631 -61.8253 -42.8398 -42.8398 -42.8398 -35.7291 -35.7291 -35.7291
+   -29.1710 -16.2199 -16.1268 -16.0584 -16.0584 -16.0340 -16.0340 -12.6171
+   -12.6171 -12.6144  -6.6051  -6.0253  -4.9761  -4.9761  -4.9393  -4.9393
+    -3.7663  -3.4063  -3.2003  -3.2003  -2.9875  -2.9875  -2.7718  -2.7503
+    -2.7503  -2.4772  -2.4772  -2.1738  -1.9170  -1.8211  -1.8211  -1.7011
+    -1.4255  -1.4255  -0.5949  -0.5617  -0.5617   1.0947   1.0947   1.0967
+     4.4935   4.4935   5.4446   5.6622   5.6622   5.8165   6.0951   6.1420
+     6.1424   6.6430
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.2828 0.0000 0.0000 ( 40022 PWs)   bands (ev):
+
+   -71.4631 -61.8253 -42.8398 -42.8398 -42.8398 -35.7291 -35.7291 -35.7291
+   -29.1709 -16.2490 -16.0813 -16.0752 -16.0752 -16.0312 -16.0171 -12.6174
+   -12.6174 -12.6167  -6.8522  -5.5451  -5.0240  -5.0240  -4.9342  -4.9241
+    -4.1602  -3.4583  -3.3354  -3.3354  -3.0113  -2.9045  -2.6377  -2.5166
+    -2.5166  -2.2825  -2.2825  -2.0656  -1.9960  -1.9960  -1.6758  -1.5493
+    -1.4954  -1.4954  -1.0085  -0.6878  -0.6878   1.1458   1.1458   1.1824
+     4.4349   4.4512   5.4090   5.6438   5.6438   5.6477   5.9029   6.0010
+     6.0010   6.8914
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.4243 0.1414-0.1414 ( 40049 PWs)   bands (ev):
+
+   -71.4631 -61.8253 -42.8398 -42.8398 -42.8398 -35.7291 -35.7291 -35.7291
+   -29.1710 -16.2229 -16.1090 -16.0707 -16.0625 -16.0448 -16.0218 -12.6168
+   -12.6166 -12.6150  -6.6681  -5.9091  -4.9866  -4.9837  -4.9370  -4.9202
+    -3.8177  -3.4323  -3.2192  -3.1791  -3.0868  -2.9277  -2.8760  -2.7290
+    -2.6427  -2.4844  -2.4637  -2.1897  -1.9987  -1.9706  -1.6443  -1.5843
+    -1.4104  -1.4069  -0.8190  -0.5083  -0.5015   1.1294   1.1296   1.1514
+     4.4649   4.4678   5.5017   5.6876   5.7042   5.8811   5.9596   6.1086
+     6.1160   6.5029
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k =-0.1414-0.4243 0.4243 ( 40024 PWs)   bands (ev):
+
+   -71.4631 -61.8253 -42.8398 -42.8398 -42.8398 -35.7291 -35.7291 -35.7291
+   -29.1710 -16.2066 -16.1282 -16.0687 -16.0590 -16.0368 -16.0336 -12.6167
+   -12.6161 -12.6144  -6.5074  -6.1404  -4.9569  -4.9507  -4.9438  -4.9428
+    -3.6348  -3.3905  -3.2088  -3.1191  -3.1176  -2.9850  -2.8607  -2.8133
+    -2.7112  -2.5549  -2.5438  -2.3565  -1.9193  -1.8537  -1.7394  -1.6710
+    -1.3927  -1.3418  -0.5744  -0.5162  -0.4931   1.0946   1.1287   1.1300
+     4.4660   4.5019   5.4896   5.6658   5.7425   5.9503   6.1197   6.1467
+     6.2558   6.5044
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.0000-0.2828 0.2828 ( 40024 PWs)   bands (ev):
+
+   -71.4631 -61.8253 -42.8398 -42.8398 -42.8398 -35.7291 -35.7291 -35.7291
+   -29.1710 -16.2324 -16.1056 -16.0757 -16.0580 -16.0343 -16.0247 -12.6173
+   -12.6166 -12.6155  -6.7265  -5.8213  -4.9982  -4.9931  -4.9337  -4.9292
+    -3.9180  -3.4029  -3.2888  -3.2632  -2.9984  -2.9838  -2.7597  -2.6378
+    -2.5618  -2.4362  -2.3770  -2.2279  -1.9833  -1.8108  -1.8061  -1.6503
+    -1.4575  -1.3989  -0.7054  -0.6708  -0.5727   1.0957   1.1438   1.1462
+     4.4493   4.4865   5.4826   5.6147   5.7221   5.7599   5.9643   5.9949
+     6.1426   6.5030
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.5657 0.0000 0.0000 ( 40074 PWs)   bands (ev):
+
+   -71.4630 -61.8253 -42.8398 -42.8398 -42.8398 -35.7291 -35.7291 -35.7291
+   -29.1710 -16.2127 -16.0873 -16.0762 -16.0762 -16.0645 -16.0165 -12.6162
+   -12.6162 -12.6144  -6.6412  -5.9203  -4.9789  -4.9789  -4.9355  -4.8956
+    -3.7375  -3.4857  -3.1890  -3.0831  -3.0518  -3.0518  -2.9021  -2.7638
+    -2.7638  -2.6017  -2.6017  -2.0938  -2.0629  -2.0629  -1.5511  -1.4340
+    -1.4340  -1.2840  -1.0059  -0.4077  -0.4077   1.1799   1.1845   1.1845
+     4.4275   4.4547   5.5519   5.8240   5.8242   5.8562   6.0940   6.0944
+     6.1751   6.8693
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.0000-0.5657 0.5657 ( 40044 PWs)   bands (ev):
+
+   -71.4630 -61.8253 -42.8398 -42.8398 -42.8398 -35.7291 -35.7291 -35.7291
+   -29.1710 -16.2016 -16.1095 -16.0769 -16.0713 -16.0534 -16.0215 -12.6161
+   -12.6155 -12.6144  -6.5469  -6.0618  -4.9603  -4.9582  -4.9399  -4.9051
+    -3.5799  -3.4644  -3.2410  -3.2178  -2.9959  -2.9171  -2.9042  -2.8175
+    -2.7798  -2.7017  -2.6345  -2.2520  -2.0183  -1.9956  -1.6624  -1.4969
+    -1.3735  -1.2372  -0.8175  -0.4127  -0.4038   1.1500   1.1845   1.1846
+     4.4262   4.4759   5.5452   5.7660   5.8837   5.9478   6.1280   6.2051
+     6.2494   6.3972
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k =-0.1414-0.4243 0.7071 ( 40052 PWs)   bands (ev):
+
+   -71.4630 -61.8253 -42.8398 -42.8398 -42.8398 -35.7291 -35.7291 -35.7291
+   -29.1710 -16.2038 -16.1161 -16.0765 -16.0686 -16.0422 -16.0266 -12.6163
+   -12.6155 -12.6147  -6.5330  -6.0913  -4.9594  -4.9528  -4.9416  -4.9210
+    -3.6057  -3.4115  -3.2488  -3.1994  -3.0431  -2.9707  -2.8765  -2.8127
+    -2.7448  -2.6173  -2.5672  -2.3372  -1.9839  -1.9343  -1.7217  -1.5638
+    -1.3261  -1.3108  -0.6883  -0.5055  -0.4077   1.1285   1.1444   1.1844
+     4.4367   4.4898   5.5318   5.7199   5.8383   5.9421   6.0872   6.1752
+     6.2852   6.3411
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+ ------ SPIN DOWN ----------
+
+
+          k = 0.0000 0.0000 0.0000 ( 39957 PWs)   bands (ev):
+
+   -68.5837 -59.2299 -39.9227 -39.9227 -39.9227 -33.1274 -33.1274 -33.1274
+   -29.1707 -16.2165 -16.0299 -16.0299 -16.0299 -15.9737 -15.9737 -12.6177
+   -12.6177 -12.6177  -6.7403  -4.9398  -4.9398  -4.9398  -4.7280  -4.7280
+    -4.3721  -2.9686  -2.9686  -2.9686  -2.4523  -2.4523  -2.3102  -2.3102
+    -2.3102  -1.9863  -1.9863  -1.9863  -1.8105  -1.8105  -1.8105  -1.4884
+    -1.4884  -1.4884   2.7443   2.7443   2.7443   5.2078   5.7504   5.7504
+     5.7659   5.7659   5.7659   6.2443   6.2443   6.2444   6.6164   6.6164
+     6.6164   7.5624
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.1414 0.1414-0.1414 ( 40011 PWs)   bands (ev):
+
+   -68.5837 -59.2299 -39.9227 -39.9227 -39.9227 -33.1274 -33.1274 -33.1274
+   -29.1706 -16.2023 -16.0456 -16.0249 -16.0249 -15.9787 -15.9787 -12.6173
+   -12.6173 -12.6164  -6.6411  -5.3204  -4.9107  -4.9107  -4.7338  -4.7338
+    -4.0132  -3.0033  -2.9210  -2.9210  -2.5472  -2.5472  -2.3526  -2.3234
+    -2.3234  -2.0690  -2.0690  -1.9479  -1.8436  -1.7985  -1.7985  -1.5351
+    -1.4190  -1.4190   2.8556   2.8853   2.8853   5.3568   5.4798   5.6047
+     5.6048   5.7933   5.7933   6.1815   6.1816   6.5257   6.7256   6.8202
+     6.8202   7.5786
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.2828 0.2828-0.2828 ( 40038 PWs)   bands (ev):
+
+   -68.5837 -59.2299 -39.9227 -39.9227 -39.9227 -33.1274 -33.1274 -33.1274
+   -29.1705 -16.1697 -16.0808 -16.0130 -16.0130 -15.9909 -15.9909 -12.6168
+   -12.6168 -12.6143  -6.3753  -5.8240  -4.8486  -4.8486  -4.7573  -4.7573
+    -3.5721  -3.1382  -2.8187  -2.8187  -2.6499  -2.6499  -2.4179  -2.3945
+    -2.3945  -2.2406  -2.2406  -1.8985  -1.8556  -1.7243  -1.7243  -1.6407
+    -1.3495  -1.3495   3.0638   3.1464   3.1464   5.0314   5.2674   5.2674
+     5.8051   5.8051   5.8752   6.4541   6.4543   6.8114   6.9519   6.9522
+     6.9646   7.4178
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.2828 0.0000 0.0000 ( 40022 PWs)   bands (ev):
+
+   -68.5837 -59.2299 -39.9227 -39.9227 -39.9227 -33.1274 -33.1274 -33.1274
+   -29.1706 -16.1982 -16.0359 -16.0305 -16.0305 -15.9876 -15.9733 -12.6170
+   -12.6170 -12.6164  -6.6187  -5.3539  -4.9149  -4.9149  -4.7433  -4.7288
+    -3.9491  -2.9852  -2.9184  -2.9184  -2.6725  -2.4507  -2.4180  -2.3175
+    -2.3175  -2.0801  -2.0801  -2.0040  -1.9094  -1.9094  -1.5859  -1.4895
+    -1.4265  -1.4265   2.7506   2.9906   2.9906   5.4437   5.5230   5.5230
+     5.6602   5.7775   5.9035   6.2082   6.2082   6.2339   6.6249   6.9370
+     6.9372   7.6480
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.4243 0.1414-0.1414 ( 40049 PWs)   bands (ev):
+
+   -68.5837 -59.2299 -39.9227 -39.9227 -39.9227 -33.1274 -33.1274 -33.1274
+   -29.1705 -16.1726 -16.0634 -16.0259 -16.0170 -16.0017 -15.9782 -12.6164
+   -12.6163 -12.6148  -6.4369  -5.7021  -4.8732  -4.8601  -4.7662  -4.7388
+    -3.6181  -3.0593  -2.8782  -2.8487  -2.7663  -2.5326  -2.5270  -2.3460
+    -2.3449  -2.2491  -2.1872  -1.9946  -1.9258  -1.8804  -1.5806  -1.4911
+    -1.3389  -1.3372   2.8818   3.1959   3.2152   5.2316   5.3853   5.6025
+     5.7797   5.8000   5.8936   6.1479   6.3051   6.6299   6.7121   7.0473
+     7.0712   7.1929
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k =-0.1414-0.4243 0.4243 ( 40024 PWs)   bands (ev):
+
+   -68.5837 -59.2299 -39.9227 -39.9227 -39.9227 -33.1274 -33.1274 -33.1274
+   -29.1705 -16.1564 -16.0824 -16.0237 -16.0137 -15.9932 -15.9904 -12.6164
+   -12.6158 -12.6143  -6.2763  -5.9319  -4.8352  -4.8290  -4.7750  -4.7634
+    -3.4310  -3.1542  -2.9215  -2.7912  -2.7042  -2.6261  -2.4775  -2.4738
+    -2.3480  -2.2686  -2.2350  -2.0721  -1.8445  -1.7613  -1.6698  -1.5636
+    -1.3217  -1.2697   3.1106   3.1869   3.2391   5.1349   5.2922   5.4335
+     5.7814   5.8151   6.1027   6.3144   6.3512   6.7122   6.8555   6.9654
+     7.1129   7.1269
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.0000-0.2828 0.2828 ( 40024 PWs)   bands (ev):
+
+   -68.5837 -59.2299 -39.9227 -39.9227 -39.9227 -33.1274 -33.1274 -33.1274
+   -29.1706 -16.1820 -16.0599 -16.0310 -16.0126 -15.9913 -15.9809 -12.6170
+   -12.6163 -12.6153  -6.4951  -5.6222  -4.8897  -4.8634  -4.7496  -4.7427
+    -3.7238  -3.0274  -2.9292  -2.8375  -2.6611  -2.6034  -2.4290  -2.3798
+    -2.3117  -2.2230  -2.1078  -2.0143  -1.9177  -1.7150  -1.6933  -1.5855
+    -1.3875  -1.3252   2.9655   3.0242   3.1164   5.1543   5.4265   5.6949
+     5.7170   5.7875   5.7896   6.0465   6.2289   6.7280   6.8223   6.9389
+     7.0115   7.5040
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.5657 0.0000 0.0000 ( 40074 PWs)   bands (ev):
+
+   -68.5837 -59.2299 -39.9227 -39.9227 -39.9227 -33.1274 -33.1274 -33.1274
+   -29.1705 -16.1620 -16.0420 -16.0315 -16.0315 -16.0206 -15.9728 -12.6159
+   -12.6159 -12.6143  -6.4088  -5.6979  -4.8723  -4.8723  -4.7784  -4.7301
+    -3.5077  -3.0855  -2.9154  -2.8218  -2.8218  -2.6987  -2.4477  -2.3329
+    -2.3329  -2.2741  -2.2741  -2.0327  -1.9865  -1.9865  -1.4913  -1.3699
+    -1.3699  -1.2231   2.7611   3.3564   3.3565   5.6334   5.6600   5.6600
+     5.7999   5.8182   6.1045   6.1932   6.1933   6.2771   6.6034   6.6039
+     6.6432   7.1986
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k = 0.0000-0.5657 0.5657 ( 40044 PWs)   bands (ev):
+
+   -68.5837 -59.2299 -39.9227 -39.9227 -39.9227 -33.1274 -33.1274 -33.1274
+   -29.1705 -16.1509 -16.0643 -16.0322 -16.0265 -16.0093 -15.9778 -12.6159
+   -12.6153 -12.6143  -6.3152  -5.8416  -4.8490  -4.8282  -4.8019  -4.7414
+    -3.3610  -3.1564  -2.9889  -2.8026  -2.7986  -2.6394  -2.4899  -2.4359
+    -2.3275  -2.2971  -2.2901  -2.0581  -1.9341  -1.9097  -1.5981  -1.4153
+    -1.3110  -1.1804   2.8886   3.3444   3.3717   5.4966   5.6118   5.7346
+     5.7867   5.8294   6.0860   6.1817   6.2803   6.3934   6.4393   6.6595
+     6.9256   7.1865
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+          k =-0.1414-0.4243 0.7071 ( 40052 PWs)   bands (ev):
+
+   -68.5837 -59.2299 -39.9227 -39.9227 -39.9227 -33.1274 -33.1274 -33.1274
+   -29.1705 -16.1533 -16.0706 -16.0318 -16.0237 -15.9982 -15.9830 -12.6160
+   -12.6153 -12.6146  -6.3017  -5.8758  -4.8467  -4.8231  -4.7920  -4.7505
+    -3.4039  -3.1086  -2.9781  -2.8788  -2.6897  -2.5871  -2.5612  -2.4627
+    -2.3147  -2.2790  -2.2662  -2.0703  -1.8855  -1.8496  -1.6500  -1.4842
+    -1.2580  -1.2446   2.9996   3.2091   3.3583   5.3092   5.5029   5.7334
+     5.7614   5.8134   6.0332   6.1837   6.2712   6.4811   6.5960   6.8389
+     7.0848   7.1949
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   1.0000
+     1.0000   1.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000
+
+     the spin up/dw Fermi energies are     3.2988    0.7841 ev
+
+!    total energy              =    -582.27854790 Ry
+     estimated scf accuracy    <       0.00000045 Ry
+     smearing contrib. (-TS)   =      -0.00000000 Ry
+     internal energy E=F+TS    =    -582.27854790 Ry
+
+     The total energy is F=E-TS. E is the sum of the following terms:
+     one-electron contribution =    -512.78254401 Ry
+     hartree contribution      =     277.31883691 Ry
+     xc contribution           =    -123.30907586 Ry
+     ewald contribution        =    -223.71242289 Ry
+     Hubbard energy            =       0.20665796 Ry
+
+     total magnetization       =     6.00 Bohr mag/cell
+     absolute magnetization    =     6.25 Bohr mag/cell
+
+     convergence has been achieved in  16 iterations
+
+     Writing all to output data dir /tmp/scratch/KVCr_U4_2_FMfix/KVCr_U4_2_FMfix.save/ :
+     XML data file, charge density, pseudopotentials, collected wavefunctions
+
+     init_run     :      5.82s CPU      6.43s WALL (       1 calls)
+     electrons    :    121.13s CPU    137.60s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      3.69s CPU      4.13s WALL (       1 calls)
+     wfcinit:atom :      0.07s CPU      0.07s WALL (       3 calls)
+     wfcinit:wfcr :      3.08s CPU      3.49s WALL (       3 calls)
+     potinit      :      0.94s CPU      1.05s WALL (       1 calls)
+     hinit0       :      0.88s CPU      0.92s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :     85.19s CPU     96.33s WALL (      16 calls)
+     sum_band     :     17.17s CPU     20.16s WALL (      16 calls)
+     v_of_rho     :      5.23s CPU      5.86s WALL (      17 calls)
+     v_h          :      0.20s CPU      0.23s WALL (      17 calls)
+     v_xc         :      5.03s CPU      5.62s WALL (      17 calls)
+     mix_rho      :      9.90s CPU     11.54s WALL (      16 calls)
+
+     Called by c_bands:
+     init_us_2    :      1.14s CPU      1.26s WALL (     102 calls)
+     cegterg      :     74.58s CPU     85.36s WALL (      48 calls)
+
+     Called by sum_band:
+     sum_band:wei :      0.01s CPU      0.02s WALL (      16 calls)
+     sum_band:loo :     14.94s CPU     17.17s WALL (      16 calls)
+     sum_band:buf :      0.22s CPU      0.21s WALL (      48 calls)
+     sum_band:ini :      0.55s CPU      0.58s WALL (      48 calls)
+
+     Called by *egterg:
+     cdiaghg      :      0.92s CPU      0.84s WALL (     235 calls)
+     cegterg:over :      3.40s CPU      3.54s WALL (     187 calls)
+     cegterg:upda :      1.75s CPU      1.77s WALL (     187 calls)
+     cegterg:last :      2.21s CPU      2.37s WALL (      91 calls)
+     h_psi        :     66.90s CPU     77.71s WALL (     238 calls)
+     g_psi        :      0.22s CPU      0.26s WALL (     187 calls)
+
+     Called by h_psi:
+     h_psi:calbec :      4.37s CPU      4.41s WALL (     238 calls)
+     vloc_psi     :     57.67s CPU     68.23s WALL (     238 calls)
+                                        0.00s GPU  (     238 calls)
+     add_vuspsi   :      3.31s CPU      3.34s WALL (     238 calls)
+     vhpsi        :      1.34s CPU      1.47s WALL (     238 calls)
+
+     General routines
+     calbec       :      5.77s CPU      5.85s WALL (     527 calls)
+     fft          :      3.01s CPU      3.69s WALL (     321 calls)
+     ffts         :      5.94s CPU      7.47s WALL (    1139 calls)
+     fftw         :     60.48s CPU     72.95s WALL (   16560 calls)
+
+     Parallel routines
+
+     Hubbard U routines
+     new_ns       :      0.46s CPU      0.50s WALL (      16 calls)
+     vhpsi        :      1.34s CPU      1.47s WALL (     238 calls)
+
+     PWSCF        :   2m 7.50s CPU   2m24.75s WALL
+
+
+   This run was terminated on:  11:39:43   3Oct2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

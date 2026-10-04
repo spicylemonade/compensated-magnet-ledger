@@ -1,0 +1,44 @@
+&CONTROL
+  calculation = 'relax'
+  prefix = 'H2O'
+  outdir = '/tmp/scratch/H2O'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .true.
+  tprnfor = .true.
+  disk_io = 'low'
+  verbosity = 'high'
+  forc_conv_thr = 0.001
+  etot_conv_thr = 3.0000000000000004d-05
+  nstep = 150
+/
+&SYSTEM
+  ibrav = 0
+  nat = 3
+  ntyp = 2
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.001
+/
+&ELECTRONS
+  conv_thr = 1d-09
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+&IONS
+/
+ATOMIC_SPECIES
+  O 15.9990 O.upf
+  H 1.0080 H.upf
+CELL_PARAMETERS angstrom
+  14.0000000000 0.0000000000 0.0000000000
+  0.0000000000 14.0000000000 0.0000000000
+  0.0000000000 0.0000000000 14.0000000000
+ATOMIC_POSITIONS crystal
+  O 0.5000000000 0.5000000000 0.5000000000
+  H 0.5547834919 0.5000000000 0.5424179115
+  H 0.4452165081 0.5000000000 0.5424179115
+K_POINTS automatic
+  1 1 1 0 0 0

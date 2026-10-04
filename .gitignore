@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+pseudo/
+*.repro.in
+*.repro.out
+!reproduce/results/**/*.repro.in
+!reproduce/results/**/*.repro.out

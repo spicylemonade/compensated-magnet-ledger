@@ -1,0 +1,10 @@
+{
+ "job": "lcm/s1/YBMFO_antisite_swap_far",
+ "state": "done",
+ "cmd": "python lcm_stage1.py YBMFO_antisite_swap_far.json",
+ "ncores": 64,
+ "start": 1790948987.9769309,
+ "rc": 0,
+ "end": 1790951821.9708052,
+ "hours": 0.7872205206420686
+}

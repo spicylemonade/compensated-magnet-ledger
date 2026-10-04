@@ -1,0 +1,10 @@
+{
+ "job": "lcm/pba/s1a/FMfix",
+ "state": "done",
+ "cmd": "NPOOL=8 python pba_fmfix.py FMfix_pbeU.json",
+ "ncores": 32,
+ "start": 1791026939.8424933,
+ "rc": 0,
+ "end": 1791028541.5871723,
+ "hours": 0.4449290774928199
+}

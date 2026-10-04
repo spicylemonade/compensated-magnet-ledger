@@ -1,0 +1,9 @@
+&PROJWFC
+  prefix = 'KVCr_VAC_w1_lcm'
+  outdir = '/tmp/scratch/KVCr_VAC_w1_lcm'
+  filpdos = '/tmp/scratch/KVCr_VAC_w1_lcm/pdos'
+  filproj = '/tmp/scratch/KVCr_VAC_w1_lcm/proj'
+  lsym = .false.
+  DeltaE = 0.02
+  degauss = 0.0037
+/

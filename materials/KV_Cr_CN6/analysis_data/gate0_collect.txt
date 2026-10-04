@@ -1,0 +1,124 @@
+== status ==
+  s1a/KVCr               done rc=0 h=1.29
+  s1a/KVMo               done rc=0 h=0.73
+  s1a/KCrV               done rc=0 h=0.52
+  s1a/CrCr               done rc=0 h=0.58
+  s1/KVCr_2H2O           done rc=0 h=1.41
+  hse/KVCr_hse_LCM       done rc=0 h=0.98
+  hse/KVMo_hse_LCM       done rc=0 h=2.37
+  hse/CrCr_hse_LCM       done rc=0 h=0.72
+  hse/CrCr_hse_FM        done rc=0 h=0.75
+  hse/KVCr_hse_FMfix     done rc=0 h=1.00
+  hse/KVMo_hse_FMfix     done rc=0 h=1.13
+  s1a/FMfix              done rc=0 h=0.44
+  soc/KVMo_soc           done rc=0 h=0.79
+  soc/KVMo_soc_r         done rc=0 h=0.27
+
+== relaxed geometry (PBE+U base U, 110 Ry, LCM; exact F-43m / Fm-3m projection) ==
+  KVCr  src=relaxed  a=10.6799 A  M_N-N=2.112 C-N=1.168 M_C-C=2.060  P=-0.1 kbar bfgs=True dev=1.5e-15 A restarts=0
+  KVMo  src=relaxed  a=10.8579 A  M_N-N=2.097 C-N=1.171 M_C-C=2.161  P=0.5 kbar bfgs=True dev=1.9e-15 A restarts=0
+  KCrV  src=relaxed  a=10.6523 A  M_N-N=2.009 C-N=1.171 M_C-C=2.146  P=0.0 kbar bfgs=True dev=2.5e-15 A restarts=0
+  CrCr  src=relaxed  a=10.4872 A  M_N-N=2.013 C-N=1.164 M_C-C=2.067  P=-0.2 kbar bfgs=True dev=2.0e-15 A restarts=0
+
+== PBE+U: LCM (C-end +, N-end -) and FM at fixed geometry; windows from the dense nscf (8x8x8) ==
+   m_N/m_C = QE sphere moments (R ~ 0.86 A); md_N/md_C = ortho-atomic Hubbard d moments Tr ns (up - down)
+  KVCr  U3_3     M=-0.000 |M|= 7.07 m_N= -2.02 m_C=  2.32 md_N= -2.70 md_C=  2.93 gap= 1.95 VBM:V-maj    CBM:V-maj    winVB= 2.02 winCB= 1.15 (nscf) | M_FM= 6.00 gap_FM= 1.38 | dE(FM-LCM)= 152.2 meV/ion  
+                 FM fixed M=6: dE(FMfix-LCM)=152.2 meV/ion (M=6.0, conv=True, gap=1.38)
+  KVCr  U2_2     M= 0.000 |M|= 6.91 m_N= -1.96 m_C=  2.24 md_N= -2.63 md_C=  2.84 gap= 1.42 VBM:V-maj    CBM:V-maj    winVB= 1.95 winCB= 1.41 (nscf) | M_FM= 6.00 gap_FM= 0.77 | dE(FM-LCM)= 196.6 meV/ion  
+                 FM fixed M=6: dE(FMfix-LCM)=196.6 meV/ion (M=6.0, conv=True, gap=0.77)
+  KVCr  U2_4     M= 0.000 |M|= 7.12 m_N= -1.98 m_C=  2.36 md_N= -2.66 md_C=  2.99 gap= 1.84 VBM:V-maj    CBM:V-maj    winVB= 2.63 winCB= 0.91 (nscf) | M_FM= 6.00 gap_FM= 1.16 | dE(FM-LCM)= 159.8 meV/ion  
+                 FM fixed M=6: dE(FMfix-LCM)=159.8 meV/ion (M=6.0, conv=True, gap=1.16)
+  KVCr  U4_2     M=-0.000 |M|= 7.03 m_N= -2.05 m_C=  2.27 md_N= -2.74 md_C=  2.88 gap= 2.04 VBM:V-maj    CBM:V-maj    winVB= 1.39 winCB= 1.40 (nscf) | M_FM= 6.00 gap_FM= 1.56 | dE(FM-LCM)= 145.7 meV/ion  
+                 FM fixed M=6: dE(FMfix-LCM)=145.7 meV/ion (M=6.0, conv=True, gap=1.56)
+  KVCr  U4_4     M= 0.000 |M|= 7.18 m_N= -2.06 m_C=  2.38 md_N= -2.76 md_C=  3.01 gap= 2.49 VBM:V-maj    CBM:V-maj    winVB= 2.00 winCB= 0.87 (nscf) | M_FM= 6.00 gap_FM= 1.97 | dE(FM-LCM)= 121.9 meV/ion  |m_d(Cr)|=3.01
+                 FM fixed M=6: dE(FMfix-LCM)=121.9 meV/ion (M=6.0, conv=True, gap=1.97)
+  KVMo  U3_2     M=-0.000 |M|= 6.65 m_N= -1.94 m_C=  1.41 md_N= -2.61 md_C=  2.45 gap= 1.30 VBM:V-maj    CBM:V-maj    winVB= 0.97 winCB= 1.88 (nscf) | M_FM= 6.00 gap_FM= 0.41 | dE(FM-LCM)= 276.3 meV/ion  |m_d(Mo)|=2.45
+                 FM fixed M=6: dE(FMfix-LCM)=276.3 meV/ion (M=6.0, conv=True, gap=0.41)
+  KVMo  U2_0     M=-0.000 |M|= 6.12 m_N= -1.83 m_C=  1.22 md_N=   -   md_C=   -   gap= 0.66 VBM:V-maj    CBM:V-maj    winVB= 0.41 winCB= 2.13 (nscf) | M_FM= 4.91 gap_FM= 0.07 | dE(FM-LCM)= 356.4 meV/ion  M_FM=4.91 (6 = d3/d3; 4 = charge transfer)
+                 FM fixed M=6: dE(FMfix-LCM)=423.2 meV/ion (M=6.0, conv=True, gap=-0.58)
+  KVMo  U2_2     M= 0.000 |M|= 6.52 m_N= -1.88 m_C=  1.39 md_N= -2.53 md_C=  2.41 gap= 1.04 VBM:V-maj    CBM:V-maj    winVB= 1.19 winCB= 1.70 (nscf) | M_FM= 5.97 gap_FM= 0.10 | dE(FM-LCM)= 321.3 meV/ion  |m_d(V)|=2.53 |m_d(Mo)|=2.41
+                 FM fixed M=6: dE(FMfix-LCM)=321.8 meV/ion (M=6.0, conv=True, gap=0.09)
+  KVMo  U4_0     M=-0.000 |M|= 6.48 m_N= -1.96 m_C=  1.29 md_N=   -   md_C=   -   gap= 1.11 VBM:V-maj    CBM:V-maj    winVB= 0.05 winCB= 2.54 (nscf) | M_FM= 5.91 gap_FM= 0.02 | dE(FM-LCM)= 301.8 meV/ion  M_FM=5.91 (6 = d3/d3; 4 = charge transfer)
+                 FM fixed M=6: dE(FMfix-LCM)=303.5 meV/ion (M=6.0, conv=True, gap=0.01)
+  KVMo  U4_2     M= 0.000 |M|= 6.75 m_N= -1.99 m_C=  1.43 md_N= -2.68 md_C=  2.48 gap= 1.60 VBM:V-maj    CBM:V-maj    winVB= 0.71 winCB= 2.01 (nscf) | M_FM= 6.00 gap_FM= 0.74 | dE(FM-LCM)= 238.3 meV/ion  |m_d(Mo)|=2.48
+                 FM fixed M=6: dE(FMfix-LCM)=238.3 meV/ion (M=6.0, conv=True, gap=0.74)
+  KCrV  U3_3     M=-0.000 |M|= 6.85 m_N= -2.37 m_C=  1.88 md_N= -2.87 md_C=  2.62 gap= 2.44 VBM:V-maj    CBM:V-maj    winVB= 1.96 winCB= 0.01 (nscf) | M_FM= 6.00 gap_FM= 1.63 | dE(FM-LCM)= 129.2 meV/ion  
+  KCrV  U2_2     M=-0.000 |M|= 6.72 m_N= -2.31 m_C=  1.82 md_N= -2.80 md_C=  2.54 gap= 2.01 VBM:V-maj    CBM:V-maj    winVB= 1.85 winCB= 0.25 (scf) | M_FM= 6.00 gap_FM= 1.12 | dE(FM-LCM)= 160.3 meV/ion  |m_d(V)|=2.54
+  KCrV  U2_4     M= 0.000 |M|= 6.84 m_N= -2.40 m_C=  1.83 md_N= -2.91 md_C=  2.56 gap= 2.19 VBM:V-maj    CBM:Cr-maj   winVB= 2.43 winCB= 0.25 (scf) | M_FM= 6.00 gap_FM= 1.39 | dE(FM-LCM)= 131.1 meV/ion  |m_d(V)|=2.56
+  KCrV  U4_2     M=-0.000 |M|= 6.85 m_N= -2.33 m_C=  1.93 md_N= -2.83 md_C=  2.67 gap= 2.55 VBM:V-maj    CBM:V-maj    winVB= 1.33 winCB= 0.24 (scf) | M_FM= 6.00 gap_FM= 1.81 | dE(FM-LCM)= 127.2 meV/ion  
+  KCrV  U4_4     M=-0.000 |M|= 6.94 m_N= -2.41 m_C=  1.94 md_N= -2.93 md_C=  2.68 gap= 2.75 VBM:V-maj    CBM:Cr-maj   winVB= 1.87 winCB= 0.26 (scf) | M_FM= 6.00 gap_FM= 2.14 | dE(FM-LCM)= 106.3 meV/ion  
+  CrCr  U3       M= 0.000 |M|= 7.37 m_N= -2.39 m_C=  2.36 md_N= -2.90 md_C=  2.99 gap= 4.09 VBM:Cr(C)-maj CBM:Cr(N)-maj winVB= 0.10 winCB= 0.26 (nscf) | M_FM= 6.00 gap_FM= 3.02 | dE(FM-LCM)=  91.7 meV/ion  
+  CrCr  U2       M= 0.000 |M|= 7.27 m_N= -2.35 m_C=  2.31 md_N= -2.85 md_C=  2.93 gap= 3.53 VBM:Cr(C)-maj CBM:Cr(N)-maj winVB= 0.08 winCB= 0.30 (nscf) | M_FM= 6.00 gap_FM= 2.40 | dE(FM-LCM)= 107.6 meV/ion  
+  CrCr  U4       M= 0.000 |M|= 7.45 m_N= -2.42 m_C=  2.41 md_N= -2.95 md_C=  3.05 gap= 4.44 VBM:Cr(C)-maj CBM:Cr(N)-maj winVB= 0.10 winCB= 0.37 (nscf) | M_FM= 6.00 gap_FM= 3.58 | dE(FM-LCM)=  80.2 meV/ion  |m_d(Cr(C))|=3.05
+  hydrated KVCr.2H2O (P1, SCF 3x3x3, nscf 6x6x6):
+  KVCr_2H2O U3_3     M= 0.000 |M|= 7.10 m_N= -2.07 m_C=  2.36 md_N= -2.75 md_C=  2.98 gap= 2.10 VBM:V-maj    CBM:V-maj    winVB= 0.93 winCB= 0.92 (nscf) | M_FM= 6.00 gap_FM= 1.57 | dE(FM-LCM)= 127.7 meV/ion  
+
+== HSE06 (no U, nq 2x2x2, k 4x4x4, 90 Ry) on the exactly symmetrized relaxed cells; windows on the SCF grid ==
+   FM reference: KVCr / KVMo = fixed M = 6 (tot_magnetization); CrCr = unconstrained (M = 6.00)
+  KVCr  HSE      M=-0.000 |M|= 7.32 m_N= -2.01 m_C=  2.33 md_N=   -   md_C=   -   gap= 2.09 VBM:V-maj    CBM:V-maj    winVB= 2.64 winCB= 1.57 (scf) | M_FM= 6.00 gap_FM= 1.40 | dE(FM-LCM)= 181.1 meV/ion  
+  KVMo  HSE      M= 0.000 |M|= 7.03 m_N= -1.93 m_C=  1.43 md_N=   -   md_C=   -   gap= 1.52 VBM:V-maj    CBM:V-maj    winVB= 1.29 winCB= 2.13 (scf) | M_FM= 6.00 gap_FM= 0.50 | dE(FM-LCM)= 323.2 meV/ion  
+  CrCr  HSE      M=-0.000 |M|= 7.56 m_N= -2.41 m_C=  2.38 md_N=   -   md_C=   -   gap= 4.89 VBM:Cr(C)-maj CBM:Cr(N)-maj winVB= 0.10 winCB= 0.43 (scf) | M_FM= 6.00 gap_FM= 3.75 | dE(FM-LCM)=  98.0 meV/ion  
+
+== exchange-energy ratios (E(FM)-E(LCM) per magnetic ion) and ratio-scaled T ==
+  VMo/VCr  PBE+U base [free FM]                      1.815  T_pred(VMo) = 682 K (x 376 K)
+  VMo/VCr  PBE+U U_V=2 M-low [free FM]               1.813  T_pred(VMo) = 682 K (x 376 K)
+  VMo/VCr  PBE+U U_V=4 M-low [free FM]               2.072  T_pred(VMo) = 779 K (x 376 K)
+  VMo/VCr  PBE+U U_V=2 M-high [free FM]              2.010  T_pred(VMo) = 756 K (x 376 K)
+  VMo/VCr  PBE+U U_V=4 M-high [free FM]              1.954  T_pred(VMo) = 735 K (x 376 K)
+  VMo/VCr  PBE+U U_V=2 same U_M=2 [free FM]          1.634  T_pred(VMo) = 614 K (x 376 K)
+  VMo/VCr  PBE+U U_V=4 same U_M=2 [free FM]          1.636  T_pred(VMo) = 615 K (x 376 K)
+  VMo/VCr  PBE+U base [FM M=6]                       1.815  T_pred(VMo) = 682 K (x 376 K)
+  VMo/VCr  PBE+U U_V=2 M-low [FM M=6]                2.152  T_pred(VMo) = 809 K (x 376 K)
+  VMo/VCr  PBE+U U_V=4 M-low [FM M=6]                2.084  T_pred(VMo) = 783 K (x 376 K)
+  VMo/VCr  PBE+U U_V=2 M-high [FM M=6]               2.013  T_pred(VMo) = 757 K (x 376 K)
+  VMo/VCr  PBE+U U_V=4 M-high [FM M=6]               1.954  T_pred(VMo) = 735 K (x 376 K)
+  VMo/VCr  PBE+U U_V=2 same U_M=2 [FM M=6]           1.636  T_pred(VMo) = 615 K (x 376 K)
+  VMo/VCr  PBE+U U_V=4 same U_M=2 [FM M=6]           1.636  T_pred(VMo) = 615 K (x 376 K)
+  VMo/VCr  HSE06                                     1.784  T_pred(VMo) = 671 K (x 376 K)
+  VCr/CrCr PBE+U base (3/3 vs 3) [free FM]           1.660  target 1.57 +- 0.25 -> OK; T_pred(VCr) from CrCr = 398 K
+  VCr/CrCr PBE+U U=2 diagonal [free FM]              1.828  target 1.57 +- 0.25 -> OFF; T_pred(VCr) from CrCr = 439 K
+  VCr/CrCr PBE+U U=4 diagonal [free FM]              1.521  target 1.57 +- 0.25 -> OK; T_pred(VCr) from CrCr = 365 K
+  VCr/CrCr PBE+U base (3/3 vs 3) [FM M=6]            1.660  target 1.57 +- 0.25 -> OK; T_pred(VCr) from CrCr = 398 K
+  VCr/CrCr PBE+U U=2 diagonal [FM M=6]               1.828  target 1.57 +- 0.25 -> OFF; T_pred(VCr) from CrCr = 439 K
+  VCr/CrCr PBE+U U=4 diagonal [FM M=6]               1.521  target 1.57 +- 0.25 -> OK; T_pred(VCr) from CrCr = 365 K
+  VCr/CrCr HSE06                                     1.848  target 1.57 +- 0.25 -> OFF; T_pred(VCr) from CrCr = 444 K
+  VMo/VCr  all same-U_V pairs [FM M=6]: min 1.636 max 2.648 (n=9)
+
+== linkage isomer: E(KCr[V(CN)6]) - E(KV[Cr(CN)6] LCM) per f.u. (each at its own relaxed cell) ==
+  U3_3   dE_iso = +0.626 eV/f.u. (isomer ground config LCM)  BELOW 0.8
+  U2_2   dE_iso = +0.540 eV/f.u. (isomer ground config LCM)  BELOW 0.8
+  U2_4   dE_iso = +0.442 eV/f.u. (isomer ground config LCM)  BELOW 0.8
+  U4_2   dE_iso = +0.810 eV/f.u. (isomer ground config LCM)  OK
+  U4_4   dE_iso = +0.722 eV/f.u. (isomer ground config LCM)  BELOW 0.8
+
+== SOC (KVMo LCM, dojo_fr, PBE+U 3/2, noncollinear) ==
+  m||z: M_spin vec=[0.0, 0.0, -0.0] |M_spin|=0.000 muB/f.u.  m_V=[0.0, -0.0, -1.942126] m_Mo=[0.0, -0.0, 1.408887] conv=True gap=1.37
+  m||x: M_spin vec=[-0.0, -0.0, 0.0] |M_spin|=0.000 muB/f.u.  m_V=[-1.942138, 0.0, 0.0] m_Mo=[1.408978, 0.0, 0.0] conv=True gap=1.37
+  MAE E(x)-E(z) = 0.000 meV/f.u.
+  lorbm nscf: rc=1 done=False errors=['Error in routine setup (1):\n     Berry Phase/electric fields not implemented with pools'] exception=None
+
+== hydration: KVCr.2H2O vs KVCr (U 3/3): winVB 2.02->0.93, winCB 1.15->0.92 (rel. change 54%/20%; kill 'existing sample' claim if > 50 %), gap 1.95->2.10, edges V-maj/V-maj
+
+== JUDGE Gate-0 checks (None = not computable yet) ==
+  [PASS] KVCr: unipolar V-maj, both windows >= 0.3 eV at every PBE+U point (5 pts)
+  [PASS] KVCr: HSE unipolar V-maj, windows >= 0.3 eV
+  [PASS] KVCr: HSE gap >= 1.0 eV
+  [PASS] KVCr: LCM integer: M_cell = 0 and gapped at every PBE+U point and in HSE
+  [PASS] KVCr: FM reference d3/d3 (M_FM = 6.00) at every point (else dE / J ratio contaminated)
+  [FAIL] KVCr: Hubbard d moments 2.6-3.0 muB (covalency flag; not a kill if M_FM = 6)
+  [ok] KVCr: KILL HSE window < 0.2 eV
+  [ok] KVCr: KILL HSE gap < 0.5 eV
+  [FAIL] KVMo: unipolar V-maj, both windows >= 0.3 eV at every PBE+U point (5 pts)
+  [PASS] KVMo: HSE unipolar V-maj, windows >= 0.3 eV
+  [PASS] KVMo: HSE gap >= 1.0 eV
+  [PASS] KVMo: LCM integer: M_cell = 0 and gapped at every PBE+U point and in HSE
+  [FAIL] KVMo: FM reference d3/d3 (M_FM = 6.00) at every point (else dE / J ratio contaminated)
+  [FAIL] KVMo: Hubbard d moments 2.6-3.0 muB (covalency flag; not a kill if M_FM = 6)
+  [ok] KVMo: KILL HSE window < 0.2 eV
+  [ok] KVMo: KILL HSE gap < 0.5 eV
+  [FAIL] calibration dE(VCr)/dE(CrCr) = 1.57 +- 0.25 (base PBE+U and HSE)
+  [PASS] dE(VMo)/dE(VCr) >= 1.15 in PBE+U (base, FM M=6) and HSE
+  [ok] KILL dE(VMo)/dE(VCr) < 1.0 (base PBE+U FM M=6, or HSE)
+  [PASS] SOC spin residue <= 0.1 muB/f.u. (orbital part: see lorbm lines / g-shift bound)
+  [FAIL] isomer >= +0.8 eV/f.u. (base U)
+  [FAIL] hydrated KVCr windows change <= 50 %

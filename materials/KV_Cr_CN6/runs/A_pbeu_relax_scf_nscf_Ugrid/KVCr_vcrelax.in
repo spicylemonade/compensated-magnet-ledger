@@ -1,0 +1,72 @@
+&CONTROL
+  calculation = 'vc-relax'
+  prefix = 'KVCr_vcrelax'
+  outdir = '/tmp/scratch/KVCr_vcrelax'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .true.
+  tprnfor = .true.
+  disk_io = 'low'
+  verbosity = 'high'
+  forc_conv_thr = 0.001
+  etot_conv_thr = 0.00015000000000000001
+  nstep = 120
+  max_seconds = 10800.0
+/
+&SYSTEM
+  ibrav = 0
+  nat = 15
+  ntyp = 5
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+  nspin = 2
+  starting_magnetization(1) = 0.0000
+  starting_magnetization(2) = -0.2308
+  starting_magnetization(3) = 0.2143
+  starting_magnetization(4) = 0.0000
+  starting_magnetization(5) = 0.0000
+/
+&ELECTRONS
+  conv_thr = 1.5d-06
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+&IONS
+/
+&CELL
+  press_conv_thr = 0.5
+/
+ATOMIC_SPECIES
+  K 39.0983 K.upf
+  V 50.9415 V.upf
+  Cr 51.9961 Cr.upf
+  C 12.0110 C.upf
+  N 14.0070 N.upf
+CELL_PARAMETERS angstrom
+  0.0000000000 5.2800000000 5.2800000000
+  5.2800000000 0.0000000000 5.2800000000
+  5.2800000000 5.2800000000 0.0000000000
+ATOMIC_POSITIONS crystal
+  K 0.2500000000 0.2500000000 0.2500000000
+  V 0.0000000000 0.0000000000 0.0000000000
+  Cr 0.5000000000 0.5000000000 0.5000000000
+  C 0.6931818182 0.3068181818 0.3068181818
+  C 0.3068181818 0.6931818182 0.6931818182
+  C 0.3068181818 0.6931818182 0.3068181818
+  C 0.6931818182 0.3068181818 0.6931818182
+  C 0.3068181818 0.3068181818 0.6931818182
+  C 0.6931818182 0.6931818182 0.3068181818
+  N 0.8030303030 0.1969696970 0.1969696970
+  N 0.1969696970 0.8030303030 0.8030303030
+  N 0.1969696970 0.8030303030 0.1969696970
+  N 0.8030303030 0.1969696970 0.8030303030
+  N 0.1969696970 0.1969696970 0.8030303030
+  N 0.8030303030 0.8030303030 0.1969696970
+K_POINTS automatic
+  5 5 5 0 0 0
+HUBBARD ortho-atomic
+  U V-3d 3.0
+  U Cr-3d 3.0

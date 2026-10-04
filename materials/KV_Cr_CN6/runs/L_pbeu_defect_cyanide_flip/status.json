@@ -1,0 +1,10 @@
+{
+ "job": "lcm/pba/def/KVCr_FLIP",
+ "state": "done",
+ "cmd": "ECUT=110 NB_EXTRA=40 RELAX_MAXSEC=14400 SCF_MAXSEC=7200 NPOOL_MAX=16 python pba_defect.py KVCr_FLIP.json",
+ "ncores": 64,
+ "start": 1791029931.5063574,
+ "rc": 0,
+ "end": 1791033664.890718,
+ "hours": 1.0370512112643984
+}

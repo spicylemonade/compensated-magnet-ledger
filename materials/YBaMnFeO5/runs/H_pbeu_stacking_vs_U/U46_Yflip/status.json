@@ -1,0 +1,10 @@
+{
+ "job": "lcm/jy/U46_Yflip",
+ "state": "done",
+ "cmd": "ECUT=90 U_MN=4 U_FE=6 TAG=U46 python lcm_single.py ybmfo110_stack.json Yflip",
+ "ncores": 32,
+ "start": 1790926903.8922694,
+ "rc": 0,
+ "end": 1790927338.644026,
+ "hours": 0.12076437685224745
+}

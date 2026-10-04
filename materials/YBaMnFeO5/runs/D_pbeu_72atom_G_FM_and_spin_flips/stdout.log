@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/snap/YBMFO110/lcm_stage1.py", line 138, in <module>
+    o = run_one(c)
+        ^^^^^^^^^^
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/snap/YBMFO110/lcm_stage1.py", line 96, in run_one
+    r = run_pw(inp, ncores=NC, npool=max(1, NC // 2), timeout=5 * 3600)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jobs/lcm/snap/YBMFO110/lib/qeutil.py", line 194, in run_pw
+    r = subprocess.run(cmd, shell=True, timeout=timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2141, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+YBMFO110_snap YBaMnFeO5 FM dE=0.0 M=79.95 gap=0.13 winVB=2.08 winCB=1.26 flip=0 col=0
+YBMFO110_snap YBaMnFeO5 G dE=-199.8 M=-0.0 gap=1.53 winVB=0.45 winCB=1.43 flip=0 col=0
+YBMFO110_snap YBaMnFeO5 flipMn dE=-177.2 M=-10.0 gap=1.00 winVB=0.52 winCB=1.41 flip=0 col=0
+YBMFO110_snap YBaMnFeO5 flipFe dE=-178.8 M=10.0 gap=1.37 winVB=0.68 winCB=0.15 flip=0 col=0
+YBMFO110_snap YBaMnFeO5 flip2far dE=-156.3 M=0.0 gap=1.08 winVB=0.28 winCB=0.16 flip=0 col=0
+YBMFO110_snap YBaMnFeO5 flip2near dE=-173.7 M=-0.0 gap=1.13 winVB=0.17 winCB=0.27 flip=0 col=0

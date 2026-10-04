@@ -1,0 +1,39 @@
+{
+ "KVCr": {
+  "LCM": {
+   "E_Ry": -576.2595284,
+   "n_bang": 9,
+   "dexx": 1.2e-07,
+   "M": -0.0,
+   "done": true,
+   "path": "jobs/lcm/pba/hse/KVCr_hse_LCM/hse_lcm.out"
+  },
+  "FMfix": {
+   "E_Ry": -576.23289986,
+   "n_bang": 8,
+   "dexx": 6e-08,
+   "M": 6.0,
+   "done": true,
+   "path": "jobs/lcm/pba/hse/KVCr_hse_FMfix/KVCr_hse_FMfix.out"
+  }
+ },
+ "KVMo": {
+  "LCM": {
+   "E_Ry": -539.18140511,
+   "n_bang": 4,
+   "dexx": 0.00102983,
+   "M": -0.0,
+   "done": false,
+   "path": "jobs/lcm/pba/hse/KVMo_hse_LCM/hse_lcm.out"
+  },
+  "FMfix": {
+   "E_Ry": -539.13431865,
+   "n_bang": 8,
+   "dexx": 8e-08,
+   "M": 6.0,
+   "done": true,
+   "path": "jobs/lcm/pba/hse/KVMo_hse_FMfix/KVMo_hse_FMfix.out"
+  }
+ },
+ "t": "2026-10-03 06:31"
+}

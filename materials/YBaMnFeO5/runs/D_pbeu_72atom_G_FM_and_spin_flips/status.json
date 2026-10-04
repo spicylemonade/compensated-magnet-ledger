@@ -1,0 +1,10 @@
+{
+ "job": "lcm/snap/YBMFO110",
+ "state": "done",
+ "cmd": "KNSCF=0.22 python lcm_stage1.py YBMFO110_snap.json",
+ "ncores": 64,
+ "start": 1790932520.5153227,
+ "rc": 0,
+ "end": 1790939766.0172715,
+ "hours": 2.012639430231518
+}

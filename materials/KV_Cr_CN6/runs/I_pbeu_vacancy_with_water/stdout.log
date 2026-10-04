@@ -1,0 +1,35 @@
+17:11:22 relax start nk_irr 4 npool 8
+17:56:42 relax done False -27511.35691680224 -3.0 nscf 4 maxdisp 0.04335362536256466
+Traceback (most recent call last):
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/pba/def/KVCr_VAC_w1/pba_defect.py", line 443, in <module>
+    main(sys.argv[1])
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/pba/def/KVCr_VAC_w1/pba_defect.py", line 424, in main
+    do_scf(c, out, at, mom, U, pref)
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/pba/def/KVCr_VAC_w1/pba_defect.py", line 174, in do_scf
+    r = run_pw(f"{pref}.in", ncores=NC, npool=npool, timeout=SCF_MAXSEC + 3600)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jobs/lcm/pba/def/KVCr_VAC_w1/lib/qeutil.py", line 194, in run_pw
+    r = subprocess.run(cmd, shell=True, timeout=timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2141, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2036, in _wait
+    (pid, sts) = self._try_wait(os.WNOHANG)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2011, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+18:12:29 scf -27511.379685929685 M -3.0 |M| 24.4 conv True iter 21 674
+18:58:18 nscf rc 0 2748 nk 36 npool 16
+18:59:20 projwfc rc 0 62
+18:59:39 KVCr_VAC_w1 E -27511.3797 M -3.000 |M| 24.400 gap 1.424 vbm_s 1 win_VB 2.044 cbm_s 1 win_CB 0.474

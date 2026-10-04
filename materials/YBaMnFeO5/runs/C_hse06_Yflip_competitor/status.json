@@ -1,0 +1,10 @@
+{
+ "job": "lcm/deep/stack_hse_Yflip",
+ "state": "done",
+ "cmd": "python lcm_deep.py YBMFO_stack_hse_Yflip.json hse",
+ "ncores": 64,
+ "start": 1790963203.4366846,
+ "rc": 0,
+ "end": 1790983578.2616856,
+ "hours": 5.659673611389266
+}

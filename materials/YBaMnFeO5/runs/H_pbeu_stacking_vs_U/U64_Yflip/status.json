@@ -1,0 +1,10 @@
+{
+ "job": "lcm/jy/U64_Yflip",
+ "state": "done",
+ "cmd": "ECUT=90 U_MN=6 U_FE=4 TAG=U64 python lcm_single.py ybmfo110_stack.json Yflip",
+ "ncores": 32,
+ "start": 1790927110.2391615,
+ "rc": 0,
+ "end": 1790928392.3786857,
+ "hours": 0.35614986783928343
+}

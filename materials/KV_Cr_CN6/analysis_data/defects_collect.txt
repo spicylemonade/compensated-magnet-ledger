@@ -1,0 +1,142 @@
+== status ==
+  KVCr_AS          done     rc=0 h=1.22 stage=done
+  KVCr_FLIP        done     rc=0 h=1.04 stage=done
+  KVCr_KVAC        done     rc=0 h=0.77 stage=done
+  KVCr_P           done     rc=0 h=0.47 stage=done
+  KVCr_VAC         running  rc=None h=- stage=relax relax: 56 SCF, symops 3, nk 2, M -3.0, |M| 24.4, F 0.010645, dE -990 meV, iters [13, 12, 15, 12, 13], cpu 14470 s
+  KVMo_AS          done     rc=0 h=1.46 stage=done
+  KVMo_FLIP        done     rc=0 h=1.58 stage=done
+  KVMo_KVAC        done     rc=0 h=0.93 stage=done
+  KVMo_KVAC_polM   done     rc=0 h=3.95 stage=done
+  KVMo_KVAC_polV   done     rc=0 h=3.45 stage=done
+  KVMo_P           done     rc=0 h=0.48 stage=done
+  KVMo_VAC         done     rc=0 h=5.45 stage=done
+  refs             done     rc=0 h=0.14 stage=done
+== refs == {'K_bcc': -817.8393593585871, 'H2O': -482.10522809960446}
+
+== KVCr (PBE+U V 3 / Cr 3, 110 Ry, 4 f.u. cells; windows from the 4x4x4 nscf) ==
+  KVCr_AS          M=+0.000 (exp +0) |M|=28.10 gap=1.13 VBM:V-maj CBM:V-maj win(cell) 0.23/0.65 | aligned to P (shift +0.014): opp-spin top -0.13 vs VBM, opp-spin bottom -0.06 vs CBM; win 0.13/-0.06 (6%/-6% of P) | E_f = +0.927 eV
+      relax: conv=True nSCF=19 max_disp=0.838 A E(relax end)-E(scf)=-0.0 meV
+      metals (role m_sphere / m_d): M(N)#4 -2.47/-2.95, V(N)#5 -1.96/-2.67, V(N)#6 -1.96/-2.67, V(N)#7 -1.96/-2.67, M(C)#8 +2.34/+2.96, V(C)#9 +1.77/+2.53, M(C)#10 +2.34/+2.96, M(C)#11 +2.34/+2.96
+      dN_d_V_total vs pristine = +0.247 e/cell
+      dN_d_Cr_total vs pristine = -0.451 e/cell
+      state Cr-maj  E-VBM_host [-0.172, -0.127] E-CBM_host [-2.12, -2.075] occ 1.0 region 0.773 {'C': 0.024, 'N': 0.208, 'V(C)': 0.756} top [[9, 'V', 'V(C)', 0.756], [42, 'N', 'N', 0.048], [43, 'N', 'N', 0.048]]
+      state Cr-maj  E-VBM_host [-0.172, -0.127] E-CBM_host [-2.12, -2.075] occ 1.0 region 0.776 {'C': 0.022, 'N': 0.21, 'V(C)': 0.759} top [[9, 'V', 'V(C)', 0.759], [43, 'N', 'N', 0.041], [42, 'N', 'N', 0.041]]
+      state Cr-maj  E-VBM_host [-0.172, -0.127] E-CBM_host [-2.12, -2.075] occ 1.0 region 0.778 {'C': 0.02, 'N': 0.211, 'V(C)': 0.762} top [[9, 'V', 'V(C)', 0.762], [59, 'N', 'N', 0.05], [58, 'N', 'N', 0.05]]
+      state Cr-maj  E-VBM_host [1.885, 1.927] E-CBM_host [-0.063, -0.022] occ 0.0 region 0.712 {'C': 0.275, 'M(N)': 0.699} top [[4, 'Cr', 'M(N)', 0.699], [16, 'C', 'C', 0.063], [17, 'C', 'C', 0.061]]
+      state Cr-maj  E-VBM_host [1.885, 1.927] E-CBM_host [-0.063, -0.022] occ 0.0 region 0.711 {'C': 0.272, 'M(N)': 0.698} top [[4, 'Cr', 'M(N)', 0.698], [12, 'C', 'C', 0.049], [13, 'C', 'C', 0.048]]
+      state Cr-maj  E-VBM_host [1.885, 1.927] E-CBM_host [-0.063, -0.022] occ 0.0 region 0.707 {'C': 0.271, 'M(N)': 0.694} top [[4, 'Cr', 'M(N)', 0.694], [13, 'C', 'C', 0.061], [12, 'C', 'C', 0.06]]
+      state V-maj   E-VBM_host [-0.09, 0.103] E-CBM_host [-2.038, -1.846] occ 1.0 region 0.086 {'C': 0.173, 'V(N)': 0.807} top [[7, 'V', 'V(N)', 0.324], [5, 'V', 'V(N)', 0.255], [6, 'V', 'V(N)', 0.228]]
+      state V-maj   E-VBM_host [-0.09, 0.103] E-CBM_host [-2.038, -1.846] occ 1.0 region 0.101 {'C': 0.176, 'V(N)': 0.805} top [[6, 'V', 'V(N)', 0.389], [5, 'V', 'V(N)', 0.218], [7, 'V', 'V(N)', 0.198]]
+      state V-maj   E-VBM_host [-0.027, 0.103] E-CBM_host [-1.975, -1.846] occ 1.0 region 0.094 {'C': 0.166, 'V(N)': 0.814} top [[6, 'V', 'V(N)', 0.351], [5, 'V', 'V(N)', 0.338], [7, 'V', 'V(N)', 0.125]]
+      state V-maj   E-VBM_host [1.232, 1.319] E-CBM_host [-0.716, -0.63] occ 0.0 region 0.957 {'M(C)': 0.027, 'M(N)': 0.629, 'N': 0.329} top [[4, 'Cr', 'M(N)', 0.629], [37, 'N', 'N', 0.093], [36, 'N', 'N', 0.093]]
+      state V-maj   E-VBM_host [1.232, 1.319] E-CBM_host [-0.716, -0.63] occ 0.0 region 0.963 {'C': 0.021, 'M(N)': 0.628, 'N': 0.338} top [[4, 'Cr', 'M(N)', 0.628], [41, 'N', 'N', 0.092], [40, 'N', 'N', 0.092]]
+      state V-maj   E-VBM_host [1.862, 2.094] E-CBM_host [-0.087, 0.146] occ 0.0 region 0.155 {'C': 0.148, 'M(C)': 0.516, 'N': 0.308, 'V(N)': 0.024} top [[11, 'Cr', 'M(C)', 0.293], [8, 'Cr', 'M(C)', 0.126], [10, 'Cr', 'M(C)', 0.097]]
+      state V-maj   E-VBM_host [1.862, 2.094] E-CBM_host [-0.087, 0.146] occ 0.0 region 0.154 {'C': 0.143, 'M(C)': 0.521, 'N': 0.306, 'V(N)': 0.025} top [[8, 'Cr', 'M(C)', 0.28], [11, 'Cr', 'M(C)', 0.154], [10, 'Cr', 'M(C)', 0.086]]
+      state V-maj   E-VBM_host [1.862, 2.094] E-CBM_host [-0.087, 0.146] occ 0.0 region 0.131 {'C': 0.139, 'M(C)': 0.517, 'N': 0.303, 'V(N)': 0.037} top [[10, 'Cr', 'M(C)', 0.245], [8, 'Cr', 'M(C)', 0.187], [11, 'Cr', 'M(C)', 0.085]]
+      state V-maj   E-VBM_host [1.881, 2.201] E-CBM_host [-0.068, 0.253] occ 0.0 region 0.121 {'C': 0.136, 'M(C)': 0.534, 'N': 0.306, 'V(N)': 0.022} top [[10, 'Cr', 'M(C)', 0.241], [8, 'Cr', 'M(C)', 0.208], [11, 'Cr', 'M(C)', 0.086]]
+      KILL opposite-spin within 0.3 eV of an edge / in gap: True; KILL window cut > 50 %: True
+  KVCr_FLIP        M=-0.000 (exp +0) |M|=28.24 gap=1.94 VBM:V-maj CBM:V-maj win(cell) 1.99/0.98 | aligned to P (shift +0.000): opp-spin top -1.99 vs VBM, opp-spin bottom +0.97 vs CBM; win 1.99/0.97 (98%/85% of P) | E_f = +0.177 eV
+      relax: conv=True nSCF=6 max_disp=0.034 A E(relax end)-E(scf)=-0.0 meV
+      metals (role m_sphere / m_d): V(N)#4 -2.00/-2.70, V(N)#5 -2.02/-2.71, V(N)#6 -2.02/-2.71, V(N)#7 -2.02/-2.71, M(C)#8 +2.30/+2.93, M(C)#9 +2.28/+2.93, M(C)#10 +2.28/+2.93, M(C)#11 +2.28/+2.93
+      dN_d_V_total vs pristine = +0.023 e/cell
+      dN_d_Cr_total vs pristine = -0.040 e/cell
+      KILL opposite-spin within 0.3 eV of an edge / in gap: False; KILL window cut > 50 %: False
+  KVCr_KVAC        M=+1.000 (exp +1) |M|=27.42 gap=0.00 VBM:V-maj CBM:V-maj win(cell) 2.07/3.01 | aligned to P (shift -0.495): opp-spin top -1.90 vs VBM, opp-spin bottom +1.24 vs CBM; win 1.90/1.24 (94%/108% of P) | E_f = +3.137 eV
+      relax: conv=True nSCF=10 max_disp=0.042 A E(relax end)-E(scf)=-0.0 meV
+      metals (role m_sphere / m_d): V(N)#3 -1.92/-2.54, V(N)#4 -1.92/-2.54, V(N)#5 -1.92/-2.54, V(N)#6 -1.92/-2.54, M(C)#7 +2.33/+2.95, M(C)#8 +2.33/+2.95, M(C)#9 +2.33/+2.95, M(C)#10 +2.33/+2.95
+      partially occupied bands: holes per spin {'V-maj': 1.0}, hole character {'V(N)': 0.816, 'C': 0.156, 'M(C)': 0.001}
+      dN_d_V_total vs pristine = -0.360 e/cell
+      dN_d_Cr_total vs pristine = -0.065 e/cell
+      state V-maj   E-VBM_host [-0.197, 0.169] E-CBM_host [-2.145, -1.779] occ 0.958 region 0.0 {'C': 0.169, 'M(C)': 0.027, 'V(N)': 0.79} top [[6, 'V', 'V(N)', 0.216], [3, 'V', 'V(N)', 0.207], [5, 'V', 'V(N)', 0.184]]
+      state V-maj   E-VBM_host [0.03, 0.182] E-CBM_host [-1.918, -1.767] occ 0.818 region 0.0 {'C': 0.158, 'V(N)': 0.811} top [[5, 'V', 'V(N)', 0.248], [6, 'V', 'V(N)', 0.244], [4, 'V', 'V(N)', 0.188]]
+      state V-maj   E-VBM_host [0.126, 0.182] E-CBM_host [-1.822, -1.767] occ 0.632 region 0.0 {'C': 0.154, 'V(N)': 0.819} top [[4, 'V', 'V(N)', 0.283], [5, 'V', 'V(N)', 0.223], [3, 'V', 'V(N)', 0.186]]
+      state V-maj   E-VBM_host [0.128, 0.182] E-CBM_host [-1.82, -1.767] occ 0.592 region 0.0 {'C': 0.155, 'V(N)': 0.818} top [[3, 'V', 'V(N)', 0.285], [6, 'V', 'V(N)', 0.222], [4, 'V', 'V(N)', 0.157]]
+      KILL opposite-spin within 0.3 eV of an edge / in gap: False; KILL window cut > 50 %: False
+  KVCr_P           M=-0.000 (exp +0) |M|=28.29 gap=1.95 VBM:V-maj CBM:V-maj win(cell) 2.03/1.14 | aligned to P (shift +0.000): opp-spin top -2.03 vs VBM, opp-spin bottom +1.14 vs CBM; win 2.03/1.14 (100%/100% of P)
+      relax: conv=True nSCF=1 max_disp=0.000 A E(relax end)-E(scf)=+0.0 meV
+      metals (role m_sphere / m_d): V(N)#4 -2.02/-2.70, V(N)#5 -2.02/-2.70, V(N)#6 -2.02/-2.70, V(N)#7 -2.02/-2.70, M(C)#8 +2.32/+2.93, M(C)#9 +2.32/+2.93, M(C)#10 +2.32/+2.93, M(C)#11 +2.32/+2.93
+      dN_d_V_total vs pristine = +0.000 e/cell
+      dN_d_Cr_total vs pristine = +0.000 e/cell
+      KILL opposite-spin within 0.3 eV of an edge / in gap: False; KILL window cut > 50 %: False
+  KVCr_VAC         (not done)
+
+== KVMo (PBE+U V 3 / Mo 2, 110 Ry, 4 f.u. cells; windows from the 4x4x4 nscf) ==
+  KVMo_AS          M=-0.000 (exp +0) |M|=26.52 gap=1.15 VBM:V-maj CBM:V-maj win(cell) 0.23/0.36 | aligned to P (shift +0.026): opp-spin top -0.25 vs VBM, opp-spin bottom +0.18 vs CBM; win 0.25/0.18 (26%/10% of P) | E_f = +0.565 eV
+      relax: conv=True nSCF=13 max_disp=0.932 A E(relax end)-E(scf)=-0.0 meV
+      metals (role m_sphere / m_d): M(N)#4 -1.45/-2.43, V(N)#5 -1.95/-2.63, V(N)#6 -1.95/-2.63, V(N)#7 -1.95/-2.63, M(C)#8 +1.40/+2.43, V(C)#9 +1.88/+2.62, M(C)#10 +1.40/+2.43, M(C)#11 +1.40/+2.43
+      dN_d_V_total vs pristine = +0.230 e/cell
+      dN_d_Mo_total vs pristine = -0.340 e/cell
+      state Mo-maj  E-VBM_host [-0.268, -0.25] E-CBM_host [-1.571, -1.553] occ 1.0 region 0.795 {'N': 0.191, 'V(C)': 0.783} top [[9, 'V', 'V(C)', 0.783], [58, 'N', 'N', 0.036], [59, 'N', 'N', 0.036]]
+      state Mo-maj  E-VBM_host [-0.268, -0.25] E-CBM_host [-1.571, -1.553] occ 1.0 region 0.793 {'N': 0.192, 'V(C)': 0.782} top [[9, 'V', 'V(C)', 0.782], [43, 'N', 'N', 0.033], [42, 'N', 'N', 0.033]]
+      state Mo-maj  E-VBM_host [-0.259, -0.25] E-CBM_host [-1.562, -1.553] occ 1.0 region 0.79 {'N': 0.193, 'V(C)': 0.779} top [[9, 'V', 'V(C)', 0.779], [50, 'N', 'N', 0.039], [51, 'N', 'N', 0.039]]
+      state Mo-maj  E-VBM_host [1.482, 1.902] E-CBM_host [0.179, 0.599] occ 0.0 region 0.643 {'C': 0.33, 'M(C)': 0.025, 'M(N)': 0.633} top [[4, 'Mo', 'M(N)', 0.633], [16, 'C', 'C', 0.081], [17, 'C', 'C', 0.08]]
+      state Mo-maj  E-VBM_host [1.482, 1.902] E-CBM_host [0.179, 0.599] occ 0.0 region 0.648 {'C': 0.314, 'M(C)': 0.035, 'M(N)': 0.639} top [[4, 'Mo', 'M(N)', 0.639], [17, 'C', 'C', 0.066], [16, 'C', 'C', 0.065]]
+      state Mo-maj  E-VBM_host [1.482, 1.902] E-CBM_host [0.179, 0.599] occ 0.0 region 0.654 {'C': 0.3, 'M(C)': 0.043, 'M(N)': 0.647} top [[4, 'Mo', 'M(N)', 0.647], [13, 'C', 'C', 0.065], [12, 'C', 'C', 0.064]]
+      state V-maj   E-VBM_host [1.127, 1.435] E-CBM_host [-0.176, 0.132] occ 0.0 region 0.152 {'C': 0.079, 'M(C)': 0.598, 'N': 0.299, 'V(N)': 0.024} top [[10, 'Mo', 'M(C)', 0.391], [11, 'Mo', 'M(C)', 0.139], [8, 'Mo', 'M(C)', 0.068]]
+      state V-maj   E-VBM_host [1.127, 1.435] E-CBM_host [-0.176, 0.132] occ 0.0 region 0.161 {'C': 0.076, 'M(C)': 0.606, 'N': 0.301} top [[11, 'Mo', 'M(C)', 0.313], [8, 'Mo', 'M(C)', 0.153], [10, 'Mo', 'M(C)', 0.14]]
+      state V-maj   E-VBM_host [1.127, 1.435] E-CBM_host [-0.176, 0.132] occ 0.0 region 0.145 {'C': 0.071, 'M(C)': 0.602, 'N': 0.296, 'V(N)': 0.028} top [[10, 'Mo', 'M(C)', 0.243], [8, 'Mo', 'M(C)', 0.189], [11, 'Mo', 'M(C)', 0.171]]
+      state V-maj   E-VBM_host [1.205, 1.645] E-CBM_host [-0.098, 0.342] occ 0.0 region 0.105 {'C': 0.063, 'M(C)': 0.583, 'N': 0.285, 'V(N)': 0.051} top [[8, 'Mo', 'M(C)', 0.303], [11, 'Mo', 'M(C)', 0.185], [10, 'Mo', 'M(C)', 0.095]]
+      state V-maj   E-VBM_host [1.205, 1.645] E-CBM_host [-0.098, 0.342] occ 0.0 region 0.091 {'C': 0.06, 'M(C)': 0.599, 'N': 0.289, 'V(N)': 0.047} top [[8, 'Mo', 'M(C)', 0.325], [11, 'Mo', 'M(C)', 0.15], [10, 'Mo', 'M(C)', 0.125]]
+      state V-maj   E-VBM_host [1.205, 1.645] E-CBM_host [-0.098, 0.342] occ 0.0 region 0.103 {'C': 0.056, 'M(C)': 0.586, 'M(N)': 0.021, 'N': 0.283, 'V(N)': 0.053} top [[8, 'Mo', 'M(C)', 0.307], [11, 'Mo', 'M(C)', 0.168], [10, 'Mo', 'M(C)', 0.111]]
+      state V-maj   E-VBM_host [1.229, 1.715] E-CBM_host [-0.074, 0.412] occ 0.0 region 0.096 {'C': 0.052, 'M(C)': 0.573, 'N': 0.276, 'V(N)': 0.079} top [[11, 'Mo', 'M(C)', 0.273], [8, 'Mo', 'M(C)', 0.179], [10, 'Mo', 'M(C)', 0.121]]
+      KILL opposite-spin within 0.3 eV of an edge / in gap: True; KILL window cut > 50 %: True
+  KVMo_FLIP        M=+0.000 (exp +0) |M|=26.57 gap=1.28 VBM:V-maj CBM:V-maj win(cell) 0.92/1.84 | aligned to P (shift +0.004): opp-spin top -0.91 vs VBM, opp-spin bottom +1.83 vs CBM; win 0.91/1.83 (93%/97% of P) | E_f = +0.182 eV
+      relax: conv=True nSCF=17 max_disp=0.033 A E(relax end)-E(scf)=-0.0 meV
+      metals (role m_sphere / m_d): V(N)#4 -1.92/-2.61, V(N)#5 -1.94/-2.61, V(N)#6 -1.94/-2.61, V(N)#7 -1.94/-2.61, M(C)#8 +1.40/+2.46, M(C)#9 +1.37/+2.45, M(C)#10 +1.37/+2.44, M(C)#11 +1.37/+2.44
+      dN_d_V_total vs pristine = +0.028 e/cell
+      dN_d_Mo_total vs pristine = -0.038 e/cell
+      KILL opposite-spin within 0.3 eV of an edge / in gap: False; KILL window cut > 50 %: False
+  KVMo_KVAC        M=+1.000 (exp +1) |M|=25.88 gap=0.00 VBM:V-maj CBM:V-maj win(cell) 1.07/2.96 | aligned to P (shift -0.475): opp-spin top -0.86 vs VBM, opp-spin bottom +1.87 vs CBM; win 0.86/1.87 (89%/99% of P) | E_f = +3.163 eV
+      relax: conv=True nSCF=12 max_disp=0.042 A E(relax end)-E(scf)=-0.0 meV
+      metals (role m_sphere / m_d): V(N)#3 -1.85/-2.46, V(N)#4 -1.85/-2.46, V(N)#5 -1.85/-2.46, V(N)#6 -1.85/-2.46, M(C)#7 +1.44/+2.49, M(C)#8 +1.44/+2.49, M(C)#9 +1.44/+2.49, M(C)#10 +1.44/+2.49
+      partially occupied bands: holes per spin {'V-maj': 0.999}, hole character {'V(N)': 0.787, 'C': 0.165, 'M(C)': 0.028, 'N': 0.021}
+      dN_d_V_total vs pristine = -0.312 e/cell
+      dN_d_Mo_total vs pristine = -0.100 e/cell
+      state V-maj   E-VBM_host [-0.267, 0.212] E-CBM_host [-1.569, -1.091] occ 0.963 region 0.0 {'C': 0.175, 'M(C)': 0.068, 'N': 0.023, 'V(N)': 0.734} top [[5, 'V', 'V(N)', 0.217], [4, 'V', 'V(N)', 0.216], [6, 'V', 'V(N)', 0.152]]
+      state V-maj   E-VBM_host [0.02, 0.22] E-CBM_host [-1.283, -1.083] occ 0.83 region 0.0 {'C': 0.167, 'M(C)': 0.036, 'N': 0.021, 'V(N)': 0.775} top [[3, 'V', 'V(N)', 0.306], [4, 'V', 'V(N)', 0.181], [6, 'V', 'V(N)', 0.178]]
+      state V-maj   E-VBM_host [0.151, 0.22] E-CBM_host [-1.151, -1.083] occ 0.621 region 0.0 {'C': 0.164, 'M(C)': 0.024, 'N': 0.02, 'V(N)': 0.792} top [[6, 'V', 'V(N)', 0.271], [5, 'V', 'V(N)', 0.199], [3, 'V', 'V(N)', 0.185]]
+      state V-maj   E-VBM_host [0.151, 0.22] E-CBM_host [-1.151, -1.083] occ 0.587 region 0.0 {'C': 0.163, 'M(C)': 0.024, 'N': 0.021, 'V(N)': 0.792} top [[5, 'V', 'V(N)', 0.247], [4, 'V', 'V(N)', 0.241], [6, 'V', 'V(N)', 0.171]]
+      KILL opposite-spin within 0.3 eV of an edge / in gap: False; KILL window cut > 50 %: False
+  KVMo_KVAC_polM   M=-1.000 (exp -1) |M|=24.43 gap=0.01 VBM:V-maj CBM:V-maj win(cell) 0.97/0.56 | aligned to P (shift -0.482): opp-spin top -0.80 vs VBM, opp-spin bottom -0.56 vs CBM; win 0.80/-0.56 (83%/-30% of P) | E_f = +3.897 eV
+      relax: conv=False nSCF=11 max_disp=0.086 A E(relax end)-E(scf)=-117.7 meV
+      metals (role m_sphere / m_d): V(N)#3 -1.85/-2.47, V(N)#4 -1.85/-2.50, V(N)#5 -1.85/-2.47, V(N)#6 -1.85/-2.47, M(C)#7 +0.48/+0.82, M(C)#8 +1.44/+2.50, M(C)#9 +1.44/+2.50, M(C)#10 +1.44/+2.50
+      partially occupied bands: holes per spin {'V-maj': 1.0}, hole character {'V(N)': 0.694, 'C': 0.137, 'M(C)': 0.116, 'N': 0.053}
+      dN_d_V_total vs pristine = -0.279 e/cell
+      dN_d_Mo_total vs pristine = -0.127 e/cell
+      state Mo-maj  E-VBM_host [0.74, 0.801] E-CBM_host [-0.563, -0.501] occ 0.0 region 0.666 {'C': 0.057, 'M(C)': 0.67, 'N': 0.256} top [[7, 'Mo', 'M(C)', 0.666], [51, 'N', 'N', 0.043], [55, 'N', 'N', 0.043]]
+      state V-maj   E-VBM_host [0.019, 0.122] E-CBM_host [-1.284, -1.181] occ 0.973 region 0.0 {'C': 0.173, 'M(C)': 0.032, 'N': 0.022, 'V(N)': 0.772} top [[5, 'V', 'V(N)', 0.384], [4, 'V', 'V(N)', 0.318], [6, 'V', 'V(N)', 0.059]]
+      state V-maj   E-VBM_host [0.063, 0.122] E-CBM_host [-1.24, -1.181] occ 0.953 region 0.001 {'C': 0.179, 'M(C)': 0.031, 'N': 0.025, 'V(N)': 0.765} top [[4, 'V', 'V(N)', 0.568], [5, 'V', 'V(N)', 0.098], [6, 'V', 'V(N)', 0.073]]
+      state V-maj   E-VBM_host [0.075, 0.144] E-CBM_host [-1.228, -1.159] occ 0.918 region 0.016 {'C': 0.168, 'M(C)': 0.034, 'N': 0.025, 'V(N)': 0.773} top [[4, 'V', 'V(N)', 0.272], [6, 'V', 'V(N)', 0.178], [3, 'V', 'V(N)', 0.166]]
+      state V-maj   E-VBM_host [0.107, 0.171] E-CBM_host [-1.196, -1.132] occ 0.853 region 0.019 {'C': 0.166, 'M(C)': 0.029, 'N': 0.024, 'V(N)': 0.782} top [[4, 'V', 'V(N)', 0.239], [6, 'V', 'V(N)', 0.229], [3, 'V', 'V(N)', 0.188]]
+      state V-maj   E-VBM_host [0.16, 0.256] E-CBM_host [-1.143, -1.047] occ 0.303 region 0.129 {'C': 0.123, 'M(C)': 0.153, 'N': 0.065, 'V(N)': 0.659} top [[3, 'V', 'V(N)', 0.347], [6, 'V', 'V(N)', 0.223], [7, 'Mo', 'M(C)', 0.129]]
+      state V-maj   E-VBM_host [0.934, 1.262] E-CBM_host [-0.369, -0.041] occ 0.0 region 0.599 {'C': 0.04, 'M(C)': 0.604, 'N': 0.268, 'V(N)': 0.087} top [[7, 'Mo', 'M(C)', 0.599], [51, 'N', 'N', 0.057], [52, 'N', 'N', 0.053]]
+      state V-maj   E-VBM_host [0.934, 1.262] E-CBM_host [-0.369, -0.041] occ 0.0 region 0.611 {'C': 0.035, 'M(C)': 0.62, 'N': 0.272, 'V(N)': 0.072} top [[7, 'Mo', 'M(C)', 0.611], [36, 'N', 'N', 0.056], [35, 'N', 'N', 0.053]]
+      KILL opposite-spin within 0.3 eV of an edge / in gap: True; KILL window cut > 50 %: True
+  KVMo_KVAC_polV   M=+1.000 (exp +1) |M|=25.67 gap=0.53 VBM:V-maj CBM:V-maj win(cell) 0.93/1.18 | aligned to P (shift -0.503): opp-spin top -0.85 vs VBM, opp-spin bottom +0.49 vs CBM; win 0.85/0.49 (87%/26% of P) | E_f = +2.888 eV
+      relax: conv=False nSCF=42 max_disp=0.732 A E(relax end)-E(scf)=+3.9 meV
+      metals (role m_sphere / m_d): V(N)#3 -1.52/-1.95, V(N)#4 -1.93/-2.59, V(N)#5 -1.93/-2.59, V(N)#6 -1.93/-2.59, M(C)#7 +1.43/+2.49, M(C)#8 +1.39/+2.42, M(C)#9 +1.43/+2.49, M(C)#10 +1.43/+2.49
+      dN_d_V_total vs pristine = -0.327 e/cell
+      dN_d_Mo_total vs pristine = -0.087 e/cell
+      state V-maj   E-VBM_host [-0.035, 0.086] E-CBM_host [-1.338, -1.217] occ 1.0 region 0.0 {'C': 0.171, 'N': 0.02, 'V(N)': 0.791} top [[5, 'V', 'V(N)', 0.358], [6, 'V', 'V(N)', 0.229], [4, 'V', 'V(N)', 0.203]]
+      state V-maj   E-VBM_host [-0.028, 0.086] E-CBM_host [-1.331, -1.217] occ 1.0 region 0.0 {'C': 0.169, 'N': 0.02, 'V(N)': 0.793} top [[4, 'V', 'V(N)', 0.346], [5, 'V', 'V(N)', 0.276], [6, 'V', 'V(N)', 0.17]]
+      state V-maj   E-VBM_host [0.025, 0.087] E-CBM_host [-1.278, -1.216] occ 1.0 region 0.0 {'C': 0.164, 'N': 0.02, 'V(N)': 0.812} top [[4, 'V', 'V(N)', 0.414], [5, 'V', 'V(N)', 0.321], [6, 'V', 'V(N)', 0.077]]
+      state V-maj   E-VBM_host [0.616, 0.755] E-CBM_host [-0.687, -0.548] occ 0.0 region 0.684 {'C': 0.169, 'M(C)': 0.059, 'N': 0.03, 'V(N)': 0.742} top [[3, 'V', 'V(N)', 0.684], [7, 'Mo', 'M(C)', 0.033], [6, 'V', 'V(N)', 0.032]]
+      KILL opposite-spin within 0.3 eV of an edge / in gap: False; KILL window cut > 50 %: True
+  KVMo_P           M=+0.000 (exp +0) |M|=26.59 gap=1.30 VBM:V-maj CBM:V-maj win(cell) 0.97/1.88 | aligned to P (shift +0.000): opp-spin top -0.97 vs VBM, opp-spin bottom +1.88 vs CBM; win 0.97/1.88 (100%/100% of P)
+      relax: conv=True nSCF=1 max_disp=0.000 A E(relax end)-E(scf)=-0.0 meV
+      metals (role m_sphere / m_d): V(N)#4 -1.94/-2.61, V(N)#5 -1.94/-2.61, V(N)#6 -1.94/-2.61, V(N)#7 -1.94/-2.61, M(C)#8 +1.41/+2.45, M(C)#9 +1.41/+2.45, M(C)#10 +1.41/+2.45, M(C)#11 +1.41/+2.45
+      dN_d_V_total vs pristine = +0.000 e/cell
+      dN_d_Mo_total vs pristine = +0.000 e/cell
+      KILL opposite-spin within 0.3 eV of an edge / in gap: False; KILL window cut > 50 %: False
+  KVMo_VAC         M=-3.000 (exp -3) |M|=23.15 gap=1.02 VBM:V-maj CBM:V-maj win(cell) 0.99/1.05 | aligned to P (shift -1.024): opp-spin top -0.91 vs VBM, opp-spin bottom +0.84 vs CBM; win 0.91/0.84 (93%/45% of P) | E(VAC)-E(P)+3muK-6muH2O = +4589.363 eV (+ mu[M(CN)6])
+      relax: conv=False nSCF=64 max_disp=1.173 A E(relax end)-E(scf)=+4.0 meV
+      metals (role m_sphere / m_d): V(N)#1 -2.06/-2.77, V(N)#2 -1.91/-2.59, V(N)#3 -2.06/-2.77, V(N)#4 -2.06/-2.77, M(C)#5 +1.42/+2.47, M(C)#6 +1.42/+2.47, M(C)#7 +1.42/+2.47
+      dN_d_V_total vs pristine = +0.022 e/cell
+      dN_d_Mo_total vs pristine = -0.070 e/cell
+      state V-maj   E-VBM_host [-0.053, 0.054] E-CBM_host [-1.356, -1.249] occ 1.0 region 0.065 {'C': 0.175, 'M(C)': 0.033, 'N': 0.025, 'V(N)': 0.767} top [[2, 'V', 'V(N)', 0.702], [16, 'C', 'C', 0.034], [17, 'C', 'C', 0.028]]
+      state V-maj   E-VBM_host [-0.031, 0.08] E-CBM_host [-1.334, -1.223] occ 1.0 region 0.075 {'C': 0.17, 'M(C)': 0.029, 'N': 0.024, 'V(N)': 0.777} top [[2, 'V', 'V(N)', 0.702], [3, 'V', 'V(N)', 0.038], [13, 'C', 'C', 0.03]]
+      state V-maj   E-VBM_host [0.019, 0.08] E-CBM_host [-1.284, -1.223] occ 1.0 region 0.082 {'C': 0.17, 'M(C)': 0.021, 'N': 0.022, 'V(N)': 0.787} top [[2, 'V', 'V(N)', 0.705], [3, 'V', 'V(N)', 0.056], [14, 'C', 'C', 0.032]]
+      state V-maj   E-VBM_host [1.1, 1.643] E-CBM_host [-0.203, 0.34] occ 0.0 region 0.083 {'C': 0.088, 'H_w': 0.032, 'M(C)': 0.556, 'N': 0.272, 'V(N)': 0.04} top [[5, 'Mo', 'M(C)', 0.318], [6, 'Mo', 'M(C)', 0.182], [7, 'Mo', 'M(C)', 0.056]]
+      KILL opposite-spin within 0.3 eV of an edge / in gap: False; KILL window cut > 50 %: True
+  K-vacancy variants (E - min, meV): KVAC 275 (M +1.00), KVAC_polM 1010 (M -1.00), KVAC_polV 0 (M +1.00)

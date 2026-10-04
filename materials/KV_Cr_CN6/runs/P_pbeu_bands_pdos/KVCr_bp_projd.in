@@ -1,0 +1,10 @@
+&PROJWFC
+ prefix='KVCr_bp'
+ outdir='/tmp/scratch/KVCr_bp'
+ filpdos='/tmp/scratch/pd/KVCr_bp'
+ ngauss=0
+ degauss=0.004
+ DeltaE=0.01
+ Emin=-6.616
+ Emax=10.384
+/

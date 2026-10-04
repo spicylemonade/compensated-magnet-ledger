@@ -1,0 +1,35 @@
+{
+ "YBMFO_P4n": {
+  "E_hull_meV_atom": 2.6,
+  "decomposition_atom_fractions": {
+   "MnO": 0.1667,
+   "Y2O3": 0.1389,
+   "Mn(FeO2)2": 0.1944,
+   "Ba2YFeO5": 0.5
+  },
+  "E_target": -1167.3871491862976,
+  "P_kbar": 0.06
+ },
+ "YBaMnFeO5_rs": {
+  "E_hull_meV_atom": 2.6,
+  "decomposition_atom_fractions": {
+   "MnO": 0.1667,
+   "Y2O3": 0.1389,
+   "Mn(FeO2)2": 0.1944,
+   "Ba2YFeO5": 0.5
+  },
+  "E_target": -1167.3871471756784,
+  "P_kbar": 0.09
+ },
+ "YBMFO_P4": {
+  "E_hull_meV_atom": 2.6,
+  "decomposition_atom_fractions": {
+   "MnO": 0.1667,
+   "Y2O3": 0.1389,
+   "Mn(FeO2)2": 0.1944,
+   "Ba2YFeO5": 0.5
+  },
+  "E_target": -1167.387143320732,
+  "P_kbar": -0.14
+ }
+}

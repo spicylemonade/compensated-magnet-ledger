@@ -1,0 +1,259 @@
+{
+ "gate": "PBA taut: electronic competitors (charge-transfer tautomers, spin states, K variants) of the d3/d3 LCM",
+ "readme": "tracks/lcm/pba/taut/README.md",
+ "collect": "python tracks/lcm/pba/taut/collect.py --fetch",
+ "jobs": [
+  {
+   "job": "lcm/pba/taut/KVMo_Kvar",
+   "fn": "run_cpu64",
+   "cmd": "NPOOL=8 python kvar.py KVMo_Kvar.json",
+   "call_id": "fc-01M41B4RWB8NYTHH64GKRH6PJM",
+   "t_submit": "2026-10-03 09:56:47",
+   "script_md5": "416117e0cfb334a3a5d68c278217a513",
+   "result": "jobs/lcm/pba/taut/KVMo_Kvar/results/KVMo_Kvar.json"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_Kvar",
+   "fn": "run_cpu64",
+   "cmd": "NPOOL=8 python kvar.py KVCr_Kvar.json",
+   "call_id": "fc-01M41B4S9NV4VP72AXSH8QMRRT",
+   "t_submit": "2026-10-03 09:56:48",
+   "script_md5": "416117e0cfb334a3a5d68c278217a513",
+   "result": "jobs/lcm/pba/taut/KVCr_Kvar/results/KVCr_Kvar.json"
+  },
+  {
+   "job": "lcm/pba/taut/KVMo_U3_2_CT",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVMo_U3_2_CT.json",
+   "call_id": "fc-01M41CPSQD53E2E45KTP2SRPPZ",
+   "t_submit": "2026-10-03 10:24:07",
+   "script_md5": "a389f8b6ce9585af036176f4f12a77e2",
+   "result": "jobs/lcm/pba/taut/KVMo_U3_2_CT/results/KVMo_U3_2_CT.json"
+  },
+  {
+   "job": "lcm/pba/taut/KVMo_U3_2_LS",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVMo_U3_2_LS.json",
+   "call_id": "fc-01M41CPT8ZW6W2CZRK822BDCEF",
+   "t_submit": "2026-10-03 10:24:07",
+   "script_md5": "a389f8b6ce9585af036176f4f12a77e2",
+   "result": "jobs/lcm/pba/taut/KVMo_U3_2_LS/results/KVMo_U3_2_LS.json"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U3_3_CT",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVCr_U3_3_CT.json",
+   "call_id": "fc-01M41CPTTM270FNG5V8GP7FG3K",
+   "t_submit": "2026-10-03 10:24:08",
+   "script_md5": "a389f8b6ce9585af036176f4f12a77e2",
+   "result": "jobs/lcm/pba/taut/KVCr_U3_3_CT/results/KVCr_U3_3_CT.json"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U3_3_LS",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVCr_U3_3_LS.json",
+   "call_id": "fc-01M41CPV985WNRG8C6SWT65B1S",
+   "t_submit": "2026-10-03 10:24:08",
+   "script_md5": "a389f8b6ce9585af036176f4f12a77e2",
+   "result": "jobs/lcm/pba/taut/KVCr_U3_3_LS/results/KVCr_U3_3_LS.json"
+  },
+  {
+   "job": "lcm/pba/taut/KVMo_U4_0",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVMo_U4_0.json",
+   "call_id": "fc-01M41CPVWP7VKN9FGJK2RYWVZF",
+   "t_submit": "2026-10-03 10:24:09",
+   "script_md5": "a389f8b6ce9585af036176f4f12a77e2",
+   "result": "jobs/lcm/pba/taut/KVMo_U4_0/results/KVMo_U4_0.json"
+  },
+  {
+   "job": "lcm/pba/taut/KVMo_U2_0",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVMo_U2_0.json",
+   "call_id": "fc-01M41CPWABMKDFD53KFDCXBMKB",
+   "t_submit": "2026-10-03 10:24:09",
+   "script_md5": "a389f8b6ce9585af036176f4f12a77e2",
+   "result": "jobs/lcm/pba/taut/KVMo_U2_0/results/KVMo_U2_0.json"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U4_2",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVCr_U4_2.json",
+   "call_id": "fc-01M41CPWS2S5DCMJ43F8K39604",
+   "t_submit": "2026-10-03 10:24:10",
+   "script_md5": "a389f8b6ce9585af036176f4f12a77e2",
+   "result": "jobs/lcm/pba/taut/KVCr_U4_2/results/KVCr_U4_2.json"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U2_2",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVCr_U2_2.json",
+   "call_id": "fc-01M41CPX79F4R26SEX02PWCVXN",
+   "t_submit": "2026-10-03 10:24:10",
+   "script_md5": "a389f8b6ce9585af036176f4f12a77e2",
+   "result": "jobs/lcm/pba/taut/KVCr_U2_2/results/KVCr_U2_2.json"
+  }
+ ],
+ "updated": "2026-10-03 10:24",
+ "scripts": {
+  "taut_v1.py": "bbfc1d36f85e92654062fb54e6da2158",
+  "taut.py": "a389f8b6ce9585af036176f4f12a77e2",
+  "smoke_hse_restart.py": "e82d9ab5920ccdf13b961c45c9155870",
+  "kvar.py": "416117e0cfb334a3a5d68c278217a513"
+ },
+ "terminated": [
+  {
+   "job": "lcm/pba/taut/KVMo_U3_2_CT",
+   "call_id": "fc-01M41B4MX5FG8YJ7DTCBER8R6V",
+   "t_submit": "2026-10-03 09:56:43",
+   "terminated": "2026-10-03 10:12:04 via FunctionCall.cancel(terminate_containers=True)",
+   "reason": "taut.py v1 (md5 bbfc1d36) mapped starting_ns_eigenvalue index m to real harmonic m; QE 7.5 applies it to the iteration-1 ns in ascending-eigenvalue order, so the v1 kicks were wrong (CT_AF kick occupied one eg + one t2g on V). Results JSON kept; LCM, CT_AF_free and FM6 runs are reused by v2 (same job dir).",
+   "status": "cancelled"
+  },
+  {
+   "job": "lcm/pba/taut/KVMo_U3_2_LS",
+   "call_id": "fc-01M41B4NFBD12GX3CGG3KK47CR",
+   "t_submit": "2026-10-03 09:56:44",
+   "terminated": "2026-10-03 10:12:04 via FunctionCall.cancel(terminate_containers=True)",
+   "reason": "taut.py v1 (md5 bbfc1d36) mapped starting_ns_eigenvalue index m to real harmonic m; QE 7.5 applies it to the iteration-1 ns in ascending-eigenvalue order, so the v1 kicks were wrong (CT_AF kick occupied one eg + one t2g on V). Results JSON kept; LCM, CT_AF_free and FM6 runs are reused by v2 (same job dir).",
+   "status": "cancelled"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U3_3_CT",
+   "call_id": "fc-01M41B4P63DCW1PRN2R64YZE3Y",
+   "t_submit": "2026-10-03 09:56:45",
+   "terminated": "2026-10-03 10:12:04 via FunctionCall.cancel(terminate_containers=True)",
+   "reason": "taut.py v1 (md5 bbfc1d36) mapped starting_ns_eigenvalue index m to real harmonic m; QE 7.5 applies it to the iteration-1 ns in ascending-eigenvalue order, so the v1 kicks were wrong (CT_AF kick occupied one eg + one t2g on V). Results JSON kept; LCM, CT_AF_free and FM6 runs are reused by v2 (same job dir).",
+   "status": "cancelled"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U3_3_LS",
+   "call_id": "fc-01M41B4PMRFV6EWNSAB1SYZ4JC",
+   "t_submit": "2026-10-03 09:56:45",
+   "terminated": "2026-10-03 10:12:04 via FunctionCall.cancel(terminate_containers=True)",
+   "reason": "taut.py v1 (md5 bbfc1d36) mapped starting_ns_eigenvalue index m to real harmonic m; QE 7.5 applies it to the iteration-1 ns in ascending-eigenvalue order, so the v1 kicks were wrong (CT_AF kick occupied one eg + one t2g on V). Results JSON kept; LCM, CT_AF_free and FM6 runs are reused by v2 (same job dir).",
+   "status": "cancelled"
+  },
+  {
+   "job": "lcm/pba/taut/KVMo_U4_0",
+   "call_id": "fc-01M41B4Q313RK49Z4RTYG25YN3",
+   "t_submit": "2026-10-03 09:56:45",
+   "terminated": "2026-10-03 10:12:05 via FunctionCall.cancel(terminate_containers=True)",
+   "reason": "taut.py v1 (md5 bbfc1d36) mapped starting_ns_eigenvalue index m to real harmonic m; QE 7.5 applies it to the iteration-1 ns in ascending-eigenvalue order, so the v1 kicks were wrong (CT_AF kick occupied one eg + one t2g on V). Results JSON kept; LCM, CT_AF_free and FM6 runs are reused by v2 (same job dir).",
+   "status": "cancelled"
+  },
+  {
+   "job": "lcm/pba/taut/KVMo_U2_0",
+   "call_id": "fc-01M41B4QJMM8897TSA1P30WAZ1",
+   "t_submit": "2026-10-03 09:56:46",
+   "terminated": "2026-10-03 10:12:05 via FunctionCall.cancel(terminate_containers=True)",
+   "reason": "taut.py v1 (md5 bbfc1d36) mapped starting_ns_eigenvalue index m to real harmonic m; QE 7.5 applies it to the iteration-1 ns in ascending-eigenvalue order, so the v1 kicks were wrong (CT_AF kick occupied one eg + one t2g on V). Results JSON kept; LCM, CT_AF_free and FM6 runs are reused by v2 (same job dir).",
+   "status": "cancelled"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U4_2",
+   "call_id": "fc-01M41B4R0DNTSXP8WPHS3T4BGW",
+   "t_submit": "2026-10-03 09:56:46",
+   "terminated": "2026-10-03 10:12:05 via FunctionCall.cancel(terminate_containers=True)",
+   "reason": "taut.py v1 (md5 bbfc1d36) mapped starting_ns_eigenvalue index m to real harmonic m; QE 7.5 applies it to the iteration-1 ns in ascending-eigenvalue order, so the v1 kicks were wrong (CT_AF kick occupied one eg + one t2g on V). Results JSON kept; LCM, CT_AF_free and FM6 runs are reused by v2 (same job dir).",
+   "status": "cancelled"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U2_2",
+   "call_id": "fc-01M41B4REC9PBAN01KQV41NMCP",
+   "t_submit": "2026-10-03 09:56:47",
+   "terminated": "2026-10-03 10:12:05 via FunctionCall.cancel(terminate_containers=True)",
+   "reason": "taut.py v1 (md5 bbfc1d36) mapped starting_ns_eigenvalue index m to real harmonic m; QE 7.5 applies it to the iteration-1 ns in ascending-eigenvalue order, so the v1 kicks were wrong (CT_AF kick occupied one eg + one t2g on V). Results JSON kept; LCM, CT_AF_free and FM6 runs are reused by v2 (same job dir).",
+   "status": "cancelled"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U2_2",
+   "call_id": "fc-01M41C1267AN538QFCXE1KHPSE",
+   "t_submit": "2026-10-03 10:12:14",
+   "terminated": "2026-10-03 10:13:26 via FunctionCall.cancel(terminate_containers=True)",
+   "reason": "v2 job had loaded a stale v1 relax record ('done', no candidates) written while the v1 container was being killed; taut.py now drops relax/hse records without libver 2. Resubmitted under the same job name (v2 LCM/FM6 runs reused)."
+  }
+ ],
+ "superseded": [
+  {
+   "job": "lcm/pba/taut/KVMo_U3_2_CT",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVMo_U3_2_CT.json",
+   "call_id": "fc-01M41C0YTJYNGNMMDKY9Q7YNXG",
+   "t_submit": "2026-10-03 10:12:11",
+   "script_md5": "956b037698a3cac183f57f61df868363",
+   "result": "jobs/lcm/pba/taut/KVMo_U3_2_CT/results/KVMo_U3_2_CT.json",
+   "outcome": "v2 crashed at the first kicked start (iter1_ns parsed the 'SPIN UP' band header; ValueError) after ~1 min; vertical LCM/FM6 runs kept; resubmitted ~10:25 with the parser fix (v3)"
+  },
+  {
+   "job": "lcm/pba/taut/KVMo_U3_2_LS",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVMo_U3_2_LS.json",
+   "call_id": "fc-01M41C0ZBMSCEB0ZA0CJ4W8JWR",
+   "t_submit": "2026-10-03 10:12:11",
+   "script_md5": "956b037698a3cac183f57f61df868363",
+   "result": "jobs/lcm/pba/taut/KVMo_U3_2_LS/results/KVMo_U3_2_LS.json",
+   "outcome": "v2 crashed at the first kicked start (iter1_ns parsed the 'SPIN UP' band header; ValueError) after ~1 min; vertical LCM/FM6 runs kept; resubmitted ~10:25 with the parser fix (v3)"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U3_3_CT",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVCr_U3_3_CT.json",
+   "call_id": "fc-01M41C0ZVFX9N0RF0EZSFX911S",
+   "t_submit": "2026-10-03 10:12:12",
+   "script_md5": "956b037698a3cac183f57f61df868363",
+   "result": "jobs/lcm/pba/taut/KVCr_U3_3_CT/results/KVCr_U3_3_CT.json",
+   "outcome": "v2 crashed at the first kicked start (iter1_ns parsed the 'SPIN UP' band header; ValueError) after ~1 min; vertical LCM/FM6 runs kept; resubmitted ~10:25 with the parser fix (v3)"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U3_3_LS",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVCr_U3_3_LS.json",
+   "call_id": "fc-01M41C10A8MB7GPE2WVBDJSY0W",
+   "t_submit": "2026-10-03 10:12:12",
+   "script_md5": "956b037698a3cac183f57f61df868363",
+   "result": "jobs/lcm/pba/taut/KVCr_U3_3_LS/results/KVCr_U3_3_LS.json",
+   "outcome": "v2 crashed at the first kicked start (iter1_ns parsed the 'SPIN UP' band header; ValueError) after ~1 min; vertical LCM/FM6 runs kept; resubmitted ~10:25 with the parser fix (v3)"
+  },
+  {
+   "job": "lcm/pba/taut/KVMo_U4_0",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVMo_U4_0.json",
+   "call_id": "fc-01M41C10T0QABGMC5X4PYHDWQ9",
+   "t_submit": "2026-10-03 10:12:13",
+   "script_md5": "956b037698a3cac183f57f61df868363",
+   "result": "jobs/lcm/pba/taut/KVMo_U4_0/results/KVMo_U4_0.json",
+   "outcome": "v2 crashed at the first kicked start (iter1_ns parsed the 'SPIN UP' band header; ValueError) after ~1 min; vertical LCM/FM6 runs kept; resubmitted ~10:25 with the parser fix (v3)"
+  },
+  {
+   "job": "lcm/pba/taut/KVMo_U2_0",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVMo_U2_0.json",
+   "call_id": "fc-01M41C11925Z5KKZ3Y3VJM4651",
+   "t_submit": "2026-10-03 10:12:13",
+   "script_md5": "956b037698a3cac183f57f61df868363",
+   "result": "jobs/lcm/pba/taut/KVMo_U2_0/results/KVMo_U2_0.json",
+   "outcome": "v2 crashed at the first kicked start (iter1_ns parsed the 'SPIN UP' band header; ValueError) after ~1 min; vertical LCM/FM6 runs kept; resubmitted ~10:25 with the parser fix (v3)"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U4_2",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVCr_U4_2.json",
+   "call_id": "fc-01M41C11QGA55V9EMTED7B0YEQ",
+   "t_submit": "2026-10-03 10:12:14",
+   "script_md5": "956b037698a3cac183f57f61df868363",
+   "result": "jobs/lcm/pba/taut/KVCr_U4_2/results/KVCr_U4_2.json",
+   "outcome": "v2 crashed at the first kicked start (iter1_ns parsed the 'SPIN UP' band header; ValueError) after ~1 min; vertical LCM/FM6 runs kept; resubmitted ~10:25 with the parser fix (v3)"
+  },
+  {
+   "job": "lcm/pba/taut/KVCr_U2_2",
+   "fn": "run_cpu64",
+   "cmd": "python taut.py KVCr_U2_2.json",
+   "call_id": "fc-01M41C3900WPSZGPDCGY01DJ9D",
+   "t_submit": "2026-10-03 10:13:27",
+   "script_md5": "81f6fe69d652f60f245246cfcaeb83ac",
+   "result": "jobs/lcm/pba/taut/KVCr_U2_2/results/KVCr_U2_2.json",
+   "outcome": "v2 crashed at the first kicked start (iter1_ns parsed the 'SPIN UP' band header; ValueError) after ~1 min; vertical LCM/FM6 runs kept; resubmitted ~10:25 with the parser fix (v3)"
+  }
+ ]
+}

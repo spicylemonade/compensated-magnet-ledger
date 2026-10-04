@@ -1,0 +1,864 @@
+{
+ "KVCr_VAC_r": {
+  "id": "KVCr_VAC_r",
+  "defect": "VAC",
+  "E_eV": -27029.16032728966,
+  "M": -3.0,
+  "absM": 24.4,
+  "M_expected": -3.0,
+  "gap": 1.4282798138126158,
+  "vbm": "V-maj",
+  "cbm": "V-maj",
+  "win_VB_cell": 2.0652881863251764,
+  "win_CB_cell": 0.454260719033877,
+  "sv": 1,
+  "relax": {
+   "bfgs_converged": null,
+   "n_scf": null,
+   "max_disp_A": null,
+   "stopped_unconverged": null,
+   "total_force": null
+  },
+  "E_relax_vs_scf_meV": null,
+  "metal_moments": [
+   {
+    "i": 1,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.1093,
+    "m_d": -2.8229
+   },
+   {
+    "i": 2,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0005,
+    "m_d": -2.6986
+   },
+   {
+    "i": 3,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.1093,
+    "m_d": -2.8229
+   },
+   {
+    "i": 4,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.1093,
+    "m_d": -2.8229
+   },
+   {
+    "i": 5,
+    "el": "Cr",
+    "role": "M(C)",
+    "m_sphere": 2.3195,
+    "m_d": 2.9464
+   },
+   {
+    "i": 6,
+    "el": "Cr",
+    "role": "M(C)",
+    "m_sphere": 2.3195,
+    "m_d": 2.9464
+   },
+   {
+    "i": 7,
+    "el": "Cr",
+    "role": "M(C)",
+    "m_sphere": 2.3195,
+    "m_d": 2.9464
+   }
+  ],
+  "host": {
+   "VBM": 1.3812137589681028,
+   "CBM": 3.329605831026037,
+   "gap": 1.948392072057934,
+   "win_VB": 2.026495295826943,
+   "win_CB": 1.1442142766555707
+  },
+  "align_shift_eV": -0.9513480583206793,
+  "align_shift_K3p_eV": -0.6318364593520283,
+  "opp_top_rel_hostVBM": -1.925633482722309,
+  "opp_bot_rel_hostCBM": 0.07380316439142609,
+  "same_top_rel_hostVBM": 0.13965470360286725,
+  "same_bot_rel_hostCBM": -0.3804575546424509,
+  "win_VB_aligned": 1.925633482722309,
+  "win_CB_aligned": 0.07380316439142609,
+  "near_gap_states": [
+   {
+    "spin": "Cr-maj",
+    "E_rel_hostVBM": [
+     2.022,
+     2.259
+    ],
+    "E_rel_hostCBM": [
+     0.074,
+     0.311
+    ],
+    "occ": 0.0,
+    "groups": {
+     "H_w": 0.669,
+     "O_w": 0.219,
+     "V(N)": 0.06
+    },
+    "region": 0.948,
+    "top_atoms": [
+     [
+      51,
+      "H",
+      "H_w",
+      0.079
+     ],
+     [
+      49,
+      "H",
+      "H_w",
+      0.079
+     ],
+     [
+      58,
+      "H",
+      "H_w",
+      0.078
+     ]
+    ]
+   },
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     0.037,
+     0.106
+    ],
+    "E_rel_hostCBM": [
+     -1.911,
+     -1.842
+    ],
+    "occ": 1.0,
+    "groups": {
+     "C": 0.165,
+     "N": 0.021,
+     "V(N)": 0.798
+    },
+    "region": 0.037,
+    "top_atoms": [
+     [
+      2,
+      "V",
+      "V(N)",
+      0.761
+     ],
+     [
+      13,
+      "C",
+      "C",
+      0.028
+     ],
+     [
+      16,
+      "C",
+      "C",
+      0.028
+     ]
+    ]
+   },
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     0.065,
+     0.14
+    ],
+    "E_rel_hostCBM": [
+     -1.884,
+     -1.809
+    ],
+    "occ": 1.0,
+    "groups": {
+     "C": 0.161,
+     "V(N)": 0.803
+    },
+    "region": 0.04,
+    "top_atoms": [
+     [
+      2,
+      "V",
+      "V(N)",
+      0.764
+     ],
+     [
+      13,
+      "C",
+      "C",
+      0.031
+     ],
+     [
+      14,
+      "C",
+      "C",
+      0.028
+     ]
+    ]
+   },
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     0.086,
+     0.14
+    ],
+    "E_rel_hostCBM": [
+     -1.862,
+     -1.809
+    ],
+    "occ": 1.0,
+    "groups": {
+     "C": 0.162,
+     "V(N)": 0.808
+    },
+    "region": 0.032,
+    "top_atoms": [
+     [
+      2,
+      "V",
+      "V(N)",
+      0.776
+     ],
+     [
+      16,
+      "C",
+      "C",
+      0.033
+     ],
+     [
+      14,
+      "C",
+      "C",
+      0.028
+     ]
+    ]
+   },
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     1.568,
+     1.988
+    ],
+    "E_rel_hostCBM": [
+     -0.38,
+     0.04
+    ],
+    "occ": 0.0,
+    "groups": {
+     "C": 0.12,
+     "H_w": 0.267,
+     "M(C)": 0.286,
+     "N": 0.181,
+     "O_w": 0.09,
+     "V(N)": 0.051
+    },
+    "region": 0.407,
+    "top_atoms": [
+     [
+      5,
+      "Cr",
+      "M(C)",
+      0.14
+     ],
+     [
+      6,
+      "Cr",
+      "M(C)",
+      0.106
+     ],
+     [
+      7,
+      "Cr",
+      "M(C)",
+      0.04
+     ]
+    ]
+   }
+  ],
+  "kill_opp_near_edge": true,
+  "win_ratio_VB": 0.9502284494257975,
+  "win_ratio_CB": 0.06450117420938471,
+  "win_ratio_VB_cell": 1.0191428475447821,
+  "win_ratio_CB_cell": 0.39700668686081925,
+  "kill_window_cut": true,
+  "E_form_open_eV": 5099.571486631368,
+  "E_form_def": "E(VAC) - E(P) + 3 mu_K(bcc) - 6 mu_H2O(gas); add mu[M(CN)6] (undefined here) for E_f",
+  "dN_d_V_total": 0.010389999999999233,
+  "dN_d_Cr_total": -0.04814250000000264,
+  "capped_V": [
+   {
+    "i": 1,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.1093,
+    "m_d": -2.8229
+   },
+   {
+    "i": 3,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.1093,
+    "m_d": -2.8229
+   },
+   {
+    "i": 4,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.1093,
+    "m_d": -2.8229
+   }
+  ],
+  "bulk_V": [
+   {
+    "i": 2,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0005,
+    "m_d": -2.6986
+   }
+  ]
+ },
+ "KVMo_VAC": {
+  "id": "KVMo_VAC",
+  "defect": "VAC",
+  "E_eV": -25499.3637620283,
+  "M": -3.0,
+  "absM": 23.15,
+  "M_expected": -3.0,
+  "gap": 1.0200820047626777,
+  "vbm": "V-maj",
+  "cbm": "V-maj",
+  "win_VB_cell": 0.9873074998770048,
+  "win_CB_cell": 1.0462382122293836,
+  "sv": 1,
+  "relax": {
+   "bfgs_converged": false,
+   "n_scf": 64,
+   "max_disp_A": 1.172755288948058,
+   "stopped_unconverged": true,
+   "total_force": 0.012732
+  },
+  "E_relax_vs_scf_meV": 4.032319266116247,
+  "metal_moments": [
+   {
+    "i": 1,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0604,
+    "m_d": -2.7692
+   },
+   {
+    "i": 2,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -1.9142,
+    "m_d": -2.5903
+   },
+   {
+    "i": 3,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0604,
+    "m_d": -2.7692
+   },
+   {
+    "i": 4,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0604,
+    "m_d": -2.7692
+   },
+   {
+    "i": 5,
+    "el": "Mo",
+    "role": "M(C)",
+    "m_sphere": 1.4177,
+    "m_d": 2.4708
+   },
+   {
+    "i": 6,
+    "el": "Mo",
+    "role": "M(C)",
+    "m_sphere": 1.4177,
+    "m_d": 2.4708
+   },
+   {
+    "i": 7,
+    "el": "Mo",
+    "role": "M(C)",
+    "m_sphere": 1.4177,
+    "m_d": 2.4708
+   }
+  ],
+  "host": {
+   "VBM": 1.3696126723893485,
+   "CBM": 2.6725556912583808,
+   "gap": 1.3029430188690323,
+   "win_VB": 0.9699942599910549,
+   "win_CB": 1.8835591292934706
+  },
+  "align_shift_eV": -1.0238354703952979,
+  "align_shift_K3p_eV": -0.6297777737621484,
+  "opp_top_rel_hostVBM": -0.9069304420365317,
+  "opp_bot_rel_hostCBM": 0.8437542559635021,
+  "same_top_rel_hostVBM": 0.080377057840473,
+  "same_bot_rel_hostCBM": -0.20248395626588156,
+  "win_VB_aligned": 0.9069304420365317,
+  "win_CB_aligned": 0.8437542559635021,
+  "near_gap_states": [
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     -0.053,
+     0.054
+    ],
+    "E_rel_hostCBM": [
+     -1.356,
+     -1.249
+    ],
+    "occ": 1.0,
+    "groups": {
+     "C": 0.175,
+     "M(C)": 0.033,
+     "N": 0.025,
+     "V(N)": 0.767
+    },
+    "region": 0.065,
+    "top_atoms": [
+     [
+      2,
+      "V",
+      "V(N)",
+      0.702
+     ],
+     [
+      16,
+      "C",
+      "C",
+      0.034
+     ],
+     [
+      17,
+      "C",
+      "C",
+      0.028
+     ]
+    ]
+   },
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     -0.031,
+     0.08
+    ],
+    "E_rel_hostCBM": [
+     -1.334,
+     -1.223
+    ],
+    "occ": 1.0,
+    "groups": {
+     "C": 0.17,
+     "M(C)": 0.029,
+     "N": 0.024,
+     "V(N)": 0.777
+    },
+    "region": 0.075,
+    "top_atoms": [
+     [
+      2,
+      "V",
+      "V(N)",
+      0.702
+     ],
+     [
+      3,
+      "V",
+      "V(N)",
+      0.038
+     ],
+     [
+      13,
+      "C",
+      "C",
+      0.03
+     ]
+    ]
+   },
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     0.019,
+     0.08
+    ],
+    "E_rel_hostCBM": [
+     -1.284,
+     -1.223
+    ],
+    "occ": 1.0,
+    "groups": {
+     "C": 0.17,
+     "M(C)": 0.021,
+     "N": 0.022,
+     "V(N)": 0.787
+    },
+    "region": 0.082,
+    "top_atoms": [
+     [
+      2,
+      "V",
+      "V(N)",
+      0.705
+     ],
+     [
+      3,
+      "V",
+      "V(N)",
+      0.056
+     ],
+     [
+      14,
+      "C",
+      "C",
+      0.032
+     ]
+    ]
+   },
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     1.1,
+     1.643
+    ],
+    "E_rel_hostCBM": [
+     -0.203,
+     0.34
+    ],
+    "occ": 0.0,
+    "groups": {
+     "C": 0.088,
+     "H_w": 0.032,
+     "M(C)": 0.556,
+     "N": 0.272,
+     "V(N)": 0.04
+    },
+    "region": 0.083,
+    "top_atoms": [
+     [
+      5,
+      "Mo",
+      "M(C)",
+      0.318
+     ],
+     [
+      6,
+      "Mo",
+      "M(C)",
+      0.182
+     ],
+     [
+      7,
+      "Mo",
+      "M(C)",
+      0.056
+     ]
+    ]
+   }
+  ],
+  "kill_opp_near_edge": false,
+  "win_ratio_VB": 0.9349853699597102,
+  "win_ratio_CB": 0.44795740300438414,
+  "win_ratio_VB_cell": 1.0178488065342877,
+  "win_ratio_CB_cell": 0.5554581196619143,
+  "kill_window_cut": true,
+  "E_form_open_eV": 4589.362599774104,
+  "E_form_def": "E(VAC) - E(P) + 3 mu_K(bcc) - 6 mu_H2O(gas); add mu[M(CN)6] (undefined here) for E_f",
+  "dN_d_V_total": 0.022039999999998727,
+  "dN_d_Mo_total": -0.06996000000000002,
+  "capped_V": [
+   {
+    "i": 1,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0604,
+    "m_d": -2.7692
+   },
+   {
+    "i": 3,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0604,
+    "m_d": -2.7692
+   },
+   {
+    "i": 4,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0604,
+    "m_d": -2.7692
+   }
+  ],
+  "bulk_V": [
+   {
+    "i": 2,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -1.9142,
+    "m_d": -2.5903
+   }
+  ]
+ },
+ "KVMo_VAC_r": {
+  "id": "KVMo_VAC_r",
+  "defect": "VAC",
+  "E_eV": -25499.33044631178,
+  "M": -3.0,
+  "absM": 23.16,
+  "M_expected": -3.0,
+  "gap": 1.0446346466280916,
+  "vbm": "V-maj",
+  "cbm": "V-maj",
+  "win_VB_cell": 0.9775069882747072,
+  "win_CB_cell": 1.0832904220200938,
+  "sv": 1,
+  "relax": {
+   "bfgs_converged": null,
+   "n_scf": null,
+   "max_disp_A": null,
+   "stopped_unconverged": null,
+   "total_force": null
+  },
+  "E_relax_vs_scf_meV": null,
+  "metal_moments": [
+   {
+    "i": 1,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0575,
+    "m_d": -2.7688
+   },
+   {
+    "i": 2,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -1.9147,
+    "m_d": -2.5949
+   },
+   {
+    "i": 3,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0575,
+    "m_d": -2.7688
+   },
+   {
+    "i": 4,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0575,
+    "m_d": -2.7688
+   },
+   {
+    "i": 5,
+    "el": "Mo",
+    "role": "M(C)",
+    "m_sphere": 1.4188,
+    "m_d": 2.4739
+   },
+   {
+    "i": 6,
+    "el": "Mo",
+    "role": "M(C)",
+    "m_sphere": 1.4188,
+    "m_d": 2.4739
+   },
+   {
+    "i": 7,
+    "el": "Mo",
+    "role": "M(C)",
+    "m_sphere": 1.4188,
+    "m_d": 2.4739
+   }
+  ],
+  "host": {
+   "VBM": 1.3696126723893485,
+   "CBM": 2.6725556912583808,
+   "gap": 1.3029430188690323,
+   "win_VB": 0.9699942599910549,
+   "win_CB": 1.8835591292934706
+  },
+  "align_shift_eV": -1.0300924518885886,
+  "align_shift_K3p_eV": -0.5883489460458886,
+  "opp_top_rel_hostVBM": -0.9108818319985745,
+  "opp_bot_rel_hostCBM": 0.8916072060552858,
+  "same_top_rel_hostVBM": 0.06662515627613264,
+  "same_bot_rel_hostCBM": -0.19168321596480808,
+  "win_VB_aligned": 0.9108818319985745,
+  "win_CB_aligned": 0.8916072060552858,
+  "near_gap_states": [
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     -0.043,
+     0.067
+    ],
+    "E_rel_hostCBM": [
+     -1.346,
+     -1.236
+    ],
+    "occ": 1.0,
+    "groups": {
+     "C": 0.17,
+     "M(C)": 0.029,
+     "N": 0.024,
+     "V(N)": 0.777
+    },
+    "region": 0.072,
+    "top_atoms": [
+     [
+      2,
+      "V",
+      "V(N)",
+      0.705
+     ],
+     [
+      3,
+      "V",
+      "V(N)",
+      0.032
+     ],
+     [
+      16,
+      "C",
+      "C",
+      0.031
+     ]
+    ]
+   },
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     0.007,
+     0.067
+    ],
+    "E_rel_hostCBM": [
+     -1.296,
+     -1.236
+    ],
+    "occ": 1.0,
+    "groups": {
+     "C": 0.17,
+     "M(C)": 0.02,
+     "N": 0.022,
+     "V(N)": 0.788
+    },
+    "region": 0.091,
+    "top_atoms": [
+     [
+      2,
+      "V",
+      "V(N)",
+      0.697
+     ],
+     [
+      3,
+      "V",
+      "V(N)",
+      0.066
+     ],
+     [
+      14,
+      "C",
+      "C",
+      0.032
+     ]
+    ]
+   },
+   {
+    "spin": "V-maj",
+    "E_rel_hostVBM": [
+     1.111,
+     1.65
+    ],
+    "E_rel_hostCBM": [
+     -0.192,
+     0.347
+    ],
+    "occ": 0.0,
+    "groups": {
+     "C": 0.089,
+     "H_w": 0.03,
+     "M(C)": 0.558,
+     "N": 0.272,
+     "V(N)": 0.04
+    },
+    "region": 0.08,
+    "top_atoms": [
+     [
+      5,
+      "Mo",
+      "M(C)",
+      0.317
+     ],
+     [
+      6,
+      "Mo",
+      "M(C)",
+      0.183
+     ],
+     [
+      7,
+      "Mo",
+      "M(C)",
+      0.058
+     ]
+    ]
+   }
+  ],
+  "kill_opp_near_edge": false,
+  "win_ratio_VB": 0.939058991964524,
+  "win_ratio_CB": 0.4733630031512367,
+  "win_ratio_VB_cell": 1.0077451265368536,
+  "win_ratio_CB_cell": 0.5751295009392351,
+  "kill_window_cut": true,
+  "E_form_open_eV": 4589.395915490626,
+  "E_form_def": "E(VAC) - E(P) + 3 mu_K(bcc) - 6 mu_H2O(gas); add mu[M(CN)6] (undefined here) for E_f",
+  "dN_d_V_total": 0.029289999999999594,
+  "dN_d_Mo_total": -0.07715999999999923,
+  "capped_V": [
+   {
+    "i": 1,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0575,
+    "m_d": -2.7688
+   },
+   {
+    "i": 3,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0575,
+    "m_d": -2.7688
+   },
+   {
+    "i": 4,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -2.0575,
+    "m_d": -2.7688
+   }
+  ],
+  "bulk_V": [
+   {
+    "i": 2,
+    "el": "V",
+    "role": "V(N)",
+    "m_sphere": -1.9147,
+    "m_d": -2.5949
+   }
+  ]
+ }
+}

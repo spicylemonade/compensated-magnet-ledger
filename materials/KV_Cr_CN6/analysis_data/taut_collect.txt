@@ -1,0 +1,95 @@
+== status ==
+  KVMo_U3_2_CT     running rc=None h=None
+  KVMo_U3_2_LS     running rc=None h=None
+  KVCr_U3_3_CT     running rc=None h=None
+  KVCr_U3_3_LS     running rc=None h=None
+  KVMo_U4_0        running rc=None h=None
+  KVMo_U2_0        running rc=None h=None
+  KVCr_U4_2        running rc=None h=None
+  KVCr_U2_2        running rc=None h=None
+  KVMo_Kvar        running rc=None h=None
+  KVCr_Kvar        running rc=None h=None
+
+== vertical constrained starts at the stage-1 LCM cell (PBE+U, nosym 4x4x4, 110 Ry); dE = E - E(LCM) per f.u. ==
+   orbital diag order (QE real harmonics): z2 xz yz x2-y2 xy; spin 1 = up (M-majority in the AF starts), 2 = down
+  -- KVMo_U3_2_CT  U={'V': 3.0, 'Mo': 2.0}
+    LCM         dE=+0.000 M=-0.0 |M|=6.65 conv=True V m_d=-2.61 N_d=3.48 | M m_d=+2.45 N_d=4.69 [noCT V:-2.61 M:+2.45 LCM-like] gap=1.30 vbm_s=2 cbm_s=2 win=0.97/1.88 nfrac=0 nks=36 368s
+    CT_AF       dE=+0.000 M=-0.0 |M|=6.65 conv=True V m_d=-2.61 N_d=3.48 | M m_d=+2.45 N_d=4.69 [noCT V:-2.61 M:+2.45 LCM-like] gap=1.30 vbm_s=2 cbm_s=2 win=0.97/1.88 nfrac=0 nks=36 434s
+                V(dn,up) [0.21 0.88 0.88 0.21 0.87] [0.17 0.03 0.03 0.17 0.03]  M(up,dn) [0.47 0.87 0.87 0.47 0.87] [0.42 0.09 0.09 0.42 0.09]
+    CT_AF_v     dE=+0.000 M=0.0 |M|=6.65 conv=True V m_d=-2.61 N_d=3.48 | M m_d=+2.45 N_d=4.69 [noCT V:-2.61 M:+2.45 LCM-like] gap=1.30 vbm_s=2 cbm_s=2 win=0.97/1.88 nfrac=0 nks=36 338s
+                V(dn,up) [0.21 0.87 0.87 0.21 0.87] [0.17 0.03 0.03 0.17 0.03]  M(up,dn) [0.47 0.87 0.87 0.47 0.87] [0.42 0.09 0.09 0.42 0.09]
+    CT_AF_ramp  dE=+0.000 M=0.0 |M|=6.65 conv=True V m_d=-2.61 N_d=3.48 | M m_d=+2.45 N_d=4.69 [noCT V:-2.61 M:+2.45 LCM-like] gap=1.30 vbm_s=2 cbm_s=2 win=0.97/1.88 nfrac=0 nks=36 304s
+                V(dn,up) [0.21 0.87 0.87 0.21 0.87] [0.17 0.03 0.03 0.17 0.03]  M(up,dn) [0.47 0.87 0.87 0.47 0.87] [0.42 0.09 0.09 0.42 0.09]
+    CT_AF_free  dE=+0.000 M=0.0 |M|=6.65 conv=True V m_d=-2.61 N_d=3.48 | M m_d=+2.45 N_d=4.69 [noCT V:-2.61 M:+2.45 LCM-like] gap=1.30 vbm_s=2 cbm_s=2 win=0.97/1.88 nfrac=0 nks=36 378s
+                V(dn,up) [0.21 0.87 0.87 0.21 0.87] [0.17 0.03 0.03 0.17 0.03]  M(up,dn) [0.47 0.87 0.87 0.47 0.87] [0.42 0.09 0.09 0.42 0.09]
+  -- KVMo_U3_2_LS  U={'V': 3.0, 'Mo': 2.0}
+    LCM         dE=+0.000 M=0.0 |M|=6.65 conv=True V m_d=-2.61 N_d=3.48 | M m_d=+2.45 N_d=4.69 [noCT V:-2.61 M:+2.45 LCM-like] gap=1.30 vbm_s=2 cbm_s=2 win=0.97/1.88 nfrac=0 nks=36 400s
+    FM6         dE=+0.552 M=6.0 |M|=6.12 conv=True V m_d=+2.75 N_d=3.54 | M m_d=+2.60 N_d=4.63 [noCT V:+2.75 M:+2.60] gap=0.42 vbm_s=1 cbm_s=2 win=3.01/2.85 nfrac=0 nks=36 398s
+                V(dn,up) [0.16 0.02 0.02 0.16 0.02] [0.19 0.92 0.92 0.19 0.92]  M(up,dn) [0.47 0.89 0.89 0.47 0.89] [0.43 0.06 0.06 0.43 0.06]
+    MLS_AF      dE=+0.685 M=-2.0 |M|=5.3 conv=True V m_d=-2.62 N_d=3.48 | M m_d=+0.72 N_d=4.69 [noCT V:-2.62 M:+0.72] gap=0.23 vbm_s=2 cbm_s=1 win=1.08/0.44 nfrac=0 nks=36 443s
+                V(dn,up) [0.21 0.85 0.94 0.21 0.85] [0.17 0.03 0.02 0.17 0.03]  M(up,dn) [0.46 0.85 0.08 0.46 0.86] [0.44 0.14 0.85 0.44 0.12]
+    MLS_FM      dE=+0.841 M=4.0 |M|=4.8 conv=True V m_d=+2.62 N_d=3.47 | M m_d=+1.03 N_d=4.70 [noCT V:+2.62 M:+1.03] gap=0.30 vbm_s=1 cbm_s=1 win=0.73/0.17 nfrac=0 nks=36 406s
+                V(dn,up) [0.17 0.02 0.03 0.17 0.03] [0.21 0.94 0.87 0.21 0.82]  M(up,dn) [0.45 0.87 0.63 0.46 0.46] [0.44 0.06 0.35 0.44 0.54]
+    VLS_AF      dE=+0.923 M=2.0 |M|=5.24 conv=True V m_d=-0.74 N_d=3.47 | M m_d=+2.45 N_d=4.69 [noCT V:-0.74 M:+2.45] gap=0.25 vbm_s=1 cbm_s=2 win=0.32/2.06 nfrac=0 nks=36 355s
+                V(dn,up) [0.20 0.31 0.73 0.20 0.66] [0.19 0.62 0.15 0.19 0.22]  M(up,dn) [0.47 0.88 0.87 0.47 0.87] [0.42 0.08 0.10 0.42 0.10]
+    LSLS_AF     dE=+0.000 M=0.0 |M|=6.65 conv=True V m_d=-2.61 N_d=3.48 | M m_d=+2.45 N_d=4.69 [noCT V:-2.61 M:+2.45 LCM-like] gap=1.30 vbm_s=2 cbm_s=2 win=0.97/1.88 nfrac=0 nks=36 395s
+                V(dn,up) [0.21 0.88 0.88 0.21 0.88] [0.17 0.03 0.03 0.17 0.03]  M(up,dn) [0.47 0.87 0.87 0.47 0.87] [0.42 0.09 0.09 0.42 0.09]
+  -- KVCr_U3_3_CT  U={'V': 3.0, 'Cr': 3.0}
+    LCM         dE=+0.000 M=-0.0 |M|=7.08 conv=True V m_d=-2.71 N_d=3.50 | M m_d=+2.94 N_d=4.67 [noCT V:-2.71 M:+2.94 LCM-like] gap=1.95 vbm_s=2 cbm_s=2 win=2.03/1.14 nfrac=0 nks=36 336s
+    CT_AF       (v1 run with the wrong ns kick; superseded when the v3 job reaches it)
+    RELAX[CT] target=None cands=[] no converged non-LCM state in this class
+  -- KVCr_U3_3_LS  U={'V': 3.0, 'Cr': 3.0}
+    LCM         dE=+0.000 M=0.0 |M|=7.08 conv=True V m_d=-2.71 N_d=3.50 | M m_d=+2.94 N_d=4.67 [noCT V:-2.71 M:+2.94 LCM-like] gap=1.95 vbm_s=2 cbm_s=2 win=2.03/1.14 nfrac=0 nks=36 374s
+    FM6         dE=+0.304 M=6.0 |M|=6.26 conv=True V m_d=+2.77 N_d=3.54 | M m_d=+2.97 N_d=4.64 [noCT V:+2.77 M:+2.97] gap=1.35 vbm_s=1 cbm_s=2 win=2.74/1.47 nfrac=0 nks=36 355s
+                V(dn,up) [0.16 0.02 0.02 0.16 0.02] [0.19 0.93 0.93 0.19 0.93]  M(up,dn) [0.48 0.95 0.95 0.48 0.95] [0.37 0.03 0.03 0.37 0.03]
+    MLS_AF      dE=+1.039 M=-2.0 |M|=5.35 conv=True V m_d=-2.71 N_d=3.50 | M m_d=+0.95 N_d=4.69 [noCT V:-2.71 M:+0.95] gap=0.94 vbm_s=2 cbm_s=1 win=1.82/0.57 nfrac=0 nks=36 367s
+                V(dn,up) [0.20 0.90 0.91 0.20 0.91] [0.16 0.03 0.03 0.16 0.02]  M(up,dn) [0.46 0.82 0.55 0.46 0.53] [0.41 0.17 0.43 0.41 0.46]
+    MLS_FM      dE=+1.129 M=4.0 |M|=5.04 conv=True V m_d=+2.72 N_d=3.51 | M m_d=+1.05 N_d=4.68 [noCT V:+2.72 M:+1.05] gap=1.01 vbm_s=1 cbm_s=1 win=1.52/0.12 nfrac=0 nks=36 354s
+                V(dn,up) [0.16 0.03 0.02 0.16 0.02] [0.20 0.89 0.92 0.19 0.92]  M(up,dn) [0.45 0.39 0.73 0.45 0.84] [0.41 0.60 0.25 0.42 0.14]
+    VLS_AF      dE=+0.889 M=2.0 |M|=5.61 conv=True V m_d=-0.85 N_d=3.50 | M m_d=+2.94 N_d=4.67 [noCT V:-0.85 M:+2.94] gap=0.88 vbm_s=1 cbm_s=2 win=0.28/1.63 nfrac=0 nks=36 348s
+                V(dn,up) [0.19 0.84 0.38 0.19 0.57] [0.18 0.07 0.55 0.18 0.35]  M(up,dn) [0.49 0.94 0.94 0.49 0.94] [0.36 0.05 0.04 0.36 0.04]
+    LSLS_AF     dE=+0.000 M=0.0 |M|=7.08 conv=True V m_d=-2.70 N_d=3.50 | M m_d=+2.94 N_d=4.67 [noCT V:-2.70 M:+2.94 LCM-like] gap=1.94 vbm_s=2 cbm_s=2 win=2.03/1.14 nfrac=0 nks=36 373s
+                V(dn,up) [0.20 0.90 0.90 0.20 0.90] [0.16 0.03 0.03 0.16 0.03]  M(up,dn) [0.49 0.94 0.94 0.49 0.94] [0.36 0.05 0.05 0.36 0.05]
+  -- KVMo_U4_0  U={'V': 4.0, 'Mo': 0.0}
+    LCM         dE=+0.000 M=0.0 |M|=6.48 conv=True V m_d=-2.63 N_d=3.46 | M m_sph=+1.29 [noCT V:-2.63 M:+1.29 LCM-like] gap=1.12 vbm_s=2 cbm_s=2 win=0.05/2.54 nfrac=0 nks=36 367s
+    CT_AF       dE=-0.000 M=-0.0 |M|=6.48 conv=True V m_d=-2.63 N_d=3.46 | M m_sph=+1.29 [noCT V:-2.63 M:+1.29 LCM-like] gap=1.12 vbm_s=2 cbm_s=2 win=0.05/2.54 nfrac=0 nks=36 742s
+                V(dn,up) [0.20 0.88 0.88 0.20 0.88] [0.16 0.03 0.03 0.16 0.03]  M(up,dn) - -
+    FM6         dE=+0.606 M=6.0 |M|=6.1 conv=True V m_d=+2.79 N_d=3.53 | M m_sph=+1.40 [noCT V:+2.79 M:+1.40] gap=0.01 vbm_s=1 cbm_s=2 win=2.87/3.39 nfrac=0 nks=36 547s
+                V(dn,up) [0.15 0.02 0.02 0.15 0.02] [0.18 0.93 0.93 0.18 0.93]  M(up,dn) - -
+    CT_AF_ramp  dE=-0.000 M=-0.0 |M|=6.48 conv=True V m_d=-2.63 N_d=3.46 | M m_sph=+1.29 [noCT V:-2.63 M:+1.29 LCM-like] gap=1.12 vbm_s=2 cbm_s=2 win=0.05/2.54 nfrac=0 nks=36 269s
+                V(dn,up) [0.20 0.88 0.88 0.20 0.88] [0.16 0.03 0.03 0.16 0.03]  M(up,dn) - -
+  -- KVMo_U2_0  U={'V': 2.0, 'Mo': 0.0}
+    LCM         dE=+0.000 M=-0.0 |M|=6.14 conv=True V m_d=-2.45 N_d=3.45 | M m_sph=+1.22 [noCT V:-2.45 M:+1.22 LCM-like] gap=0.65 vbm_s=2 cbm_s=2 win=0.43/2.13 nfrac=0 nks=36 446s
+    FM6         dE=+0.843 M=6.0 |M|=6.09 conv=True V m_d=+2.71 N_d=3.55 | M m_sph=+1.40 [noCT V:+2.71 M:+1.40] gap=-0.58 vbm_s=1 cbm_s=2 win=3.42/3.44 nfrac=0 nks=36 504s
+                V(dn,up) [0.17 0.03 0.03 0.17 0.03] [0.20 0.91 0.91 0.20 0.91]  M(up,dn) - -
+    CT_AF       dE=+0.000 M=-0.0 |M|=6.14 conv=True V m_d=-2.45 N_d=3.45 | M m_sph=+1.22 [noCT V:-2.45 M:+1.22 LCM-like] gap=0.65 vbm_s=2 cbm_s=2 win=0.43/2.13 nfrac=0 nks=36 533s
+                V(dn,up) [0.23 0.83 0.83 0.23 0.83] [0.19 0.04 0.04 0.19 0.04]  M(up,dn) - -
+    CT_AF_ramp  dE=-0.000 M=-0.0 |M|=6.14 conv=True V m_d=-2.45 N_d=3.45 | M m_sph=+1.22 [noCT V:-2.45 M:+1.22 LCM-like] gap=0.65 vbm_s=2 cbm_s=2 win=0.43/2.13 nfrac=0 nks=36 298s
+                V(dn,up) [0.23 0.83 0.83 0.23 0.83] [0.19 0.04 0.04 0.19 0.04]  M(up,dn) - -
+  -- KVCr_U4_2  U={'V': 4.0, 'Cr': 2.0}
+    LCM         dE=+0.000 M=0.0 |M|=7.03 conv=True V m_d=-2.75 N_d=3.50 | M m_d=+2.88 N_d=4.69 [noCT V:-2.75 M:+2.88 LCM-like] gap=2.04 vbm_s=2 cbm_s=2 win=1.39/1.40 nfrac=0 nks=36 361s
+    FM6         dE=+0.291 M=6.0 |M|=6.25 conv=True V m_d=+2.80 N_d=3.52 | M m_d=+2.92 N_d=4.66 [noCT V:+2.80 M:+2.92] gap=1.54 vbm_s=1 cbm_s=2 win=2.37/1.67 nfrac=0 nks=36 330s
+                V(dn,up) [0.15 0.02 0.02 0.15 0.02] [0.18 0.94 0.94 0.18 0.94]  M(up,dn) [0.48 0.94 0.94 0.48 0.94] [0.38 0.04 0.04 0.38 0.04]
+    CT_AF       dE=-0.000 M=0.0 |M|=7.03 conv=True V m_d=-2.75 N_d=3.49 | M m_d=+2.88 N_d=4.69 [noCT V:-2.75 M:+2.88 LCM-like] gap=2.04 vbm_s=2 cbm_s=2 win=1.39/1.40 nfrac=0 nks=36 425s
+                V(dn,up) [0.19 0.91 0.91 0.19 0.91] [0.15 0.02 0.02 0.15 0.02]  M(up,dn) [0.49 0.94 0.94 0.49 0.94] [0.37 0.05 0.05 0.37 0.05]
+  -- KVCr_U2_2  U={'V': 2.0, 'Cr': 2.0}
+    LCM         dE=+0.000 M=-0.0 |M|=6.92 conv=True V m_d=-2.63 N_d=3.50 | M m_d=+2.84 N_d=4.70 [noCT V:-2.63 M:+2.84 LCM-like] gap=1.42 vbm_s=2 cbm_s=2 win=1.95/1.42 nfrac=0 nks=36 567s
+    FM6         dE=+0.393 M=6.0 |M|=6.22 conv=True V m_d=+2.73 N_d=3.55 | M m_d=+2.92 N_d=4.65 [noCT V:+2.73 M:+2.92] gap=0.75 vbm_s=1 cbm_s=2 win=3.09/1.70 nfrac=0 nks=36 552s
+                V(dn,up) [0.17 0.02 0.02 0.17 0.02] [0.20 0.91 0.91 0.20 0.91]  M(up,dn) [0.48 0.94 0.94 0.48 0.94] [0.38 0.04 0.04 0.38 0.04]
+    CT_AF       dE=-0.000 M=-0.0 |M|=6.91 conv=True V m_d=-2.63 N_d=3.50 | M m_d=+2.84 N_d=4.70 [noCT V:-2.63 M:+2.84 LCM-like] gap=1.42 vbm_s=2 cbm_s=2 win=1.95/1.42 nfrac=0 nks=36 656s
+                V(dn,up) [0.21 0.88 0.88 0.21 0.88] [0.17 0.03 0.03 0.17 0.03]  M(up,dn) [0.49 0.93 0.93 0.49 0.93] [0.37 0.06 0.06 0.37 0.06]
+
+== K variants (LCM, PBE+U base U, 110 Ry, symmetry on, ionic relax at fixed cell) ==
+  KVMo_Kvar P1    dE/f.u.=0.0 M=-0.0 bfgs=True nsym=24 K_offset=2.070362199109043e-07 gap=1.385446170724648 win=0.9744862035763889/1.8689120325513202
+  KVMo_Kvar K111  dE/f.u.=-0.03033675001370284 M=0.0 bfgs=True nsym=6 K_offset=0.6728036077180849 gap=1.3394526543507124 win=0.9771779787736544/1.894458932561451
+  KVCr_Kvar P1    dE/f.u.=0.0 M=-0.0 bfgs=True nsym=24 K_offset=1.6791111727752044e-08 gap=2.0159868475985463 win=2.0270426276962983/1.1136371062177735
+  KVCr_Kvar K111  dE/f.u.=-0.020167718916127342 M=-0.0 bfgs=True nsym=6 K_offset=0.5741750870526536 gap=1.9826855429666603 win=2.0109517257920517/1.185333512872666
+
+== verdict ==
+  KVMo U3_2: lowest competitor FM6 0.5522 eV [noCT V:+2.75 M:+2.60]; lowest CT None None eV; relaxed CT None; relaxed LS None
+  KVMo U4_0: lowest competitor FM6 0.6064 eV [noCT V:+2.79 M:+1.40]; lowest CT None None eV; relaxed CT None; relaxed LS None
+  KVMo U2_0: lowest competitor FM6 0.843 eV [noCT V:+2.71 M:+1.40]; lowest CT None None eV; relaxed CT None; relaxed LS None
+  KVCr U3_3: lowest competitor FM6 0.3044 eV [noCT V:+2.77 M:+2.97]; lowest CT None None eV; relaxed CT None; relaxed LS None
+  KVCr U4_2: lowest competitor FM6 0.2913 eV [noCT V:+2.80 M:+2.92]; lowest CT None None eV; relaxed CT None; relaxed LS None
+  KVCr U2_2: lowest competitor FM6 0.393 eV [noCT V:+2.73 M:+2.92]; lowest CT None None eV; relaxed CT None; relaxed LS None
+  kill (CT below LCM in HSE): {}

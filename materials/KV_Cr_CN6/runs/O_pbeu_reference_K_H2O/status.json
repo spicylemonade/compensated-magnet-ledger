@@ -1,0 +1,10 @@
+{
+ "job": "lcm/pba/def/refs",
+ "state": "done",
+ "cmd": "python pba_refs.py",
+ "ncores": 16,
+ "start": 1791029937.985326,
+ "rc": 0,
+ "end": 1791030428.8145478,
+ "hours": 0.13634145047929552
+}

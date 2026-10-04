@@ -1,0 +1,652 @@
+{
+ "gate": "PBA Gate 0 (Track L, session 66190d): d3/d3 cyanide double perovskites",
+ "spec": [
+  "tracks/lcm/trilemma/JUDGE.md (sections 2, 3)",
+  "tracks/lcm/trilemma/nonoxide_frameworks.md (section 5)",
+  "tracks/lcm/trilemma/kinetic.md (section 5)"
+ ],
+ "readme": "tracks/lcm/pba/README.md",
+ "collect": "python tracks/lcm/pba/collect.py [--fetch]",
+ "settings": {
+  "stage1_env_15atom": "ECUT=110 KSCF=0.25 KNSCF=0.14 NPOOL=8 NPOOL_NSCF=16 SCF_MAXSEC=7200 RELAX_MAXSEC=10800",
+  "stage1_env_hydrated": "ECUT=110 KSCF=0.35 KNSCF=0.20 NPOOL=4 NPOOL_NSCF=32 SCF_MAXSEC=10800 RELAX_MAXSEC=14400",
+  "hse": {
+   "ecut": 90.0,
+   "hse_nq": [
+    2,
+    2,
+    2
+   ],
+   "hse_kspacing": 0.27,
+   "hse_noU": true,
+   "moment_mag": 3.0
+  },
+  "soc": {
+   "ecut": 90.0,
+   "kspacing": 0.25,
+   "moment_mag": 3.0,
+   "orbm_kspacing": 0.3
+  },
+  "base_U": {
+   "V": [
+    "3d",
+    3.0
+   ],
+   "Cr": [
+    "3d",
+    3.0
+   ],
+   "Mo": [
+    "4d",
+    2.0
+   ]
+  },
+  "pseudos": "PseudoDojo v0.4 PBE NC (dojo_sr; dojo_fr for SOC)",
+  "LCM_convention": "C-bound metal +, N-bound metal - (V-majority channel = spin index 1 in KVCr/KVMo)"
+ },
+ "scripts": {
+  "lcm_stage1.py": "be16bdd56aa869ddebf76b49455a7769",
+  "pba_chain.py": "e4575a7936b88d96f80096bc2a3065a5",
+  "pba_geom.py": "e6a8b46bbf6229dfde71e6c745cb1c3b",
+  "pba_orbm.py": "41ac51c700a0d07bbdb8d52f1759b435",
+  "pba_fmfix.py": "9080dd21a4170c9d0a7b7c2da10cdd52",
+  "lcm_deep.py (infra, unchanged)": "4d9d4ff6f638ffd87884b6b3cbbe539c",
+  "pba_orbm.py (v1, used inside lcm/pba/soc/KVMo_soc; smeared nscf -> iosys error)": "d556f22cf8fda27813bec1fb19308b1f"
+ },
+ "created": "2026-10-03 03:41",
+ "jobs": [
+  {
+   "job": "lcm/pba/s1/KVCr_2H2O",
+   "phase": "s1",
+   "material": "KVCr_2H2O",
+   "formula": "KVCr(CN)6.2H2O",
+   "role": "hydration robustness of the KVCr edges (JUDGE 3)",
+   "fn": "run_cpu32",
+   "cmd": "ECUT=110 KSCF=0.35 KNSCF=0.20 NPOOL=4 NPOOL_NSCF=32 SCF_MAXSEC=10800 RELAX_MAXSEC=14400 python lcm_stage1.py KVCr_2H2O.json",
+   "base_U": {
+    "V": [
+     "3d",
+     3.0
+    ],
+    "Cr": [
+     "3d",
+     3.0
+    ]
+   },
+   "geometry0": {
+    "min_dists": {
+     "K-O": 3.88,
+     "H-K": 3.585,
+     "O-V": 3.934,
+     "H-V": 3.146,
+     "Cr-O": 3.934,
+     "Cr-H": 3.439,
+     "C-O": 2.978,
+     "C-H": 2.114,
+     "N-O": 2.97,
+     "H-N": 2.0,
+     "H-O": 0.97,
+     "O-O": 2.8,
+     "H-H": 1.478
+    }
+   },
+   "tests": "KV[Cr(CN)6].2H2O model (21 atoms, P1; 2 H2O in the empty 4d void, O-H...N donors): vc-relax LCM at U 3/3 (KSCF 0.35 = 3x3x3), LCM + FM SCF, nscf 6x6x6 -> M = 0, windows/gap vs anhydrous KVCr (kill the 'existing sample' claim if either window moves > 50 %); water levels inferred from gap/window changes (no PDOS in Gate 0).",
+   "results": [
+    "jobs/lcm/pba/s1/KVCr_2H2O/results/KVCr_2H2O.json"
+   ],
+   "est_wall_h": 3.0,
+   "call_id": "fc-01M40NPK9WRTAGKTDSB4TZW7AG",
+   "t_submit": "2026-10-03 03:42:03"
+  },
+  {
+   "job": "lcm/pba/s1a/KVCr",
+   "phase": "s1",
+   "material": "KVCr",
+   "formula": "KVCr(CN)6",
+   "role": "experimental anchor KV(II)[Cr(III)(CN)6] (T_C 376 K, M_sat 0.125 muB/f.u.)",
+   "fn": "run_cpu32",
+   "cmd": "ECUT=110 KSCF=0.25 KNSCF=0.14 NPOOL=8 NPOOL_NSCF=16 SCF_MAXSEC=7200 RELAX_MAXSEC=10800 python pba_chain.py KVCr_chain.json",
+   "base_U": {
+    "V": [
+     "3d",
+     3.0
+    ],
+    "Cr": [
+     "3d",
+     3.0
+    ]
+   },
+   "grid": {
+    "U2_2": {
+     "V": [
+      "3d",
+      2.0
+     ],
+     "Cr": [
+      "3d",
+      2.0
+     ]
+    },
+    "U2_4": {
+     "V": [
+      "3d",
+      2.0
+     ],
+     "Cr": [
+      "3d",
+      4.0
+     ]
+    },
+    "U4_2": {
+     "V": [
+      "3d",
+      4.0
+     ],
+     "Cr": [
+      "3d",
+      2.0
+     ]
+    },
+    "U4_4": {
+     "V": [
+      "3d",
+      4.0
+     ],
+     "Cr": [
+      "3d",
+      4.0
+     ]
+    }
+   },
+   "geometry0": {
+    "a": 10.56,
+    "xN": 0.19696969696969696,
+    "xC": 0.3068181818181818,
+    "bonds": {
+     "M_N-N": 2.08,
+     "C-N": 1.1600000000000001,
+     "M_C-C": 2.04
+    }
+   },
+   "tests": "Step 1: PBE+U (U_V 3, U_Cr 3) vc-relax in the LCM (Cr(C-end) +, V(N-end) -), LCM + FM SCF, dense nscf (8x8x8, includes X/L/W) -> M_cell = 0, |m_V|,|m_Cr| 2.6-3.0, FM M = 6.00 (no V3+/Cr2+ transfer), windows/edge spins, dE(FM-LCM). Step 2: 2-D U grid (U_V, U_Cr) in {2,4}^2 at the symmetrized relaxed cell: LCM SCF + nscf + FM SCF -> windows unipolar in the V-majority channel >= 0.3 eV at every point; dE for the J ratios.",
+   "results": [
+    "jobs/lcm/pba/s1a/KVCr/results/KVCr.json",
+    "jobs/lcm/pba/s1a/KVCr/results/KVCr_sym.json",
+    "jobs/lcm/pba/s1a/KVCr/results/KVCr_U2_2.json",
+    "jobs/lcm/pba/s1a/KVCr/results/KVCr_U2_4.json",
+    "jobs/lcm/pba/s1a/KVCr/results/KVCr_U4_2.json",
+    "jobs/lcm/pba/s1a/KVCr/results/KVCr_U4_4.json"
+   ],
+   "est_wall_h": 1.5,
+   "call_id": "fc-01M40NYSW7GEAX919Y85TH6FGR",
+   "t_submit": "2026-10-03 03:46:32"
+  },
+  {
+   "job": "lcm/pba/s1a/KVMo",
+   "phase": "s1",
+   "material": "KVMo",
+   "formula": "KVMo(CN)6",
+   "role": "lead: stoichiometric KV(II)[Mo(III)(CN)6] (parent V1.37[Mo(CN)6] 417 K)",
+   "fn": "run_cpu32",
+   "cmd": "ECUT=110 KSCF=0.25 KNSCF=0.14 NPOOL=8 NPOOL_NSCF=16 SCF_MAXSEC=7200 RELAX_MAXSEC=10800 python pba_chain.py KVMo_chain.json",
+   "base_U": {
+    "V": [
+     "3d",
+     3.0
+    ],
+    "Mo": [
+     "4d",
+     2.0
+    ]
+   },
+   "grid": {
+    "U2_0": {
+     "V": [
+      "3d",
+      2.0
+     ]
+    },
+    "U2_2": {
+     "V": [
+      "3d",
+      2.0
+     ],
+     "Mo": [
+      "4d",
+      2.0
+     ]
+    },
+    "U4_0": {
+     "V": [
+      "3d",
+      4.0
+     ]
+    },
+    "U4_2": {
+     "V": [
+      "3d",
+      4.0
+     ],
+     "Mo": [
+      "4d",
+      2.0
+     ]
+    }
+   },
+   "geometry0": {
+    "a": 10.82,
+    "xN": 0.1922365988909427,
+    "xC": 0.29944547134935307,
+    "bonds": {
+     "M_N-N": 2.08,
+     "C-N": 1.1600000000000004,
+     "M_C-C": 2.17
+    }
+   },
+   "tests": "As KVCr with U_V 3 / U_Mo 2 (Mo 4d); U grid (U_V, U_Mo) in {2,4} x {0,2} (U_Mo = 0 -> no Hubbard term on Mo). Charge-transfer check: V3+ (2 muB) / low-spin Mo2+ (S = 1) would give FM M = 4 instead of 6 and m 2 instead of 3. Ratio dE(VMo)/dE(VCr) >= 1.15 (T >~ 430 K by ratio scaling of 376 K).",
+   "results": [
+    "jobs/lcm/pba/s1a/KVMo/results/KVMo.json",
+    "jobs/lcm/pba/s1a/KVMo/results/KVMo_sym.json",
+    "jobs/lcm/pba/s1a/KVMo/results/KVMo_U2_0.json",
+    "jobs/lcm/pba/s1a/KVMo/results/KVMo_U2_2.json",
+    "jobs/lcm/pba/s1a/KVMo/results/KVMo_U4_0.json",
+    "jobs/lcm/pba/s1a/KVMo/results/KVMo_U4_2.json"
+   ],
+   "est_wall_h": 1.5,
+   "call_id": "fc-01M40NYTE129ZP2017PAP77K1S",
+   "t_submit": "2026-10-03 03:46:32"
+  },
+  {
+   "job": "lcm/pba/s1a/KCrV",
+   "phase": "s1",
+   "material": "KCrV",
+   "formula": "KCrV(CN)6",
+   "role": "linkage isomer KCr[V(CN)6] of KVCr (full-antisite limit; Kabalan 2008 LDA +1.28-1.32 eV/f.u.)",
+   "fn": "run_cpu32",
+   "cmd": "ECUT=110 KSCF=0.25 KNSCF=0.14 NPOOL=8 NPOOL_NSCF=16 SCF_MAXSEC=7200 RELAX_MAXSEC=10800 python pba_chain.py KCrV_chain.json",
+   "base_U": {
+    "V": [
+     "3d",
+     3.0
+    ],
+    "Cr": [
+     "3d",
+     3.0
+    ]
+   },
+   "grid": {
+    "U2_2": {
+     "V": [
+      "3d",
+      2.0
+     ],
+     "Cr": [
+      "3d",
+      2.0
+     ]
+    },
+    "U2_4": {
+     "V": [
+      "3d",
+      2.0
+     ],
+     "Cr": [
+      "3d",
+      4.0
+     ]
+    },
+    "U4_2": {
+     "V": [
+      "3d",
+      4.0
+     ],
+     "Cr": [
+      "3d",
+      2.0
+     ]
+    },
+    "U4_4": {
+     "V": [
+      "3d",
+      4.0
+     ],
+     "Cr": [
+      "3d",
+      4.0
+     ]
+    }
+   },
+   "geometry0": {
+    "a": 10.600000000000001,
+    "xN": 0.19245283018867923,
+    "xC": 0.3018867924528302,
+    "bonds": {
+     "M_N-N": 2.04,
+     "C-N": 1.1600000000000001,
+     "M_C-C": 2.1000000000000005
+    }
+   },
+   "tests": "Linkage isomer (Cr N-bound, V C-bound): vc-relax LCM at U 3/3, LCM + FM SCF; grid energies at (U_V, U_Cr) in {2,4}^2 (no nscf). Isomer energy E(KCrV) - E(KVCr) >= +0.8 eV/f.u. (protection of the sublattice assignment).",
+   "results": [
+    "jobs/lcm/pba/s1a/KCrV/results/KCrV.json",
+    "jobs/lcm/pba/s1a/KCrV/results/KCrV_sym.json",
+    "jobs/lcm/pba/s1a/KCrV/results/KCrV_U2_2.json",
+    "jobs/lcm/pba/s1a/KCrV/results/KCrV_U2_4.json",
+    "jobs/lcm/pba/s1a/KCrV/results/KCrV_U4_2.json",
+    "jobs/lcm/pba/s1a/KCrV/results/KCrV_U4_4.json"
+   ],
+   "est_wall_h": 1.0,
+   "call_id": "fc-01M40NYV333TT0GF7HEVK7RCYJ",
+   "t_submit": "2026-10-03 03:46:33"
+  },
+  {
+   "job": "lcm/pba/s1a/CrCr",
+   "phase": "s1",
+   "material": "CrCr",
+   "formula": "Cr2(CN)6",
+   "role": "T calibrant Cr(III)[Cr(III)(CN)6] (Schart 2024 Cr[Cr(CN)6]0.996, T_C 240 K)",
+   "fn": "run_cpu32",
+   "cmd": "ECUT=110 KSCF=0.25 KNSCF=0.14 NPOOL=8 NPOOL_NSCF=16 SCF_MAXSEC=7200 RELAX_MAXSEC=10800 python pba_chain.py CrCr_chain.json",
+   "base_U": {
+    "Cr": [
+     "3d",
+     3.0
+    ]
+   },
+   "grid": {
+    "U2": {
+     "Cr": [
+      "3d",
+      2.0
+     ]
+    },
+    "U4": {
+     "Cr": [
+      "3d",
+      4.0
+     ]
+    }
+   },
+   "geometry0": {
+    "a": 10.42,
+    "xN": 0.19577735124760076,
+    "xC": 0.3071017274472169,
+    "bonds": {
+     "M_N-N": 2.04,
+     "C-N": 1.1600000000000004,
+     "M_C-C": 2.01
+    }
+   },
+   "tests": "T calibrant Cr(III)[Cr(III)(CN)6] (Fm-3m, no alkali): vc-relax LCM at U_Cr 3, LCM + FM + nscf; U_Cr in {2,4}. Calibration dE(VCr)/dE(CrCr) = 1.57 +- 0.25 (= 376/240 K) at base U, on the U diagonal (2,2)/(2) and (4,4)/(4), and in HSE; otherwise no >= 400 K claim.",
+   "results": [
+    "jobs/lcm/pba/s1a/CrCr/results/CrCr.json",
+    "jobs/lcm/pba/s1a/CrCr/results/CrCr_sym.json",
+    "jobs/lcm/pba/s1a/CrCr/results/CrCr_U2.json",
+    "jobs/lcm/pba/s1a/CrCr/results/CrCr_U4.json"
+   ],
+   "est_wall_h": 1.5,
+   "call_id": "fc-01M40NYVHJE0B38FJ5XR6NYDV0",
+   "t_submit": "2026-10-03 03:46:33"
+  },
+  {
+   "job": "lcm/pba/hse/KVMo_hse_LCM",
+   "phase": "deep",
+   "material": "KVMo",
+   "formula": "KVMo(CN)6",
+   "fn": "run_cpu64",
+   "cmd": "python lcm_deep.py KVMo_hse_LCM.json hse",
+   "geometry_source": "relaxed",
+   "kmesh": [
+    4,
+    4,
+    4
+   ],
+   "hse_nq": [
+    2,
+    2,
+    2
+   ],
+   "tests": "HSE06 (no U, nq 2x2x2, k [4, 4, 4], 90 Ry / ecutfock 180 Ry) LCM on the exactly symmetrized cell: gap >= 1.0 eV, windows >= 0.3 eV unipolar (V-majority), integer moments, and E(FM) - E(LCM) for the HSE J ratios.",
+   "results": [
+    "jobs/lcm/pba/hse/KVMo_hse_LCM/deep_hse.json"
+   ],
+   "est_wall_h": 0.6,
+   "call_id": "fc-01M40Q0K5DE9CKGZFEJ01AB71K",
+   "t_submit": "2026-10-03 04:04:59"
+  },
+  {
+   "job": "lcm/pba/soc/KVMo_soc",
+   "phase": "deep",
+   "material": "KVMo",
+   "formula": "KVMo(CN)6",
+   "fn": "run_cpu32",
+   "cmd": "python lcm_deep.py KVMo_soc.json soc; python pba_orbm.py KVMo_soc.json",
+   "geometry_source": "relaxed",
+   "tests": "Noncollinear SOC PBE+U (dojo_fr, U_V 3 / U_Mo 2, 90 Ry) LCM with moments || z and || x: spin residue |M_spin| and MAE (lcm_deep soc); then best-effort cell orbital magnetization (lorbm nscf, pba_orbm.py). Pass: residual |M_spin + M_orb| <= 0.1 muB/f.u.; Mo XMCD M_L = -0.04 muB for comparison.",
+   "results": [
+    "jobs/lcm/pba/soc/KVMo_soc/deep_soc.json",
+    "jobs/lcm/pba/soc/KVMo_soc/orbm.json"
+   ],
+   "est_wall_h": 1.5,
+   "call_id": "fc-01M40Q0MAGT71Z1HFENS7CAGXF",
+   "t_submit": "2026-10-03 04:05:00",
+   "status_note": "2026-10-03 04:52 done rc=0: SOC z and x OK (deep_soc.json). The pba_orbm.py lorbm nscf failed after 1 s: 'Error in routine iosys (1): Berry Phase/electric fields only for insulators!' (smeared occupations). Orbital step rerun as lcm/pba/soc/KVMo_soc_r."
+  },
+  {
+   "job": "lcm/pba/hse/CrCr_hse_LCM",
+   "phase": "deep",
+   "material": "CrCr",
+   "formula": "Cr2(CN)6",
+   "fn": "run_cpu64",
+   "cmd": "python lcm_deep.py CrCr_hse_LCM.json hse",
+   "geometry_source": "relaxed",
+   "kmesh": [
+    4,
+    4,
+    4
+   ],
+   "hse_nq": [
+    2,
+    2,
+    2
+   ],
+   "tests": "HSE06 (no U, nq 2x2x2, k [4, 4, 4], 90 Ry / ecutfock 180 Ry) LCM on the exactly symmetrized cell: gap >= 1.0 eV, windows >= 0.3 eV unipolar (V-majority), integer moments, and E(FM) - E(LCM) for the HSE J ratios.",
+   "results": [
+    "jobs/lcm/pba/hse/CrCr_hse_LCM/deep_hse.json"
+   ],
+   "est_wall_h": 0.6,
+   "call_id": "fc-01M40QJDVW4P9N57WC1KK0MXH2",
+   "t_submit": "2026-10-03 04:14:43"
+  },
+  {
+   "job": "lcm/pba/hse/CrCr_hse_FM",
+   "phase": "deep",
+   "material": "CrCr",
+   "formula": "Cr2(CN)6",
+   "fn": "run_cpu64",
+   "cmd": "python lcm_deep.py CrCr_hse_FM.json hse",
+   "geometry_source": "relaxed",
+   "kmesh": [
+    4,
+    4,
+    4
+   ],
+   "hse_nq": [
+    2,
+    2,
+    2
+   ],
+   "tests": "HSE06 (no U, nq 2x2x2, k [4, 4, 4], 90 Ry / ecutfock 180 Ry) FM on the exactly symmetrized cell: gap >= 1.0 eV, windows >= 0.3 eV unipolar (V-majority), integer moments, and E(FM) - E(LCM) for the HSE J ratios.",
+   "results": [
+    "jobs/lcm/pba/hse/CrCr_hse_FM/deep_hse.json"
+   ],
+   "est_wall_h": 0.6,
+   "call_id": "fc-01M40QJED4DRH7WT1VNEXHC7NV",
+   "t_submit": "2026-10-03 04:14:44"
+  },
+  {
+   "job": "lcm/pba/hse/KVCr_hse_LCM",
+   "phase": "deep",
+   "material": "KVCr",
+   "formula": "KVCr(CN)6",
+   "fn": "run_cpu64",
+   "cmd": "python lcm_deep.py KVCr_hse_LCM.json hse",
+   "geometry_source": "relaxed",
+   "kmesh": [
+    4,
+    4,
+    4
+   ],
+   "hse_nq": [
+    2,
+    2,
+    2
+   ],
+   "tests": "HSE06 (no U, nq 2x2x2, k [4, 4, 4], 90 Ry / ecutfock 180 Ry) LCM on the exactly symmetrized cell: gap >= 1.0 eV, windows >= 0.3 eV unipolar (V-majority), integer moments, and E(FM) - E(LCM) for the HSE J ratios.",
+   "results": [
+    "jobs/lcm/pba/hse/KVCr_hse_LCM/deep_hse.json"
+   ],
+   "est_wall_h": 0.6,
+   "call_id": "fc-01M40R3JBY5D789GN5MQSCP7QV",
+   "t_submit": "2026-10-03 04:24:05"
+  },
+  {
+   "job": "lcm/pba/hse/KVCr_hse_FMfix",
+   "phase": "fmfix",
+   "material": "KVCr",
+   "formula": "KVCr(CN)6",
+   "fn": "run_cpu64",
+   "cmd": "python pba_fmfix.py KVCr_hse_FMfix.json",
+   "geometry_source": "relaxed",
+   "kmesh": [
+    4,
+    4,
+    4
+   ],
+   "hse_nq": [
+    2,
+    2,
+    2
+   ],
+   "tests": "HSE06 FM reference with tot_magnetization = 6 (d3/d3 Heisenberg FM; the unconstrained HSE FM job's plain-PBE start collapsed / charge-transferred). E(FMfix) - E(HSE LCM) -> HSE J ratio.",
+   "results": [
+    "jobs/lcm/pba/hse/KVCr_hse_FMfix/results/KVCr_hse_FMfix.json"
+   ],
+   "est_wall_h": 0.8,
+   "call_id": "fc-01M40RCCCFCQ02KYSZ4B2481JY",
+   "t_submit": "2026-10-03 04:28:54"
+  },
+  {
+   "job": "lcm/pba/hse/KVMo_hse_FMfix",
+   "phase": "fmfix",
+   "material": "KVMo",
+   "formula": "KVMo(CN)6",
+   "fn": "run_cpu64",
+   "cmd": "python pba_fmfix.py KVMo_hse_FMfix.json",
+   "geometry_source": "relaxed",
+   "kmesh": [
+    4,
+    4,
+    4
+   ],
+   "hse_nq": [
+    2,
+    2,
+    2
+   ],
+   "tests": "HSE06 FM reference with tot_magnetization = 6 (d3/d3 Heisenberg FM; the unconstrained HSE FM job's plain-PBE start collapsed / charge-transferred). E(FMfix) - E(HSE LCM) -> HSE J ratio.",
+   "results": [
+    "jobs/lcm/pba/hse/KVMo_hse_FMfix/results/KVMo_hse_FMfix.json"
+   ],
+   "est_wall_h": 0.8,
+   "call_id": "fc-01M40RCD1HK4FHPPHHR1WDT596",
+   "t_submit": "2026-10-03 04:28:54"
+  },
+  {
+   "job": "lcm/pba/s1a/FMfix",
+   "phase": "fmfix",
+   "material": "KVCr+KVMo",
+   "fn": "run_cpu32",
+   "cmd": "NPOOL=8 python pba_fmfix.py FMfix_pbeU.json",
+   "tests": "PBE+U FM with tot_magnetization = 6 at every KVCr / KVMo U point (110 Ry, k 0.25, symmetrized relaxed cell = the stage-1 geometry). Needed because the unconstrained PBE+U FM is charge-transferred at U_Mo = 0 (M_FM 4.91 / 5.91).",
+   "results": [
+    "jobs/lcm/pba/s1a/FMfix/results/KVCr_U3_3_FMfix.json",
+    "jobs/lcm/pba/s1a/FMfix/results/KVCr_U2_2_FMfix.json",
+    "jobs/lcm/pba/s1a/FMfix/results/KVCr_U2_4_FMfix.json",
+    "jobs/lcm/pba/s1a/FMfix/results/KVCr_U4_2_FMfix.json",
+    "jobs/lcm/pba/s1a/FMfix/results/KVCr_U4_4_FMfix.json",
+    "jobs/lcm/pba/s1a/FMfix/results/KVMo_U3_2_FMfix.json",
+    "jobs/lcm/pba/s1a/FMfix/results/KVMo_U2_0_FMfix.json",
+    "jobs/lcm/pba/s1a/FMfix/results/KVMo_U2_2_FMfix.json",
+    "jobs/lcm/pba/s1a/FMfix/results/KVMo_U4_0_FMfix.json",
+    "jobs/lcm/pba/s1a/FMfix/results/KVMo_U4_2_FMfix.json"
+   ],
+   "est_wall_h": 0.7,
+   "call_id": "fc-01M40RCDQMAQZDRZ0MMW11JPV0",
+   "t_submit": "2026-10-03 04:28:55"
+  },
+  {
+   "job": "lcm/pba/soc/KVMo_soc_r",
+   "phase": "deep",
+   "material": "KVMo",
+   "formula": "KVMo(CN)6",
+   "fn": "run_cpu32",
+   "cmd": "python pba_orbm.py KVMo_soc.json",
+   "geometry_source": "relaxed",
+   "tests": "Rerun of the best-effort orbital-magnetization step of lcm/pba/soc/KVMo_soc only (SOC z/x already done there): noncollinear SOC PBE+U SCF (m || z) + lorbm nscf with occupations 'fixed' (fix for the iosys 'only for insulators' error).",
+   "results": [
+    "jobs/lcm/pba/soc/KVMo_soc_r/orbm.json"
+   ],
+   "est_wall_h": 0.7,
+   "call_id": "fc-01M40SW1JE4EH8BHY2Z7FQ0VDS",
+   "t_submit": "2026-10-03 04:54:55",
+   "replaces_step_of": "lcm/pba/soc/KVMo_soc"
+  }
+ ],
+ "updated": "2026-10-03 04:55",
+ "budget_est_node_h_64core": 9.7,
+ "terminated": [
+  {
+   "job": "lcm/pba/s1/KVCr",
+   "call_id": "fc-01M40NPGXWX0G4T9NM2ZHQVH48",
+   "t_submit": "2026-10-03 03:42:00",
+   "terminated": "2026-10-03 ~05:50 via FunctionCall.cancel(terminate_containers=True) after ~6 min (first SCF of the vc-relax)",
+   "reason": "cell built with ase cellpar_to_cell orientation: QE ibrav=0 found 6/24 (F-43m) and 12/48 (Fm-3m) symmetry ops (19 instead of 10 irreducible k, under-constrained relax, SOC axes not cubic). Rebuilt with cubic axes = Cartesian (pba_geom.py) and resubmitted as lcm/pba/s1a/<id>. Volume dirs jobs/lcm/pba/s1/<id> hold only the partial first SCF; ignore."
+  },
+  {
+   "job": "lcm/pba/s1/KVMo",
+   "call_id": "fc-01M40NPHK7Y0FZDEN8Z29E37Y5",
+   "t_submit": "2026-10-03 03:42:01",
+   "terminated": "2026-10-03 ~05:50 via FunctionCall.cancel(terminate_containers=True) after ~6 min (first SCF of the vc-relax)",
+   "reason": "cell built with ase cellpar_to_cell orientation: QE ibrav=0 found 6/24 (F-43m) and 12/48 (Fm-3m) symmetry ops (19 instead of 10 irreducible k, under-constrained relax, SOC axes not cubic). Rebuilt with cubic axes = Cartesian (pba_geom.py) and resubmitted as lcm/pba/s1a/<id>. Volume dirs jobs/lcm/pba/s1/<id> hold only the partial first SCF; ignore."
+  },
+  {
+   "job": "lcm/pba/s1/KCrV",
+   "call_id": "fc-01M40NPJ2DAKDZNQC7ENYGWF9N",
+   "t_submit": "2026-10-03 03:42:01",
+   "terminated": "2026-10-03 ~05:50 via FunctionCall.cancel(terminate_containers=True) after ~6 min (first SCF of the vc-relax)",
+   "reason": "cell built with ase cellpar_to_cell orientation: QE ibrav=0 found 6/24 (F-43m) and 12/48 (Fm-3m) symmetry ops (19 instead of 10 irreducible k, under-constrained relax, SOC axes not cubic). Rebuilt with cubic axes = Cartesian (pba_geom.py) and resubmitted as lcm/pba/s1a/<id>. Volume dirs jobs/lcm/pba/s1/<id> hold only the partial first SCF; ignore."
+  },
+  {
+   "job": "lcm/pba/s1/CrCr",
+   "call_id": "fc-01M40NPJM4B9W0AE1ZGM4PD2AE",
+   "t_submit": "2026-10-03 03:42:02",
+   "terminated": "2026-10-03 ~05:50 via FunctionCall.cancel(terminate_containers=True) after ~6 min (first SCF of the vc-relax)",
+   "reason": "cell built with ase cellpar_to_cell orientation: QE ibrav=0 found 6/24 (F-43m) and 12/48 (Fm-3m) symmetry ops (19 instead of 10 irreducible k, under-constrained relax, SOC axes not cubic). Rebuilt with cubic axes = Cartesian (pba_geom.py) and resubmitted as lcm/pba/s1a/<id>. Volume dirs jobs/lcm/pba/s1/<id> hold only the partial first SCF; ignore."
+  },
+  {
+   "job": "lcm/pba/hse/KVMo_hse_FM",
+   "call_id": "fc-01M40Q0KV2PSXXB57TBJ8YSZ1Y",
+   "t_submit": "2026-10-03 04:05:00",
+   "terminated": "2026-10-03 ~07:10 via FunctionCall.cancel(terminate_containers=True), during the plain-PBE stage / first EXX loop",
+   "reason": "unconstrained FM is not the d3/d3 Heisenberg reference: plain-PBE start of KVMo FM converged to M = 2.57 (V t2g up -> Mo t2g down transfer, metallic); KVCr FM start collapsed to M = 0. Replaced by lcm/pba/hse/{KVCr,KVMo}_hse_FMfix (tot_magnetization = 6). CrCr_hse_FM kept (PBE start M = 6.00)."
+  },
+  {
+   "job": "lcm/pba/hse/KVCr_hse_FM",
+   "call_id": "fc-01M40R3JTXE9BYD55ZTY5HWE1Q",
+   "t_submit": "2026-10-03 04:24:05",
+   "terminated": "2026-10-03 ~07:10 via FunctionCall.cancel(terminate_containers=True), during the plain-PBE stage / first EXX loop",
+   "reason": "unconstrained FM is not the d3/d3 Heisenberg reference: plain-PBE start of KVMo FM converged to M = 2.57 (V t2g up -> Mo t2g down transfer, metallic); KVCr FM start collapsed to M = 0. Replaced by lcm/pba/hse/{KVCr,KVMo}_hse_FMfix (tot_magnetization = 6). CrCr_hse_FM kept (PBE start M = 6.00)."
+  }
+ ]
+}

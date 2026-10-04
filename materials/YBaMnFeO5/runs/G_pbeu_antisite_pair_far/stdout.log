@@ -1,0 +1,50 @@
+Traceback (most recent call last):
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/s1/YBMFO_antisite_swap_far/lcm_stage1.py", line 138, in <module>
+    o = run_one(c)
+        ^^^^^^^^^^
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/s1/YBMFO_antisite_swap_far/lcm_stage1.py", line 73, in run_one
+    r = run_pw(f"{pref}.in", ncores=NC, npool=max(1, NC // 2), timeout=8 * 3600)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jobs/lcm/s1/YBMFO_antisite_swap_far/lib/qeutil.py", line 194, in run_pw
+    r = subprocess.run(cmd, shell=True, timeout=timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2141, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/s1/YBMFO_antisite_swap_far/lcm_stage1.py", line 138, in <module>
+    o = run_one(c)
+        ^^^^^^^^^^
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/s1/YBMFO_antisite_swap_far/lcm_stage1.py", line 96, in run_one
+    r = run_pw(inp, ncores=NC, npool=max(1, NC // 2), timeout=5 * 3600)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jobs/lcm/s1/YBMFO_antisite_swap_far/lib/qeutil.py", line 194, in run_pw
+    r = subprocess.run(cmd, shell=True, timeout=timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2141, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+YBMFO_antisite_swap_far YBaMnFeO5 FM dE=0.0 M=78.03 gap=0.09 winVB=0.02 winCB=0.26 flip=0 col=0
+YBMFO_antisite_swap_far YBaMnFeO5 Gsite dE=-204.8 M=0.0 gap=1.01 winVB=0.29 winCB=0.23 flip=0 col=0

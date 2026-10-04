@@ -1,0 +1,34 @@
+12:18:52 relax start nk_irr 1 npool 2
+Traceback (most recent call last):
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/pba/def/KVCr_KVAC/pba_defect.py", line 443, in <module>
+    main(sys.argv[1])
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/pba/def/KVCr_KVAC/pba_defect.py", line 419, in main
+    at = do_relax(c, out, at0, mom, U)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/__modal/volumes/vo-Mi0g5U99muJ0TedEPCRyt6/jobs/lcm/pba/def/KVCr_KVAC/pba_defect.py", line 143, in do_relax
+    r = run_pw(f"{pref}.in", ncores=NC, npool=npool, timeout=RELAX_MAXSEC + 3600)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jobs/lcm/pba/def/KVCr_KVAC/lib/qeutil.py", line 194, in run_pw
+    r = subprocess.run(cmd, shell=True, timeout=timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2141, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+  File "/opt/conda/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+12:41:21 relax restart from KVCr_KVAC_relax_prev0.out blocks 5
+12:41:21 relax start nk_irr 1 npool 2
+13:04:03 relax done True -30868.642000055643 1.0 nscf 10 maxdisp 0.041637836884798204
+13:07:36 scf -30868.641985361497 M 1.0 |M| 27.42 conv True iter 19 213
+13:26:37 nscf rc 0 1140 nk 10 npool 8
+13:27:04 projwfc rc 0 28
+13:27:11 KVCr_KVAC E -30868.6420 M 1.000 |M| 27.420 gap 0.003 vbm_s 1 win_VB 2.073 cbm_s 1 win_CB 3.007

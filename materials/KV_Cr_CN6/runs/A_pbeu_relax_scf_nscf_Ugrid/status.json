@@ -1,0 +1,10 @@
+{
+ "job": "lcm/pba/s1a/KVCr",
+ "state": "done",
+ "cmd": "ECUT=110 KSCF=0.25 KNSCF=0.14 NPOOL=8 NPOOL_NSCF=16 SCF_MAXSEC=7200 RELAX_MAXSEC=10800 python pba_chain.py KVCr_chain.json",
+ "ncores": 32,
+ "start": 1791024392.5389705,
+ "rc": 0,
+ "end": 1791029026.397258,
+ "hours": 1.287182857659128
+}

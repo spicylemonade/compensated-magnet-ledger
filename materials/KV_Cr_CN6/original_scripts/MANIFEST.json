@@ -1,0 +1,160 @@
+{
+ "note": "Copies of the scripts as they are on disk at 2026-10-03 11:20 PDT. They run from their original folders (relative imports, infra/mrun.py); these copies are for reference. md5 of the copy = md5 of the original at copy time.",
+ "files": {
+  "jobs/lcm_stage1.py": {
+   "origin": "tracks/lcm/pba/jobsrc/lcm_stage1.py",
+   "md5": "be16bdd56aa869ddebf76b49455a7769",
+   "what": "stage-1 multi-configuration runner (pivot/garnet copy, unchanged); vc-relax, LCM/FM SCF, dense nscf",
+   "jobs": [
+    "lcm/pba/s1a/{KVCr,KVMo,KCrV,CrCr}",
+    "lcm/pba/s1/KVCr_2H2O"
+   ]
+  },
+  "jobs/pba_chain.py": {
+   "origin": "tracks/lcm/pba/jobsrc/pba_chain.py",
+   "md5": "e4575a7936b88d96f80096bc2a3065a5",
+   "what": "chains lcm_stage1: base run, exact F-43m/Fm-3m projection (<id>_sym.json), U-grid points",
+   "jobs": [
+    "lcm/pba/s1a/*"
+   ]
+  },
+  "jobs/pba_geom.py": {
+   "origin": "tracks/lcm/pba/jobsrc/pba_geom.py",
+   "md5": "e6a8b46bbf6229dfde71e6c745cb1c3b",
+   "what": "machine-precision F-43m / Fm-3m PBA cell builder and symmetrizer",
+   "jobs": [
+    "lcm/pba/s1a/*",
+    "defect builder"
+   ]
+  },
+  "jobs/pba_fmfix.py": {
+   "origin": "tracks/lcm/pba/jobsrc/pba_fmfix.py",
+   "md5": "9080dd21a4170c9d0a7b7c2da10cdd52",
+   "what": "FM with tot_magnetization = 6 (d3/d3 reference); also used for the J2/J4 supercells",
+   "jobs": [
+    "lcm/pba/s1a/FMfix",
+    "lcm/pba/hse/{KVCr,KVMo}_hse_FMfix",
+    "lcm/pba/tc/J2_{KVCr,KVMo,CrCr}"
+   ]
+  },
+  "jobs/pba_orbm.py": {
+   "origin": "tracks/lcm/pba/jobsrc/pba_orbm.py",
+   "md5": "41ac51c700a0d07bbdb8d52f1759b435",
+   "what": "best-effort lorbm orbital-magnetization nscf (failed twice; see README)",
+   "jobs": [
+    "lcm/pba/soc/KVMo_soc (v1 md5 d556f22c...)",
+    "lcm/pba/soc/KVMo_soc_r"
+   ]
+  },
+  "jobs/lcm_deep.py": {
+   "origin": "infra/jobs_src/lcm_deep/lcm_deep.py",
+   "md5": "4d9d4ff6f638ffd87884b6b3cbbe539c",
+   "what": "HSE06 and SOC deep runs (infra, unchanged)",
+   "jobs": [
+    "lcm/pba/hse/*_hse_LCM",
+    "lcm/pba/hse/CrCr_hse_FM",
+    "lcm/pba/soc/KVMo_soc",
+    "lcm/pba/hse/KVCr2H2O_hse_LCM",
+    "lcm/pba/hse/KVCr_hse_LCM_nq1"
+   ]
+  },
+  "jobs/pba_defect.py": {
+   "origin": "tracks/lcm/pba/defects/jobsrc/pba_defect.py",
+   "md5": "79e8f16383834559c49aa03e86e8636b",
+   "what": "4-f.u. defect cells: relax, scf, nscf 4x4x4, projwfc, aligned windows",
+   "jobs": [
+    "lcm/pba/def/*"
+   ]
+  },
+  "jobs/pba_refs.py": {
+   "origin": "tracks/lcm/pba/defects/jobsrc/pba_refs.py",
+   "md5": "052d65159f453cd113d9a6377739ba76",
+   "what": "chemical-potential references (bcc K, isolated H2O)",
+   "jobs": [
+    "lcm/pba/def/refs"
+   ]
+  },
+  "jobs/pba_phon.py": {
+   "origin": "tracks/lcm/pba/phon/jobsrc/pba_phon.py",
+   "md5": "088ef8e0ce06e9dfefa33d1b1aa9e537",
+   "what": "finite-displacement forces for phonopy (prim/conv/L30) and rigid K scans",
+   "jobs": [
+    "lcm/pba/phon/*_g*",
+    "lcm/pba/phon/kscan/*"
+   ]
+  },
+  "jobs/pba_koff.py": {
+   "origin": "tracks/lcm/pba/phon/jobsrc/pba_koff.py",
+   "md5": "d27a9f319d4f2d224c3a975d4fedf92f",
+   "what": "fixed-cell K off-centring relaxations",
+   "jobs": [
+    "lcm/pba/phon/koff/*",
+    "lcm/pba/phon/koff2/*"
+   ]
+  },
+  "jobs/taut.py": {
+   "origin": "tracks/lcm/pba/taut/jobsrc/taut.py",
+   "md5": "a389f8b6ce9585af036176f4f12a77e2",
+   "what": "charge-transfer tautomer / spin-state constrained starts (v3), relax, HSE chain",
+   "jobs": [
+    "lcm/pba/taut/*_CT, *_LS, KVMo_U{4,2}_0, KVCr_U{4,2}_2 (v3, submitted 10:24)"
+   ]
+  },
+  "jobs/kvar.py": {
+   "origin": "tracks/lcm/pba/taut/jobsrc/kvar.py",
+   "md5": "416117e0cfb334a3a5d68c278217a513",
+   "what": "K off-centre / K-ordering variants",
+   "jobs": [
+    "lcm/pba/taut/{KVCr,KVMo}_Kvar"
+   ]
+  },
+  "collectors/gate0_collect.py": {
+   "origin": "tracks/lcm/pba/collect.py",
+   "md5": "e5c23e1ebe35ec4b6dacd5abbb0f6023",
+   "what": "Gate-0 collector (fixed paths; --fetch)",
+   "jobs": []
+  },
+  "collectors/defects_collect.py": {
+   "origin": "tracks/lcm/pba/defects/collect.py",
+   "md5": "080260886f9addfda776e75817943fe2",
+   "what": "Gate-1 defect collector",
+   "jobs": []
+  },
+  "collectors/vac_collect_vac.py": {
+   "origin": "tracks/lcm/pba/vac/collect_vac.py",
+   "md5": "b8ff72d3f4a59d2108302337aa07d3b0",
+   "what": "vacancy collector (imports defects/collect.py analyse())",
+   "jobs": []
+  },
+  "collectors/vac_summarize.py": {
+   "origin": "tracks/lcm/pba/vac/summarize.py",
+   "md5": "a7049ebffe43a45411e97a6af5a61803",
+   "what": "writes vac/summary.json",
+   "jobs": []
+  },
+  "collectors/phon_collect.py": {
+   "origin": "tracks/lcm/pba/phon/collect.py",
+   "md5": "6f5f8da4375ca3f82556a18edab8b59e",
+   "what": "phonon collector (phonopy)",
+   "jobs": []
+  },
+  "collectors/taut_collect.py": {
+   "origin": "tracks/lcm/pba/taut/collect.py",
+   "md5": "ef08b95fe2cf06719239335ecf3a7d9a",
+   "what": "tautomer collector",
+   "jobs": []
+  },
+  "collectors/tc_model.py": {
+   "origin": "tracks/lcm/pba/tc/tc_model.py",
+   "md5": "38b09f23b1ec382a323e01f7e78f33a3",
+   "what": "T_C model (calibration, predictions, error budget) -> tc/summary.json",
+   "jobs": []
+  },
+  "collectors/tc_sc_mc.py": {
+   "origin": "tracks/lcm/pba/tc/sc_mc.py",
+   "md5": "8a1b658956139433dda7c22448018b20",
+   "what": "numba classical Heisenberg MC kernel",
+   "jobs": []
+  }
+ }
+}

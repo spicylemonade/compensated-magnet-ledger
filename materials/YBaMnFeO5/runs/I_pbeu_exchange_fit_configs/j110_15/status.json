@@ -1,0 +1,10 @@
+{
+ "job": "lcm/jfit110/j110_15",
+ "state": "done",
+ "cmd": "ECUT=90 TAG=e90 python lcm_single.py j110_15.json C",
+ "ncores": 32,
+ "start": 1790926952.8093932,
+ "rc": 0,
+ "end": 1790927376.1223958,
+ "hours": 0.1175869451628791
+}

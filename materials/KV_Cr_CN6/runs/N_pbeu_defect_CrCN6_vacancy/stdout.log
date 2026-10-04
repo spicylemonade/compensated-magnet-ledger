@@ -1,0 +1,4 @@
+16:49:03 scf -27029.16032728966 M -3.0 |M| 24.4 conv True iter 21 407
+17:06:19 nscf rc 0 1036 nk 14 npool 16
+17:06:47 projwfc rc 0 29
+17:06:55 KVCr_VAC_r E -27029.1603 M -3.000 |M| 24.400 gap 1.428 vbm_s 1 win_VB 2.065 cbm_s 1 win_CB 0.454
