@@ -2,7 +2,7 @@
 
 This repository holds the data behind a blog post about two candidate **room-temperature "Luttinger-compensated" magnetic semiconductors**. In these magnets two different kinds of atom carry exactly opposite spins, so the material has no net magnetisation, yet its electrons are still sorted by spin as they would be in a ferromagnet.
 
-- **YBaMnFeO₅**: a new design. On paper it is nearly ideal. However, our own calculations predict that the atomic ordering it needs cannot be reached by normal synthesis.
+- **YBaMnFeO₅**: a new design. On paper it is nearly ideal. However, our own calculations suggest the atomic ordering it needs may be hard to reach with standard synthesis.
 - **KV[Cr(CN)₆]**: a Prussian-blue-type magnet first made in 1999 that orders at 376 K. Our calculations say it already has this electronic structure; as far as we could find, nobody had described it this way before.
 
 Everything here was computed by a team of Claude Opus 5.5 agents (Anthropic), which ran density functional theory (DFT) calculations on cloud computers. This repository makes every number checkable: the raw inputs and outputs, the scripts, and a claim-by-claim checker.
@@ -17,7 +17,7 @@ Everything here was computed by a team of Claude Opus 5.5 agents (Anthropic), wh
 | Electrons spin-sorted at both band edges, same spin | yes: windows of 1.0 / 1.4 eV (HSE06) | yes: windows of 2.6 / 1.6 eV (HSE06) |
 | Band gap (HSE06) | 2.35 eV | 2.09 eV |
 | Orders above room temperature | predicted: about 420 K raw, about 490 K calibrated | **measured: 376 K** (Holmes & Girolami, 1999) |
-| Can it be made? | **Probably not with known methods.** The required Mn/Fe checkerboard is predicted to scramble at about 950 K, below the temperatures where atoms can move during synthesis, and scrambling destroys the effect | **Already made**, but only once, as a hydrated powder with small imbalances (0.125 μB/f.u.) |
+| Can it be made? | **May be hard with standard methods.** The required Mn/Fe checkerboard is predicted to scramble at about 950 K, below the temperatures where the atoms move quickly during synthesis, and scrambling destroys the effect | **Already made**, but only once, as a hydrated powder with small imbalances (0.125 μB/f.u.) |
 | Survives real-world imperfections? | No: one swapped Mn/Fe pair closes the spin-selective gap | Water and vacancies: HSE06 says yes, PBE+U says the hole window shrinks a lot. Unresolved |
 | Measured spin polarisation, conductivity or band gap | none (not made) | none yet |
 | Grade from the agents' own adversarial review | design study, not a realizable discovery | solid "identification plus numbers", not a breakthrough |
@@ -103,7 +103,7 @@ These are DFT predictions for ideal crystals at zero temperature.
 - Density functional theory with a Hubbard U, and even HSE06, can misplace energy levels by tenths of an eV.
 - The two methods used here disagree about how much water harms KV[Cr(CN)₆].
 - Nobody has measured the spin polarisation, band gap or conductivity of either material.
-- YBaMnFeO₅'s key ordering is predicted to be unreachable.
+- YBaMnFeO₅'s key ordering is predicted to be hard to reach with standard synthesis.
 - KV[Cr(CN)₆]'s only sample is one hydrated powder from 1999.
 
 The full list is in [LEDGER.md → Known caveats](LEDGER.md#known-caveats-and-method-issues).

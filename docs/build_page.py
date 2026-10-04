@@ -318,7 +318,7 @@ BODY = r"""
 </header>
 
 <p>Most of us know two kinds of magnet, even if we don't know their names. The fridge kind is a <strong>ferromagnet</strong>: trillions of tiny atomic magnets all point the same way, so their pull adds up to something you can feel. The other kind, an <strong>antiferromagnet</strong>, is magnetic on the inside, but neighbouring atomic magnets point in opposite directions and cancel exactly. You can't stick it to anything.</p>
-<p>For years, people building the next generation of computer memory have wanted something in between. Over the past few days, a team of AI agents and I went looking for materials that might be it. We ended up with two candidates. One we designed from scratch, and then our own calculations said it can't actually be made. The other was first made in a lab in 1999 and turns out to have this property, something we found no earlier paper pointing out. This post explains what we found, how sure we are, and where all the raw data is.</p>
+<p>For years, people building the next generation of computer memory have wanted something in between. Over the past few days, a team of AI agents and I went looking for materials that might be it. We ended up with two candidates. One we designed from scratch, which our own calculations suggest may be hard to make. The other was first made in a lab in 1999 and turns out to have this property, something we found no earlier paper pointing out. This post explains what we found, how sure we are, and where all the raw data is.</p>
 
 <h2>A 90-second magnet primer</h2>
 <p>Electrons have a property called <em>spin</em> that makes each one a tiny magnet pointing "up" or "down". Spin can carry information. That is the idea behind <strong>spintronics</strong>, which already gives us hard-drive read heads and a kind of memory chip called MRAM.</p>
@@ -356,7 +356,7 @@ BODY = r"""
 </ul>
 <p>The agents were set up to argue with themselves. Before running a decisive calculation, they wrote down what result would kill the idea. Separate "referee" agents then tried to tear each claim apart, and several claims were retracted along the way. That record of corrections is part of the repository.</p>
 
-<h2>YBaMnFeO₅: a blueprint we probably can't build</h2>
+<h2>YBaMnFeO₅: a blueprint that may be hard to build</h2>
 <p><strong>The idea.</strong> Take a well-known family of layered oxide crystals and put manganese (Mn) and iron (Fe) on the magnetic sites in a perfect 3D checkerboard, so that every Mn is surrounded by Fe and vice versa. Here Mn²⁺ and Fe³⁺ both have five unpaired electrons, so their atomic magnets are the same size, and the checkerboard makes them point opposite ways. Yttrium, barium and oxygen fill in the rest, all of them cheap and earth-abundant.</p>
 <p><strong>On paper, it is close to ideal.</strong> The calculations predict:</p>
 <ul>
@@ -366,15 +366,15 @@ BODY = r"""
   <li>magnetic order up to roughly <strong>420 K</strong> (about 145 °C) in the raw simulation, or about <strong>490 K</strong> after calibrating against a known relative {{L:Y22,Y23}};</li>
   <li>a position right at the edge of thermodynamic stability, within calculation error {{L:Y24}}.</li>
 </ul>
-<p><strong>The catch is the checkerboard.</strong> Mn and Fe sit next to each other in the periodic table, are nearly the same size, and differ by one unit of charge. That gives them little reason to keep to their own squares. When the agents simulated how the atoms arrange themselves at different temperatures, the checkerboard melted into a random mix at around <strong>950 K</strong> {{L:Y25,Y26}}. To make this kind of oxide you heat it to roughly 900–1300 °C, and much below that the metal atoms are effectively frozen in place. So by the time the material is cool enough for the checkerboard to be favoured, the atoms can no longer move into it, and you get a scrambled crystal.</p>
+<p><strong>The catch is the checkerboard.</strong> Mn and Fe sit next to each other in the periodic table, are nearly the same size, and differ by one unit of charge. That gives them little reason to keep to their own squares. When the agents simulated how the atoms arrange themselves at different temperatures, the checkerboard melted into a random mix at around <strong>950 K</strong> {{L:Y25,Y26}}. To make this kind of oxide you heat it to roughly 900–1300 °C, and much below that the metal atoms are effectively frozen in place. So by the time the material is cool enough for the checkerboard to be favoured, the atoms may no longer be able to move into it, and standard synthesis would likely give a scrambled crystal.</p>
 
 <figure class="wide">
   <div class="scroll">{{FIG3}}</div>
-  <figcaption>Why the useful form of YBaMnFeO₅ is out of reach. The whisker on the top bar is the uncertainty of the computed melting point (800–1200 K). The lower bar starts where the metal atoms become mobile, a threshold inferred from a related compound. Ledger {{L:Y25,Y26,Y27}}.</figcaption>
+  <figcaption>Why the useful form of YBaMnFeO₅ may be hard to reach. The whisker on the top bar is the uncertainty of the computed melting point (800–1200 K). The lower bar starts where the metal atoms become mobile, a threshold inferred from a related compound. Ledger {{L:Y25,Y26,Y27}}.</figcaption>
 </figure>
 
 <p>This isn't just theory. Every chemically similar compound whose atomic arrangement has been checked came out scrambled, including versions with gadolinium or neodymium in place of yttrium and one with cobalt in place of iron. And scrambling ruins the effect: in the simulation, swapping a single neighbouring Mn/Fe pair pushed states of the opposite spin into the gap and shrank it to almost nothing, 0.01 eV {{L:Y19,Y20}}.</p>
-<p><strong>Verdict.</strong> It is a beautiful blueprint and a useful lesson, and the agents' own review downgraded it to a design study, because nobody knows how to build it. The lesson is that the difference between the two magnetic sublattices has to be <em>enforced by strong chemistry</em>, not left to delicate atomic ordering. That lesson led straight to the second candidate.</p>
+<p><strong>Verdict.</strong> It is a beautiful blueprint and a useful lesson, and the agents' own review downgraded it to a design study, because there is no known way yet to make the ordered crystal. The lesson is that the difference between the two magnetic sublattices has to be <em>enforced by strong chemistry</em>, not left to delicate atomic ordering. That lesson led straight to the second candidate.</p>
 
 <h2>KV[Cr(CN)₆]: hiding in plain sight since 1999</h2>
 <p><strong>What it is.</strong> KV[Cr(CN)₆] belongs to the same family as <strong>Prussian blue</strong>, the 300-year-old pigment. Picture a cubic scaffold of cyanide groups, each one carbon atom joined to one nitrogen atom. Chromium atoms hold the carbon ends, vanadium atoms hold the nitrogen ends, and potassium ions sit in the holes. In 1999 the chemists Stephen Holmes and Gregory Girolami made it and found that it stays magnetic up to <strong>376 K</strong> (103 °C) {{L:K30}}, unusually high for a magnet assembled from molecular building blocks. They designed it so that the vanadium and chromium magnets, three unpaired electrons each, would cancel. They measured almost zero: about 2 % of what you'd get if all the spins lined up {{L:K31}}. The small leftover is normal for real samples, where a few building blocks are missing.</p>
@@ -414,7 +414,7 @@ BODY = r"""
     <tr><th scope="row">Band gap (HSE06)</th><td class="num">2.35 eV</td><td class="num">2.09 eV</td></tr>
     <tr><th scope="row">Spin windows, holes / electrons</th><td class="num">1.0 / 1.4 eV</td><td class="num">2.6 / 1.6 eV</td></tr>
     <tr><th scope="row">Magnetic up to</th><td>≈ 420–490 K (predicted)</td><td><strong>376 K (measured)</strong></td></tr>
-    <tr><th scope="row">Can it be made?</th><td>probably not: the atoms won't hold the checkerboard</td><td>yes, once, as a hydrated powder</td></tr>
+    <tr><th scope="row">Can it be made?</th><td>may be hard: the atoms tend to scramble the checkerboard</td><td>yes, once, as a hydrated powder</td></tr>
     <tr><th scope="row">Biggest open question</th><td>is there any route to the ordered crystal?</td><td>does the spin sorting survive in real, wet, imperfect samples?</td></tr>
     <tr><th scope="row">Ever measured spin-sorted?</th><td>no</td><td>no</td></tr>
   </tbody>
@@ -468,7 +468,7 @@ NP=16 NK=8 PSEUDO=$PWD/pseudo bash reproduce/run_qe.sh \
 </ul>
 
 <h2>What I took away</h2>
-<p>AI agents are good at breadth, and at being systematically sceptical when they are set up to be. In three days they ran hundreds of calculations, checked the literature, and killed their own favourite idea, and only then did they find the better candidate in a 1999 paper. The next step belongs to the lab. Nothing here has been measured yet, and the open question, whether real KV[Cr(CN)₆] keeps its spin-sorted edges, needs an experiment. The ledger gives anyone running those experiments the exact numbers to test against.</p>
+<p>AI agents are good at breadth, and at being systematically sceptical when they are set up to be. In three days they ran hundreds of calculations, checked the literature, and set aside their own favourite idea, and only then did they find the better candidate in a 1999 paper. The next step belongs to the lab. Nothing here has been measured yet, and the open question, whether real KV[Cr(CN)₆] keeps its spin-sorted edges, needs an experiment. The ledger gives anyone running those experiments the exact numbers to test against.</p>
 
 <details id="ledger">
   <summary>The ledger: every claim, its value, and the raw files it comes from</summary>

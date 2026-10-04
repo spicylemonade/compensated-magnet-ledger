@@ -200,7 +200,7 @@ Most of these come from the agents' own adversarial reviews and cross-checks. Th
 
 **YBaMnFeO₅**
 
-12. **It has never been made.** The key result is negative: the rock-salt Mn/Fe order needed for the effect is predicted to disorder at about 950 K (Y25–Y26). That is below the temperatures at which cations move during synthesis.
+12. **It has never been made.** The key result is negative: the rock-salt Mn/Fe order needed for the effect is predicted to disorder at about 950 K (Y25–Y26). That is below the temperatures at which cations move quickly during standard synthesis.
     - Every chemically similar compound whose B-site arrangement has been determined (GdBaMnFeO₅, NdBaMnFeO₅₊δ, YBaMnCoO₅) is B-site disordered. SmBaMnFeO₅₊δ has been made, but its B-site order is not reported.
     - A single nearest-neighbour Mn/Fe swap collapses the opposite-spin gap (Y19–Y20).
 13. **The freeze-out temperature is an analogy.** The ~1150 K below which B-site exchange is taken to freeze comes from a different compound, YBaCuFeO₅ (Morin et al., Nat. Commun. 7, 13758 (2016)), computed with the same protocol.

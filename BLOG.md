@@ -10,7 +10,7 @@ The fridge kind is a **ferromagnet**: trillions of tiny atomic magnets all point
 
 For years, people building next-generation computer memory have wanted something in between. Over the past few days, a team of AI agents and I went looking for materials that might be it. We ended up with two candidates:
 
-- one we designed from scratch, which our own calculations then predicted can't actually be made;
+- one we designed from scratch, which our own calculations suggest may be hard to make;
 - one first made in a lab in 1999 that turns out to have this property, something we found no earlier paper pointing out.
 
 This post explains what we found, how sure we are, and where all the raw data is.
@@ -50,7 +50,7 @@ The agents used **density functional theory (DFT)**, the standard way to compute
 
 The agents were set up to argue with themselves. Before running a decisive calculation, they wrote down what result would kill the idea. Separate "referee" agents then tried to tear each claim apart, and several claims were retracted along the way. That record of corrections is part of the ledger.
 
-## Candidate 1: YBaMnFeO₅, a blueprint we probably can't build
+## Candidate 1: YBaMnFeO₅, a blueprint that may be hard to build
 
 **The idea.** Take a well-known family of layered oxide crystals. Put manganese (Mn) and iron (Fe) on the magnetic sites in a perfect 3D checkerboard, so that every Mn is surrounded by Fe and vice versa. In this compound Mn²⁺ and Fe³⁺ both have five unpaired electrons, so their magnets are the same size, and the checkerboard makes them point in opposite directions. Yttrium, barium and oxygen fill in the rest. Every element is cheap and earth-abundant.
 
@@ -64,17 +64,17 @@ The agents were set up to argue with themselves. Before running a decisive calcu
 
 **The catch is the checkerboard.** Mn and Fe sit next to each other in the periodic table, are nearly the same size, and differ by one unit of charge. That is not much of a reason for them to keep to their own squares.
 
-When the agents simulated how the atoms arrange themselves at different temperatures, the checkerboard "melted" into a random mix at around **950 K (≈ 680 °C)**. To make this kind of oxide you heat it to roughly 900–1,300 °C, and at lower temperatures the atoms are effectively frozen in place. So by the time it is cool enough for the checkerboard to be favoured, the atoms can no longer move to form it. You would get a scrambled crystal.
+When the agents simulated how the atoms arrange themselves at different temperatures, the checkerboard "melted" into a random mix at around **950 K (≈ 680 °C)**. To make this kind of oxide you heat it to roughly 900–1,300 °C, and at lower temperatures the atoms are effectively frozen in place. So by the time it is cool enough for the checkerboard to be favoured, the atoms may no longer be able to move into it, and standard synthesis would likely give a scrambled crystal.
 
-![Why the ordered form of YBaMnFeO5 is out of reach](docs/img/ybamnfeo5_temperatures.svg)
+![Why the ordered form of YBaMnFeO5 may be hard to reach](docs/img/ybamnfeo5_temperatures.svg)
 
-*The checkerboard is the stable arrangement only below about 950 K (whisker: 800–1200 K uncertainty), but the metal atoms can only rearrange above about 1150 K, and syntheses run at 1173–1573 K. Ledger Y25–Y27.*
+*The checkerboard is the stable arrangement only below about 950 K (whisker: 800–1200 K uncertainty), but the metal atoms only rearrange quickly above roughly 1150 K (an estimate from a related compound), and syntheses run at 1173–1573 K. Ledger Y25–Y27.*
 
 This isn't just theory: every chemically similar compound whose atomic arrangement has been checked came out scrambled. That includes versions with gadolinium or neodymium in place of yttrium, and one with cobalt in place of iron.
 
 Scrambling ruins the effect. In the simulation, swapping a single neighbouring Mn/Fe pair (two of the 16 magnetic sites in the model) pushed states of the opposite spin into the gap and shrank the band gap from about 1.3 eV to almost nothing (0.01 eV).
 
-**Verdict.** It is a beautiful blueprint and a useful lesson. The agents' own review downgraded it to a design study, because nobody knows how to build it. The lesson is that the difference between the two magnetic sublattices has to be *enforced by strong chemistry*, not left to delicate atomic ordering. That lesson led directly to the second candidate.
+**Verdict.** It is a beautiful blueprint and a useful lesson. The agents' own review downgraded it to a design study, because there is no known way yet to make the ordered crystal. The lesson is that the difference between the two magnetic sublattices has to be *enforced by strong chemistry*, not left to delicate atomic ordering. That lesson led directly to the second candidate.
 
 ## Candidate 2: KV[Cr(CN)₆], hiding in plain sight since 1999
 
@@ -128,7 +128,7 @@ Here is how the two methods compare in each situation (spin windows in eV; ledge
 | Band gap (HSE06) | 2.35 eV | 2.09 eV |
 | Spin windows, holes / electrons (HSE06) | 1.0 / 1.4 eV | 2.6 / 1.6 eV |
 | Magnetic up to | ~420–490 K (predicted) | **376 K (measured)** |
-| Can it be made? | probably not: atoms won't hold the checkerboard | yes, once, as a hydrated powder |
+| Can it be made? | may be hard: the atoms tend to scramble the checkerboard | yes, once, as a hydrated powder |
 | Biggest open question | is there any route to the ordered crystal? | does the spin sorting survive in real, wet, imperfect samples? |
 | Ever measured spin-sorted? | no | no |
 
@@ -163,7 +163,7 @@ If someone with a glovebox and a synchrotron proposal is reading this, the ledge
 
 ## What I took away
 
-AI agents are good at breadth and at being systematically sceptical when they are set up to be. In three days they ran hundreds of calculations and checked the literature. They also killed their own favourite idea, YBaMnFeO₅, and only then found the better candidate hiding in a 1999 paper.
+AI agents are good at breadth and at being systematically sceptical when they are set up to be. In three days they ran hundreds of calculations and checked the literature. They also set aside their own favourite idea, YBaMnFeO₅, and only then found the better candidate hiding in a 1999 paper.
 
 The next step belongs to the lab. Nothing here has been measured yet, and the open question, whether real KV[Cr(CN)₆] keeps its spin-sorted edges, needs an experiment.
 

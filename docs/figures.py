@@ -115,7 +115,7 @@ def fig2():
     return f'<svg viewBox="0 0 640 360" role="img" aria-label="{label}" class="fig-svg">' + "\n".join(o) + "</svg>"
 
 
-# ---------------------------------------------------------------- figure 3: why YBaMnFeO5 can't be made ordered
+# ---------------------------------------------------------------- figure 3: why the ordered form of YBaMnFeO5 may be hard to make
 def x_of(T):
     return 40 + T * 640 / 1700
 
@@ -154,7 +154,7 @@ def fig3():
         o.append(_t(x_of(T), 216, f"{T}", "f-small", "middle"))
     o.append(_t(680, 216, "K", "f-small", "end"))
     label = ("Temperature scale for YBaMnFeO5: the Mn/Fe checkerboard is stable only below about 950 K, but the metal atoms can only "
-             "rearrange above about 1150 K, and syntheses run at 1173 to 1573 K, so the ordered form cannot be reached by heating and cooling.")
+             "rearrange above about 1150 K, and syntheses run at 1173 to 1573 K, so the ordered form may be hard to reach by heating and cooling.")
     return f'<svg viewBox="0 0 720 248" role="img" aria-label="{label}" class="fig-svg">' + "\n".join(o) + "</svg>"
 
 
