@@ -3,7 +3,7 @@
 This repository holds the data behind a blog post about two candidate **room-temperature "Luttinger-compensated" magnetic semiconductors**. In these magnets two inequivalent kinds of magnetic atom carry opposite spins of equal size, so in an ideal crystal the net spin moment is zero, yet the electrons are still sorted by spin as they would be in a ferromagnet. (The two kinds of atom are often different elements, as in both materials here, but the same element on two different kinds of site also works.)
 
 - **YBaMnFeO₅**: a new design. On paper it is nearly ideal. However, our own calculations suggest the atomic ordering it needs may be hard to reach with standard synthesis.
-- **KV[Cr(CN)₆]**: a Prussian-blue-type magnet first made in 1999; its only reported sample, a hydrated powder, orders at 376 K. Our calculations say it already has this electronic structure. Its zero net moment was designed in (1999) and computed before (2008, including with hybrid functionals); what we found no earlier work reporting is the size of its spin windows (LEDGER caveat 11).
+- **KV[Cr(CN)₆]**: a Prussian-blue-type magnet first made in 1999; its only reported sample, a hydrated powder, orders at 376 K. Our calculations say it already has this electronic structure. Its zero net moment was designed in (1999), and its spin-sorted band edges are already visible in a 2008 hybrid-functional calculation that did not comment on them. We point them out, put numbers on them and test how robust they are (LEDGER caveat 11).
 
 Everything here was computed by a team of Claude Opus 5.5 agents (Anthropic), which ran density functional theory (DFT) calculations on cloud computers. This repository makes the numbers checkable: the inputs and raw outputs, the scripts, and a claim-by-claim checker. Of the 59 claims in the ledger, 50 are recomputed directly from raw outputs, 3 by re-running included scripts, 3 are read from recorded analysis files, and 3 are experimental or literature values.
 
@@ -26,12 +26,13 @@ Each number above is traced in [LEDGER.md](LEDGER.md) to the exact input and raw
 
 ## Corrections found while building this ledger
 
-Re-reading every raw output turned up four things the agents' own records got wrong or left out. They are fixed or flagged here, and none changes the main conclusions above.
+Re-reading every raw output, and an outside reader's literature check, turned up five things the agents' own records got wrong or left out. They are fixed or flagged here, and none changes the main conclusions above.
 
 - **YBaMnFeO₅ hull distance: +13.7 meV/atom, not +2.6.** The agents computed the hull before every competing phase had finished. With all 33 completed competitors, read from their raw outputs, BaFe₂O₄ and Ba₆Y₂Fe₄O₁₅ lower the hull (claims Y24 and Y24b; LEDGER caveat 17). That is still typical of compounds that have been made, but it is no longer "at the edge of stability".
 - **HSE06 for the water-containing KV[Cr(CN)₆]:** the agents' run stopped before its exact-exchange loop converged, and the old run index marked it converged. The index now flags it, and the run is being carried to convergence (LEDGER caveat 7).
 - **Partly relaxed geometries:** the water-filled-vacancy cell and two of the cation arrangements were computed on geometries whose relaxation had stopped early (LEDGER caveats 8 and 14).
 - **One truncated output:** one of the 96 cation-ordering outputs was saved without its last lines, so its recorded energy cannot be re-derived; the other 95 match exactly.
+- **Missed prior work:** the agents' literature search missed Middlemiss, Lawton & Wilson (2008), a hybrid-functional study of KV[Cr(CN)₆] whose spin-resolved plot already shows the same-spin band edges. The novelty claim is narrowed accordingly (LEDGER caveat 11).
 
 ## Check our work in three levels
 
