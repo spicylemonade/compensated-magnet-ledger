@@ -1,0 +1,10 @@
+{
+ "job": "lcm/ord2/v4/CTP2",
+ "state": "done",
+ "cmd": "env FIXM=0 python ord2.py tasks_ctp.json CTP_YBMFO_MIX_A_d5 CTP_YBMFO_MIX_A_qe CTP_YBMFO_RS_A_qe",
+ "ncores": 32,
+ "start": 1790959495.3176517,
+ "rc": 0,
+ "end": 1790977805.8179748,
+ "hours": 5.086250089738104
+}

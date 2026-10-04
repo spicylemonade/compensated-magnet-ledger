@@ -1,0 +1,26 @@
+{
+ "orb0": {
+  "E_per_atom": -1158.450675782026,
+  "conv": true,
+  "flips": 0,
+  "M": 18.0
+ },
+ "orb1": {
+  "E_per_atom": -1158.4446526961233,
+  "conv": true,
+  "flips": 0,
+  "M": 18.0
+ },
+ "orb2": {
+  "E_per_atom": -1158.43765239786,
+  "conv": true,
+  "flips": 0,
+  "M": -1.41
+ },
+ "k0_0_al": {
+  "E_per_atom": -1158.4469816377737,
+  "conv": true,
+  "flips": 0,
+  "M": 0.0
+ }
+}

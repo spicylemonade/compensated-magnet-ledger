@@ -1,0 +1,10 @@
+{
+ "job": "lcm/ord2/v3/YBCFO_MIX_C",
+ "state": "failed",
+ "cmd": "python ord2.py tasks_ybcfo.json YBCFO_MIX_C",
+ "ncores": 32,
+ "start": 1790935439.5312812,
+ "rc": -9,
+ "end": 1790935904.336363,
+ "hours": 0.12911252273453608
+}

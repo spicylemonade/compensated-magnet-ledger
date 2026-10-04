@@ -42,7 +42,7 @@
 <text x="92.0" y="226.0" class="f-small" text-anchor="end">empty</text>
 <text x="92.0" y="288.0" class="f-small" text-anchor="end">filled</text>
 <text x="150.0" y="334.0" class="f-text" text-anchor="middle">Electrons sorted by spin: <tspan class="f-strong">yes</tspan></text></g><g transform="translate(310,0)"><text x="150.0" y="24.0" class="f-title" text-anchor="middle">Antiferromagnet</text>
-<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">one element, cancels out</text>
+<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">identical sites, cancels out</text>
 <line x1="50" y1="106" x2="50" y2="74" class="s-up f-stroke3"/><polygon points="44,77 56,77 50,64" class="s-up-fill"/>
 <circle cx="50" cy="128" r="14" class="atom-n"/>
 <text x="50.0" y="132.0" class="f-atom" text-anchor="middle">Mn</text>
@@ -71,7 +71,7 @@
 <text x="92.0" y="226.0" class="f-small" text-anchor="end">empty</text>
 <text x="92.0" y="288.0" class="f-small" text-anchor="end">filled</text>
 <text x="150.0" y="334.0" class="f-text" text-anchor="middle">Electrons sorted by spin: <tspan class="f-strong">no</tspan></text></g><g transform="translate(620,0)"><text x="150.0" y="24.0" class="f-title" text-anchor="middle">Luttinger-compensated</text>
-<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">two elements, cancels out</text>
+<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">two kinds of site, cancels out</text>
 <line x1="50" y1="106" x2="50" y2="74" class="s-up f-stroke3"/><polygon points="44,77 56,77 50,64" class="s-up-fill"/>
 <circle cx="50" cy="128" r="14" class="atom-up"/>
 <text x="50.0" y="132.0" class="f-atom" text-anchor="middle">Cr</text>

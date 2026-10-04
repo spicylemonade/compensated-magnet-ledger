@@ -1,0 +1,10 @@
+{
+ "job": "lcm/h110/agm008126932",
+ "state": "done",
+ "cmd": "python lcm_hull_scan110.py agm008126932.json 110",
+ "ncores": 32,
+ "start": 1790927091.550629,
+ "rc": 0,
+ "end": 1790941623.1091611,
+ "hours": 4.03654403673278
+}

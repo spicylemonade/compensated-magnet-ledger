@@ -30,8 +30,9 @@
 <polygon points="397.6,137 404.6,133 404.6,141" class="f-ink-fill"/>
 <polygon points="470.9,137 463.9,133 463.9,141" class="f-ink-fill"/>
 <text x="435.3" y="128.0" class="f-small" text-anchor="middle">≈ 200 K</text>
-<rect x="197.0" y="191" width="27.5" height="10" rx="2" class="bar-m"/>
-<text x="210.5" y="238.0" class="f-small" text-anchor="middle">magnetic order lost at ≈ 420–490 K (predicted)</text>
+<rect x="194.5" y="187" width="5" height="18" rx="2" class="bar-m"/>
+<rect x="222.0" y="187" width="5" height="18" rx="2" class="bar-m"/>
+<text x="210.5" y="238.0" class="f-small" text-anchor="middle">magnetic order lost: ≈ 420 K raw, ≈ 490 K calibrated (predicted)</text>
 <line x1="40" y1="196" x2="680" y2="196" class="f-axis"/>
 <line x1="40.0" y1="196" x2="40.0" y2="201" class="f-axis"/>
 <text x="40.0" y="216.0" class="f-small" text-anchor="middle">0</text>

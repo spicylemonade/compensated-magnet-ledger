@@ -1,0 +1,10 @@
+{
+ "job": "lcm/ord2/vc_YBCFO_lay",
+ "state": "done",
+ "cmd": "python ord2_vc110.py YBCFO_lay.json",
+ "ncores": 32,
+ "start": 1790927589.176592,
+ "rc": 0,
+ "end": 1790929455.5810537,
+ "hours": 0.5184456837839551
+}

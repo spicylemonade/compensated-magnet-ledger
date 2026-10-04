@@ -1,0 +1,56 @@
+&CONTROL
+  calculation = 'vc-relax'
+  prefix = 'vc110'
+  outdir = '/tmp/scratch/vc110'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .true.
+  tprnfor = .true.
+  disk_io = 'low'
+  verbosity = 'high'
+  forc_conv_thr = 0.001
+  etot_conv_thr = 4d-05
+  nstep = 150
+/
+&SYSTEM
+  ibrav = 0
+  nat = 4
+  ntyp = 3
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+  nspin = 2
+  starting_magnetization(1) = 0.3000
+  starting_magnetization(2) = -0.3000
+  starting_magnetization(3) = 0.0000
+/
+&ELECTRONS
+  conv_thr = 4d-08
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+&IONS
+/
+&CELL
+  press_conv_thr = 0.3
+/
+ATOMIC_SPECIES
+  Mn 54.9380 Mn.upf
+  Mn1 54.9380 Mn.upf
+  O 15.9990 O.upf
+CELL_PARAMETERS angstrom
+  -2.2192249480 2.2192249480 0.0000000000
+  0.0000000000 -2.2192249480 2.2192249480
+  2.1829060150 2.1829060150 4.4021309630
+ATOMIC_POSITIONS crystal
+  Mn 0.0000000000 0.0000000000 0.0000000000
+  Mn1 0.5000000000 1.0000000000 0.5000000000
+  O 0.7499999995 0.4999999991 0.7500000014
+  O 0.2500000005 0.5000000009 0.2499999986
+K_POINTS automatic
+  10 10 5 0 0 0
+HUBBARD ortho-atomic
+  U Mn-3d 4.0
+  U Mn1-3d 4.0

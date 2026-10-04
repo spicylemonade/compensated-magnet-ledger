@@ -1,0 +1,10 @@
+{
+ "job": "lcm/ord2/v3/YBCFO_STRd_B",
+ "state": "failed",
+ "cmd": "python ord2.py tasks_ybcfo.json YBCFO_STRd_B",
+ "ncores": 32,
+ "start": 1790934154.8097262,
+ "rc": -9,
+ "end": 1790935949.6631963,
+ "hours": 0.49857040835751426
+}

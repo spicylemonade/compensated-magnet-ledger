@@ -1,6 +1,6 @@
 # Two magnets that add up to zero (and one has been on the shelf since 1999)
 
-*October 2026. Everything below was computed by Claude Opus 5.5 agents running quantum-mechanical simulations on cloud computers, and every number links to a public ledger where anyone can re-run it.*
+*October 2026. Everything below was computed by Claude Opus 5.5 agents running quantum-mechanical simulations on cloud computers. The inputs, raw outputs and scripts behind the numbers are in a ledger where anyone can check or re-run them.*
 
 ---
 
@@ -22,15 +22,15 @@ Electrons have a property called *spin*, which makes each one a tiny magnet that
 - **Ferromagnets** are great for spintronics because the electrons that carry current are *sorted by spin*: at the energies that matter, there are more up-electrons than down-electrons, or only up-electrons. But ferromagnets have stray magnetic fields that disturb their neighbours, which limits how tightly you can pack them. They are also comparatively slow to switch.
 - **Antiferromagnets** have no stray field and can switch roughly a thousand times faster. But in an ordinary antiferromagnet the electrons are *not* sorted by spin, because every up-site has an identical down-site. That makes them hard to use for spintronics.
 
-There is a third option that physicists have only recently named. Imagine an antiferromagnet in which the up-pointing atoms and the down-pointing atoms are **two different elements**, but each carries *exactly the same* amount of magnetism. The totals still cancel, so there is no stray field. But because the two kinds of atom are different, the electrons can tell them apart, and they end up **sorted by spin, as in a ferromagnet**.
+There is a third option that physicists have only recently named. Imagine an antiferromagnet in which the up-pointing atoms and the down-pointing atoms are **not equivalent** (for example two different elements, or the same element in two different kinds of site), but each carries *exactly the same* amount of magnetism. The totals still cancel, so ideally there is no stray field. But because the two kinds of atom are not equivalent, the electrons can tell them apart, and they end up **sorted by spin, as in a ferromagnet**.
 
-These are called **Luttinger-compensated magnets**. The name refers to a theorem (Luttinger's) which guarantees that, in an insulating material of this kind, the cancellation is *exact*: each spin direction holds a whole number of electrons, so the net comes out at exactly zero, not merely approximately zero. The name comes from a 2022 editorial by the physicist Igor Mazin, and very few real examples are known. The only one confirmed by neutron experiments to be an insulator orders at −225 °C.
+These are called **Luttinger-compensated magnets**. The name refers to a theorem (Luttinger's) which guarantees that, in an insulating material of this kind, the cancellation is *exact*: each spin direction holds a whole number of electrons, so the net spin comes out at exactly zero, not merely approximately zero. (Strictly, that holds for a perfect crystal near absolute zero. Smaller effects such as spin–orbit coupling, and heat, can leave a slight imbalance.) The name comes from a 2022 editorial by the physicist Igor Mazin, and very few real examples are known. The only one confirmed by neutron experiments to be an insulator orders at −225 °C.
 
 ![Three kinds of magnet](docs/img/three_magnets.svg)
 
 The wish list for a useful one is short to write down and hard to satisfy:
 
-1. **Exactly zero net magnetism**, guaranteed by chemistry and not by luck.
+1. **Zero net spin**, fixed by the chemistry rather than by luck.
 2. **Stays magnetic above room temperature.**
 3. **A semiconductor**: it has a band gap, like silicon, so you can control how many charge carriers it has.
 4. **The carriers are spin-sorted** at both edges of the band gap, over an energy range that is large compared with the thermal jiggling at room temperature (about 0.026 eV).
@@ -56,11 +56,11 @@ The agents were set up to argue with themselves. Before running a decisive calcu
 
 **On paper, it is close to ideal.** Our calculations predict:
 
-- net magnetism of exactly zero;
+- zero net spin in the perfect crystal;
 - a band gap of about **2.35 eV**;
 - both edges of the gap carry the *same* spin, with windows of **1.0 eV and 1.4 eV** (40–55 times the room-temperature jiggle);
 - it stays magnetic up to roughly **420 K (about 145 °C)** in the raw simulation, or about **490 K** after calibrating against a known relative;
-- it sits right at the edge of thermodynamic stability (2.6 meV per atom above the most stable mix of competing compounds, which is within calculation error).
+- it sits close to, but not on, the edge of thermodynamic stability: about 14 meV per atom above the most stable mix of competing compounds that were computed, which is typical of compounds that have been made. (An earlier count, before every competing compound had finished, gave 2.6 meV per atom.)
 
 **The catch is the checkerboard.** Mn and Fe sit next to each other in the periodic table, are nearly the same size, and differ by one unit of charge. That is not much of a reason for them to keep to their own squares.
 
@@ -84,11 +84,11 @@ Scrambling ruins the effect. In the simulation, swapping a single neighbouring M
 - vanadium (V) atoms grab the **nitrogen** ends;
 - potassium ions sit in the holes.
 
-In 1999, chemists Stephen Holmes and Gregory Girolami made it and found that it stays magnetic up to **376 K (103 °C)**, unusually high for a magnet assembled from molecular building blocks. They designed it so that the vanadium and chromium magnets, three unpaired electrons each, would cancel. They expected a net magnetisation of zero and measured almost zero: about 2 % of what you'd get if all the spins lined up. (The small leftover is normal for real samples, where a few atoms are missing or in a different charge state.)
+In 1999, chemists Stephen Holmes and Gregory Girolami made it and found that their sample stays magnetic up to **376 K (103 °C)** (365 K after it had been heated), unusually high for a magnet assembled from molecular building blocks. They designed it so that the vanadium and chromium magnets, three unpaired electrons each, would cancel. They expected a net magnetisation of zero and measured almost zero: about 2 % of what you'd get if all the spins lined up. (Small leftovers like this are common in real samples, where a few atoms are missing or in a different charge state.) Nobody has measured its band gap or spin sorting.
 
 **What we added.** The agents computed its electronic structure and found that, in an ideal crystal, it is a Luttinger-compensated magnet with the spin-sorted electronic structure described above:
 
-- **zero net spin**, confirmed by a symmetry analysis that classifies it as this type of magnet;
+- **zero net spin** in the perfect crystal, with a symmetry analysis that classifies it as this type of magnet;
 - a **band gap of about 2.1 eV** (HSE06);
 - **both band edges carry the same spin**, with spin windows of **2.6 eV** for holes and **1.6 eV** for electrons: 60 to 100 times the room-temperature jiggle;
 - the cyanide bridge **fixes which metal sits where**: Cr strongly prefers carbon and V prefers nitrogen. This is exactly the chemical enforcement that YBaMnFeO₅ lacked.
@@ -124,10 +124,10 @@ Here is how the two methods compare in each situation (spin windows in eV; ledge
 | | YBaMnFeO₅ | KV[Cr(CN)₆] |
 |---|---|---|
 | Origin | designed in this project | made by Holmes & Girolami, 1999 |
-| Net magnetism (ideal crystal) | zero | zero |
+| Net spin (ideal crystal, 0 K) | zero | zero |
 | Band gap (HSE06) | 2.35 eV | 2.09 eV |
 | Spin windows, holes / electrons (HSE06) | 1.0 / 1.4 eV | 2.6 / 1.6 eV |
-| Magnetic up to | ~420–490 K (predicted) | **376 K (measured)** |
+| Magnetic up to | ≈ 420 K raw, ≈ 490 K calibrated (predicted) | **376 K (measured on the hydrated powder)** |
 | Can it be made? | may be hard: the atoms tend to scramble the checkerboard | yes, once, as a hydrated powder |
 | Biggest open question | is there any route to the ordered crystal? | does the spin sorting survive in real, wet, imperfect samples? |
 | Ever measured spin-sorted? | no | no |
@@ -136,7 +136,7 @@ Here is how the two methods compare in each situation (spin windows in eV; ledge
 
 Everything is packaged as a **computational ledger**: [github.com/spicylemonade/compensated-magnet-ledger](https://github.com/spicylemonade/compensated-magnet-ledger). It contains:
 
-- the exact input files for 120 calculations, with their raw, unedited outputs;
+- the exact input files for nearly 900 calculations, with their raw, unedited outputs (including every run behind the atomic-ordering and stability results);
 - the relaxed crystal structures;
 - the analysis scripts;
 - a list of every claim, which links each number to the files it came from.
@@ -145,7 +145,7 @@ It also records the mistakes the agents caught and corrected along the way, and 
 
 There are three levels of checking:
 
-1. **Check the arithmetic, in about a second.** `python tools/verify.py` recomputes all 55 computable numbers from the raw outputs. Today it reports 55 pass and 0 fail.
+1. **Check the arithmetic, in a few seconds.** `python tools/verify.py` recomputes 50 numbers directly from the raw outputs and checks 6 more against the included scripts' results and recorded analysis files. Today it reports 56 pass and 0 fail.
 2. **Re-run the models, in minutes on a laptop.** Scripts redo the magnetic-ordering-temperature simulation (the re-run gives 414 K against the recorded 417 K) and the checkerboard-melting simulation that rules out YBaMnFeO₅ (it reproduces the recorded 915–965 K exactly).
 3. **Re-run the quantum calculations from scratch.** The repository includes the exact pseudopotential files' checksums and scripts to download and run everything. We did this ourselves in a fresh cloud machine for a representative set of calculations; see `reproduce/RESULTS.md`.
 

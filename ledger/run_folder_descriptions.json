@@ -24,5 +24,7 @@
  "YBaMnFeO5/F_pbeu_antisite_pair_nearest": "nearest-neighbour Mn/Fe swap (12.5 % of B sites), relaxed; scf + nscf",
  "YBaMnFeO5/G_pbeu_antisite_pair_far": "far-separated Mn/Fe swap, relaxed; scf + nscf",
  "YBaMnFeO5/H_pbeu_stacking_vs_U": "36-atom cell, G vs Y-layer flip vs Ba-layer flip, at U(Mn,Fe) = (0,0) (2,2) (4,4) (6,6) (4,6) (6,4) eV, 90 Ry",
- "YBaMnFeO5/I_pbeu_exchange_fit_configs": "24 collinear spin configurations (18- and 36/72-atom cells) used for the exchange fit, U = 4 eV, 90 Ry"
+ "YBaMnFeO5/I_pbeu_exchange_fit_configs": "24 collinear spin configurations (18- and 36/72-atom cells) used for the exchange fit, U = 4 eV, 90 Ry",
+ "YBaMnFeO5/J_cation_order_cluster_expansion_raw": "raw inputs/outputs of the cation-ordering study, all four rounds as the agents ran them (round 1 at the top level, then v2, v3, v4; earlier rounds include stopped or superseded runs). Only v4 feeds the cluster expansion: 21 Mn/Fe arrangements of YBaMnFeO5 (relaxation, then single points for several spin configurations; 96 energies in the fit) and the YBaCuFeO5 benchmark arrangements",
+ "YBaMnFeO5/K_hull_competing_phases_raw": "raw inputs/outputs of the 0 K hull: vc-relax at 110 Ry of three YBaMnFeO5 cells and 33 competing phases (Materials Project / Alexandria structures, CC BY 4.0), with magnetic-configuration scans"
 }

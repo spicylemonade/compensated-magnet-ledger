@@ -1,0 +1,7 @@
+{
+ "job": "lcm/ord2/v2/YBCFO_LAYap_A",
+ "state": "running",
+ "cmd": "python ord2.py tasks_ybcfo.json YBCFO_LAYap_A",
+ "ncores": 32,
+ "start": 1790929639.4197652
+}

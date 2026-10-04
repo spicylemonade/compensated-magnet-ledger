@@ -1,0 +1,7 @@
+{
+ "job": "lcm/ord2/v2/YBCFO_RSapY_A",
+ "state": "running",
+ "cmd": "python ord2.py tasks_ybcfo.json YBCFO_RSapY_A",
+ "ncores": 32,
+ "start": 1790929638.021917
+}

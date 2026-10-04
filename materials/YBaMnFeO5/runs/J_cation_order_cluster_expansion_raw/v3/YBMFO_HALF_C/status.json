@@ -1,0 +1,10 @@
+{
+ "job": "lcm/ord2/v3/YBMFO_HALF_C",
+ "state": "failed",
+ "cmd": "python ord2.py tasks_ybmfo.json YBMFO_HALF_C",
+ "ncores": 32,
+ "start": 1790934136.4285865,
+ "rc": -9,
+ "end": 1790935963.1721761,
+ "hours": 0.5074287748999066
+}

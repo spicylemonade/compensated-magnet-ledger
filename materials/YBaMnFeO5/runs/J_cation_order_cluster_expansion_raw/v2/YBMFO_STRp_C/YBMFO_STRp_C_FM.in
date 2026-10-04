@@ -1,0 +1,88 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'YBMFO_STRp_C_FM'
+  outdir = '/tmp/scratch/YBMFO_STRp_C_FM'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .false.
+  tprnfor = .false.
+  disk_io = 'low'
+  verbosity = 'high'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 36
+  ntyp = 5
+  ecutwfc = 90.0
+  ecutrho = 360.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+  nspin = 2
+  nosym = .true.
+  tot_magnetization = 40.0
+  Hubbard_occ(4,1) = 5.0
+  starting_magnetization(1) = 0.0000
+  starting_magnetization(2) = 0.0000
+  starting_magnetization(3) = 0.3000
+  starting_magnetization(4) = 0.2625
+  starting_magnetization(5) = 0.0000
+/
+&ELECTRONS
+  conv_thr = 3.6d-07
+  mixing_beta = 0.2
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+  mixing_ndim = 10
+/
+ATOMIC_SPECIES
+  Ba 137.3270 Ba.upf
+  Y 88.9058 Y.upf
+  Mn 54.9380 Mn.upf
+  Fe 55.8450 Fe.upf
+  O 15.9990 O.upf
+CELL_PARAMETERS angstrom
+  5.6649076390 5.6649076390 0.0000000000
+  -5.6649076390 5.6649076390 0.0000000000
+  0.0000000000 0.0000000000 7.6888007470
+ATOMIC_POSITIONS crystal
+  Ba nan nan nan
+  Ba nan nan nan
+  Ba nan nan nan
+  Ba nan nan nan
+  Y nan nan nan
+  Y nan nan nan
+  Y nan nan nan
+  Y nan nan nan
+  Mn nan nan nan
+  Fe nan nan nan
+  Mn nan nan nan
+  Fe nan nan nan
+  Fe nan nan nan
+  Mn nan nan nan
+  Fe nan nan nan
+  Mn nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+  O nan nan nan
+K_POINTS automatic
+  3 3 3 0 0 0
+HUBBARD ortho-atomic
+  U Mn-3d 4.0
+  U Fe-3d 4.0

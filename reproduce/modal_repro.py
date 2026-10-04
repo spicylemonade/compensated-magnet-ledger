@@ -38,6 +38,10 @@ CASES = {
     "ybmfo_stack_U44": {"inputs": [Y + "H_pbeu_stacking_vs_U/U44_G/single.in",
                                    Y + "H_pbeu_stacking_vs_U/U44_Yflip/single.in"],
                         "pseudos": "dojo", "cpu": 32, "nk": 16},
+    # Completion, not reproduction: the KV[Cr(CN)6]*2H2O HSE06 run whose exact-exchange loop was stopped before
+    # convergence in the original campaign. Identical input, run until QE's own EXX criterion is met.
+    "kvcr_hydrate_hse": {"inputs": [K + "F_hse06_dihydrate_LCM/hse_lcm.in"], "pseudos": "dojo", "cpu": 64, "nk": 8,
+                         "timeout": 20 * 3600},
     # Robustness, not reproduction: KV[Cr(CN)6] PBE+U with a different pseudopotential family (SSSP 1.3 efficiency)
     "kvcr_pbeu_sssp": {"inputs": [K + "A_pbeu_relax_scf_nscf_Ugrid/KVCr_LCM.in",
                                   K + "A_pbeu_relax_scf_nscf_Ugrid/KVCr_LCM_nscf.in"],
@@ -184,7 +188,7 @@ def _download(url, tries=3):
 
 @app.local_entrypoint()
 def main(case: str = "kvcr_pbeu"):
-    names = list(CASES) if case == "all" else case.split(",")
+    names = [n for n in CASES if n != "kvcr_hydrate_hse"] if case == "all" else case.split(",")
     md5_table = (REPO / "reproduce" / "pseudo_md5.txt").read_text()
     archives = {}
     if any(CASES[n]["pseudos"] == "dojo" for n in names):
@@ -196,7 +200,7 @@ def main(case: str = "kvcr_pbeu"):
     for name in names:
         c = CASES[name]
         files = {rel: (REPO / rel).read_text() for rel in c["inputs"]}
-        fn = run_case.with_options(cpu=c["cpu"], memory=2048 * c["cpu"])
+        fn = run_case.with_options(cpu=c["cpu"], memory=2048 * c["cpu"], timeout=c.get("timeout", 8 * 3600))
         need = {"dojo": ["dojo"], "sssp": ["sssp_tgz", "sssp_json"]}[c["pseudos"]]
         calls.append((name, fn.spawn(name, files, md5_table, c["cpu"], c["nk"], c["pseudos"], {k: archives[k] for k in need})))
     for name, call in calls:

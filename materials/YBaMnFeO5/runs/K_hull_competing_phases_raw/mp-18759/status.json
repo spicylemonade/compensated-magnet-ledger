@@ -1,0 +1,10 @@
+{
+ "job": "lcm/h110/mp-18759",
+ "state": "done",
+ "cmd": "python lcm_hull_scan110.py mp-18759.json 110",
+ "ncores": 32,
+ "start": 1790927107.846113,
+ "rc": 0,
+ "end": 1790934847.0324898,
+ "hours": 2.149773993558354
+}

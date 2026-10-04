@@ -1,0 +1,10 @@
+{
+ "job": "lcm/ord2/v3/YBMFO_SQS_D",
+ "state": "failed",
+ "cmd": "python ord2.py tasks_ybmfo.json YBMFO_SQS_D",
+ "ncores": 32,
+ "start": 1790935421.6595972,
+ "rc": -9,
+ "end": 1790935906.584586,
+ "hours": 0.1347013857629564
+}

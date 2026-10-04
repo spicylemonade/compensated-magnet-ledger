@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Zero-Sum Magnets</title>
-<meta name="description" content="Two room-temperature Luttinger-compensated magnet candidates, YBaMnFeO5 and KV[Cr(CN)6]: what AI agents computed, how sure we are, and a public ledger to check every number.">
+<meta name="description" content="Two room-temperature Luttinger-compensated magnet candidates, YBaMnFeO5 and KV[Cr(CN)6]: what AI agents computed, how sure we are, and a ledger to check the numbers.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <style>
@@ -143,7 +143,7 @@ summary{font-family:var(--f-display); font-weight:700; cursor:pointer; font-size
       <span class="chip chip-up"><b>↑</b>Cr</span><span>+</span><span class="chip chip-dn"><b>↓</b>V</span><span>= 0</span>
     </div>
   </div>
-  <p class="byline"><span><strong>Written by</strong> Geby Jaff</span><span><strong>Computed by</strong> Claude Opus 5.5 agents on cloud computers</span><span><strong>Checked by</strong> a public ledger: 55 of 55 computable numbers re-derive</span></p>
+  <p class="byline"><span><strong>Written by</strong> Geby Jaff</span><span><strong>Computed by</strong> Claude Opus 5.5 agents on cloud computers</span><span><strong>Checked by</strong> a ledger: 56 of 56 computable numbers re-derive</span></p>
 </header>
 
 <p>Most of us know two kinds of magnet, even if we don't know their names. The fridge kind is a <strong>ferromagnet</strong>: trillions of tiny atomic magnets all point the same way, so their pull adds up to something you can feel. The other kind, an <strong>antiferromagnet</strong>, is magnetic on the inside, but neighbouring atomic magnets point in opposite directions and cancel exactly. You can't stick it to anything.</p>
@@ -155,7 +155,7 @@ summary{font-family:var(--f-display); font-weight:700; cursor:pointer; font-size
   <li><strong>Ferromagnets</strong> work well for spintronics because the electrons that carry current are <em>sorted by spin</em>: at the energies that matter, there are more up-electrons than down-electrons, or only one kind. But they produce stray magnetic fields that disturb their neighbours, and they are comparatively slow to switch.</li>
   <li><strong>Antiferromagnets</strong> have no stray field and can switch roughly a thousand times faster. But in an ordinary antiferromagnet every up-site has an identical down-site, so the electrons are <em>not</em> sorted by spin. That makes them hard to use for spintronics.</li>
 </ul>
-<p>There is a third option that physicists have only recently named. Imagine an antiferromagnet in which the up-pointing atoms and the down-pointing atoms are <strong>two different elements</strong>, each carrying exactly the same amount of magnetism. The totals still cancel, so there is no stray field. But because the atoms are different, the electrons can tell them apart, and they end up <strong>sorted by spin, as in a ferromagnet</strong>.</p>
+<p>There is a third option that physicists have only recently named. Imagine an antiferromagnet in which the up-pointing atoms and the down-pointing atoms are <strong>not equivalent</strong> (for example two different elements, or the same element in two different kinds of site), each carrying exactly the same amount of magnetism. The totals still cancel, so ideally there is no stray field. But because the atoms are not equivalent, the electrons can tell them apart, and they end up <strong>sorted by spin, as in a ferromagnet</strong>.</p>
 
 <figure class="wide">
   <div class="panels"><svg viewBox="0 0 300 344" role="img" aria-label="A ferromagnet: identical atomic magnets all point up, so the net magnetism is large and the spin-up and spin-down electron bands sit at different energies." class="fig-svg"><text x="150.0" y="24.0" class="f-title" text-anchor="middle">Ferromagnet</text>
@@ -188,7 +188,7 @@ summary{font-family:var(--f-display); font-weight:700; cursor:pointer; font-size
 <text x="92.0" y="226.0" class="f-small" text-anchor="end">empty</text>
 <text x="92.0" y="288.0" class="f-small" text-anchor="end">filled</text>
 <text x="150.0" y="334.0" class="f-text" text-anchor="middle">Electrons sorted by spin: <tspan class="f-strong">yes</tspan></text></svg><svg viewBox="0 0 300 344" role="img" aria-label="An antiferromagnet: identical atoms alternate up and down, so the net is zero and the two spin bands are identical." class="fig-svg"><text x="150.0" y="24.0" class="f-title" text-anchor="middle">Antiferromagnet</text>
-<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">one element, cancels out</text>
+<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">identical sites, cancels out</text>
 <line x1="50" y1="106" x2="50" y2="74" class="s-up f-stroke3"/><polygon points="44,77 56,77 50,64" class="s-up-fill"/>
 <circle cx="50" cy="128" r="14" class="atom-n"/>
 <text x="50.0" y="132.0" class="f-atom" text-anchor="middle">Mn</text>
@@ -216,8 +216,8 @@ summary{font-family:var(--f-display); font-weight:700; cursor:pointer; font-size
 <text x="183.0" y="312.0" class="f-small" text-anchor="middle">spin ↓</text>
 <text x="92.0" y="226.0" class="f-small" text-anchor="end">empty</text>
 <text x="92.0" y="288.0" class="f-small" text-anchor="end">filled</text>
-<text x="150.0" y="334.0" class="f-text" text-anchor="middle">Electrons sorted by spin: <tspan class="f-strong">no</tspan></text></svg><svg viewBox="0 0 300 344" role="img" aria-label="A Luttinger-compensated magnet: two different elements alternate up and down with equal magnets, so the net is zero but the two spin bands still sit at different energies." class="fig-svg"><text x="150.0" y="24.0" class="f-title" text-anchor="middle">Luttinger-compensated</text>
-<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">two elements, cancels out</text>
+<text x="150.0" y="334.0" class="f-text" text-anchor="middle">Electrons sorted by spin: <tspan class="f-strong">no</tspan></text></svg><svg viewBox="0 0 300 344" role="img" aria-label="A Luttinger-compensated magnet: two inequivalent kinds of atom (here two different elements) alternate up and down with equal magnets, so the net spin is zero but the two spin bands still sit at different energies." class="fig-svg"><text x="150.0" y="24.0" class="f-title" text-anchor="middle">Luttinger-compensated</text>
+<text x="150.0" y="44.0" class="f-sub" text-anchor="middle">two kinds of site, cancels out</text>
 <line x1="50" y1="106" x2="50" y2="74" class="s-up f-stroke3"/><polygon points="44,77 56,77 50,64" class="s-up-fill"/>
 <circle cx="50" cy="128" r="14" class="atom-up"/>
 <text x="50.0" y="132.0" class="f-atom" text-anchor="middle">Cr</text>
@@ -249,10 +249,10 @@ summary{font-family:var(--f-display); font-weight:700; cursor:pointer; font-size
   <figcaption>Three kinds of magnet. Arrows are atomic magnets (<span class="up">↑</span> up, <span class="dn">↓</span> down). The small blocks underneath are the electron energy bands for each spin. In the antiferromagnet the two spins' bands are identical. In the other two they sit at different energies, so the electrons at the band edges have one spin.</figcaption>
 </figure>
 
-<p>These are called <strong>Luttinger-compensated magnets</strong>. The name refers to a theorem, Luttinger's, which guarantees that in an insulating material of this kind the cancellation is exact rather than approximate: each spin direction holds a whole number of electrons. The name comes from a 2022 editorial by the physicist Igor Mazin, and very few real examples are known. The only one confirmed by neutron experiments to be an insulator orders at −225 °C.</p>
+<p>These are called <strong>Luttinger-compensated magnets</strong>. The name refers to a theorem, Luttinger's, which guarantees that in an insulating material of this kind the cancellation is exact rather than approximate: each spin direction holds a whole number of electrons. (Strictly, that holds for the spin of a perfect crystal near absolute zero; smaller effects such as spin–orbit coupling, and heat, can leave a slight imbalance.) The name comes from a 2022 editorial by the physicist Igor Mazin, and very few real examples are known. The only one confirmed by neutron experiments to be an insulator orders at −225 °C.</p>
 <p>The wish list for a useful one is short to write down and hard to satisfy:</p>
 <ul class="wish">
-  <li><strong>Exactly zero net magnetism</strong>, guaranteed by chemistry rather than by luck.</li>
+  <li><strong>Zero net spin</strong>, fixed by the chemistry rather than by luck.</li>
   <li><strong>Stays magnetic above room temperature.</strong></li>
   <li><strong>A semiconductor</strong>: it has a band gap, like silicon, so you can control how many charge carriers it has.</li>
   <li><strong>Spin-sorted carriers</strong> at both edges of the gap, over an energy range that is large compared with the thermal jiggling at room temperature (0.026 eV).</li>
@@ -320,11 +320,11 @@ summary{font-family:var(--f-display); font-weight:700; cursor:pointer; font-size
 <p><strong>The idea.</strong> Take a well-known family of layered oxide crystals and put manganese (Mn) and iron (Fe) on the magnetic sites in a perfect 3D checkerboard, so that every Mn is surrounded by Fe and vice versa. Here Mn²⁺ and Fe³⁺ both have five unpaired electrons, so their atomic magnets are the same size, and the checkerboard makes them point opposite ways. Yttrium, barium and oxygen fill in the rest, all of them cheap and earth-abundant.</p>
 <p><strong>On paper, it is close to ideal.</strong> The calculations predict:</p>
 <ul>
-  <li>exactly zero net magnetism <a class="lid" href="#c-Y03" title="Net spin moment of the G-type compensated state">Y03</a>;</li>
+  <li>zero net spin in the perfect crystal <a class="lid" href="#c-Y03" title="Net spin moment of the G-type compensated state">Y03</a>;</li>
   <li>a band gap of about <strong>2.35 eV</strong> <a class="lid" href="#c-Y10" title="HSE06: band gap">Y10</a>;</li>
   <li>both edges of the gap carrying the same spin <a class="lid" href="#c-Y11" title="HSE06: unipolar band edges">Y11</a>, with windows of <strong>1.0 eV and 1.4 eV</strong> <a class="lid" href="#c-Y12" title="HSE06: hole spin window">Y12</a> <a class="lid" href="#c-Y13" title="HSE06: electron spin window">Y13</a>;</li>
   <li>magnetic order up to roughly <strong>420 K</strong> (about 145 °C) in the raw simulation, or about <strong>490 K</strong> after calibrating against a known relative <a class="lid" href="#c-Y22" title="Neel temperature, classical Monte Carlo on the fitted model (Binder crossings, L = 6/8/10)">Y22</a> <a class="lid" href="#c-Y23" title="Calibrated Neel temperature: Y22 x (measured/simulated ratio for YFeO3 with the same protocol, 1.17-1.19)">Y23</a>;</li>
-  <li>a position right at the edge of thermodynamic stability, within calculation error <a class="lid" href="#c-Y24" title="Energy above the convex hull at 0 K (26 competing phases)">Y24</a>.</li>
+  <li>a position close to, but not on, the edge of thermodynamic stability: about 14 meV per atom above the most stable mix of competing compounds that were computed, which is typical of compounds that have been made <a class="lid" href="#c-Y24b" title="Energy above the 0 K convex hull with all 33 competing phases that completed (BaFe2O4 and Ba6Y2Fe4O15 finished later and lower the hull; Ba2Fe2O5 never finished)">Y24b</a>. (An earlier count, before every competing compound had finished, gave 2.6 meV per atom <a class="lid" href="#c-Y24" title="Energy above the 0 K convex hull, as the agents computed it: the 28 competing phases that had finished by then (superseded by Y24b)">Y24</a>.)</li>
 </ul>
 <p><strong>The catch is the checkerboard.</strong> Mn and Fe sit next to each other in the periodic table, are nearly the same size, and differ by one unit of charge. That gives them little reason to keep to their own squares. When the agents simulated how the atoms arrange themselves at different temperatures, the checkerboard melted into a random mix at around <strong>950 K</strong> <a class="lid" href="#c-Y25" title="DECISIVE: Mn/Fe order-disorder temperature from the paramagnetic cluster expansion (C peak, L = 16)">Y25</a> <a class="lid" href="#c-Y26" title="Headline order-disorder temperature with uncertainty (bootstrap + model variants)">Y26</a>. To make this kind of oxide you heat it to roughly 900–1300 °C, and much below that the metal atoms are effectively frozen in place. So by the time the material is cool enough for the checkerboard to be favoured, the atoms may no longer be able to move into it, and standard synthesis would likely give a scrambled crystal.</p>
 
@@ -347,8 +347,9 @@ summary{font-family:var(--f-display); font-weight:700; cursor:pointer; font-size
 <polygon points="397.6,137 404.6,133 404.6,141" class="f-ink-fill"/>
 <polygon points="470.9,137 463.9,133 463.9,141" class="f-ink-fill"/>
 <text x="435.3" y="128.0" class="f-small" text-anchor="middle">≈ 200 K</text>
-<rect x="197.0" y="191" width="27.5" height="10" rx="2" class="bar-m"/>
-<text x="210.5" y="238.0" class="f-small" text-anchor="middle">magnetic order lost at ≈ 420–490 K (predicted)</text>
+<rect x="194.5" y="187" width="5" height="18" rx="2" class="bar-m"/>
+<rect x="222.0" y="187" width="5" height="18" rx="2" class="bar-m"/>
+<text x="210.5" y="238.0" class="f-small" text-anchor="middle">magnetic order lost: ≈ 420 K raw, ≈ 490 K calibrated (predicted)</text>
 <line x1="40" y1="196" x2="680" y2="196" class="f-axis"/>
 <line x1="40.0" y1="196" x2="40.0" y2="201" class="f-axis"/>
 <text x="40.0" y="216.0" class="f-small" text-anchor="middle">0</text>
@@ -370,10 +371,10 @@ summary{font-family:var(--f-display); font-weight:700; cursor:pointer; font-size
 <p><strong>Verdict.</strong> It is a beautiful blueprint and a useful lesson, and the agents' own review downgraded it to a design study, because there is no known way yet to make the ordered crystal. The lesson is that the difference between the two magnetic sublattices has to be <em>enforced by strong chemistry</em>, not left to delicate atomic ordering. That lesson led straight to the second candidate.</p>
 
 <h2>KV[Cr(CN)₆]: hiding in plain sight since 1999</h2>
-<p><strong>What it is.</strong> KV[Cr(CN)₆] belongs to the same family as <strong>Prussian blue</strong>, the 300-year-old pigment. Picture a cubic scaffold of cyanide groups, each one carbon atom joined to one nitrogen atom. Chromium atoms hold the carbon ends, vanadium atoms hold the nitrogen ends, and potassium ions sit in the holes. In 1999 the chemists Stephen Holmes and Gregory Girolami made it and found that it stays magnetic up to <strong>376 K</strong> (103 °C) <a class="lid" href="#c-K30" title="Measured magnetic ordering temperature of KV[Cr(CN)6]*2H2O (Holmes &amp; Girolami, JACS 121, 5593 (1999))">K30</a>, unusually high for a magnet assembled from molecular building blocks. They designed it so that the vanadium and chromium magnets, three unpaired electrons each, would cancel. They measured almost zero: about 2 % of what you'd get if all the spins lined up <a class="lid" href="#c-K31" title="Measured saturation moment at 5 K (expected 0 for perfect stoichiometry)">K31</a>. The small leftover is normal for real samples, where a few building blocks are missing.</p>
+<p><strong>What it is.</strong> KV[Cr(CN)₆] belongs to the same family as <strong>Prussian blue</strong>, the 300-year-old pigment. Picture a cubic scaffold of cyanide groups, each one carbon atom joined to one nitrogen atom. Chromium atoms hold the carbon ends, vanadium atoms hold the nitrogen ends, and potassium ions sit in the holes. In 1999 the chemists Stephen Holmes and Gregory Girolami made it and found that their sample stays magnetic up to <strong>376 K</strong> (103 °C), or 365 K after it had been heated <a class="lid" href="#c-K30" title="Measured magnetic ordering temperature of KV[Cr(CN)6]*2H2O (Holmes &amp; Girolami, JACS 121, 5593 (1999))">K30</a>, unusually high for a magnet assembled from molecular building blocks. They designed it so that the vanadium and chromium magnets, three unpaired electrons each, would cancel. They measured almost zero: about 2 % of what you'd get if all the spins lined up <a class="lid" href="#c-K31" title="Measured saturation moment at 5 K (expected 0 for perfect stoichiometry)">K31</a>. Small leftovers like this are common in real samples, where a few building blocks are missing. Nobody has measured its band gap or spin sorting.</p>
 <p><strong>What we added.</strong> The agents computed its electronic structure. In an ideal crystal it is a Luttinger-compensated magnet with exactly the spin-sorted structure described above:</p>
 <ul>
-  <li><strong>zero net spin</strong> <a class="lid" href="#c-K02" title="Net spin moment of the ideal crystal (zero = fully compensated)">K02</a> <a class="lid" href="#c-K13" title="HSE06: net spin moment">K13</a>, with a symmetry analysis classifying it as this type of magnet <a class="lid" href="#c-K29" title="Spin space group of the ideal crystal (findspingroup): compensated ferrimagnet, Zeeman-type (s-wave) splitting">K29</a>;</li>
+  <li><strong>zero net spin</strong> in the perfect crystal <a class="lid" href="#c-K02" title="Net spin moment of the ideal crystal (zero = fully compensated)">K02</a> <a class="lid" href="#c-K13" title="HSE06: net spin moment">K13</a>, with a symmetry analysis classifying it as this type of magnet <a class="lid" href="#c-K29" title="Spin space group of the ideal crystal (findspingroup): compensated ferrimagnet, Zeeman-type (s-wave) splitting">K29</a>;</li>
   <li>a <strong>band gap of about 2.1 eV</strong> <a class="lid" href="#c-K14" title="HSE06: band gap">K14</a>;</li>
   <li><strong>both band edges carrying the same spin</strong> <a class="lid" href="#c-K15" title="HSE06: unipolar band edges">K15</a>, with windows of <strong>2.6 eV</strong> for holes and <strong>1.6 eV</strong> for electrons <a class="lid" href="#c-K16" title="HSE06: hole spin window">K16</a> <a class="lid" href="#c-K17" title="HSE06: electron spin window">K17</a>, 60 to 100 times the room-temperature jiggle. The cheaper method agrees on the picture, with somewhat smaller windows at every value of U tried <a class="lid" href="#c-K07" title="Hole spin window (top of valence band that is 100 % one spin)">K07</a> <a class="lid" href="#c-K08" title="Electron spin window (bottom of conduction band that is 100 % one spin)">K08</a> <a class="lid" href="#c-K09" title="Robust to the Hubbard U choice: smallest hole window over the U grid (U_V, U_Cr in {2,3,4} eV)">K09</a> <a class="lid" href="#c-K10" title="Smallest electron window over the U grid">K10</a> <a class="lid" href="#c-K11" title="Unipolar at all five U points">K11</a>;</li>
   <li>the cyanide bridge <strong>fixing which metal sits where</strong>, because chromium strongly prefers the carbon end and vanadium the nitrogen end. That is exactly the chemical enforcement YBaMnFeO₅ lacked.</li>
@@ -403,10 +404,10 @@ summary{font-family:var(--f-display); font-weight:700; cursor:pointer; font-size
   <thead><tr><th scope="col"></th><th scope="col">YBaMnFeO₅</th><th scope="col">KV[Cr(CN)₆]</th></tr></thead>
   <tbody>
     <tr><th scope="row">Origin</th><td>designed in this project</td><td>made by Holmes &amp; Girolami, 1999</td></tr>
-    <tr><th scope="row">Net magnetism (ideal crystal)</th><td>zero</td><td>zero</td></tr>
+    <tr><th scope="row">Net spin (ideal crystal, 0 K)</th><td>zero</td><td>zero</td></tr>
     <tr><th scope="row">Band gap (HSE06)</th><td class="num">2.35 eV</td><td class="num">2.09 eV</td></tr>
     <tr><th scope="row">Spin windows, holes / electrons</th><td class="num">1.0 / 1.4 eV</td><td class="num">2.6 / 1.6 eV</td></tr>
-    <tr><th scope="row">Magnetic up to</th><td>≈ 420–490 K (predicted)</td><td><strong>376 K (measured)</strong></td></tr>
+    <tr><th scope="row">Magnetic up to</th><td>≈ 420 K raw, ≈ 490 K calibrated (predicted)</td><td><strong>376 K (measured on the hydrated powder)</strong></td></tr>
     <tr><th scope="row">Can it be made?</th><td>may be hard: the atoms tend to scramble the checkerboard</td><td>yes, once, as a hydrated powder</td></tr>
     <tr><th scope="row">Biggest open question</th><td>is there any route to the ordered crystal?</td><td>does the spin sorting survive in real, wet, imperfect samples?</td></tr>
     <tr><th scope="row">Ever measured spin-sorted?</th><td>no</td><td>no</td></tr>
@@ -415,11 +416,11 @@ summary{font-family:var(--f-display); font-weight:700; cursor:pointer; font-size
 </div>
 
 <h2>How to check every number</h2>
-<p>Everything is packaged as a <strong>computational ledger</strong> in a <a href="https://github.com/spicylemonade/compensated-magnet-ledger">repository on GitHub</a>. It holds the exact input files for 120 calculations with their raw, unedited outputs, the relaxed crystal structures, the analysis scripts, and a list of every claim with the files it came from. The list is reproduced at the bottom of this page. It also records the mistakes the agents caught and the caveats they flagged. There are three levels of checking:</p>
+<p>Everything is packaged as a <strong>computational ledger</strong> in a <a href="https://github.com/spicylemonade/compensated-magnet-ledger">repository on GitHub</a>. It holds the exact input files for nearly 900 calculations with their raw, unedited outputs, the relaxed crystal structures, the analysis scripts, and a list of every claim with the files it came from. The list is reproduced at the bottom of this page. It also records the mistakes the agents caught and the caveats they flagged. There are three levels of checking:</p>
 <div class="levels">
   <div class="level">
-    <h3>1. Check the arithmetic: about a second, on a laptop</h3>
-    <p>Recompute every number from the raw outputs. Today it reports 55 pass and 0 fail.</p>
+    <h3>1. Check the arithmetic: seconds, on a laptop</h3>
+    <p>Recompute 50 numbers directly from the raw outputs and check the rest against the included scripts' results and recorded analysis files. Today it reports 56 pass and 0 fail.</p>
 <pre data-copy><code>pip install numpy
 python tools/verify.py</code></pre>
   </div>
@@ -531,7 +532,8 @@ NP=16 NK=8 PSEUDO=$PWD/pseudo bash reproduce/run_qe.sh \
 <tr id="c-Y21"><td class="mono">Y21</td><td>YBaMnFeO5</td><td class="mono">L2</td><td>Exchange fit from 25 raw energies: in-plane Mn-O-Fe coupling J_ip</td><td class="num">-32.600 <span class="u">meV</span></td><td class="num">-32.609</td><td><span class="st st-ok">pass</span></td><td class="files"><code>YBaMnFeO5/exchange_fit_and_Neel_T/rerun_fit_and_mc.py</code><br><code>YBaMnFeO5/runs/I_pbeu_exchange_fit_configs/</code><br><code>YBaMnFeO5/runs/H_pbeu_stacking_vs_U/U44_*</code></td></tr>
 <tr id="c-Y22"><td class="mono">Y22</td><td>YBaMnFeO5</td><td class="mono">L2</td><td>Neel temperature, classical Monte Carlo on the fitted model (Binder crossings, L = 6/8/10)</td><td class="num">417 <span class="u">K</span></td><td class="num">414.3</td><td><span class="st st-ok">pass</span></td><td class="files"><code>YBaMnFeO5/exchange_fit_and_Neel_T/rerun_fit_and_mc.py</code><br><code>YBaMnFeO5/exchange_fit_and_Neel_T/jfit110/mc_clean_Mle10.5_10.json</code></td></tr>
 <tr id="c-Y23"><td class="mono">Y23</td><td>YBaMnFeO5</td><td class="mono">B</td><td>Calibrated Neel temperature: Y22 x (measured/simulated ratio for YFeO3 with the same protocol, 1.17-1.19)</td><td class="num">490 <span class="u">K</span></td><td class="num">489.6</td><td><span class="st st-ok">pass</span></td><td class="files"><code>YBaMnFeO5/analysis_data/calibration_summary.json</code></td></tr>
-<tr id="c-Y24"><td class="mono">Y24</td><td>YBaMnFeO5</td><td class="mono">B</td><td>Energy above the convex hull at 0 K (26 competing phases)</td><td class="num">2.600 <span class="u">meV/atom</span></td><td class="num">2.600</td><td><span class="st st-ok">pass</span></td><td class="files"><code>YBaMnFeO5/analysis_data/hull_QE110.json</code></td></tr>
+<tr id="c-Y24"><td class="mono">Y24</td><td>YBaMnFeO5</td><td class="mono">A</td><td>Energy above the 0 K convex hull, as the agents computed it: the 28 competing phases that had finished by then (superseded by Y24b)</td><td class="num">2.600 <span class="u">meV/atom</span></td><td class="num">2.610</td><td><span class="st st-ok">pass</span></td><td class="files"><code>YBaMnFeO5/runs/K_hull_competing_phases_raw/</code><br><code>YBaMnFeO5/analysis_data/hull_QE110.json</code></td></tr>
+<tr id="c-Y24b"><td class="mono">Y24b</td><td>YBaMnFeO5</td><td class="mono">A</td><td>Energy above the 0 K convex hull with all 33 competing phases that completed (BaFe2O4 and Ba6Y2Fe4O15 finished later and lower the hull; Ba2Fe2O5 never finished)</td><td class="num">13.700 <span class="u">meV/atom</span></td><td class="num">13.740</td><td><span class="st st-ok">pass</span></td><td class="files"><code>YBaMnFeO5/runs/K_hull_competing_phases_raw/</code></td></tr>
 <tr id="c-Y25"><td class="mono">Y25</td><td>YBaMnFeO5</td><td class="mono">L2</td><td>DECISIVE: Mn/Fe order-disorder temperature from the paramagnetic cluster expansion (C peak, L = 16)</td><td class="num">915 <span class="u">K</span></td><td class="num">915.0</td><td><span class="st st-ok">pass</span></td><td class="files"><code>YBaMnFeO5/cation_order_cluster_expansion/ce2_YBMFO.json</code><br><code>YBaMnFeO5/cation_order_cluster_expansion/torder.py</code><br><code>YBaMnFeO5/cation_order_cluster_expansion/rerun_torder.sh</code></td></tr>
 <tr id="c-Y26"><td class="mono">Y26</td><td>YBaMnFeO5</td><td class="mono">B</td><td>Headline order-disorder temperature with uncertainty (bootstrap + model variants)</td><td class="num">950 (+250/-150) <span class="u">K</span></td><td class="num">950 (+250/-150)</td><td><span class="st st-ok">pass</span></td><td class="files"><code>YBaMnFeO5/cation_order_cluster_expansion/ord2_summary.json</code></td></tr>
 <tr id="c-Y27"><td class="mono">Y27</td><td>YBaMnFeO5</td><td class="mono">E</td><td>Typical synthesis/anneal window for these layered perovskites (900-1300 C); B-site exchange inferred to freeze below ~1150 K (YBaCuFeO5 benchmark: Morin et al., Nat. Commun. 7, 13758 (2016))</td><td class="num">1173-1573 <span class="u">K</span></td><td class="num">-</td><td><span class="st st-na">n/a</span></td><td class="files"><code>literature</code></td></tr>

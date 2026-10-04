@@ -1,0 +1,10 @@
+{
+ "job": "lcm/h110/YBaMnFeO5_rs",
+ "state": "done",
+ "cmd": "python lcm_hull110.py hull_YBaMnFeO5_rs.json YBaMnFeO5_rs.json 110",
+ "ncores": 32,
+ "start": 1790923160.8388216,
+ "rc": 0,
+ "end": 1790927499.5266337,
+ "hours": 1.2051910589138666
+}

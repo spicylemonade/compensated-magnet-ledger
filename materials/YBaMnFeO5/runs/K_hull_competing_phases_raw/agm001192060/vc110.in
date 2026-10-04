@@ -1,0 +1,46 @@
+&CONTROL
+  calculation = 'vc-relax'
+  prefix = 'vc110'
+  outdir = '/tmp/scratch/vc110'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .true.
+  tprnfor = .true.
+  disk_io = 'low'
+  verbosity = 'high'
+  forc_conv_thr = 0.001
+  etot_conv_thr = 2d-05
+  nstep = 150
+/
+&SYSTEM
+  ibrav = 0
+  nat = 2
+  ntyp = 2
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+/
+&ELECTRONS
+  conv_thr = 2d-08
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+&IONS
+/
+&CELL
+  press_conv_thr = 0.3
+/
+ATOMIC_SPECIES
+  Ba 137.3270 Ba.upf
+  O 15.9990 O.upf
+CELL_PARAMETERS angstrom
+  3.9498806680 0.0000000000 0.0000000000
+  1.9749403340 3.4206969960 -0.0000000000
+  1.9749403340 1.1402323290 3.2250641560
+ATOMIC_POSITIONS crystal
+  Ba 0.5000000000 0.5000000000 0.5000000000
+  O 0.0000000000 0.0000000000 0.0000000000
+K_POINTS automatic
+  8 8 8 0 0 0

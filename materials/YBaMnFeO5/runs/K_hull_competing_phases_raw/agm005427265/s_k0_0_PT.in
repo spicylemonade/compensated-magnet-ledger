@@ -1,0 +1,52 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 's_k0_0_PT'
+  outdir = '/tmp/scratch/s_k0_0_PT'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .false.
+  tprnfor = .false.
+  disk_io = 'low'
+  verbosity = 'high'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 6
+  ntyp = 4
+  ecutwfc = 75.0
+  ecutrho = 300.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+  nspin = 2
+  starting_magnetization(1) = 0.0000
+  starting_magnetization(2) = 0.3000
+  starting_magnetization(3) = -0.3000
+  starting_magnetization(4) = 0.0000
+/
+&ELECTRONS
+  conv_thr = 6.000000000000001d-08
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+ATOMIC_SPECIES
+  Ba 137.3270 Ba.upf
+  Mn 54.9380 Mn.upf
+  Mn1 54.9380 Mn.upf
+  O 15.9990 O.upf
+CELL_PARAMETERS angstrom
+  -1.8248992000 2.2049100800 5.5987944600
+  1.8248992000 -2.2049100800 5.5987944600
+  1.8248992000 2.2049100800 -5.5987944600
+ATOMIC_POSITIONS crystal
+  Ba 0.5000000000 0.0000000000 0.5000000000
+  Mn 0.1883280800 0.6883280800 0.5000000000
+  Mn1 0.8116719200 0.3116719200 0.5000000000
+  O 0.0000000000 0.5000000000 0.5000000000
+  O 0.7044207100 0.7044207100 0.0000000000
+  O 0.2955792900 0.2955792900 0.0000000000
+K_POINTS automatic
+  7 8 9 0 0 0
+HUBBARD ortho-atomic
+  U Mn-3d 4.0
+  U Mn1-3d 4.0

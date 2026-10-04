@@ -60,6 +60,12 @@ def win(rel, key):
     return _win(rel)[key]
 
 
+def _hull(before):
+    """YBaMnFeO5 energy above the hull (meV/atom) recomputed from the raw outputs of the hull runs."""
+    from crosscheck_raw import HULL_FILE_WRITTEN, hull_distance
+    return round(hull_distance(before=HULL_FILE_WRITTEN if before else None)[0], 2)
+
+
 def dE_ion(ref, other, n):
     """(E_other - E_ref) per magnetic ion, meV."""
     return (_pw(other)["energy_eV"] - _pw(ref)["energy_eV"]) / n * 1000.0
@@ -279,9 +285,14 @@ CLAIMS = [
          f=lambda: CLAIMS_BY_ID["Y22"]["f"]() * float(np.mean(jget("materials/YBaMnFeO5/analysis_data/calibration_summary.json",
                                                                     "YBMFO_calibration", "per_calibrant", "YFeO3_best", "f_MC"))),
          repro=None),
-    dict(id="Y24", mat="YBaMnFeO5", tier="B", what="Energy above the convex hull at 0 K (26 competing phases)", unit="meV/atom", expected=2.6, tol=0.05,
-         method=PBEU_Y + ", 110 Ry", files=["materials/YBaMnFeO5/analysis_data/hull_QE110.json"],
-         f=lambda: jget("materials/YBaMnFeO5/analysis_data/hull_QE110.json", "YBMFO_P4n", "E_hull_meV_atom"), repro=None),
+    dict(id="Y24", mat="YBaMnFeO5", tier="A", what="Energy above the 0 K convex hull, as the agents computed it: the 28 competing phases that had finished by then (superseded by Y24b)",
+         unit="meV/atom", expected=2.6, tol=0.05,
+         method=PBEU_Y + ", 110 Ry vc-relax of every phase; lowest-energy mix at fixed composition (tools/crosscheck_raw.py)",
+         files=[Y + "K_hull_competing_phases_raw/", "materials/YBaMnFeO5/analysis_data/hull_QE110.json"],
+         f=lambda: _hull(before=True), repro=None),
+    dict(id="Y24b", mat="YBaMnFeO5", tier="A", what="Energy above the 0 K convex hull with all 33 competing phases that completed (BaFe2O4 and Ba6Y2Fe4O15 finished later and lower the hull; Ba2Fe2O5 never finished)",
+         unit="meV/atom", expected=13.7, tol=0.05, method="as Y24",
+         files=[Y + "K_hull_competing_phases_raw/"], f=lambda: _hull(before=False), repro=None),
     dict(id="Y25", mat="YBaMnFeO5", tier="L2", what="DECISIVE: Mn/Fe order-disorder temperature from the paramagnetic cluster expansion (C peak, L = 16)",
          unit="K", expected=915, tol=60, method="canonical MC of a fitted cluster expansion (21 arrangements, 96 DFT runs); rerun_torder.sh",
          files=[CE + "ce2_YBMFO.json", CE + "torder.py", CE + "rerun_torder.sh"],

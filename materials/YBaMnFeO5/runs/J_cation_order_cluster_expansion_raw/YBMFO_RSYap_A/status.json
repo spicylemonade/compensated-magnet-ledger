@@ -1,0 +1,7 @@
+{
+ "job": "lcm/ord2/YBMFO_RSYap_A",
+ "state": "running",
+ "cmd": "python ord2.py tasks_ybmfo.json YBMFO_RSYap_A",
+ "ncores": 32,
+ "start": 1790927889.6232462
+}

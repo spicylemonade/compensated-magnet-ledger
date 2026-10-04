@@ -20,9 +20,9 @@ def _arrow(x, up, cls):
 PANELS = {
     "fm": dict(title="Ferromagnet", sub="the fridge-magnet kind", atoms=[("Fe", 1, "n")] * 6,
                net="large", sorted_="yes", bands="split"),
-    "afm": dict(title="Antiferromagnet", sub="one element, cancels out", atoms=[("Mn", 1, "n"), ("Mn", 0, "n")] * 3,
+    "afm": dict(title="Antiferromagnet", sub="identical sites, cancels out", atoms=[("Mn", 1, "n"), ("Mn", 0, "n")] * 3,
                 net="zero", sorted_="no", bands="same"),
-    "lcm": dict(title="Luttinger-compensated", sub="two elements, cancels out", atoms=[("Cr", 1, "up"), ("V", 0, "dn")] * 3,
+    "lcm": dict(title="Luttinger-compensated", sub="two kinds of site, cancels out", atoms=[("Cr", 1, "up"), ("V", 0, "dn")] * 3,
                 net="zero", sorted_="yes", bands="split"),
 }
 
@@ -56,7 +56,7 @@ def fig1_panels():
     """three separate inline SVGs (they wrap to one column on phones)"""
     labels = {"fm": "A ferromagnet: identical atomic magnets all point up, so the net magnetism is large and the spin-up and spin-down electron bands sit at different energies.",
               "afm": "An antiferromagnet: identical atoms alternate up and down, so the net is zero and the two spin bands are identical.",
-              "lcm": "A Luttinger-compensated magnet: two different elements alternate up and down with equal magnets, so the net is zero but the two spin bands still sit at different energies."}
+              "lcm": "A Luttinger-compensated magnet: two inequivalent kinds of atom (here two different elements) alternate up and down with equal magnets, so the net spin is zero but the two spin bands still sit at different energies."}
     return [(k, f'<svg viewBox="0 0 300 344" role="img" aria-label="{labels[k]}" class="fig-svg">{panel(k)}</svg>') for k in ("fm", "afm", "lcm")]
 
 
@@ -144,9 +144,10 @@ def fig3():
     o.append(f'<polygon points="{x_of(950):.1f},137 {x_of(950) + 7:.1f},133 {x_of(950) + 7:.1f},141" class="f-ink-fill"/>')
     o.append(f'<polygon points="{x_of(1150) - 2:.1f},137 {x_of(1150) - 9:.1f},133 {x_of(1150) - 9:.1f},141" class="f-ink-fill"/>')
     o.append(_t((x_of(950) + x_of(1150)) / 2, 128, "≈ 200 K", "f-small", "middle"))
-    # magnetic order range
-    o.append(f'<rect x="{x_of(417):.1f}" y="191" width="{x_of(490) - x_of(417):.1f}" height="10" rx="2" class="bar-m"/>')
-    o.append(_t(x_of(453), 238, "magnetic order lost at ≈ 420–490 K (predicted)", "f-small", "middle"))
+    # magnetic ordering temperature: two separate estimates, not a range
+    for T in (417, 490):
+        o.append(f'<rect x="{x_of(T) - 2.5:.1f}" y="187" width="5" height="18" rx="2" class="bar-m"/>')
+    o.append(_t(x_of(453), 238, "magnetic order lost: ≈ 420 K raw, ≈ 490 K calibrated (predicted)", "f-small", "middle"))
     # axis
     o.append('<line x1="40" y1="196" x2="680" y2="196" class="f-axis"/>')
     for T in (0, 300, 600, 900, 1200, 1500):
@@ -191,6 +192,11 @@ if __name__ == "__main__":
     inner = "".join(f'<g transform="translate({i * 310},0)">{panel(k)}</g>' for i, (k, _) in enumerate(p))
     combo = f'<svg viewBox="0 0 920 344" role="img" aria-label="Three kinds of magnet">{inner}</svg>'
     (d / "three_magnets.svg").write_text(standalone(combo, 920, 344))
+    # the same three panels stacked, for phone-width columns
+    stack = "".join(f'<g transform="translate(0,{i * 352})">{panel(k)}</g>' for i, (k, _) in enumerate(p))
+    stack += "".join(f'<line x1="24" y1="{i * 352 - 4}" x2="276" y2="{i * 352 - 4}" class="f-axis"/>' for i in (1, 2))
+    stacked = f'<svg viewBox="0 0 300 1048" role="img" aria-label="Three kinds of magnet">{stack}</svg>'
+    (d / "three_magnets_stacked.svg").write_text(standalone(stacked, 300, 1048))
     (d / "spin_window.svg").write_text(standalone(fig2(), 640, 392))
     (d / "ybamnfeo5_temperatures.svg").write_text(standalone(fig3(), 720, 248))
     print("wrote", [f.name for f in d.iterdir()])

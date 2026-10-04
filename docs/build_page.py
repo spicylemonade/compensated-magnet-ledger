@@ -282,14 +282,15 @@ def build():
         "{{REPO_A}}": (f'<a href="{REPO_URL}">repository on GitHub</a>' if REPO_URL else "repository (its link will be added here once it is published)"),
         "{{REPO_B}}": (f'the <a href="{REPO_URL}">repository</a> (LEDGER.md)' if REPO_URL else "the repository's LEDGER.md"),
         "{{NPASS}}": str(sum(1 for r in CLAIMS if r["status"] == "PASS")),
+        "{{NRAW}}": str(sum(1 for r in CLAIMS if r["status"] == "PASS" and r["tier"] == "A")),
         "{{NFAIL}}": str(sum(1 for r in CLAIMS if r["status"] == "FAIL")),
     }
     import re
-    body = re.sub(r"\{\{L:([A-Z0-9,]+)\}\}", lambda m: lid(*m.group(1).split(",")), body)
+    body = re.sub(r"\{\{L:([A-Za-z0-9,]+)\}\}", lambda m: lid(*m.group(1).split(",")), body)
     for k, v in rep.items():
         body = body.replace(k, v)
     head = ('<title>Zero-Sum Magnets</title>\n<meta name="description" content="Two room-temperature Luttinger-compensated magnet '
-            'candidates, YBaMnFeO5 and KV[Cr(CN)6]: what AI agents computed, how sure we are, and a public ledger to check every number.">\n'
+            'candidates, YBaMnFeO5 and KV[Cr(CN)6]: what AI agents computed, how sure we are, and a ledger to check the numbers.">\n'
             '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
             '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400;600;700;800'
             '&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">\n')
@@ -314,7 +315,7 @@ BODY = r"""
       <span class="chip chip-up"><b>↑</b>Cr</span><span>+</span><span class="chip chip-dn"><b>↓</b>V</span><span>= 0</span>
     </div>
   </div>
-  <p class="byline"><span><strong>Written by</strong> Geby Jaff</span><span><strong>Computed by</strong> Claude Opus 5.5 agents on cloud computers</span><span><strong>Checked by</strong> a public ledger: {{NPASS}} of {{NPASS}} computable numbers re-derive</span></p>
+  <p class="byline"><span><strong>Written by</strong> Geby Jaff</span><span><strong>Computed by</strong> Claude Opus 5.5 agents on cloud computers</span><span><strong>Checked by</strong> a ledger: {{NPASS}} of {{NPASS}} computable numbers re-derive</span></p>
 </header>
 
 <p>Most of us know two kinds of magnet, even if we don't know their names. The fridge kind is a <strong>ferromagnet</strong>: trillions of tiny atomic magnets all point the same way, so their pull adds up to something you can feel. The other kind, an <strong>antiferromagnet</strong>, is magnetic on the inside, but neighbouring atomic magnets point in opposite directions and cancel exactly. You can't stick it to anything.</p>
@@ -326,17 +327,17 @@ BODY = r"""
   <li><strong>Ferromagnets</strong> work well for spintronics because the electrons that carry current are <em>sorted by spin</em>: at the energies that matter, there are more up-electrons than down-electrons, or only one kind. But they produce stray magnetic fields that disturb their neighbours, and they are comparatively slow to switch.</li>
   <li><strong>Antiferromagnets</strong> have no stray field and can switch roughly a thousand times faster. But in an ordinary antiferromagnet every up-site has an identical down-site, so the electrons are <em>not</em> sorted by spin. That makes them hard to use for spintronics.</li>
 </ul>
-<p>There is a third option that physicists have only recently named. Imagine an antiferromagnet in which the up-pointing atoms and the down-pointing atoms are <strong>two different elements</strong>, each carrying exactly the same amount of magnetism. The totals still cancel, so there is no stray field. But because the atoms are different, the electrons can tell them apart, and they end up <strong>sorted by spin, as in a ferromagnet</strong>.</p>
+<p>There is a third option that physicists have only recently named. Imagine an antiferromagnet in which the up-pointing atoms and the down-pointing atoms are <strong>not equivalent</strong> (for example two different elements, or the same element in two different kinds of site), each carrying exactly the same amount of magnetism. The totals still cancel, so ideally there is no stray field. But because the atoms are not equivalent, the electrons can tell them apart, and they end up <strong>sorted by spin, as in a ferromagnet</strong>.</p>
 
 <figure class="wide">
   <div class="panels">{{FIG1}}</div>
   <figcaption>Three kinds of magnet. Arrows are atomic magnets (<span class="up">↑</span> up, <span class="dn">↓</span> down). The small blocks underneath are the electron energy bands for each spin. In the antiferromagnet the two spins' bands are identical. In the other two they sit at different energies, so the electrons at the band edges have one spin.</figcaption>
 </figure>
 
-<p>These are called <strong>Luttinger-compensated magnets</strong>. The name refers to a theorem, Luttinger's, which guarantees that in an insulating material of this kind the cancellation is exact rather than approximate: each spin direction holds a whole number of electrons. The name comes from a 2022 editorial by the physicist Igor Mazin, and very few real examples are known. The only one confirmed by neutron experiments to be an insulator orders at −225 °C.</p>
+<p>These are called <strong>Luttinger-compensated magnets</strong>. The name refers to a theorem, Luttinger's, which guarantees that in an insulating material of this kind the cancellation is exact rather than approximate: each spin direction holds a whole number of electrons. (Strictly, that holds for the spin of a perfect crystal near absolute zero; smaller effects such as spin–orbit coupling, and heat, can leave a slight imbalance.) The name comes from a 2022 editorial by the physicist Igor Mazin, and very few real examples are known. The only one confirmed by neutron experiments to be an insulator orders at −225 °C.</p>
 <p>The wish list for a useful one is short to write down and hard to satisfy:</p>
 <ul class="wish">
-  <li><strong>Exactly zero net magnetism</strong>, guaranteed by chemistry rather than by luck.</li>
+  <li><strong>Zero net spin</strong>, fixed by the chemistry rather than by luck.</li>
   <li><strong>Stays magnetic above room temperature.</strong></li>
   <li><strong>A semiconductor</strong>: it has a band gap, like silicon, so you can control how many charge carriers it has.</li>
   <li><strong>Spin-sorted carriers</strong> at both edges of the gap, over an energy range that is large compared with the thermal jiggling at room temperature (0.026 eV).</li>
@@ -360,11 +361,11 @@ BODY = r"""
 <p><strong>The idea.</strong> Take a well-known family of layered oxide crystals and put manganese (Mn) and iron (Fe) on the magnetic sites in a perfect 3D checkerboard, so that every Mn is surrounded by Fe and vice versa. Here Mn²⁺ and Fe³⁺ both have five unpaired electrons, so their atomic magnets are the same size, and the checkerboard makes them point opposite ways. Yttrium, barium and oxygen fill in the rest, all of them cheap and earth-abundant.</p>
 <p><strong>On paper, it is close to ideal.</strong> The calculations predict:</p>
 <ul>
-  <li>exactly zero net magnetism {{L:Y03}};</li>
+  <li>zero net spin in the perfect crystal {{L:Y03}};</li>
   <li>a band gap of about <strong>2.35 eV</strong> {{L:Y10}};</li>
   <li>both edges of the gap carrying the same spin {{L:Y11}}, with windows of <strong>1.0 eV and 1.4 eV</strong> {{L:Y12,Y13}};</li>
   <li>magnetic order up to roughly <strong>420 K</strong> (about 145 °C) in the raw simulation, or about <strong>490 K</strong> after calibrating against a known relative {{L:Y22,Y23}};</li>
-  <li>a position right at the edge of thermodynamic stability, within calculation error {{L:Y24}}.</li>
+  <li>a position close to, but not on, the edge of thermodynamic stability: about 14 meV per atom above the most stable mix of competing compounds that were computed, which is typical of compounds that have been made {{L:Y24b}}. (An earlier count, before every competing compound had finished, gave 2.6 meV per atom {{L:Y24}}.)</li>
 </ul>
 <p><strong>The catch is the checkerboard.</strong> Mn and Fe sit next to each other in the periodic table, are nearly the same size, and differ by one unit of charge. That gives them little reason to keep to their own squares. When the agents simulated how the atoms arrange themselves at different temperatures, the checkerboard melted into a random mix at around <strong>950 K</strong> {{L:Y25,Y26}}. To make this kind of oxide you heat it to roughly 900–1300 °C, and much below that the metal atoms are effectively frozen in place. So by the time the material is cool enough for the checkerboard to be favoured, the atoms may no longer be able to move into it, and standard synthesis would likely give a scrambled crystal.</p>
 
@@ -377,10 +378,10 @@ BODY = r"""
 <p><strong>Verdict.</strong> It is a beautiful blueprint and a useful lesson, and the agents' own review downgraded it to a design study, because there is no known way yet to make the ordered crystal. The lesson is that the difference between the two magnetic sublattices has to be <em>enforced by strong chemistry</em>, not left to delicate atomic ordering. That lesson led straight to the second candidate.</p>
 
 <h2>KV[Cr(CN)₆]: hiding in plain sight since 1999</h2>
-<p><strong>What it is.</strong> KV[Cr(CN)₆] belongs to the same family as <strong>Prussian blue</strong>, the 300-year-old pigment. Picture a cubic scaffold of cyanide groups, each one carbon atom joined to one nitrogen atom. Chromium atoms hold the carbon ends, vanadium atoms hold the nitrogen ends, and potassium ions sit in the holes. In 1999 the chemists Stephen Holmes and Gregory Girolami made it and found that it stays magnetic up to <strong>376 K</strong> (103 °C) {{L:K30}}, unusually high for a magnet assembled from molecular building blocks. They designed it so that the vanadium and chromium magnets, three unpaired electrons each, would cancel. They measured almost zero: about 2 % of what you'd get if all the spins lined up {{L:K31}}. The small leftover is normal for real samples, where a few building blocks are missing.</p>
+<p><strong>What it is.</strong> KV[Cr(CN)₆] belongs to the same family as <strong>Prussian blue</strong>, the 300-year-old pigment. Picture a cubic scaffold of cyanide groups, each one carbon atom joined to one nitrogen atom. Chromium atoms hold the carbon ends, vanadium atoms hold the nitrogen ends, and potassium ions sit in the holes. In 1999 the chemists Stephen Holmes and Gregory Girolami made it and found that their sample stays magnetic up to <strong>376 K</strong> (103 °C), or 365 K after it had been heated {{L:K30}}, unusually high for a magnet assembled from molecular building blocks. They designed it so that the vanadium and chromium magnets, three unpaired electrons each, would cancel. They measured almost zero: about 2 % of what you'd get if all the spins lined up {{L:K31}}. Small leftovers like this are common in real samples, where a few building blocks are missing. Nobody has measured its band gap or spin sorting.</p>
 <p><strong>What we added.</strong> The agents computed its electronic structure. In an ideal crystal it is a Luttinger-compensated magnet with exactly the spin-sorted structure described above:</p>
 <ul>
-  <li><strong>zero net spin</strong> {{L:K02,K13}}, with a symmetry analysis classifying it as this type of magnet {{L:K29}};</li>
+  <li><strong>zero net spin</strong> in the perfect crystal {{L:K02,K13}}, with a symmetry analysis classifying it as this type of magnet {{L:K29}};</li>
   <li>a <strong>band gap of about 2.1 eV</strong> {{L:K14}};</li>
   <li><strong>both band edges carrying the same spin</strong> {{L:K15}}, with windows of <strong>2.6 eV</strong> for holes and <strong>1.6 eV</strong> for electrons {{L:K16,K17}}, 60 to 100 times the room-temperature jiggle. The cheaper method agrees on the picture, with somewhat smaller windows at every value of U tried {{L:K07,K08,K09,K10,K11}};</li>
   <li>the cyanide bridge <strong>fixing which metal sits where</strong>, because chromium strongly prefers the carbon end and vanadium the nitrogen end. That is exactly the chemical enforcement YBaMnFeO₅ lacked.</li>
@@ -410,10 +411,10 @@ BODY = r"""
   <thead><tr><th scope="col"></th><th scope="col">YBaMnFeO₅</th><th scope="col">KV[Cr(CN)₆]</th></tr></thead>
   <tbody>
     <tr><th scope="row">Origin</th><td>designed in this project</td><td>made by Holmes &amp; Girolami, 1999</td></tr>
-    <tr><th scope="row">Net magnetism (ideal crystal)</th><td>zero</td><td>zero</td></tr>
+    <tr><th scope="row">Net spin (ideal crystal, 0 K)</th><td>zero</td><td>zero</td></tr>
     <tr><th scope="row">Band gap (HSE06)</th><td class="num">2.35 eV</td><td class="num">2.09 eV</td></tr>
     <tr><th scope="row">Spin windows, holes / electrons</th><td class="num">1.0 / 1.4 eV</td><td class="num">2.6 / 1.6 eV</td></tr>
-    <tr><th scope="row">Magnetic up to</th><td>≈ 420–490 K (predicted)</td><td><strong>376 K (measured)</strong></td></tr>
+    <tr><th scope="row">Magnetic up to</th><td>≈ 420 K raw, ≈ 490 K calibrated (predicted)</td><td><strong>376 K (measured on the hydrated powder)</strong></td></tr>
     <tr><th scope="row">Can it be made?</th><td>may be hard: the atoms tend to scramble the checkerboard</td><td>yes, once, as a hydrated powder</td></tr>
     <tr><th scope="row">Biggest open question</th><td>is there any route to the ordered crystal?</td><td>does the spin sorting survive in real, wet, imperfect samples?</td></tr>
     <tr><th scope="row">Ever measured spin-sorted?</th><td>no</td><td>no</td></tr>
@@ -422,11 +423,11 @@ BODY = r"""
 </div>
 
 <h2>How to check every number</h2>
-<p>Everything is packaged as a <strong>computational ledger</strong> in a {{REPO_A}}. It holds the exact input files for 120 calculations with their raw, unedited outputs, the relaxed crystal structures, the analysis scripts, and a list of every claim with the files it came from. The list is reproduced at the bottom of this page. It also records the mistakes the agents caught and the caveats they flagged. There are three levels of checking:</p>
+<p>Everything is packaged as a <strong>computational ledger</strong> in a {{REPO_A}}. It holds the exact input files for nearly 900 calculations with their raw, unedited outputs, the relaxed crystal structures, the analysis scripts, and a list of every claim with the files it came from. The list is reproduced at the bottom of this page. It also records the mistakes the agents caught and the caveats they flagged. There are three levels of checking:</p>
 <div class="levels">
   <div class="level">
-    <h3>1. Check the arithmetic: about a second, on a laptop</h3>
-    <p>Recompute every number from the raw outputs. Today it reports {{NPASS}} pass and {{NFAIL}} fail.</p>
+    <h3>1. Check the arithmetic: seconds, on a laptop</h3>
+    <p>Recompute {{NRAW}} numbers directly from the raw outputs and check the rest against the included scripts' results and recorded analysis files. Today it reports {{NPASS}} pass and {{NFAIL}} fail.</p>
 <pre data-copy><code>pip install numpy
 python tools/verify.py</code></pre>
   </div>

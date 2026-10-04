@@ -1,0 +1,84 @@
+&CONTROL
+  calculation = 'vc-relax'
+  prefix = 'vc110'
+  outdir = '/tmp/scratch/vc110'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .true.
+  tprnfor = .true.
+  disk_io = 'low'
+  verbosity = 'high'
+  forc_conv_thr = 0.001
+  etot_conv_thr = 0.00018
+  nstep = 150
+/
+&SYSTEM
+  ibrav = 0
+  nat = 18
+  ntyp = 7
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+  nspin = 2
+  Hubbard_occ(3,1) = 9.0
+  Hubbard_occ(4,1) = 9.0
+  Hubbard_occ(5,1) = 5.0
+  Hubbard_occ(6,1) = 5.0
+  starting_magnetization(1) = 0.0000
+  starting_magnetization(2) = 0.0000
+  starting_magnetization(3) = 0.0526
+  starting_magnetization(4) = -0.0526
+  starting_magnetization(5) = -0.2625
+  starting_magnetization(6) = 0.2625
+  starting_magnetization(7) = 0.0000
+/
+&ELECTRONS
+  conv_thr = 1.8d-07
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+&IONS
+/
+&CELL
+  press_conv_thr = 0.3
+/
+ATOMIC_SPECIES
+  Ba 137.3270 Ba.upf
+  Y 88.9058 Y.upf
+  Cu 63.5460 Cu.upf
+  Cu1 63.5460 Cu.upf
+  Fe 55.8450 Fe.upf
+  Fe1 55.8450 Fe.upf
+  O 15.9990 O.upf
+CELL_PARAMETERS angstrom
+  3.8994650000 3.8994650000 0.0000000000
+  -3.8994650000 3.8994650000 0.0000000000
+  0.0000000000 0.0000000000 7.9452030000
+ATOMIC_POSITIONS crystal
+  Ba 0.5000000000 0.0000000000 0.9977590000
+  Ba 0.0000000000 0.5000000000 0.9977590000
+  Y 0.5000000000 0.0000000000 0.4640000000
+  Y 0.0000000000 0.5000000000 0.4640000000
+  Cu 0.0000000000 0.0000000000 0.2551530000
+  Cu1 0.5000000000 0.5000000000 0.2551530000
+  Fe 0.0000000000 0.0000000000 0.7053450000
+  Fe1 0.5000000000 0.5000000000 0.7053450000
+  O 0.2500000000 0.7500000000 0.6361660000
+  O 0.7500000000 0.2500000000 0.6361660000
+  O 0.2500000000 0.2500000000 0.6361660000
+  O 0.7500000000 0.7500000000 0.6361660000
+  O 0.2500000000 0.7500000000 0.2765140000
+  O 0.7500000000 0.2500000000 0.2765140000
+  O 0.2500000000 0.2500000000 0.2765140000
+  O 0.7500000000 0.7500000000 0.2765140000
+  O 0.0000000000 0.0000000000 0.9403000000
+  O 0.5000000000 0.5000000000 0.9403000000
+K_POINTS automatic
+  5 5 4 0 0 0
+HUBBARD ortho-atomic
+  U Cu-3d 6.0
+  U Cu1-3d 6.0
+  U Fe-3d 4.0
+  U Fe1-3d 4.0

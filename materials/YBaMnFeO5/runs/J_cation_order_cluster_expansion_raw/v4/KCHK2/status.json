@@ -1,0 +1,10 @@
+{
+ "job": "lcm/ord2/v4/KCHK2",
+ "state": "done",
+ "cmd": "python ord2.py tasks_kchk.json KCHK_YBCFO_ref_A KCHK_YBCFO_ref_B KCHK_YBCFO_ref_C",
+ "ncores": 32,
+ "start": 1790963592.5205588,
+ "rc": 0,
+ "end": 1790969715.8289216,
+ "hours": 1.7009189896451102
+}

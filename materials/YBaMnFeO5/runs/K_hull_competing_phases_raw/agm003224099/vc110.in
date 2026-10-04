@@ -1,0 +1,74 @@
+&CONTROL
+  calculation = 'vc-relax'
+  prefix = 'vc110'
+  outdir = '/tmp/scratch/vc110'
+  pseudo_dir = '/data/pseudo/dojo_sr'
+  tstress = .true.
+  tprnfor = .true.
+  disk_io = 'low'
+  verbosity = 'high'
+  forc_conv_thr = 0.001
+  etot_conv_thr = 0.0002
+  nstep = 150
+/
+&SYSTEM
+  ibrav = 0
+  nat = 20
+  ntyp = 4
+  ecutwfc = 110.0
+  ecutrho = 440.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.005
+  nspin = 2
+  starting_magnetization(1) = 0.0000
+  starting_magnetization(2) = 0.2625
+  starting_magnetization(3) = -0.2625
+  starting_magnetization(4) = 0.0000
+/
+&ELECTRONS
+  conv_thr = 2d-07
+  mixing_beta = 0.3
+  electron_maxstep = 300
+  mixing_mode = 'local-TF'
+/
+&IONS
+/
+&CELL
+  press_conv_thr = 0.3
+/
+ATOMIC_SPECIES
+  Y 88.9058 Y.upf
+  Fe 55.8450 Fe.upf
+  Fe1 55.8450 Fe.upf
+  O 15.9990 O.upf
+CELL_PARAMETERS angstrom
+  5.2977368380 0.0000000000 -0.0001372090
+  0.0000000000 5.6146784690 0.0000000000
+  -0.0001981950 0.0000000000 7.6598992870
+ATOMIC_POSITIONS crystal
+  Y 0.5194937249 0.4315151853 0.2499975753
+  Y 0.0194937249 0.0684848147 0.7499975753
+  Y 0.9805062751 0.9315151853 0.2500024247
+  Y 0.4805062751 0.5684848147 0.7500024247
+  Fe 0.5000000000 0.0000000000 0.0000000000
+  Fe1 0.0000000000 0.5000000000 0.0000000000
+  Fe 0.0000000000 0.5000000000 0.5000000000
+  Fe1 0.5000000000 0.0000000000 0.5000000000
+  O 0.1925838593 0.8043698437 0.9404314498
+  O 0.6925845924 0.6956283160 0.0595672666
+  O 0.3074161407 0.3043698437 0.5595685502
+  O 0.8074154076 0.1956283160 0.4404327334
+  O 0.8074161407 0.1956301563 0.0595685502
+  O 0.3074154076 0.3043716840 0.9404327334
+  O 0.6925838593 0.6956301563 0.4404314498
+  O 0.1925845924 0.8043716840 0.5595672666
+  O 0.6159127230 0.9567815987 0.7500013041
+  O 0.1159127230 0.5432184013 0.2500013041
+  O 0.8840872770 0.4567815987 0.7499986959
+  O 0.3840872770 0.0432184013 0.2499986959
+K_POINTS automatic
+  5 5 4 0 0 0
+HUBBARD ortho-atomic
+  U Fe-3d 4.0
+  U Fe1-3d 4.0

@@ -1,0 +1,7 @@
+{
+ "job": "lcm/ord2/v2/YBMFO_STRdc_B",
+ "state": "running",
+ "cmd": "python ord2.py tasks_ybmfo.json YBMFO_STRdc_B",
+ "ncores": 32,
+ "start": 1790928909.486899
+}

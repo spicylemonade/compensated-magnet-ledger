@@ -1,0 +1,44 @@
+{
+ "FM": {
+  "E_per_atom": -1527.1092140043506,
+  "conv": true,
+  "flips": 0,
+  "M": 26.0
+ },
+ "orb0": {
+  "E_per_atom": -1527.1181303106898,
+  "conv": true,
+  "flips": 0,
+  "M": 18.0
+ },
+ "orb1": {
+  "E_per_atom": -1527.1167867582124,
+  "conv": true,
+  "flips": 0,
+  "M": 10.0
+ },
+ "orb2": {
+  "E_per_atom": -1527.1224962221193,
+  "conv": true,
+  "flips": 0,
+  "M": 2.0
+ },
+ "orb3": {
+  "E_per_atom": -1527.117578774764,
+  "conv": true,
+  "flips": 0,
+  "M": 18.0
+ },
+ "orb4": {
+  "E_per_atom": -1527.1164358382318,
+  "conv": true,
+  "flips": 0,
+  "M": 10.0
+ },
+ "orb5": {
+  "E_per_atom": -1527.1217063144502,
+  "conv": true,
+  "flips": 0,
+  "M": 2.0
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "job": "lcm/ord2/v4/YBMFO_COL_A",
+ "state": "done",
+ "cmd": "python ord2.py tasks_ybmfo_v4.json YBMFO_COL_A",
+ "ncores": 32,
+ "start": 1790936500.5990875,
+ "rc": 0,
+ "end": 1790947882.908983,
+ "hours": 3.1617527487542896
+}

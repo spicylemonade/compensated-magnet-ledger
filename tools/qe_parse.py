@@ -79,7 +79,11 @@ def parse_pw(path):
     ef2 = [(float(m.group(1)), float(m.group(2))) for l in L
            if (m := re.search(r"the spin up/dw Fermi energies are\s+(-?\d+\.\d+)\s+(-?\d+\.\d+)\s+ev", l))]
     out["fermi_eV"] = ef[-1] if ef else (ef2[-1] if ef2 else None)
-    out["converged"] = any("convergence has been achieved" in l for l in L) and not any("convergence NOT achieved" in l for l in L)
+    scf_ok = any("convergence has been achieved" in l for l in L) and not any("convergence NOT achieved" in l for l in L)
+    # hybrid-functional runs (HSE06) have an outer exact-exchange loop; QE marks its convergence with a '!!' energy line
+    out["is_exx"] = any("est. exchange err (dexx)" in l for l in L)
+    out["exx_converged"] = (out["final_marker"] == "!!") if out["is_exx"] else None
+    out["converged"] = scf_ok and (out["exx_converged"] if out["is_exx"] else True)
     out["job_done"] = any("JOB DONE" in l for l in L)
     nat = [int(m.group(1)) for l in L[:400] if (m := re.search(r"number of atoms/cell\s+=\s+(\d+)", l))]
     out["nat"] = nat[0] if nat else None
