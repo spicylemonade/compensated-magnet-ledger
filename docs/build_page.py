@@ -15,7 +15,7 @@ sys.path.insert(0, str(ROOT / "docs"))
 import figures  # noqa: E402
 from qe_parse import last_bands, parse_pw, resolve, spin_windows  # noqa: E402
 
-REPO_URL = "https://github.com/OWNER/compensated-magnet-ledger"   # replaced once the repository is published
+REPO_URL = "https://github.com/spicylemonade/compensated-magnet-ledger"
 CLAIMS = list(csv.DictReader(open(ROOT / "ledger" / "claims.csv")))
 C = {r["id"]: r for r in CLAIMS}
 
@@ -278,7 +278,9 @@ def build():
     body = BODY
     rep = {
         "{{FIG1}}": f1, "{{FIG2}}": figures.fig2(), "{{FIG3}}": figures.fig3(), "{{FIG4}}": dotplot(),
-        "{{REPRO}}": repro_rows(), "{{LEDGER}}": ledger_table(), "{{REPO}}": REPO_URL,
+        "{{REPRO}}": repro_rows(), "{{LEDGER}}": ledger_table(),
+        "{{REPO_A}}": (f'<a href="{REPO_URL}">repository on GitHub</a>' if REPO_URL else "repository (its link will be added here once it is published)"),
+        "{{REPO_B}}": (f'the <a href="{REPO_URL}">repository</a> (LEDGER.md)' if REPO_URL else "the repository's LEDGER.md"),
         "{{NPASS}}": str(sum(1 for r in CLAIMS if r["status"] == "PASS")),
         "{{NFAIL}}": str(sum(1 for r in CLAIMS if r["status"] == "FAIL")),
     }
@@ -347,7 +349,7 @@ BODY = r"""
 </figure>
 
 <h2>How the search worked, and who did it</h2>
-<p>I set up several Claude agents to run in parallel, each with its own lane of a broader search for unusual magnets. This post comes from the lane that hunted for Luttinger-compensated semiconductors. The agents used <strong>density functional theory (DFT)</strong>, the standard way to compute how electrons arrange themselves in a crystal, through a free program called Quantum ESPRESSO on rented cloud computers. That lane submitted about 750 calculations over three days, at two levels of theory:</p>
+<p>I set up several Claude agents to run in parallel, each with its own lane of a broader search for unusual magnets. This post comes from the lane that hunted for Luttinger-compensated semiconductors. The agents used <strong>density functional theory (DFT)</strong>, the standard way to compute how electrons arrange themselves in a crystal, through a free program called Quantum ESPRESSO on rented cloud computers. That lane submitted about 750 computing jobs over three days, at two levels of theory:</p>
 <ul>
   <li><strong>PBE+U</strong>: a fast approximation with a tunable parameter "U". The agents always checked several values.</li>
   <li><strong>HSE06</strong>: a slower, usually more accurate method, used as the tie-breaker.</li>
@@ -421,7 +423,7 @@ BODY = r"""
 </div>
 
 <h2>Please check our work</h2>
-<p>I can't personally judge whether a DFT calculation was set up well, so I asked the agents to package everything as a <strong>computational ledger</strong> in a <a href="{{REPO}}">public repository</a>. It holds the exact input files for 120 calculations with their raw, unedited outputs, the relaxed crystal structures, the analysis scripts, and a list of every claim with the files it came from. The list is reproduced at the bottom of this page. It also records the mistakes the agents caught and the caveats they flagged. There are three levels of checking:</p>
+<p>I can't personally judge whether a DFT calculation was set up well, so I asked the agents to package everything as a <strong>computational ledger</strong> in a {{REPO_A}}. It holds the exact input files for 120 calculations with their raw, unedited outputs, the relaxed crystal structures, the analysis scripts, and a list of every claim with the files it came from. The list is reproduced at the bottom of this page. It also records the mistakes the agents caught and the caveats they flagged. There are three levels of checking:</p>
 <div class="levels">
   <div class="level">
     <h3>1. Check the arithmetic: about a second, on a laptop</h3>
@@ -487,7 +489,7 @@ NP=16 NK=8 PSEUDO=$PWD/pseudo bash reproduce/run_qe.sh \
     <li>Computations: Quantum ESPRESSO 7.5 with PseudoDojo pseudopotentials on Modal cloud CPUs, set up, run and analysed by Claude agents (Anthropic), 1–4 October 2026. No human expert reviewed the calculations before publication.</li>
     <li>Experimental facts about KV[Cr(CN)₆]: S. M. Holmes and G. S. Girolami, <em>J. Am. Chem. Soc.</em> 121, 5593 (1999).</li>
     <li>The term "Luttinger-compensated": I. Mazin, <em>Phys. Rev. X</em> editorial (2022). Closest prior computational work on this family: Schart et al., <em>Inorg. Chem.</em> 63, 22856 (2024).</li>
-    <li>Full list of caveats, files and scripts: the <a href="{{REPO}}">repository</a> (LEDGER.md).</li>
+    <li>Full list of caveats, files and scripts: {{REPO_B}}.</li>
   </ul>
 </footer>
 </main>

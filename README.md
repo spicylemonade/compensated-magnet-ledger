@@ -7,7 +7,7 @@ This repository holds the data behind a blog post about two candidate **room-tem
 
 Everything here was computed by a team of AI agents (Claude, by Anthropic), which ran density functional theory (DFT) calculations on rented cloud computers. The project was set up by someone who is **not** a chemist. That is why this repository exists: so that people who *are* chemists and physicists can check the work.
 
-**Read the blog post:** [BLOG.md](BLOG.md)
+**Read the blog post:** [BLOG.md](BLOG.md). A designed web version with the same text and diagrams is in [`docs/index.html`](docs/index.html); turn on GitHub Pages for the `/docs` folder to serve it.
 
 ## Status of the main claims
 

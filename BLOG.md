@@ -43,7 +43,7 @@ We call that energy range the **spin window**: the slice of energy at the edge o
 
 I set up several Claude agents to run in parallel, each with a different lane of a broader search for unusual magnets. This post comes from the lane that hunted for Luttinger-compensated semiconductors.
 
-The agents used **density functional theory (DFT)**, the standard way to compute how electrons arrange themselves in a crystal. They ran it with Quantum ESPRESSO, a free and widely used program, on cloud computers. The lane submitted about 750 calculations over three days, using two levels of theory:
+The agents used **density functional theory (DFT)**, the standard way to compute how electrons arrange themselves in a crystal. They ran it with Quantum ESPRESSO, a free and widely used program, on cloud computers. The lane submitted about 750 computing jobs over three days, using two levels of theory:
 
 - **PBE+U**: a fast approximation with a tunable parameter "U". The agents always checked several values of U.
 - **HSE06**: a slower, usually more accurate method, used as the tie-breaker.
@@ -65,6 +65,10 @@ The agents were set up to argue with themselves. Before running a decisive calcu
 **The catch is the checkerboard.** Mn and Fe sit next to each other in the periodic table, are nearly the same size, and differ by one unit of charge. That is not much of a reason for them to keep to their own squares.
 
 When the agents simulated how the atoms arrange themselves at different temperatures, the checkerboard "melted" into a random mix at around **950 K (≈ 680 °C)**. To make this kind of oxide you heat it to roughly 900–1,300 °C, and at lower temperatures the atoms are effectively frozen in place. So by the time it is cool enough for the checkerboard to be favoured, the atoms can no longer move to form it. You would get a scrambled crystal.
+
+![Why the ordered form of YBaMnFeO5 is out of reach](docs/img/ybamnfeo5_temperatures.svg)
+
+*The checkerboard is the stable arrangement only below about 950 K (whisker: 800–1200 K uncertainty), but the metal atoms can only rearrange above about 1150 K, and syntheses run at 1173–1573 K. Ledger Y25–Y27.*
 
 This isn't just theory: every chemically similar compound whose atomic arrangement has been checked came out scrambled. That includes versions with gadolinium or neodymium in place of yttrium, and one with cobalt in place of iron.
 
@@ -106,6 +110,14 @@ As far as the agents' literature search could find (in October 2026), nobody had
 5. **At room temperature it is close to its 376 K limit**, so its magnetic order is only about 60 % complete, which would dilute the effect.
 6. **The general physics is known.** It has long been understood that this kind of magnet has spin-split electrons. What is new is pointing at this specific, real, above-room-temperature compound and putting numbers on it.
 
+Here is how the two methods compare in each situation (spin windows in eV; ledger IDs in brackets):
+
+| Situation | Hole window: HSE06 | Hole window: PBE+U | Electron window: HSE06 | Electron window: PBE+U |
+|---|---|---|---|---|
+| Ideal crystal | 2.64 [K16] | 2.02 [K07] | 1.57 [K17] | 1.15 [K08] |
+| With water (·2H₂O) | 2.43 [K19] | 0.93 [K21] | 1.42 [K20] | 0.92 |
+| Water-filled vacancy (in-cell) | 2.80 [K24] | 2.04 | 0.74 [K23] | 0.47 (0.07 aligned to the perfect crystal) |
+
 The agents' own referees graded it as identification plus quantification, not big news. I think that's fair.
 
 ## Scorecard
@@ -123,7 +135,7 @@ The agents' own referees graded it as identification plus quantification, not bi
 
 ## Please check our work
 
-I can't personally judge whether a DFT calculation was set up well, so I asked the agents to package everything as a **computational ledger**: [github.com/…/compensated-magnet-ledger](README.md). It contains:
+I can't personally judge whether a DFT calculation was set up well, so I asked the agents to package everything as a **computational ledger**: [github.com/spicylemonade/compensated-magnet-ledger](https://github.com/spicylemonade/compensated-magnet-ledger). It contains:
 
 - the exact input files for 120 calculations, with their raw, unedited outputs;
 - the relaxed crystal structures;
