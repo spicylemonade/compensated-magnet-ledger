@@ -95,7 +95,7 @@ In 1999, chemists Stephen Holmes and Gregory Girolami made it and found that the
 
 V and Cr are different elements, and that difference is what produces the large windows. When the agents ran the same structure with chromium on *both* sites, Cr[Cr(CN)₆], the windows shrank to 0.1–0.4 eV and the two edges took opposite spins.
 
-Its zero net magnetism is not new: Holmes and Girolami designed it that way, and a 2008 calculation (Kabalan and colleagues) found it to be an insulator with zero net moment and a gap of about 1 eV. What a literature search (October 2026) did not find is any earlier work resolving which spin sits at its band edges, measuring its spin windows, or describing any Prussian-blue-type compound as a Luttinger-compensated magnet. The closest earlier work is a 2024 study of Cr[Cr(CN)₆], which noticed unequal spin-up and spin-down densities but did not take it further.
+Its zero net magnetism is not new. Holmes and Girolami designed it that way, and two 2008 calculations found it to be an insulator with zero net moment: one by Kabalan and colleagues, and one by Middlemiss, Lawton and Wilson that used hybrid functionals, as we did. What a literature search (October 2026) did not find is any earlier work measuring its spin windows or describing any Prussian-blue-type compound as a Luttinger-compensated magnet. The closest earlier work is a 2024 study of Cr[Cr(CN)₆], which noticed unequal spin-up and spin-down densities but did not take it further.
 
 It also fills a gap others have pointed out. A 2025 paper that predicted two cyanide Luttinger-compensated semiconductors, Mn(CN)₂ and Co(CN)₂, found that they lose their magnetic order at 210 K and 75 K, and named room-temperature order as the open goal. KV[Cr(CN)₆] has already been made, and its 1999 sample stayed ordered up to 376 K.
 
@@ -178,6 +178,6 @@ The ledger gives anyone running those experiments the exact numbers to test agai
 - Computations: Quantum ESPRESSO 7.5 with PseudoDojo pseudopotentials on Modal cloud CPUs, set up, run and analysed by Claude agents (Anthropic), October 2026.
 - The experimental facts about KV[Cr(CN)₆] come from S. M. Holmes and G. S. Girolami, *J. Am. Chem. Soc.* **121**, 5593 (1999).
 - The term "Luttinger-compensated" comes from I. Mazin's 2022 *Physical Review X* editorial.
-- Earlier calculations on KV[Cr(CN)₆]: L. Kabalan et al., *Chem. Phys.* **352**, 85 (2008). The closest prior computational work on spin-split bands in this family is Schart et al., *Inorg. Chem.* **63**, 22856 (2024).
+- Earlier calculations on KV[Cr(CN)₆]: L. Kabalan et al., *Chem. Phys.* **352**, 85 (2008); D. S. Middlemiss, L. M. Lawton and C. C. Wilson, *J. Phys.: Condens. Matter* **20**, 335231 (2008). The closest prior computational work on spin-split bands in this family is Schart et al., *Inorg. Chem.* **63**, 22856 (2024).
 - The 2025 cyanide Luttinger-compensated semiconductors: P.-J. Guo et al., arXiv:2502.18136.
 - All numbers, files and caveats: see the [ledger](LEDGER.md).
