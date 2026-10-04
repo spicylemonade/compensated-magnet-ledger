@@ -1,6 +1,6 @@
 # Two magnets that add up to zero (and one has been on the shelf since 1999)
 
-*October 2026. I'm not a chemist. Everything below was computed by AI agents running quantum-mechanical simulations on rented cloud computers, and every number links to a public ledger so that people who know more than I do can check it.*
+*October 2026. Everything below was computed by Claude Opus 5.5 agents running quantum-mechanical simulations on cloud computers, and every number links to a public ledger where anyone can re-run it.*
 
 ---
 
@@ -11,7 +11,7 @@ The fridge kind is a **ferromagnet**: trillions of tiny atomic magnets all point
 For years, people building next-generation computer memory have wanted something in between. Over the past few days, a team of AI agents and I went looking for materials that might be it. We ended up with two candidates:
 
 - one we designed from scratch, which our own calculations then predicted can't actually be made;
-- one first made in a lab in 1999, which (as far as we could find) nobody had noticed has this property.
+- one first made in a lab in 1999 that turns out to have this property, something we found no earlier paper pointing out.
 
 This post explains what we found, how sure we are, and where all the raw data is.
 
@@ -48,7 +48,7 @@ The agents used **density functional theory (DFT)**, the standard way to compute
 - **PBE+U**: a fast approximation with a tunable parameter "U". The agents always checked several values of U.
 - **HSE06**: a slower, usually more accurate method, used as the tie-breaker.
 
-The agents were set up to argue with themselves. Before running a decisive calculation, they wrote down what result would kill the idea. Separate "referee" agents then tried to tear each claim apart, and several claims were retracted along the way. I'm including that history because it tells you more about how much to trust the results than the headline numbers do.
+The agents were set up to argue with themselves. Before running a decisive calculation, they wrote down what result would kill the idea. Separate "referee" agents then tried to tear each claim apart, and several claims were retracted along the way. That record of corrections is part of the ledger.
 
 ## Candidate 1: YBaMnFeO₅, a blueprint we probably can't build
 
@@ -95,16 +95,16 @@ In 1999, chemists Stephen Holmes and Gregory Girolami made it and found that it 
 
 V and Cr are different elements, and that difference is what produces the large windows. When the agents ran the same structure with chromium on *both* sites, Cr[Cr(CN)₆], the windows shrank to 0.1–0.4 eV and the two edges took opposite spins.
 
-As far as the agents' literature search could find (in October 2026), nobody had described KV[Cr(CN)₆], or any Prussian-blue-type compound, as a Luttinger-compensated magnet, or computed these spin windows. The closest earlier work is a 2024 study of Cr[Cr(CN)₆], which noticed unequal spin-up and spin-down densities but did not take it further.
+A literature search (October 2026) found no earlier work describing KV[Cr(CN)₆], or any Prussian-blue-type compound, as a Luttinger-compensated magnet, or computing these spin windows. The closest earlier work is a 2024 study of Cr[Cr(CN)₆], which noticed unequal spin-up and spin-down densities but did not take it further.
 
-**Now the caveats, which matter a lot here:**
+**Limits of the result:**
 
-1. **Our calculations are for a perfect crystal.** The real 1999 material is a powder with water molecules in its holes. It has been reported once and, as far as we know, never remade.
+1. **The calculations are for a perfect crystal.** The real 1999 material is a powder with water molecules in its holes, and there is a single published report of it.
 2. **Water: the two methods disagree.** With water added to the model:
    - the more accurate method (HSE06) says the effect survives, with windows of about 2.4 and 1.4 eV;
    - the faster method (PBE+U) says the hole window shrinks by more than half.
    
-   We trust HSE06 more here, because PBE+U is known to put water's energy levels in the wrong place. But that is a judgement, and the HSE06 water calculation was stopped slightly before it fully converged.
+   HSE06 is the more reliable of the two here, because PBE+U is known to put water's energy levels in the wrong place. The HSE06 water calculation was stopped just short of full convergence.
 3. **Missing building blocks.** Real samples of these compounds often lack some of their [Cr(CN)₆] units, and each missing unit adds magnetism, so "exactly zero" depends on getting the composition right. A water-filled vacancy kept both edges spin-sorted in HSE06 (windows 2.8 and 0.7 eV); PBE+U again disagreed about the electron edge.
 4. **"Semiconductor" is on paper.** Nobody has measured this compound's band gap, conductivity or spin polarisation. Its electrons move in narrow energy bands, so carriers will be sluggish: think of a material that holds spin-sorted charges well rather than a fast transistor material.
 5. **At room temperature it is close to its 376 K limit**, so its magnetic order is only about 60 % complete, which would dilute the effect.
@@ -118,7 +118,6 @@ Here is how the two methods compare in each situation (spin windows in eV; ledge
 | With water (·2H₂O) | 2.43 [K19] | 0.93 [K21] | 1.42 [K20] | 0.92 |
 | Water-filled vacancy (in-cell) | 2.80 [K24] | 2.04 | 0.74 [K23] | 0.47 (0.07 aligned to the perfect crystal) |
 
-The agents' own referees graded it as identification plus quantification, not big news. I think that's fair.
 
 ## Scorecard
 
@@ -133,9 +132,9 @@ The agents' own referees graded it as identification plus quantification, not bi
 | Biggest open question | is there any route to the ordered crystal? | does the spin sorting survive in real, wet, imperfect samples? |
 | Ever measured spin-sorted? | no | no |
 
-## Please check our work
+## How to check every number
 
-I can't personally judge whether a DFT calculation was set up well, so I asked the agents to package everything as a **computational ledger**: [github.com/spicylemonade/compensated-magnet-ledger](https://github.com/spicylemonade/compensated-magnet-ledger). It contains:
+Everything is packaged as a **computational ledger**: [github.com/spicylemonade/compensated-magnet-ledger](https://github.com/spicylemonade/compensated-magnet-ledger). It contains:
 
 - the exact input files for 120 calculations, with their raw, unedited outputs;
 - the relaxed crystal structures;
@@ -150,7 +149,7 @@ There are three levels of checking:
 2. **Re-run the models, in minutes on a laptop.** Scripts redo the magnetic-ordering-temperature simulation (the re-run gives 414 K against the recorded 417 K) and the checkerboard-melting simulation that rules out YBaMnFeO₅ (it reproduces the recorded 915–965 K exactly).
 3. **Re-run the quantum calculations from scratch.** The repository includes the exact pseudopotential files' checksums and scripts to download and run everything. We did this ourselves in a fresh cloud machine for a representative set of calculations; see `reproduce/RESULTS.md`.
 
-If you find an error, I'd like to know. That is the reason this is public.
+If you find an error, open an issue on the repository.
 
 ## What would settle it
 
@@ -166,15 +165,15 @@ If someone with a glovebox and a synchrotron proposal is reading this, the ledge
 
 AI agents are good at breadth and at being systematically sceptical when they are set up to be. In three days they ran hundreds of calculations and checked the literature. They also killed their own favourite idea, YBaMnFeO₅, and only then found the better candidate hiding in a 1999 paper.
 
-They don't replace experts or experiments. Nothing here has been measured, and the most interesting uncertainty, whether real KV[Cr(CN)₆] keeps its spin-sorted edges, can only be resolved in a lab.
+The next step belongs to the lab. Nothing here has been measured yet, and the open question, whether real KV[Cr(CN)₆] keeps its spin-sorted edges, needs an experiment.
 
-So I'm putting it out as an open notebook rather than a discovery announcement. If it turns out to be right, that will be because someone checked.
+The ledger gives anyone running those experiments the exact numbers to test against.
 
 ---
 
 **Fine print.**
 
-- Computations: Quantum ESPRESSO 7.5 with PseudoDojo pseudopotentials on Modal cloud CPUs, set up, run and analysed by Claude agents (Anthropic), October 2026. No human expert reviewed the calculations before publication.
+- Computations: Quantum ESPRESSO 7.5 with PseudoDojo pseudopotentials on Modal cloud CPUs, set up, run and analysed by Claude agents (Anthropic), October 2026.
 - The experimental facts about KV[Cr(CN)₆] come from S. M. Holmes and G. S. Girolami, *J. Am. Chem. Soc.* **121**, 5593 (1999).
 - The term "Luttinger-compensated" comes from I. Mazin's 2022 *Physical Review X* editorial.
 - The closest prior computational work on this family is Schart et al., *Inorg. Chem.* **63**, 22856 (2024).

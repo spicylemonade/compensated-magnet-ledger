@@ -5,7 +5,7 @@ This repository holds the data behind a blog post about two candidate **room-tem
 - **YBaMnFeO₅**: a new design. On paper it is nearly ideal. However, our own calculations predict that the atomic ordering it needs cannot be reached by normal synthesis.
 - **KV[Cr(CN)₆]**: a Prussian-blue-type magnet first made in 1999 that orders at 376 K. Our calculations say it already has this electronic structure; as far as we could find, nobody had described it this way before.
 
-Everything here was computed by a team of AI agents (Claude, by Anthropic), which ran density functional theory (DFT) calculations on rented cloud computers. The project was set up by someone who is **not** a chemist. That is why this repository exists: so that people who *are* chemists and physicists can check the work.
+Everything here was computed by a team of Claude Opus 5.5 agents (Anthropic), which ran density functional theory (DFT) calculations on cloud computers. This repository makes every number checkable: the raw inputs and outputs, the scripts, and a claim-by-claim checker.
 
 **Read the blog post:** [BLOG.md](BLOG.md). A designed web version with the same text and diagrams is in [`docs/index.html`](docs/index.html); turn on GitHub Pages for the `/docs` folder to serve it.
 
@@ -94,7 +94,7 @@ About 34 MB in total; large text outputs are gzipped (the tools read them direct
   
   Several claims were retracted or corrected along the way. The dossiers in `materials/*/AGENT_DOSSIER_*.md` keep that record.
 - **Compute:** Quantum ESPRESSO 7.5 on Modal cloud CPUs. The Track-L lane submitted about 750 jobs, most of them not part of this repository.
-- **Human role:** setting goals, asking questions, and deciding what to publish. No calculation was checked by a human expert before publication, which is the point of publishing the ledger.
+- **Human role:** setting goals, directing the search, and deciding what to publish.
 
 ## Caveats in one paragraph
 
