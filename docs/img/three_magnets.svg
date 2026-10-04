@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 344" width="920" height="344"><style>
-.f-text{font:13px/1.2 -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.f-title{font:700 16px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.f-sub,.f-small{font:12px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#5a6170}
-.f-strong{font-weight:700}.f-strong-t{font:700 13px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.f-atom{font:600 11px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.s-up{stroke:#b07a00}.s-up-fill{fill:#b07a00}.s-dn{stroke:#23508e}.s-dn-fill{fill:#23508e}
+.f-text{font:13px/1.2 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.f-title{font:700 16px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.f-sub,.f-small{font:12px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#56524e}
+.f-strong{font-weight:700}.f-strong-t{font:700 13px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.f-atom{font:600 11px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.s-up{stroke:#9c9691}.s-up-fill{fill:#9c9691}.s-dn{stroke:#386b46}.s-dn-fill{fill:#386b46}
 .f-stroke3{stroke-width:3;stroke-linecap:round}.f-stroke2{stroke-width:1.5}
-.atom-n{fill:#eceff3;stroke:#8a909c;stroke-width:1.2}.atom-up{fill:#f3e6c6;stroke:#b07a00;stroke-width:1.2}.atom-dn{fill:#d9e3f2;stroke:#23508e;stroke-width:1.2}
-.vb-up{fill:#b07a00;fill-opacity:.35;stroke:#b07a00;stroke-width:1.2}.cb-up{fill:#b07a00;fill-opacity:.07;stroke:#b07a00;stroke-width:1.2;stroke-dasharray:3 3}
-.vb-dn{fill:#23508e;fill-opacity:.35;stroke:#23508e;stroke-width:1.2}.cb-dn{fill:#23508e;fill-opacity:.07;stroke:#23508e;stroke-width:1.2;stroke-dasharray:3 3}
-.f-axis{stroke:#8a909c;stroke-width:1}.f-guide{stroke:#8a909c;stroke-width:1;stroke-dasharray:4 4}
-.f-ink{stroke:#161a22}.f-ink-fill{fill:#161a22}
-.bar-a{fill:#161a22;fill-opacity:.78}.bar-b{fill:#161a22;fill-opacity:.22;stroke:#161a22;stroke-width:1}.bar-m{fill:#5a6170;fill-opacity:.45}
+.atom-n{fill:#f3f2f2;stroke:#9c9691;stroke-width:1.2}.atom-up{fill:#f3f2f2;stroke:#9c9691;stroke-width:1.2}.atom-dn{fill:#d0e7d6;stroke:#386b46;stroke-width:1.2}
+.vb-up{fill:#9c9691;fill-opacity:.35;stroke:#9c9691;stroke-width:1.2}.cb-up{fill:#9c9691;fill-opacity:.07;stroke:#9c9691;stroke-width:1.2;stroke-dasharray:3 3}
+.vb-dn{fill:#386b46;fill-opacity:.35;stroke:#386b46;stroke-width:1.2}.cb-dn{fill:#386b46;fill-opacity:.07;stroke:#386b46;stroke-width:1.2;stroke-dasharray:3 3}
+.f-axis{stroke:#9c9691;stroke-width:1}.f-guide{stroke:#9c9691;stroke-width:1;stroke-dasharray:4 4}
+.f-ink{stroke:#191917}.f-ink-fill{fill:#191917}
+.bar-a{fill:#386b46}.bar-b{fill:#d0e7d6;stroke:#488959;stroke-width:1}.bar-m{fill:#9c9691;fill-opacity:.7}
 </style><rect x="0" y="0" width="100%" height="100%" rx="10" fill="#ffffff"/><g transform="translate(0,0)"><text x="150.0" y="24.0" class="f-title" text-anchor="middle">Ferromagnet</text>
 <text x="150.0" y="44.0" class="f-sub" text-anchor="middle">the fridge-magnet kind</text>
 <line x1="50" y1="106" x2="50" y2="74" class="s-up f-stroke3"/><polygon points="44,77 56,77 50,64" class="s-up-fill"/>

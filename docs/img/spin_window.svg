@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360"><style>
-.f-text{font:13px/1.2 -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.f-title{font:700 16px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.f-sub,.f-small{font:12px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#5a6170}
-.f-strong{font-weight:700}.f-strong-t{font:700 13px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.f-atom{font:600 11px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.s-up{stroke:#b07a00}.s-up-fill{fill:#b07a00}.s-dn{stroke:#23508e}.s-dn-fill{fill:#23508e}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 392" width="640" height="392"><style>
+.f-text{font:13px/1.2 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.f-title{font:700 16px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.f-sub,.f-small{font:12px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#56524e}
+.f-strong{font-weight:700}.f-strong-t{font:700 13px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.f-atom{font:600 11px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.s-up{stroke:#9c9691}.s-up-fill{fill:#9c9691}.s-dn{stroke:#386b46}.s-dn-fill{fill:#386b46}
 .f-stroke3{stroke-width:3;stroke-linecap:round}.f-stroke2{stroke-width:1.5}
-.atom-n{fill:#eceff3;stroke:#8a909c;stroke-width:1.2}.atom-up{fill:#f3e6c6;stroke:#b07a00;stroke-width:1.2}.atom-dn{fill:#d9e3f2;stroke:#23508e;stroke-width:1.2}
-.vb-up{fill:#b07a00;fill-opacity:.35;stroke:#b07a00;stroke-width:1.2}.cb-up{fill:#b07a00;fill-opacity:.07;stroke:#b07a00;stroke-width:1.2;stroke-dasharray:3 3}
-.vb-dn{fill:#23508e;fill-opacity:.35;stroke:#23508e;stroke-width:1.2}.cb-dn{fill:#23508e;fill-opacity:.07;stroke:#23508e;stroke-width:1.2;stroke-dasharray:3 3}
-.f-axis{stroke:#8a909c;stroke-width:1}.f-guide{stroke:#8a909c;stroke-width:1;stroke-dasharray:4 4}
-.f-ink{stroke:#161a22}.f-ink-fill{fill:#161a22}
-.bar-a{fill:#161a22;fill-opacity:.78}.bar-b{fill:#161a22;fill-opacity:.22;stroke:#161a22;stroke-width:1}.bar-m{fill:#5a6170;fill-opacity:.45}
+.atom-n{fill:#f3f2f2;stroke:#9c9691;stroke-width:1.2}.atom-up{fill:#f3f2f2;stroke:#9c9691;stroke-width:1.2}.atom-dn{fill:#d0e7d6;stroke:#386b46;stroke-width:1.2}
+.vb-up{fill:#9c9691;fill-opacity:.35;stroke:#9c9691;stroke-width:1.2}.cb-up{fill:#9c9691;fill-opacity:.07;stroke:#9c9691;stroke-width:1.2;stroke-dasharray:3 3}
+.vb-dn{fill:#386b46;fill-opacity:.35;stroke:#386b46;stroke-width:1.2}.cb-dn{fill:#386b46;fill-opacity:.07;stroke:#386b46;stroke-width:1.2;stroke-dasharray:3 3}
+.f-axis{stroke:#9c9691;stroke-width:1}.f-guide{stroke:#9c9691;stroke-width:1;stroke-dasharray:4 4}
+.f-ink{stroke:#191917}.f-ink-fill{fill:#191917}
+.bar-a{fill:#386b46}.bar-b{fill:#d0e7d6;stroke:#488959;stroke-width:1}.bar-m{fill:#9c9691;fill-opacity:.7}
 </style><rect x="0" y="0" width="100%" height="100%" rx="10" fill="#ffffff"/><text x="240.0" y="26.0" class="f-text" text-anchor="middle">spin ↑ (Cr sites)</text>
 <text x="360.0" y="26.0" class="f-text" text-anchor="middle">spin ↓ (V sites)</text>
 <line x1="150" y1="40" x2="150" y2="352" class="f-axis"/>
@@ -51,9 +51,9 @@
 <line x1="306" y1="132.4" x2="306" y2="216.0" class="f-ink f-stroke2"/><line x1="301" y1="132.4" x2="311" y2="132.4" class="f-ink f-stroke2"/><line x1="301" y1="216.0" x2="311" y2="216.0" class="f-ink f-stroke2"/>
 <text x="298.0" y="170.2" class="f-strong-t" text-anchor="end">band gap</text>
 <text x="298.0" y="187.2" class="f-small" text-anchor="end">2.09 eV</text>
-<text x="470.0" y="284.0" class="f-small" text-anchor="start">for scale</text>
-<line x1="476" y1="296" x2="476" y2="336" class="f-ink f-stroke2"/>
-<text x="484.0" y="320.0" class="f-small" text-anchor="start">1 eV</text>
-<rect x="524" y="335" width="12" height="1.2" class="f-ink-fill"/>
-<text x="542.0" y="330.0" class="f-small" text-anchor="start">0.026 eV</text>
-<text x="542.0" y="346.0" class="f-small" text-anchor="start">(room temp.)</text></svg>
+<text x="470.0" y="320.0" class="f-small" text-anchor="start">for scale</text>
+<line x1="476" y1="330" x2="476" y2="370" class="f-ink f-stroke2"/>
+<text x="484.0" y="354.0" class="f-small" text-anchor="start">1 eV</text>
+<rect x="524" y="369" width="12" height="1.2" class="f-ink-fill"/>
+<text x="542.0" y="364.0" class="f-small" text-anchor="start">0.026 eV</text>
+<text x="542.0" y="380.0" class="f-small" text-anchor="start">(room temp.)</text></svg>

@@ -104,15 +104,15 @@ def fig2():
     o.append(_t(298, (y_of(gap) + y_of(0)) / 2 - 4, "band gap", "f-strong-t", "end"))
     o.append(_t(298, (y_of(gap) + y_of(0)) / 2 + 13, "2.09 eV", "f-small", "end"))
     # scale: 1 eV vs room-temperature thermal energy
-    o.append(_t(470, 284, "for scale", "f-small"))
-    o.append('<line x1="476" y1="296" x2="476" y2="336" class="f-ink f-stroke2"/>')
-    o.append(_t(484, 320, "1 eV", "f-small"))
-    o.append('<rect x="524" y="335" width="12" height="1.2" class="f-ink-fill"/>')
-    o.append(_t(542, 330, "0.026 eV", "f-small"))
-    o.append(_t(542, 346, "(room temp.)", "f-small"))
+    o.append(_t(470, 320, "for scale", "f-small"))
+    o.append('<line x1="476" y1="330" x2="476" y2="370" class="f-ink f-stroke2"/>')
+    o.append(_t(484, 354, "1 eV", "f-small"))
+    o.append('<rect x="524" y="369" width="12" height="1.2" class="f-ink-fill"/>')
+    o.append(_t(542, 364, "0.026 eV", "f-small"))
+    o.append(_t(542, 380, "(room temp.)", "f-small"))
     label = ("Band edges of ideal KV[Cr(CN)6] from the HSE06 calculation, drawn to scale: in the spin-down channel the gap is 2.09 eV; "
              "the top 2.64 eV of filled states and the bottom 1.57 eV of empty states contain only spin-down states.")
-    return f'<svg viewBox="0 0 640 360" role="img" aria-label="{label}" class="fig-svg">' + "\n".join(o) + "</svg>"
+    return f'<svg viewBox="0 0 640 392" role="img" aria-label="{label}" class="fig-svg">' + "\n".join(o) + "</svg>"
 
 
 # ---------------------------------------------------------------- figure 3: why the ordered form of YBaMnFeO5 may be hard to make
@@ -160,19 +160,19 @@ def fig3():
 
 # ---------------------------------------------------------------- standalone files for GitHub
 FILE_STYLE = """<style>
-.f-text{font:13px/1.2 -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.f-title{font:700 16px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.f-sub,.f-small{font:12px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#5a6170}
-.f-strong{font-weight:700}.f-strong-t{font:700 13px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.f-atom{font:600 11px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#161a22}
-.s-up{stroke:#b07a00}.s-up-fill{fill:#b07a00}.s-dn{stroke:#23508e}.s-dn-fill{fill:#23508e}
+.f-text{font:13px/1.2 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.f-title{font:700 16px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.f-sub,.f-small{font:12px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#56524e}
+.f-strong{font-weight:700}.f-strong-t{font:700 13px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.f-atom{font:600 11px 'Söhne',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#191917}
+.s-up{stroke:#9c9691}.s-up-fill{fill:#9c9691}.s-dn{stroke:#386b46}.s-dn-fill{fill:#386b46}
 .f-stroke3{stroke-width:3;stroke-linecap:round}.f-stroke2{stroke-width:1.5}
-.atom-n{fill:#eceff3;stroke:#8a909c;stroke-width:1.2}.atom-up{fill:#f3e6c6;stroke:#b07a00;stroke-width:1.2}.atom-dn{fill:#d9e3f2;stroke:#23508e;stroke-width:1.2}
-.vb-up{fill:#b07a00;fill-opacity:.35;stroke:#b07a00;stroke-width:1.2}.cb-up{fill:#b07a00;fill-opacity:.07;stroke:#b07a00;stroke-width:1.2;stroke-dasharray:3 3}
-.vb-dn{fill:#23508e;fill-opacity:.35;stroke:#23508e;stroke-width:1.2}.cb-dn{fill:#23508e;fill-opacity:.07;stroke:#23508e;stroke-width:1.2;stroke-dasharray:3 3}
-.f-axis{stroke:#8a909c;stroke-width:1}.f-guide{stroke:#8a909c;stroke-width:1;stroke-dasharray:4 4}
-.f-ink{stroke:#161a22}.f-ink-fill{fill:#161a22}
-.bar-a{fill:#161a22;fill-opacity:.78}.bar-b{fill:#161a22;fill-opacity:.22;stroke:#161a22;stroke-width:1}.bar-m{fill:#5a6170;fill-opacity:.45}
+.atom-n{fill:#f3f2f2;stroke:#9c9691;stroke-width:1.2}.atom-up{fill:#f3f2f2;stroke:#9c9691;stroke-width:1.2}.atom-dn{fill:#d0e7d6;stroke:#386b46;stroke-width:1.2}
+.vb-up{fill:#9c9691;fill-opacity:.35;stroke:#9c9691;stroke-width:1.2}.cb-up{fill:#9c9691;fill-opacity:.07;stroke:#9c9691;stroke-width:1.2;stroke-dasharray:3 3}
+.vb-dn{fill:#386b46;fill-opacity:.35;stroke:#386b46;stroke-width:1.2}.cb-dn{fill:#386b46;fill-opacity:.07;stroke:#386b46;stroke-width:1.2;stroke-dasharray:3 3}
+.f-axis{stroke:#9c9691;stroke-width:1}.f-guide{stroke:#9c9691;stroke-width:1;stroke-dasharray:4 4}
+.f-ink{stroke:#191917}.f-ink-fill{fill:#191917}
+.bar-a{fill:#386b46}.bar-b{fill:#d0e7d6;stroke:#488959;stroke-width:1}.bar-m{fill:#9c9691;fill-opacity:.7}
 </style>"""
 
 
@@ -191,6 +191,6 @@ if __name__ == "__main__":
     inner = "".join(f'<g transform="translate({i * 310},0)">{panel(k)}</g>' for i, (k, _) in enumerate(p))
     combo = f'<svg viewBox="0 0 920 344" role="img" aria-label="Three kinds of magnet">{inner}</svg>'
     (d / "three_magnets.svg").write_text(standalone(combo, 920, 344))
-    (d / "spin_window.svg").write_text(standalone(fig2(), 640, 360))
+    (d / "spin_window.svg").write_text(standalone(fig2(), 640, 392))
     (d / "ybamnfeo5_temperatures.svg").write_text(standalone(fig3(), 720, 248))
     print("wrote", [f.name for f in d.iterdir()])
