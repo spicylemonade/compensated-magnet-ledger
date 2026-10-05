@@ -5,7 +5,7 @@ This repository holds the data behind a blog post about two candidate **room-tem
 - **YBaMnFeO₅**: a new design. On paper it is nearly ideal. However, our own calculations suggest the atomic ordering it needs may be hard to reach with standard synthesis.
 - **KV[Cr(CN)₆]**: a Prussian-blue-type magnet first made in 1999; its only reported sample, a hydrated powder, orders at 376 K. Our calculations say it already has this electronic structure. Its zero net moment was designed in (1999), and its spin-sorted band edges are already visible in a 2008 hybrid-functional calculation that did not comment on them. We point them out, put numbers on them and test how robust they are (LEDGER caveat 11).
 
-Everything here was computed by a team of Claude Opus 5.5 agents (Anthropic), which ran density functional theory (DFT) calculations on cloud computers. This repository makes the numbers checkable: the inputs and raw outputs, the scripts, and a claim-by-claim checker. Of the 59 claims in the ledger, 50 are recomputed directly from raw outputs, 3 by re-running included scripts, 3 are read from recorded analysis files, and 3 are experimental or literature values.
+Everything here was computed by a team of Claude Opus 5.5 agents (Anthropic), which ran density functional theory (DFT) calculations on cloud computers. This repository makes the numbers checkable: the inputs and raw outputs, the scripts, and a claim-by-claim checker. Of the 61 claims in the ledger, 52 are recomputed directly from raw outputs, 3 by re-running included scripts, 3 are read from recorded analysis files, and 3 are experimental or literature values.
 
 **Read the blog post:** [BLOG.md](BLOG.md). A designed web version with the same text and diagrams is in [`docs/index.html`](docs/index.html); turn on GitHub Pages for the `/docs` folder to serve it.
 
@@ -29,7 +29,7 @@ Each number above is traced in [LEDGER.md](LEDGER.md) to the exact input and raw
 Re-reading every raw output, and an outside reader's literature check, turned up five things the agents' own records got wrong or left out. They are fixed or flagged here, and none changes the main conclusions above.
 
 - **YBaMnFeO₅ hull distance: +13.7 meV/atom, not +2.6.** The agents computed the hull before every competing phase had finished. With all 33 completed competitors, read from their raw outputs, BaFe₂O₄ and Ba₆Y₂Fe₄O₁₅ lower the hull (claims Y24 and Y24b; LEDGER caveat 17). That is still typical of compounds that have been made, but it is no longer "at the edge of stability".
-- **HSE06 for the water-containing KV[Cr(CN)₆]:** the agents' run stopped before its exact-exchange loop converged, and the old run index marked it converged. The index now flags it, and the run is being carried to convergence (LEDGER caveat 7).
+- **HSE06 for the water-containing KV[Cr(CN)₆]:** the agents' run stopped before its exact-exchange loop converged, and the old run index marked it converged. Carried to convergence, it gives a hole window of 2.31 eV instead of 2.43, and an electron window of 1.40 eV instead of 1.42. Both edges stay spin-sorted (claims K19b, K20b; LEDGER caveat 7).
 - **Partly relaxed geometries:** the water-filled-vacancy cell and two of the cation arrangements were computed on geometries whose relaxation had stopped early (LEDGER caveats 8 and 14).
 - **One truncated output:** one of the 96 cation-ordering outputs was saved without its last lines, so its recorded energy cannot be re-derived; the other 95 match exactly.
 - **Missed prior work:** the agents' literature search missed Middlemiss, Lawton & Wilson (2008), a hybrid-functional study of KV[Cr(CN)₆] whose spin-resolved plot already shows the same-spin band edges. The novelty claim is narrowed accordingly (LEDGER caveat 11).
@@ -40,7 +40,7 @@ Re-reading every raw output, and an outside reader's literature check, turned up
 
 ```bash
 pip install numpy
-python tools/verify.py            # 56 pass, 0 fail, 3 not computable (experiment/literature) as of 2026-10-04
+python tools/verify.py            # 58 pass, 0 fail, 3 not computable (experiment/literature) as of 2026-10-04
 python tools/crosscheck_raw.py    # the cation-ordering and hull energies against their raw outputs
 ```
 
@@ -62,7 +62,7 @@ NP=16 NK=8 PSEUDO=$PWD/pseudo bash reproduce/run_qe.sh \
   materials/KV_Cr_CN6/runs/A_pbeu_relax_scf_nscf_Ugrid/KVCr_LCM_nscf.in
 ```
 
-We did exactly this in a fresh cloud container for four sets of runs, and all 16 checked values match the originals; see [reproduce/RESULTS.md](reproduce/RESULTS.md). There is also a one-command cloud version, `reproduce/modal_repro.py`.
+We did exactly this in a fresh cloud container for four sets of runs, and all 16 checked values match the originals; see [reproduce/RESULTS.md](reproduce/RESULTS.md). A fifth run took the agents' unconverged HSE06 water calculation, reproduced its first 12 cycles digit for digit, and carried it to convergence (`materials/KV_Cr_CN6/runs/F2_hse06_dihydrate_LCM_converged/`). There is also a one-command cloud version, `reproduce/modal_repro.py`.
 
 ## What is in here
 
@@ -70,7 +70,7 @@ We did exactly this in a fresh cloud container for four sets of runs, and all 16
 BLOG.md                         the blog post (plain language)
 LEDGER.md                       every claim -> files -> script -> status, plus all known caveats
 ledger/claims.csv               the same claims, machine-readable
-ledger/runs.csv                 index of all 875 included inputs (867 pw.x runs + 8 post-processing), with convergence flags
+ledger/runs.csv                 index of all 876 included inputs (868 pw.x runs + 8 post-processing), with convergence flags
 ledger/harvest_manifest.json    provenance: original storage path and md5 of every raw file
 tools/verify.py                 Level-1 checker (numpy only)
 tools/crosscheck_raw.py         ordering and hull energies vs their raw outputs; recomputes the hull distance

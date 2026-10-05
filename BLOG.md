@@ -103,10 +103,10 @@ It also fills a gap others have pointed out. A 2025 paper that predicted two cya
 
 1. **The calculations are for a perfect crystal.** The real 1999 material is a powder with water molecules in its holes, and there is a single published report of it.
 2. **Water: the two methods disagree.** With water added to the model:
-   - the more accurate method (HSE06) says the effect survives, with windows of about 2.4 and 1.4 eV;
+   - the more accurate method (HSE06) says the effect survives, with windows of about 2.3 and 1.4 eV;
    - the faster method (PBE+U) says the hole window shrinks by more than half.
    
-   HSE06 is the more reliable of the two here, because PBE+U is known to put water's energy levels in the wrong place. The HSE06 water calculation was stopped just short of full convergence.
+   HSE06 is the more reliable of the two here, because PBE+U is known to put water's energy levels in the wrong place. (The agents' HSE06 water calculation had stopped before converging; it has since been run to convergence, which moved the hole window from 2.43 to 2.31 eV.)
 3. **Missing building blocks.** Real samples of these compounds often lack some of their [Cr(CN)₆] units, and each missing unit adds magnetism, so "exactly zero" depends on getting the composition right. A water-filled vacancy kept both edges spin-sorted in HSE06 (windows 2.8 and 0.7 eV); PBE+U again disagreed about the electron edge.
 4. **"Semiconductor" is on paper.** Nobody has measured this compound's band gap, conductivity or spin polarisation. Its electrons move in narrow energy bands, so carriers will be sluggish: think of a material that holds spin-sorted charges well rather than a fast transistor material.
 5. **At room temperature it is close to its 376 K limit**, so its magnetic order is only about 60 % complete, which would dilute the effect.
@@ -117,7 +117,7 @@ Here is how the two methods compare in each situation (spin windows in eV; ledge
 | Situation | Hole window: HSE06 | Hole window: PBE+U | Electron window: HSE06 | Electron window: PBE+U |
 |---|---|---|---|---|
 | Ideal crystal | 2.64 [K16] | 2.02 [K07] | 1.57 [K17] | 1.15 [K08] |
-| With water (·2H₂O) | 2.43 [K19] | 0.93 [K21] | 1.42 [K20] | 0.92 |
+| With water (·2H₂O) | 2.31 [K19b] | 0.93 [K21] | 1.40 [K20b] | 0.92 |
 | Water-filled vacancy (in-cell) | 2.80 [K24] | 2.04 | 0.74 [K23] | 0.47 (0.07 aligned to the perfect crystal) |
 
 
@@ -147,7 +147,7 @@ It also records the mistakes the agents caught and corrected along the way, and 
 
 There are three levels of checking:
 
-1. **Check the arithmetic, in a few seconds.** `python tools/verify.py` recomputes 50 numbers directly from the raw outputs and checks 6 more against the included scripts' results and recorded analysis files. Today it reports 56 pass and 0 fail.
+1. **Check the arithmetic, in a few seconds.** `python tools/verify.py` recomputes 52 numbers directly from the raw outputs and checks 6 more against the included scripts' results and recorded analysis files. Today it reports 58 pass and 0 fail.
 2. **Re-run the models, in minutes on a laptop.** Scripts redo the magnetic-ordering-temperature simulation (the re-run gives 414 K against the recorded 417 K) and the checkerboard-melting simulation that rules out YBaMnFeO₅ (it reproduces the recorded 915–965 K exactly).
 3. **Re-run the quantum calculations from scratch.** The repository includes the exact pseudopotential files' checksums and scripts to download and run everything. We did this ourselves in a fresh cloud machine for a representative set of calculations; see `reproduce/RESULTS.md`.
 

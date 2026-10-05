@@ -91,7 +91,7 @@ def repro_rows():
 # ------------------------------------------------------------------ figure 4: KV[Cr(CN)6] windows under real-world conditions (HTML dot plot)
 DOTS = [  # condition, hole (HSE, PBE+U), electron (HSE, PBE+U), ledger ids
     ("Ideal crystal", (2.64, 2.02), (1.57, 1.15), ("K16", "K07"), ("K17", "K08")),
-    ("With water (·2H₂O)", (2.43, 0.93), (1.42, 0.92), ("K19", "K21"), ("K20", None)),
+    ("With water (·2H₂O)", (2.31, 0.93), (1.40, 0.92), ("K19b", "K21"), ("K20b", None)),
     ("Water-filled vacancy", (2.80, 2.04), (0.74, 0.47), ("K24", None), ("K23", None)),
 ]
 
@@ -393,7 +393,7 @@ BODY = r"""
 <h3>Limits of the result</h3>
 <ol>
   <li><strong>The calculations are for a perfect crystal.</strong> The real 1999 material is a powder with water in its holes, and there is a single published report of it.</li>
-  <li><strong>The two methods disagree about water.</strong> With water in the model, HSE06 says the effect survives (windows about 2.4 and 1.4 eV), while PBE+U says the hole window shrinks by more than half (chart below). HSE06 is the more reliable of the two here, because PBE+U is known to misplace water's energy levels. The HSE06 water calculation was stopped just short of full convergence.</li>
+  <li><strong>The two methods disagree about water.</strong> With water in the model, HSE06 says the effect survives (windows about 2.3 and 1.4 eV), while PBE+U says the hole window shrinks by more than half (chart below). HSE06 is the more reliable of the two here, because PBE+U is known to misplace water's energy levels. (The agents' HSE06 water calculation had stopped before converging; run to convergence, its hole window moved from 2.43 to 2.31 eV.)</li>
   <li><strong>Missing building blocks.</strong> Real samples often lack some [Cr(CN)₆] units, and each missing unit adds magnetism, so "exactly zero" depends on getting the composition right {{L:K22}}.</li>
   <li><strong>"Semiconductor" is on paper.</strong> Nobody has measured this compound's band gap, conductivity or spin polarisation. Its electrons move in narrow bands, so charge carriers will be sluggish. Think of a material that holds spin-sorted charges, not a fast transistor material.</li>
   <li><strong>Room temperature is close to its 376 K limit</strong>, so its magnetic order is only about 60 % complete there, which would dilute the effect.</li>

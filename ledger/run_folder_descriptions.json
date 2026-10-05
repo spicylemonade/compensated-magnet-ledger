@@ -4,7 +4,7 @@
  "KV_Cr_CN6/C_hse06_ideal_LCM": "HSE06, compensated state of the ideal anhydrous crystal (q-mesh 2x2x2, k 4x4x4)",
  "KV_Cr_CN6/D_hse06_ideal_FM_fixed_moment": "HSE06, ferromagnet with the moment fixed at 6 (exchange-energy reference)",
  "KV_Cr_CN6/E_hse06_ideal_LCM_nq1": "HSE06, ideal crystal with q-mesh 1 (settings matched to the dihydrate run, for a like-for-like comparison)",
- "KV_Cr_CN6/F_hse06_dihydrate_LCM": "HSE06, KV[Cr(CN)6]*2H2O (21-atom cell, one ordered-water arrangement); job stopped after the exact-exchange error plateaued at ~1e-6 Ry; the last complete eigenvalue block is used",
+ "KV_Cr_CN6/F_hse06_dihydrate_LCM": "HSE06, KV[Cr(CN)6]*2H2O (21-atom cell, one ordered-water arrangement); job stopped after the exact-exchange error plateaued at ~1e-6 Ry; the last complete eigenvalue block is used -- stopped after 12 exact-exchange cycles, before converging; superseded by F2",
  "KV_Cr_CN6/G_pbeu_dihydrate": "PBE+U relax, scf and nscf (6x6x6) of the same dihydrate model",
  "KV_Cr_CN6/H_hse06_vacancy_with_water": "HSE06, 65-atom cell with one [Cr(CN)6] vacancy filled by 6 coordinated + 1 zeolitic water (q-mesh 1, k 2x2x2)",
  "KV_Cr_CN6/I_pbeu_vacancy_with_water": "PBE+U relax, scf and nscf of the same water-filled vacancy cell",
@@ -26,5 +26,6 @@
  "YBaMnFeO5/H_pbeu_stacking_vs_U": "36-atom cell, G vs Y-layer flip vs Ba-layer flip, at U(Mn,Fe) = (0,0) (2,2) (4,4) (6,6) (4,6) (6,4) eV, 90 Ry",
  "YBaMnFeO5/I_pbeu_exchange_fit_configs": "24 collinear spin configurations (18- and 36/72-atom cells) used for the exchange fit, U = 4 eV, 90 Ry",
  "YBaMnFeO5/J_cation_order_cluster_expansion_raw": "raw inputs/outputs of the cation-ordering study, all four rounds as the agents ran them (round 1 at the top level, then v2, v3, v4; earlier rounds include stopped or superseded runs). Only v4 feeds the cluster expansion: 21 Mn/Fe arrangements of YBaMnFeO5 (relaxation, then single points for several spin configurations; 96 energies in the fit) and the YBaCuFeO5 benchmark arrangements",
- "YBaMnFeO5/K_hull_competing_phases_raw": "raw inputs/outputs of the 0 K hull: vc-relax at 110 Ry of three YBaMnFeO5 cells and 33 competing phases (Materials Project / Alexandria structures, CC BY 4.0), with magnetic-configuration scans"
+ "YBaMnFeO5/K_hull_competing_phases_raw": "raw inputs/outputs of the 0 K hull: vc-relax at 110 Ry of three YBaMnFeO5 cells and 33 competing phases (Materials Project / Alexandria structures, CC BY 4.0), with magnetic-configuration scans",
+ "KV_Cr_CN6/F2_hse06_dihydrate_LCM_converged": "HSE06, KV[Cr(CN)6]*2H2O: the input of F re-run unchanged in a fresh container and carried to convergence (41 exact-exchange cycles; the first 12 reproduce F digit for digit)"
 }
